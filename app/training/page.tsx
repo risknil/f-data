@@ -9,7 +9,7 @@ import { useAuth } from '@/lib/auth-context'
 import { useLanguage } from '@/lib/language-context'
 import { trainingModules } from '@/lib/training-content'
 import { getTrainingTranslation } from '@/lib/training-translations'
-import { getTranslatedModule } from '@/lib/translations'
+import { getTranslatedModule } from '@/lib/translations/index'
 
 export default function TrainingPage() {
   const { user, isLoading, logout } = useAuth()
