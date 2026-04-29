@@ -1,1632 +1,1635 @@
-// Spanish translations for training content - ALL 21 modules
-export const trainingContentES = {
-  modules: {
-    1: {
-      title: "Fundamentos y Filosofía",
-      subtitle: "Lo que los apostadores profesionales entienden desde el principio",
-      duration: "45 min",
-      sections: [
-        {
-          title: "Introducción al Pack de Entrenamiento",
-          content: `Este pack de entrenamiento comienza con los fundamentos y termina con herramientas prácticas que puedes aplicar inmediatamente. No hay atajos. No hay pretensiones de conocimiento secreto. Solo hay un proceso claro: entender cómo funcionan realmente los mercados de apuestas, cómo pensar en probabilidad y precio, cómo evaluar riesgos y cómo llevar registros honestos que te enseñen algo con el tiempo.
+// Spanish translations for training modules - Correct content matching English
+import { TrainingModule } from '../training-content'
 
-Las páginas que siguen cubren apuestas deportivas desde la base hacia arriba. Aprenderás cómo operan las casas de apuestas, cómo se forman los precios, cómo evaluar el valor, cómo apostar dentro de tu capacidad y cómo pensar claramente incluso cuando la varianza va en tu contra. También aprenderás cómo aplicar estos principios a deportes específicos y tipos de apuestas, y cómo mantener registros que respalden la mejora a largo plazo.
+export const trainingModulesES: TrainingModule[] = [
+  {
+    id: 1,
+    slug: 'what-effective-bettors-do-differently',
+    title: '1. Lo que los apostadores efectivos realmente hacen diferente',
+    subtitle: 'La mentalidad del apostador disciplinado: investigación, probabilidad, participación en el mercado y estándares profesionales',
+    duration: '15 min de lectura',
+    sections: [
+      {
+        title: 'La mentalidad del participante del mercado',
+        content: `Un apostador disciplinado no es simplemente una persona que disfruta del deporte y ocasionalmente tiene una opinión. Un apostador disciplinado es un participante del mercado. Investigan eventos, estiman probabilidades, comparan esas estimaciones con los precios disponibles, eligen el mercado que expresa la ventaja más claramente, apuestan dentro de límites estrictos y revisan la decisión honestamente después de que termina el evento. No se definen por una victoria, una derrota o un fin de semana afortunado. Se definen por estándares.
 
-**Por qué este manual es deliberadamente extenso**
+Esa distinción importa porque la industria de las apuestas está llena de ruido. Hay personas que venden certeza, personas que anuncian tasas de acierto imposibles, personas que presumen de combinadas afortunadas y personas que confunden la emoción con la ventaja. Nada de eso es comportamiento profesional. Un apostador serio debe poder explicar no solo qué respaldó, sino por qué el precio era jugable, por qué ese mercado era mejor que las alternativas, cómo se determinó la apuesta y qué aprendieron después, ya sea que la apuesta ganara o perdiera.
 
-Este pack de entrenamiento es deliberadamente detallado. No porque la complejidad sea buena en sí misma, sino porque la mayoría de los errores de apuestas provienen de omitir pasos que parecían opcionales.
+La forma más fácil de entender las apuestas efectivas es pensarlas como una mezcla de analista, trader y gestor de riesgos. El analista recopila y filtra información. El trader pregunta si el precio del mercado está equivocado. El gestor de riesgos se asegura de que un mal día no pueda destruir meses de buen trabajo. Los principiantes generalmente se centran solo en el análisis e ignoran los otros dos trabajos. Los apostadores experimentados saben que los otros dos trabajos son los que mantienen vivo el buen análisis.`
+      },
+      {
+        title: 'Selectividad sobre acción',
+        content: `Las apuestas efectivas también requieren selectividad. Los apostadores recreativos quieren acción. Los apostadores serios quieren ventajas. Esas no son lo mismo. El aficionado pregunta: "¿En qué puedo apostar hoy?" El profesional pregunta: "¿Dónde está el precio lo suficientemente equivocado para justificar el riesgo hoy?" Ese cambio de pregunta transforma toda la actividad. Dejas de tratar las apuestas como entretenimiento primero y comienzas a tratarlas como un negocio de toma de decisiones con costos, incertidumbre, fricción y control de calidad.
 
-Muchos apostadores entienden la teoría del valor pero nunca calculan su propia línea justa. Muchos aceptan que la gestión del bankroll importa pero apuestan por instinto cuando la confianza sube. Muchos registran apuestas pero dejan de lado las notas de proceso que harían útil el registro. Muchos conocen las trampas de la psicología pero repiten errores emocionales porque nunca formalizaron una rutina de revisión.
+Otra diferencia clave es cómo los profesionales hablan consigo mismos sobre la confianza. La confianza no es evidencia. Un apostador serio puede tener una opinión fuerte, pero la opinión aún debe expresarse a través de probabilidad, precio, elección de mercado y tamaño de apuesta. Entienden que una probabilidad del 58 por ciento aún pierde a menudo, que las buenas apuestas pueden perder y que la autoevaluación honesta vale más que la certeza emocional.`
+      },
+      {
+        title: 'La verdadera descripción del trabajo',
+        content: `El trabajo diario de un apostador está más cerca de operar un pequeño escritorio de investigación que de gritar opiniones. Un apostador fuerte revisa horarios, reduce la cartera, identifica dónde la información importa más, pone precio a los resultados probables y solo entonces decide si debe existir una apuesta. Mantienen registros porque la memoria es sesgada. Escriben claramente porque las apuestas castigan la vaguedad. Revisan cuidadosamente porque el ego miente.
 
-Este pack de entrenamiento cierra esas brechas. El objetivo no es que memorices reglas. El objetivo es que construyas un sistema de trabajo que puedas ejecutar incluso bajo presión.
+**Principios clave:**
+- Filtra eventos en lugar de intentar cubrir todo
+- Crea un precio justo personal antes de anclarte a las cuotas del mercado
+- Usa el mercado que mejor expresa la ventaja en lugar de forzar cada opinión en una apuesta de ganador del partido
+- Apuesta como proporción del bankroll en lugar de según la emoción
+- Mantén un rastro de auditoría: fecha, mercado, precio tomado, apuesta, resultado y notas del proceso
+- Juzga la calidad a largo plazo por proceso y precio, no solo por resultados a corto plazo`
+      },
+      {
+        title: 'Lo que separa a los apostadores disciplinados',
+        content: `Un apostador disciplinado protege su propia toma de decisiones siendo honesto en sus registros sobre las cuotas tomadas, reglas de calificación, pérdidas y varianza. No editan la historia en su cuaderno, ocultan períodos perdedores de sí mismos ni crean volumen innecesario solo para sentirse activos. Usan lenguaje medido en sus propias notas, porque la certeza exagerada suele ser señal de que se está ignorando la probabilidad.
 
-**Lo que este pack de entrenamiento no te dará**
+**Características de las apuestas disciplinadas:**
+- Mantenimiento de registros honesto
+- Lenguaje claro de mercado y liquidación
+- Sin "seguros" falsos, "garantías" o mensajes imprudentes de todo incluido
+- Lenguaje de apuestas consistente como unidades de 1 punto, 1.5 puntos o 2 puntos
+- Disposición a pasar en cartas de baja calidad y días tranquilos
+- Un estilo personal que es claro, preciso y no manipulador hacia uno mismo`
+      },
+      {
+        title: 'Por qué este manual es deliberadamente largo',
+        content: `Las guías de apuestas cortas suelen ser fáciles de leer e inútiles en la práctica. La mejora profesional requiere detalle. Necesitas entender no solo qué es un mercado, sino cuándo es atractivo, cuándo es peligroso, qué información lo mueve, cómo funciona la liquidación y cómo encaja en un flujo de trabajo del apostador. Este curso, por lo tanto, es largo a propósito. El objetivo no es impresionarte con el conteo de páginas. El objetivo es eliminar la comprensión superficial.
 
-Ningún pack de entrenamiento puede prometerte ganancias. Lo que este hace es reducir errores evitables y enseñarte a pensar como un participante del mercado en lugar de un aficionado.
-
-Algunas personas abandonarán este curso porque quieren selecciones, no proceso. Algunas descubrirán que las apuestas disciplinadas no les atraen tanto como la emoción de adivinar. Eso está bien. Pero los que se queden tendrán un marco que los sirve a largo plazo.`
-        },
-        {
-          title: "Contenido",
-          content: `**Sección 1** – Fundamentos y Filosofía: Lo que los apostadores profesionales entienden desde el principio
-**Sección 2** – Cómo funcionan realmente las casas de apuestas, exchanges y mercados de apuestas
-**Sección 3** – Cuotas, probabilidad implícita y precio justo
-**Sección 4** – Valor, valor esperado, line shopping y valor de línea de cierre
-**Sección 5** – Gestión del bankroll, staking y supervivencia bajo varianza
-**Sección 6** – El flujo completo del apostador: de la lista de partidos a la apuesta realizada
-**Sección 7** – Clase de Fútbol
-**Sección 8** – Clase de Carreras de Caballos
-**Sección 9** – Clase de Tenis
-**Sección 10** – Clase de Baloncesto
-**Sección 11** – Clase de Hockey sobre Hielo
-**Sección 12** – Clase de Béisbol
-**Sección 13** – Clase de Fútbol Americano
-**Sección 14** – Otros deportes y nichos especializados
-**Sección 15** – Masterclass de tipos de apuestas
-**Sección 16** – Cuaderno personal de apuestas, registro de decisiones y registro de revisión
-**Sección 17** – Revisión de rendimiento, mantenimiento de registros y aprendizaje de resultados
-**Sección 18** – Psicología, disciplina, control del tilt y rutinas profesionales
-**Sección 19** – Estándares de juego más seguro, conciencia de cumplimiento y protección personal
-**Sección 20** – Ejercicios prácticos
-**Apéndice A** – Glosario extendido de apuestas`
-        },
-        {
-          title: "La mentalidad del participante del mercado",
-          content: `Un apostador disciplinado no es simplemente una persona que disfruta del deporte y ocasionalmente tiene una opinión. Un apostador disciplinado es un participante del mercado. Investigan eventos, estiman probabilidades, comparan esas estimaciones con los precios disponibles, seleccionan el mercado que expresa la ventaja más claramente, arriesgan dentro de límites estrictos y revisan la decisión honestamente después de que el evento concluye. No se definen por una victoria, una derrota o un fin de semana con suerte. Se definen por estándares.
-
-Esto es lo que distingue a los apostadores serios de los aficionados. Los aficionados celebran las victorias y olvidan las derrotas. Los apostadores serios preguntan si el proceso fue sólido independientemente del resultado.
-
-**El ciclo operativo del apostador**
-
-| Etapa | Pregunta | Resultado | Error común del aficionado |
-|-------|----------|-----------|---------------------------|
-| Filtrado de partidos | ¿Vale la pena mi tiempo este evento? | Lista corta o pasar | Intentar apostar en cada partido del calendario |
-| Investigación | ¿Qué es lo más probable que decida el evento? | Notas de contexto | Recopilar estadísticas aleatorias sin ponderación |
-| Pricing | ¿Cuál es mi probabilidad justa? | Línea propia o cuotas justas | Mirar los precios de las casas antes de formar una opinión |
+**Estándar profesional:** El primer deber de un apostador es la calidad del proceso, no la emoción. El segundo deber de un apostador es el control del riesgo, porque una ventaja no vale nada si las malas apuestas te eliminan. El tercer deber de un apostador es la comunicación honesta, porque la confianza pública depende de la precisión y la consistencia.`
+      },
+      {
+        title: 'El ciclo operativo del apostador',
+        content: `| Etapa | Pregunta | Resultado | Error común del aficionado |
+|-------|----------|--------|----------------------|
+| Filtrado de cartera | ¿Vale mi tiempo este evento? | Lista corta o pasar | Intentar apostar cada partido del calendario |
+| Investigación | ¿Qué es más probable que decida el evento? | Notas de contexto | Recopilar estadísticas aleatorias sin ponderación |
+| Pricing | ¿Cuál es mi probabilidad justa? | Línea propia o cuotas justas | Mirar precios de casas de apuestas antes de formar una opinión |
 | Selección de mercado | ¿Qué mercado expresa mejor esta ventaja? | Mercado elegido | Forzar cada ventaja en un mercado de ganador |
-| Staking | ¿Cuánto debería arriesgar? | Tamaño del punto | Aumentar la apuesta por emoción o recencia |
-| Registro de decisiones | ¿Puedo explicar esto clara y responsablemente a mí mismo? | Nota de apuesta | Usar lenguaje vago y omitir detalles de liquidación |
-| Revisión | ¿Fue bueno el proceso independientemente del resultado? | Notas post-evento | Juzgar la calidad solo por si la apuesta ganó |
-
-**Varianza versus habilidad**
-
-Las apuestas deportivas no son un examen donde el trabajo duro garantiza una calificación de aprobado. Muestras grandes revelan la ventaja, pero muestras pequeñas mienten constantemente. Un apostador puede tomar diez decisiones excelentes y perder ocho de ellas. Otro puede tomar diez decisiones mediocres y ganar siete. En el corto plazo, los resultados oscurecen la calidad. Esta es la razón por la que el mantenimiento de registros, la revisión del proceso y la compostura emocional importan más que cualquier victoria o derrota individual.`
-        }
-      ]
-    },
-    2: {
-      title: "Casas de Apuestas, Exchanges y Mercados",
-      subtitle: "Cómo funcionan realmente los mercados de apuestas",
-      duration: "30 min",
-      sections: [
-        {
-          title: "Cómo operan las casas de apuestas",
-          content: `Las casas de apuestas tradicionales ganan dinero incorporando un margen en sus cuotas. Este margen se llama vigorish, vig, juice o overround. Cuando una casa de apuestas ofrece cuotas de 1.90 en ambos lados de un mercado de dos resultados, no están prediciendo un evento 50-50. Están cobrando un impuesto por el privilegio de apostar.
-
-**Entendiendo el margen**
-
-Si lanzas una moneda justa, la probabilidad real de cara o cruz es 50%. Las cuotas justas serían 2.00 en cada lado. Pero una casa de apuestas podría ofrecer 1.90 en ambos lados. Esto significa que están cotizando una probabilidad implícita de 52.6% en cada resultado, totalizando 105.2%. Ese exceso de 5.2% es el margen de la casa.
-
-El margen varía según el mercado, la liga y la competencia. Los mercados principales de las ligas más populares a menudo tienen márgenes más ajustados (2-5%) porque la competencia entre casas es feroz. Los mercados de ligas menores, mercados de accesorios o eventos especiales pueden tener márgenes del 8-15% o más.
-
-**Gestión de riesgos de las casas de apuestas**
-
-Contrariamente a la creencia popular, las casas de apuestas no siempre buscan "equilibrar el libro" con igual dinero en ambos lados. Las casas de apuestas sofisticadas a menudo están dispuestas a mantener posiciones si creen que sus líneas son precisas. Sin embargo, limitarán o rechazarán apuestas de apostadores que han demostrado ser ganadores a largo plazo.
-
-Las casas de apuestas utilizan varios métodos para gestionar el riesgo:
-• Límites de apuestas basados en el historial del cliente
-• Ajustes de cuotas basados en el volumen de apuestas
-• Prohibiciones o restricciones para apostadores ganadores
-• Compartir información entre casas de apuestas (en algunas jurisdicciones)
-
-**Qué significa esto para ti**
-
-Entender que las casas de apuestas son negocios, no caridades, te ayuda a establecer expectativas realistas. No les importa si ganas o pierdes una apuesta individual. Les importa si muestras signos de ser un apostador rentable a largo plazo. Esto es por lo que los apostadores agudos eventualmente enfrentan restricciones, y por lo que diversificar entre múltiples casas de apuestas es una estrategia práctica.`
-        },
-        {
-          title: "Exchanges de apuestas",
-          content: `Los exchanges de apuestas como Betfair, Betdaq y Smarkets operan de manera diferente a las casas de apuestas tradicionales. En lugar de apostar contra la casa, apuestas contra otros apostadores. El exchange simplemente facilita el emparejamiento y cobra una comisión sobre las ganancias netas.
-
-**Cómo funcionan los exchanges**
-
-En un exchange, puedes "back" (apostar a favor) o "lay" (apostar en contra) de cualquier selección. Si crees que un equipo ganará, lo respalda. Si crees que no ganará, lo lay. Esta capacidad de lay abre posibilidades que no existen en las casas de apuestas tradicionales.
-
-Las cuotas en los exchanges son establecidas por los usuarios, no por el exchange. Esto crea un mercado más eficiente donde las cuotas generalmente reflejan el consenso del mercado más de cerca que las líneas de las casas de apuestas.
-
-**Ventajas de los exchanges**
-
-• Típicamente mejores cuotas debido a márgenes más bajos
-• Capacidad de hacer lay de selecciones
-• Sin restricciones a apostadores ganadores
-• Más transparencia en la formación de precios
-
-**Desventajas de los exchanges**
-
-• Se cobra comisión sobre las ganancias (típicamente 2-5%)
-• Liquidez puede ser limitada en mercados menos populares
-• Curva de aprendizaje más pronunciada para principiantes
-• Menos promociones y bonos que las casas de apuestas tradicionales
-
-**Cuándo usar exchanges vs casas de apuestas**
-
-No hay una respuesta única. Muchos apostadores serios mantienen cuentas en ambos y comparan precios antes de cada apuesta. Los exchanges a menudo ofrecen mejores precios en mercados líquidos, mientras que las casas de apuestas pueden ofrecer mejores precios en mercados nicho o proporcionar valor a través de promociones.`
-        }
-      ]
-    },
-    3: {
-      title: "Cuotas, Probabilidad y Precio Justo",
-      subtitle: "La matemática fundamental de las apuestas",
-      duration: "35 min",
-      sections: [
-        {
-          title: "Formatos de cuotas",
-          content: `Las cuotas se presentan en tres formatos principales: decimal, fraccional y americano. Todas expresan la misma información de manera diferente.
-
-**Cuotas decimales**
-
-Las más sencillas de entender. Una cuota de 2.50 significa que por cada €1 apostado, recibirás €2.50 si ganas (tu apuesta más €1.50 de ganancia). El cálculo de la probabilidad implícita es: 1 / cuota decimal = probabilidad. Así, 1 / 2.50 = 0.40 o 40%.
-
-**Cuotas fraccionarias**
-
-Comunes en Reino Unido e Irlanda. Una cuota de 3/2 significa que por cada €2 apostados, ganarás €3 más tu apuesta original. Para convertir a decimal: (3/2) + 1 = 2.50.
-
-**Cuotas americanas**
-
-Usadas principalmente en Estados Unidos. Las cuotas positivas (+150) muestran cuánto ganarías con una apuesta de $100. Las cuotas negativas (-200) muestran cuánto necesitas apostar para ganar $100.
-
-**Referencia rápida: Conversiones comunes de probabilidad y precio**
-
-| Probabilidad | Decimal | Fraccional | Interpretación |
-|-------------|---------|------------|----------------|
-| 66.7% | 1.50 | 1/2 | Favorito fuerte; aún pierde a menudo |
-| 60.0% | 1.67 | 4/6 | Favorito claro pero no una certeza |
-| 55.0% | 1.82 | 9/11 aprox. | Territorio de valor si el mercado es mayor |
-| 50.0% | 2.00 | 1/1 | Precio de moneda justa antes del margen |
-| 40.0% | 2.50 | 6/4 | Outsider competitivo |
-| 33.3% | 3.00 | 2/1 | Una posibilidad en tres |
-| 25.0% | 4.00 | 3/1 | Necesita un número generoso |
-| 20.0% | 5.00 | 4/1 | Outsider; la varianza domina |`
-        },
-        {
-          title: "Precio justo y margen",
-          content: `El precio justo es la cuota que refleja la probabilidad real de un resultado, sin margen incorporado. Es una estimación teórica porque nadie conoce la probabilidad verdadera de ningún evento deportivo.
-
-**Calculando el margen**
-
-Para un mercado de dos resultados, suma las probabilidades implícitas de ambas selecciones. Si el total supera el 100%, el exceso es el margen.
-
-Ejemplo:
-• Equipo A: cuota 1.80 = 55.6% implícito
-• Equipo B: cuota 2.10 = 47.6% implícito
-• Total: 103.2% → Margen de 3.2%
-
-**Removiendo el margen para encontrar el precio justo**
-
-Para estimar las probabilidades justas, divide cada probabilidad implícita por el total:
-• Equipo A justo: 55.6 / 103.2 = 53.9%
-• Equipo B justo: 47.6 / 103.2 = 46.1%
-
-Convertido a cuotas: Equipo A = 1.86, Equipo B = 2.17
-
-**Por qué esto importa**
-
-Entender el margen te ayuda a:
-• Identificar qué casas de apuestas ofrecen mejores precios
-• Calcular el precio justo del mercado
-• Evaluar si hay valor en una cuota específica
-• Comparar mercados de manera justa
-
-Un apostador que ignora el margen está cediendo valor antes incluso de considerar si su selección es correcta.`
-        }
-      ]
-    },
-    4: {
-      title: "Valor y Valor Esperado",
-      subtitle: "El concepto central de las apuestas rentables",
-      duration: "40 min",
-      sections: [
-        {
-          title: "Qué es el valor",
-          content: `El valor existe cuando las cuotas ofrecidas son mayores que las cuotas justas basadas en la probabilidad real del resultado. Es la única base sostenible para apuestas rentables a largo plazo.
-
-**La definición simple**
-
-Si crees que un equipo tiene un 50% de probabilidad de ganar, el precio justo es 2.00. Si una casa de apuestas ofrece 2.20, hay valor. Si ofrece 1.80, no hay valor, independientemente de si el equipo gana o pierde.
-
-**Valor esperado (EV)**
-
-El valor esperado es el beneficio o pérdida promedio que esperas por unidad apostada a largo plazo. Se calcula como:
-
-EV = (Probabilidad de ganar × Ganancia) - (Probabilidad de perder × Apuesta)
-
-Ejemplo con una selección al 50% real y cuotas de 2.20:
-EV = (0.50 × 1.20) - (0.50 × 1.00) = 0.60 - 0.50 = +0.10
-
-Un EV positivo de +0.10 significa que, en promedio, ganarás €0.10 por cada €1 apostado. Este es el fundamento matemático de las apuestas profesionales.
-
-**La trampa del resultado**
-
-Un apostador puede encontrar valor genuino y aún así perder la apuesta. Esto no significa que la apuesta fue incorrecta. La calidad de una decisión de apuesta debe juzgarse por el proceso, no por el resultado individual.
-
-Imagina lanzar una moneda cargada que cae cara el 60% de las veces. Si alguien te ofrece cuotas de 2.00 en cara, tienes valor masivo. Pero aún perderás el 40% de las veces. El valor se realiza sobre muestras grandes, no apuestas individuales.`
-        },
-        {
-          title: "Line shopping y valor de línea de cierre",
-          content: `**Line shopping**
-
-Line shopping significa comparar cuotas entre múltiples casas de apuestas para encontrar el mejor precio. Es una de las habilidades más importantes y subestimadas en las apuestas.
-
-Una diferencia de cuotas de 1.90 a 1.95 puede parecer trivial, pero a lo largo de cientos de apuestas, representa una ventaja significativa. Muchos apostadores que serían perdedores marginales podrían ser ganadores marginales simplemente con un mejor line shopping.
-
-**Valor de línea de cierre (CLV)**
-
-El CLV compara las cuotas a las que apostaste con las cuotas de cierre (las cuotas finales antes de que comience el evento). Es uno de los mejores indicadores de habilidad en las apuestas.
-
-Si consistentemente apuestas a cuotas mejores que las de cierre, probablemente estás identificando valor. El mercado se mueve hacia la eficiencia a medida que se acerca el evento, por lo que si estás capturando cuotas que luego se acortan, estás por delante del mercado.
-
-Ejemplo:
-• Apuestas al Equipo A a 2.20 el lunes
-• El precio de cierre el sábado es 1.90
-• Tu CLV = (2.20 - 1.90) / 1.90 = +15.8%
-
-Un CLV positivo consistente es una señal fuerte de que tu proceso de selección está funcionando, incluso si los resultados a corto plazo no lo reflejan.
-
-**La advertencia sobre el CLV**
-
-El CLV no es perfecto. No captura toda la información que afecta al resultado. Pero es una métrica útil para evaluar tu rendimiento independientemente de la varianza de resultados.`
-        }
-      ]
-    },
-    5: {
-      title: "Gestión del Bankroll y Staking",
-      subtitle: "Supervivencia y crecimiento bajo varianza",
-      duration: "35 min",
-      sections: [
-        {
-          title: "Principios del bankroll",
-          content: `Tu bankroll es el dinero que has separado exclusivamente para apuestas. No es dinero para facturas, ahorros o emergencias. Es capital de riesgo que puedes permitirte perder completamente.
-
-**Por qué el tamaño del bankroll importa**
-
-Un bankroll adecuadamente dimensionado te permite:
-• Sobrevivir las inevitables rachas perdedoras
-• Apostar con tamaños consistentes y disciplinados
-• Tomar decisiones basadas en valor, no en emociones
-• Evaluar tu rendimiento con claridad
-
-**El error común**
-
-Muchos apostadores comienzan con un bankroll insuficiente o sin definir uno en absoluto. Esto lleva a apostar demasiado grande en relación con sus fondos, lo que maximiza el riesgo de ruina incluso si tienen una ventaja real.
-
-**Marco de staking sugerido**
-
-| Apuesta | Significado | Uso típico | Advertencia |
-|---------|-------------|------------|-------------|
-| 0.5 pt | Pequeña, ángulo de alta incertidumbre | Mercados nicho, especulativos | No dejes que apuestas pequeñas excusen lógica descuidada |
-| 1 pt | Apuesta estándar profesional | La mayoría de selecciones de valor | Esto debería ser la base de tu registro |
-| 1.5 pts | Fuerza superior al promedio | Ventaja clara más contexto favorable | Necesita justificación más fuerte |
-| 2 pts | Fuerte pero posición controlada | Configuración rara de alta calidad | Debería permanecer poco común |
-| 3 pts | Máximo excepcional dentro del sistema | Solo cuando ventaja, mercado e información se alinean | Si esto es frecuente, tu escala está rota |
-
-**La regla del 1-3%**
-
-Una guía común es nunca arriesgar más del 1-3% de tu bankroll en una sola apuesta. Esto proporciona suficiente margen para sobrevivir la varianza mientras permite crecimiento significativo si tienes una ventaja.`
-        },
-        {
-          title: "Sistemas de staking",
-          content: `**Staking fijo (flat)**
-
-El método más simple: apuesta la misma cantidad en cada selección, independientemente de las cuotas o la confianza percibida. Es fácil de rastrear, elimina la emoción y protege contra el exceso de confianza.
-
-**Staking proporcional**
-
-Ajusta el tamaño de la apuesta basándote en las cuotas o la ventaja percibida. Apuestas más grande cuando crees que la ventaja es mayor. Esto puede maximizar el crecimiento si tus evaluaciones de ventaja son precisas, pero amplifica errores si no lo son.
-
-**Criterio de Kelly**
-
-Una fórmula matemática que optimiza el crecimiento del bankroll a largo plazo:
+| Staking | ¿Cuánto debo arriesgar? | Tamaño del punto | Aumentar apuesta por emoción o recencia |
+| Registro de decisión | ¿Puedo explicar esto clara y responsablemente a mí mismo? | Nota de apuesta | Usar lenguaje vago y omitir detalles de liquidación |
+| Revisión | ¿Fue bueno el proceso independientemente del resultado? | Notas post-evento | Juzgar calidad solo por si ganó la apuesta |`
+      }
+    ]
+  },
+  {
+    id: 2,
+    slug: 'how-bookmakers-and-markets-work',
+    title: '2. Cómo funcionan realmente las casas de apuestas, exchanges y mercados de apuestas',
+    subtitle: 'Entendiendo el margen, mecánicas de precios, libros sharp vs soft y lógica de exchange',
+    duration: '12 min de lectura',
+    sections: [
+      {
+        title: 'La casa de apuestas como negocio de precios',
+        content: `Un principiante a menudo imagina que una casa de apuestas simplemente predice el futuro y escribe esas predicciones como cuotas. En realidad, la casa de apuestas opera como un negocio de precios con margen, gestión de responsabilidad, segmentación de clientes y sistemas de control de riesgos. La primera preocupación de la casa de apuestas no es tu experiencia del evento. Es si los precios en su tablero son lo suficientemente eficientes, protegidos y rentables para justificar mantener el mercado abierto.
+
+La idea central para entender es el margen. Las cuotas justas en un evento verdaderamente 50-50 serían 2.00 y 2.00 en términos decimales. Una casa de apuestas no puede sobrevivir ofreciendo ambos lados a precio justo porque necesita una ventaja incorporada. Por lo tanto, acorta ambos lados. Eso podría significar ofrecer 1.91 y 1.91, o 1.90 y 1.90, dependiendo del mercado. La probabilidad implícita total sube por encima del 100 por ciento. Ese exceso es el overround, también llamado margen, vig o juice. Es una de las principales razones por las que elegir ganadores por sí solo no es suficiente. Debes vencer el precio, no simplemente adivinar resultados.
+
+En los mercados modernos, las casas de apuestas también reaccionan a la información y el comportamiento del cliente. Las noticias del equipo, el clima, las bajas, las asignaciones de árbitros, los porteros titulares, los cambios de lanzador y los informes de lesiones mueven los números. También lo hace el dinero, especialmente el dinero de cuentas respetadas. Algunos libros son más sharp y se mueven primero. Otros copian. Algunos libros son soft y lentos, lo que los hace útiles para comprar líneas. Un apostador disciplinado presta atención a estas diferencias, porque no todos los precios son iguales y no todos los libros son igualmente informativos.`
+      },
+      {
+        title: 'Exchanges de apuestas',
+        content: `Los exchanges de apuestas funcionan de manera diferente. En un exchange, los usuarios respaldan y apuestan en contra de resultados entre sí y la plataforma cobra comisión. Esta estructura puede crear mejores precios, especialmente cerca de la hora de inicio cuando la liquidez es saludable. Los exchanges también enseñan una lección importante sobre la verdad del mercado: si suficientes participantes informados no están de acuerdo contigo en un número determinado, necesitas preguntar si tu modelo del evento está equivocado, si tu información está desactualizada o si realmente has encontrado valor. La respuesta no siempre es la misma.`
+      },
+      {
+        title: 'Margen de la casa de apuestas en lenguaje práctico',
+        content: `Un ejercicio de entrenamiento útil es mirar un mercado de dos vías y calcular la probabilidad implícita total tú mismo. Si el Equipo A está a 1.91 y el Equipo B está a 1.91, cada lado implica aproximadamente 52.36 por ciento. Juntos implican 104.72 por ciento. La diferencia entre 104.72 y 100 es el margen. Eso puede parecer pequeño, pero repetido durante cientos de apuestas es enorme. La tarea del apostador es, por lo tanto, comprar mejores precios de los que el mercado merece ofrecer, no simplemente identificar resultados que parecen probables.
+
+**Puntos clave:**
+- Los mercados de mayor margen son más difíciles de vencer
+- Los mercados recreativos populares a menudo tienen más impuesto oculto que los lados sharp o precios de exchange
+- La misma opinión puede ser rentable a un precio e injugable a otro
+- Las parlays y constructores de apuestas a menudo componen el margen a menos que seas muy selectivo`
+      },
+      {
+        title: 'Libros soft, libros sharp y por qué importa la distinción',
+        content: `Una casa de apuestas sharp es aquella cuyos precios son respetados porque se mueven rápidamente ante información y dinero educado. Una casa de apuestas soft puede ofrecer más promociones y características de entretenimiento, pero puede quedarse atrás de fuentes más sharp. Para un apostador serio, el libro sharp es a menudo un punto de referencia y el libro soft es a veces el lugar donde todavía se puede encontrar valor obsoleto. Esta no es una distinción moral. Es práctica.
+
+- Los libros sharp son útiles para leer la opinión del mercado
+- Los libros soft son útiles para comprar precio si los límites y restricciones de cuenta lo permiten
+- Un apostador debe registrar dónde estaba disponible la apuesta, porque los apostadores se preocupan por el realismo del precio
+- Si un precio desaparece en todas partes en segundos, puede ser injusto presentar ese número como si fuera ampliamente obtenible`
+      },
+      {
+        title: 'Pensamiento de exchange para apostadores',
+        content: `Aprender lógica de exchange mejora a un apostador incluso si apuesta principalmente con casas de apuestas. Te obliga a pensar en términos de precios negociables y opiniones opuestas. Si no te sentirías cómodo apostando en contra de tu propia selección a un número, esa incomodidad puede revelar convicción débil o trabajo de precios descuidado. Los exchanges también te enseñan que un mercado puede estar correcto por la razón equivocada o equivocado por la razón correcta. El timing importa. La liquidez importa. El timing de las noticias importa.
+
+- Usa precios de exchange para verificar si un número de casa de apuestas es realmente generoso
+- Observa cómo reaccionan los mercados a las noticias del equipo y si los traders del exchange se mueven antes de que las firmas copien
+- Entiende la comisión porque un precio de exchange que se ve genial puede no ser genial después de las tarifas si operas frecuentemente`
+      },
+      {
+        title: 'Cómo se mueven las líneas y qué podrían significar',
+        content: `El movimiento de líneas es evidencia, no prueba. Un movimiento puede reflejar información sharp, sobrerreacción pública, especulación de lesiones, movimiento imitador, confirmación del clima o simplemente el mercado encontrando su nivel eficiente a medida que aumentan los límites. Un novato ve movimiento y asume certeza. Un apostador serio pregunta qué causó el movimiento, si el movimiento ocurrió en un límite de apuestas significativo, si el valor todavía permanece y si el movimiento cambia cómo debe enmarcarse la apuesta para los apostadores.
+
+**Verificación de realidad del mercado:** La casa de apuestas no está tratando de ayudarte a ganar. Está tratando de poner precio a la acción y preservar el margen. Un buen apostador aprende a leer los precios como información, no solo como ofertas. El margen, el timing y el precio obtenible son parte de la apuesta. No son asuntos secundarios.`
+      }
+    ]
+  },
+  {
+    id: 3,
+    slug: 'odds-implied-probability-fair-pricing',
+    title: '3. Cuotas, probabilidad implícita y precio justo',
+    subtitle: 'Dominando formatos de cuotas, conversión de probabilidad y creando tus propias líneas justas',
+    duration: '10 min de lectura',
+    sections: [
+      {
+        title: 'Cuotas como probabilidad comprimida',
+        content: `Las cuotas son el lenguaje del mercado. Un apostador casual las ve como una cotización de pago. Un apostador disciplinado las ve como declaraciones de probabilidad comprimidas expresadas a través del margen de la casa de apuestas. Dominar las cuotas es la primera verdadera habilidad técnica del trabajo. Hasta que puedas traducir precios a probabilidades rápida y confiadamente, estás operando a ciegas.
+
+Las cuotas decimales son a menudo las más fáciles para el trabajo profesional porque se convierten limpiamente a probabilidad implícita usando una fórmula simple: 1 dividido por el precio decimal. Decimal 2.00 implica 50 por ciento. Decimal 4.00 implica 25 por ciento. Decimal 1.50 implica 66.67 por ciento. Los formatos fraccionarios y americanos comunican la misma realidad subyacente, pero el formato decimal hace que el trabajo de comparación y precios sea más rápido, especialmente cuando estás tratando con múltiples mercados en múltiples deportes.
+
+El movimiento crucial es dejar de preguntar si un resultado parece probable y comenzar a preguntar qué probabilidad te está cobrando el mercado para comprar. Ese es el puente entre opinión y disciplina. Una vez que conoces la probabilidad implícita del mercado, puedes compararla con tu propia probabilidad verdadera estimada. Esa comparación es el comienzo de las apuestas de valor.`
+      },
+      {
+        title: 'Tres formatos de cuotas que todo apostador debe entender',
+        content: `Diferentes libros y deportes usan diferentes formatos, así que debes ser bilingüe o incluso trilingüe en términos de precios. Las cuotas decimales muestran el retorno total por unidad apostada. Las cuotas fraccionarias muestran el beneficio relativo a la apuesta. Las cuotas americanas muestran cuánto se debe arriesgar para ganar una cantidad fija, o cuánto beneficio se devuelve sobre una cantidad fija. No necesitas amar cada formato, pero debes poder interpretar cada uno sin dudarlo porque la vacilación crea errores.
+
+**Conversiones rápidas:**
+- Decimal 2.50 = 40.00 por ciento de probabilidad implícita
+- Fraccionario 3/1 = Decimal 4.00 = 25.00 por ciento de probabilidad implícita
+- Americano -150 significa que arriesgas 150 para ganar 100 e implica 60 por ciento
+- Americano +200 significa que ganas 200 por cada 100 apostados e implica 33.33 por ciento`
+      },
+      {
+        title: 'Qué es un precio justo',
+        content: `Un precio justo es el equivalente en cuotas de tu propia probabilidad verdadera estimada antes del margen de la casa de apuestas. Si crees que un resultado ocurre el 55 por ciento del tiempo, tu precio decimal justo es aproximadamente 1.82. Si el mercado ofrece 1.95, el número es mejor que tu línea justa y puede ser valor. Si el mercado ofrece 1.72, el número es peor que tu línea justa y generalmente debe pasarse. Esa línea justa se convierte en la brújula del apostador disciplinado. Sin ella solo estás reaccionando al tablero, no pensando independientemente.
+
+**Proceso:**
+1. Estima la probabilidad verdadera tú mismo
+2. Convierte a cuotas justas dividiendo 100 por tu probabilidad en porcentaje
+3. Compara con los precios del mercado
+4. Solo actúa cuando el mercado ofrece mejor que justo`
+      },
+      {
+        title: 'Una tabla de referencia de cuotas a probabilidad',
+        content: `Esta tabla te ayuda a construir intuición entre cuotas y probabilidad implícita:
+
+| Prob. | Cuota Decimal Justa | Cuota Fraccionaria | Interpretación rápida |
+|-------|---------------------|--------------------|-----------------------|
+| 66.7% | 1.50 | 1/2 | Favorito fuerte; aún pierde a menudo con el tiempo |
+| 60.0% | 1.67 | 4/6 | Favorito claro, pero no una certeza |
+| 55.0% | 1.82 | 9/11 aprox. | Territorio de ventaja, si el mercado es significativamente mayor |
+| 50.0% | 2.00 | 1/1 | Precio de lanzamiento de moneda verdadero, antes del margen |
+| 40.0% | 2.50 | 6/4 | Retador competitivo, o lado de dinero extra modesto |
+| 33.3% | 3.00 | 2/1 | Probabilidad de uno en tres |
+| 25.0% | 4.00 | 3/1 | Necesita número generoso para justificar riesgo |
+| 20.0% | 5.00 | 4/1 | Outsider; varianza domina muestras cortas |`
+      },
+      {
+        title: 'Por qué crear tu propia línea primero',
+        content: `La mayoría de los apostadores miran los precios del mercado y luego deciden si les gustan. Ese orden está al revés. Si ves las cuotas de la casa de apuestas antes de formar tu propia opinión, te anclas. Tu juicio se contamina por el precio existente. Podrías convencerte de que 1.90 es valor porque parece bajo, sin nunca preguntar si tu propia estimación es 1.80, 1.85 o 1.95.
+
+El proceso correcto es el siguiente:
+1. Filtra la cartera e identifica eventos que vale la pena investigar
+2. Investiga el evento sin mirar las cuotas
+3. Forma una opinión de probabilidad y crea tu línea justa
+4. Solo entonces mira el mercado y compara
+
+**Por qué esto importa:**
+- Elimina el sesgo de anclaje
+- Te obliga a hacer trabajo real
+- Expone brechas en tu razonamiento
+- Crea un registro de tu proceso, no solo tus apuestas`
+      }
+    ]
+  },
+  {
+    id: 4,
+    slug: 'value-expected-value-line-shopping',
+    title: '4. Valor, valor esperado, compra de líneas y valor de línea de cierre',
+    subtitle: 'Entendiendo y encontrando apuestas rentables a través de la selección de precios',
+    duration: '12 min de lectura',
+    sections: [
+      {
+        title: 'Qué es el valor en las apuestas',
+        content: `Valor significa que el precio que estás obteniendo es mejor que el precio que deberías estar obteniendo basado en la probabilidad real. Si un resultado ocurre el 50 por ciento del tiempo pero puedes respaldarlo a 2.20 (que implica solo 45.5 por ciento), estás comprando algo por menos de lo que vale. Esa es la esencia de las apuestas de valor.
+
+La confusión surge porque la mayoría de la gente piensa que las apuestas se tratan de elegir ganadores. Elegir ganadores importa, pero solo en el contexto del precio. Un favorito fuerte puede ser una apuesta horrible si el precio es demasiado corto. Un outsider claro puede ser una apuesta excelente si el precio es demasiado largo. El resultado no determina si existía valor. El precio en relación con la probabilidad verdadera determina si existía valor.
+
+**Definición de valor:**
+- Valor = Probabilidad verdadera estimada > Probabilidad implícita del mercado
+- Valor = Precio que estás obteniendo > Precio justo
+- Valor no significa que ganarás esta apuesta. Significa que obtuviste el mejor lado del precio.`
+      },
+      {
+        title: 'Valor esperado (EV)',
+        content: `El valor esperado es una forma de medir el beneficio o pérdida promedio que esperas de una apuesta si se repitiera muchas veces. La fórmula es:
+
+EV = (Probabilidad de ganar × Beneficio si gana) - (Probabilidad de perder × Cantidad perdida)
+
+Si crees que una selección gana el 55% del tiempo y obtienes cuotas de 2.00:
+- Beneficio si gana = 1.00 unidad (ganas 1, recuperas tu apuesta de 1)
+- Cantidad perdida si pierde = 1.00 unidad
+- EV = (0.55 × 1.00) - (0.45 × 1.00) = 0.55 - 0.45 = +0.10 unidades
+
+Esto significa que esperas ganar 0.10 unidades por cada unidad apostada en promedio. Eso es EV positivo (+EV).
+
+**Por qué EV importa:**
+- EV positivo significa apuestas rentables a largo plazo
+- EV negativo significa pérdida a largo plazo
+- Incluso apuestas +EV pueden perder a corto plazo (varianza)
+- El tamaño de tu ventaja determina qué tan rápido crecen las ganancias`
+      },
+      {
+        title: 'Compra de líneas',
+        content: `La compra de líneas significa comparar precios entre múltiples casas de apuestas y exchanges para encontrar el mejor precio disponible para tu selección. Esta es una de las formas más fáciles de aumentar tu rentabilidad esperada porque no requiere mejor análisis, solo mejor ejecución.
+
+La diferencia entre 1.90 y 1.95 en la misma selección parece pequeña, pero importa:
+- A 1.90, necesitas una tasa de acierto del 52.6% para alcanzar el punto de equilibrio
+- A 1.95, necesitas una tasa de acierto del 51.3% para alcanzar el punto de equilibrio
+- Esa diferencia del 1.3% es enorme sobre cientos de apuestas
+
+**Mejores prácticas de compra de líneas:**
+- Mantén cuentas con múltiples casas de apuestas
+- Comprueba los precios antes de cada apuesta
+- Registra dónde tomaste el precio, no solo cuál era
+- Recuerda que los exchanges a menudo ofrecen mejores precios en mercados líquidos
+- Los precios se mueven, así que a veces necesitas actuar rápido`
+      },
+      {
+        title: 'Valor de línea de cierre (CLV)',
+        content: `El valor de línea de cierre mide cómo se compara el precio que tomaste con el precio de cierre justo antes de que comenzara el evento. Se considera ampliamente como uno de los mejores indicadores de habilidad de apuestas porque las líneas de cierre son generalmente las más eficientes, reflejando toda la información disponible.
+
+Si respaldaste un equipo a 2.10 y el precio cerró a 1.95, tomaste un precio mejor de lo que el mercado finalmente determinó que era justo. Eso es CLV positivo. Si respaldaste a 2.10 y el precio cerró a 2.25, el mercado se movió en tu contra, sugiriendo que tu precio no era tan bueno como pensabas.
+
+**Por qué CLV importa:**
+- CLV positivo consistente sugiere que estás encontrando valor real
+- CLV predice rentabilidad a largo plazo mejor que los resultados a corto plazo
+- Las casas de apuestas a menudo limitan a los clientes con CLV positivo fuerte
+- Rastrear CLV te ayuda a evaluar tu proceso de selección independientemente de la varianza de resultados`
+      }
+    ]
+  },
+  {
+    id: 5,
+    slug: 'bankroll-management-staking-survival',
+    title: '5. Gestión del bankroll, staking y supervivencia bajo varianza',
+    subtitle: 'Protegiendo tu capital a través de staking disciplinado y dimensionamiento de posiciones',
+    duration: '12 min de lectura',
+    sections: [
+      {
+        title: 'Por qué la gestión del bankroll importa más que elegir ganadores',
+        content: `Puedes tener una verdadera ventaja y aún así arruinarte si tu staking es malo. Este es uno de los conceptos más importantes en las apuestas y uno de los más ignorados. El bankroll es tu capital, tu herramienta de trabajo, tu capacidad de sobrevivir la varianza. Sin un bankroll, no hay próxima apuesta.
+
+La varianza en las apuestas es brutal. Incluso con una ventaja del 5% (que es excelente), experimentarás rachas perdedoras que duran semanas o meses. Si tus apuestas son demasiado grandes, una racha perdedora normal acabará contigo antes de que tu ventaja tenga la oportunidad de manifestarse.
+
+**La regla fundamental:**
+- Tu staking determina cuánto tiempo sobrevives
+- La supervivencia determina si tu ventaja se realiza
+- Sin supervivencia, la ventaja es irrelevante`
+      },
+      {
+        title: 'Staking de porcentaje fijo',
+        content: `El enfoque más simple y efectivo es apostar un porcentaje fijo de tu bankroll actual en cada apuesta. Comúnmente esto es 1-3% para apuestas estándar, con posiblemente hasta 5% para situaciones de alta confianza (aunque muchos profesionales nunca superan el 3%).
+
+Si tu bankroll es €1,000:
+- 1% = €10 por apuesta
+- 2% = €20 por apuesta
+- 3% = €30 por apuesta
+
+A medida que tu bankroll crece, tus apuestas crecen proporcionalmente. A medida que tu bankroll se reduce, tus apuestas se reducen proporcionalmente. Esto protege automáticamente contra la ruina y permite el crecimiento compuesto.
+
+**Ventajas del staking de porcentaje fijo:**
+- Simple de implementar
+- Se adapta automáticamente a ganancias y pérdidas
+- Previene la persecución de pérdidas
+- Matemáticamente sólido para la supervivencia a largo plazo`
+      },
+      {
+        title: 'El criterio de Kelly',
+        content: `El criterio de Kelly es una fórmula que calcula el tamaño óptimo de apuesta para maximizar el crecimiento a largo plazo dado tu ventaja y las cuotas. La fórmula es:
 
 Kelly % = (bp - q) / b
 
-Donde b = cuotas decimales - 1, p = probabilidad de ganar, q = probabilidad de perder
+Donde:
+- b = cuotas decimales - 1 (la ganancia neta por unidad)
+- p = tu probabilidad estimada de ganar
+- q = tu probabilidad estimada de perder (1 - p)
 
-Ejemplo: Si crees que una selección tiene 55% de ganar a cuotas de 2.00:
-Kelly = (1.00 × 0.55 - 0.45) / 1.00 = 10%
+Si crees que una selección gana el 55% del tiempo a cuotas de 2.00:
+- b = 2.00 - 1 = 1
+- p = 0.55
+- q = 0.45
+- Kelly = (1 × 0.55 - 0.45) / 1 = 0.10 o 10%
 
-**Advertencias sobre Kelly**
+**Precauciones importantes:**
+- Kelly completo asume que tu estimación de probabilidad es perfecta (nunca lo es)
+- La mayoría de los profesionales usan Kelly fraccionario (1/4 a 1/2 de la cantidad sugerida)
+- Sobreestimar tu ventaja conduce a sobreapuestas y ruina potencial
+- Kelly es un límite superior, no un objetivo`
+      },
+      {
+        title: 'Supervivencia bajo varianza',
+        content: `La varianza es la fluctuación natural de resultados alrededor de tu expectativa verdadera. Incluso con una ventaja genuina, experimentarás:
+- Rachas perdedoras que duran más de lo esperado
+- Rachas ganadoras que se sienten como genialidad
+- Períodos donde los resultados no reflejan la calidad de la decisión
 
-• Asume que conoces la probabilidad verdadera (nunca la conoces exactamente)
-• Puede sugerir apuestas muy grandes que son psicológicamente difíciles
-• Muchos profesionales usan "fracción de Kelly" (1/4 o 1/2 del Kelly completo)
+Entender esto emocional e intelectualmente es crítico. Un apostador que entra en pánico durante las rachas perdedoras normales:
+- Aumentará las apuestas para "recuperar" pérdidas (persecución)
+- Abandonará un proceso sólido demasiado pronto
+- Tomará apuestas de menor calidad para generar acción
+- Agotará su bankroll antes de que la ventaja se realice
 
-**Mi recomendación**
+**Estrategias de supervivencia:**
+- Establece tu tamaño de apuesta basándote en el peor caso, no en el caso promedio
+- Acepta que los drawdowns son normales e inevitables
+- Mantén registros para distinguir mala suerte de mal proceso
+- Ten un bankroll dedicado separado del dinero de vida
+- Define puntos de parada de antemano para tomar descansos durante rachas perdedoras extendidas`
+      }
+    ]
+  },
+  {
+    id: 6,
+    slug: 'the-complete-bettor-workflow',
+    title: '6. El flujo de trabajo completo del apostador: de la cartera al tique de apuesta',
+    subtitle: 'Un proceso sistemático desde identificar oportunidades hasta ejecutar apuestas',
+    duration: '10 min de lectura',
+    sections: [
+      {
+        title: 'Por qué necesitas un flujo de trabajo',
+        content: `Los apostadores aficionados reaccionan a los eventos a medida que llegan. Ven un partido, forman una opinión, hacen una apuesta. Este enfoque reactivo conduce a:
+- Mala selectividad (apostando en todo lo que se siente interesante)
+- Sesgo de anclaje (viendo cuotas antes de formar opinión)
+- Registros inconsistentes (olvidando documentar el razonamiento)
+- Persecución emocional (apuestas impulsivas después de pérdidas)
 
-Para la mayoría de los apostadores, el staking fijo o un sistema simple basado en confianza (1-3 niveles) es superior a sistemas complejos. La consistencia y la disciplina importan más que la optimización matemática perfecta.`
-        }
-      ]
-    },
-    6: {
-      title: "El Flujo Completo del Apostador",
-      subtitle: "De la lista de partidos a la apuesta realizada",
-      duration: "30 min",
-      sections: [
-        {
-          title: "El proceso paso a paso",
-          content: `**Paso 1: Filtrado de partidos**
+Un flujo de trabajo estructurado resuelve estos problemas al crear un proceso que puedes seguir consistentemente, independientemente de tu estado emocional o los resultados recientes.`
+      },
+      {
+        title: 'El flujo de trabajo de 7 pasos',
+        content: `**Paso 1: Filtrado de cartera**
+Revisa los eventos disponibles y decide cuáles vale la pena investigar. No puedes analizar todo profundamente. La selectividad comienza aquí.
 
-No puedes analizar todo. Comienza cada día o semana identificando qué eventos merecen tu tiempo. Factores a considerar:
-• ¿Tienes conocimiento suficiente de este deporte/liga?
-• ¿Hay información disponible para formar una opinión?
-• ¿Los mercados son líquidos y competitivos?
+**Paso 2: Investigación y contexto**
+Para eventos seleccionados, reúne información relevante. Esto incluye forma, alineaciones, lesiones, motivación, condiciones climáticas y cualquier otro factor que afecte las probabilidades.
 
-**Paso 2: Investigación y análisis**
+**Paso 3: Formación de probabilidad**
+ANTES de mirar las cuotas del mercado, estima tus propias probabilidades para los resultados relevantes. Anota esto.
 
-Para los eventos seleccionados, recopila la información relevante:
-• Forma reciente, lesiones, suspensiones
-• Enfrentamientos directos y contexto histórico
-• Factores situacionales (motivación, calendario, viajes)
-• Datos estadísticos relevantes
+**Paso 4: Comparación de mercado**
+Ahora mira los precios disponibles. Compara con tus probabilidades. Identifica dónde el mercado ofrece mejor de lo que crees que es justo.
 
-**Paso 3: Formación del precio propio**
-
-ANTES de mirar las cuotas del mercado, forma tu propia opinión sobre las probabilidades. Esto es crítico. Si miras primero las cuotas, anclarás tu análisis a ellas inconscientemente.
-
-**Paso 4: Comparación con el mercado**
-
-Solo ahora compara tu precio con el del mercado. ¿Hay discrepancia? ¿Es suficiente para superar el margen y la incertidumbre?
-
-**Paso 5: Selección del mercado**
-
-¿Cuál es la mejor manera de expresar tu opinión? No fuerces cada idea en el mercado de ganador. A veces un mercado de totales, hándicap o props expresa mejor tu ventaja.
+**Paso 5: Selección de mercado**
+Elige el mercado específico que mejor expresa tu ventaja. A veces esto es ganador del partido. A menudo es un mercado alternativo como hándicaps, totales o props.
 
 **Paso 6: Staking y ejecución**
-
-Determina el tamaño de apuesta según tu sistema. Realiza la apuesta al mejor precio disponible.
+Determina el tamaño de apuesta basándote en tu sistema de staking y confianza. Ejecuta al mejor precio disponible.
 
 **Paso 7: Registro**
-
-Documenta la apuesta con todos los detalles relevantes: evento, mercado, cuotas, stake, razonamiento.
-
-**Paso 8: Revisión post-evento**
-
-Después del resultado, revisa el proceso. ¿Tu razonamiento fue sólido? ¿Qué podrías mejorar? El resultado no es el único criterio.`
-        },
-        {
-          title: "Plantilla de investigación",
-          content: `**Plantilla de investigación sugerida**
-
-| Campo | Qué anotar |
-|-------|------------|
-| Evento | Liga, equipos/participantes, fecha, mercado, casa(s) de apuestas |
-| Filtro inicial | Por qué el evento vale la pena analizar o por qué casi se descartó |
-| Información clave | Los tres a cinco factores más decisivos específicos del deporte |
-| Precio justo | Tu probabilidad y línea justa ANTES de comparar con el mercado |
-| Cuotas disponibles | Mejor precio, precio promedio, precio realísticamente obtenible |
-| Stake | Tamaño de la unidad más razón para ese tamaño |
-| Nota de apuesta | Cómo se explicará la apuesta en tus propias notas |
-| Nota de revisión | Post-evento: proceso bueno o malo, y por qué |
-
-**Errores comunes a evitar**
-
-• Buscar justificaciones después de ver una cuota atractiva
-• Ignorar información que contradice tu opinión inicial
-• Sobreestimar tu conocimiento en ligas que no sigues de cerca
-• Apostar por aburrimiento o para "tener acción"
-• No documentar el razonamiento, haciendo imposible la revisión posterior`
-        }
-      ]
-    },
-    7: {
-      title: "Clase de Fútbol",
-      subtitle: "Marcos para apostar en fútbol",
-      duration: "40 min",
-      sections: [
-        {
-          title: "Fundamentos del fútbol",
-          content: `El fútbol es el deporte más apostado del mundo, lo que significa mercados eficientes pero también muchas oportunidades para quienes hacen el trabajo.
-
-**Características únicas del fútbol**
-
-• Bajo tanteo: los resultados son más aleatorios que en deportes de alto tanteo
-• El empate es un resultado significativo: algo que no existe en muchos deportes
-• La importancia del contexto: motivación, calendario, rotaciones
-• Varianza alta: equipos "peores" ganan regularmente
-
-**El problema del favorito en fútbol**
-
-Los favoritos de fútbol a menudo están sobrevalorados por el público. El sesgo hacia los nombres grandes y la subestimación del riesgo de empate significa que los mercados de ML (money line) del favorito a menudo ofrecen valor negativo.
-
-**Métricas clave**
-
-• xG (Expected Goals): goles esperados basados en la calidad de ocasiones
-• xGD (xG Difference): diferencial de xG, indicador de verdadera calidad
-• Shots on Target: más estable que goles reales
-• Posesión: contexto importante pero no predictivo por sí solo
-
-**Lista de verificación pre-partido**
-
-| Pregunta | Por qué importa |
-|----------|-----------------|
-| ¿Cuál es el estado de juego probable temprano? | El estado temprano influye en el tempo y la presión |
-| ¿Qué ausencias son críticas por rol, no por nombre? | La calidad del reemplazo importa más que la reputación |
-| ¿Justifica el favorito el precio después del riesgo de empate? | Los favoritos de fútbol ganan menos de lo que los apostadores creen |
-| ¿Cómo se crearon los números recientes de calidad de ocasiones? | Eventos únicos pueden distorsionar los totales de xG |
-| ¿Es un mercado de lados o totales la expresión más limpia? | La elección correcta del mercado importa tanto como la opinión central |
-| ¿Pueden los apostadores obtener realistamente el precio aconsejado? | Tomar precios irreales daña la autoevaluación |`
-        },
-        {
-          title: "Mercados de fútbol",
-          content: `**Mercado de resultado (1X2)**
-
-El mercado tradicional de tres vías: victoria local, empate, victoria visitante. El margen se distribuye entre tres resultados, generalmente ofreciendo peor valor que mercados de dos vías.
-
-**Hándicap asiático**
-
-Elimina el empate distribuyendo una ventaja de goles. Hándicap -0.5 significa que el equipo debe ganar. Hándicap -1.5 significa ganar por 2+. Los hándicaps de cuartos (0.25, 0.75) dividen la apuesta entre dos líneas adyacentes.
-
-**Totales (Over/Under)**
-
-Apuestas al número total de goles. El mercado estándar de O/U 2.5 es altamente líquido. Las líneas alternativas ofrecen diferentes perfiles de riesgo/recompensa.
-
-**Ambos equipos anotan (BTTS)**
-
-Popular pero a menudo con alto margen. La correlación con otros mercados significa que rara vez ofrece valor independiente.
-
-**Consejos específicos de mercado**
-
-• En ligas de bajo tanteo, O/U 2.5 under puede ofrecer valor consistente
-• Los hándicaps asiáticos suelen tener márgenes más bajos que el 1X2
-• Los mercados de primera mitad a menudo reflejan los de partido completo pero con más varianza
-• Las cuotas de goleadores tienen márgenes enormes; evita a menos que tengas información específica`
-        }
-      ]
-    },
-    8: {
-      title: "Clase de Carreras de Caballos",
-      subtitle: "Marcos para apostar en carreras de caballos",
-      duration: "35 min",
-      sections: [
-        {
-          title: "Fundamentos de las carreras de caballos",
-          content: `Las carreras de caballos son únicas porque los precios son establecidos por el público a través de sistemas de apuestas mutuas (tote) o por casas de apuestas que reaccionan a la acción del mercado. Esto crea ineficiencias que los apostadores informados pueden explotar.
-
-**Tipos de apuestas**
-
-• Win: el caballo debe ganar
-• Place: el caballo debe terminar en los primeros puestos (varía según el número de participantes)
-• Each-way: combinación de win y place
-• Exacta/Quinella: predecir los dos primeros en orden exacto o cualquier orden
-• Trifecta: predecir los tres primeros en orden exacto
-
-**Factores clave de handicapping**
-
-• Forma reciente: pero contextualizada por la clase de la carrera
-• Clase: ¿está subiendo o bajando de nivel?
-• Distancia: ¿es óptima para este caballo?
-• Terreno/superficie: ¿prefiere blando, firme, hierba, arena?
-• Peso asignado: en carreras de hándicap
-• Jockey/entrenador: estadísticas y combinaciones
-• Draw (posición de salida): crítico en ciertas pistas
-
-**El concepto del precio**
-
-A diferencia de otros deportes, en las carreras de caballos el precio que obtienes puede cambiar drásticamente. Apostar "ante-post" (con anticipación) ofrece mejores precios pero sin reembolso si el caballo se retira. Apostar cerca del inicio ofrece más certeza pero precios potencialmente peores.`
-        },
-        {
-          title: "Estrategias de carreras de caballos",
-          content: `**Value betting en carreras**
-
-El principio es el mismo que en otros deportes: apostar cuando tu precio estimado es mejor que el ofrecido. Pero la implementación es diferente debido a la naturaleza de los mercados.
-
-**Favoritos descartables**
-
-Busca carreras donde el favorito tiene debilidades ocultas:
-• Subiendo de clase significativamente
-• Primera vez en la distancia o superficie
-• Descansado y posiblemente necesitando una carrera
-• Jockey/entrenador en mala racha
-
-**Encontrar valor en outsiders**
-
-Los outsiders en carreras de caballos a menudo están infravalorados porque:
-• El dinero del público fluye hacia nombres conocidos
-• Los handicappers oficiales pueden no capturar mejoras recientes
-• Los cambios de condiciones pueden favorecer perfiles específicos
-
-**Gestión del bankroll en carreras**
-
-La varianza es extremadamente alta. Considera:
-• Staking más conservador que en deportes de equipo
-• Especialización en tipos específicos de carreras
-• Seguimiento meticuloso de ROI por categoría
-• Paciencia para muestras muy grandes antes de evaluar
-
-**Advertencia sobre las carreras**
-
-Las carreras de caballos son difíciles. Los márgenes son altos, la información es asimétrica (los insiders saben más), y la varianza es brutal. No es el mejor punto de entrada para principiantes.`
-        }
-      ]
-    },
-    9: {
-      title: "Clase de Tenis",
-      subtitle: "Marcos para apostar en tenis",
-      duration: "35 min",
-      sections: [
-        {
-          title: "Fundamentos del tenis",
-          content: `El tenis ofrece oportunidades únicas porque es un deporte individual donde la forma, la superficie y el enfrentamiento directo pueden crear ineficiencias claras.
-
-**Características del tenis para apuestas**
-
-• Sin empates: siempre hay un ganador
-• Alta frecuencia: muchos torneos y partidos
-• Superficie importa: hierba, tierra batida y dura favorecen estilos diferentes
-• Lesiones: impacto directo en el rendimiento individual
-• Motivación variable: no todos los torneos tienen la misma importancia para todos los jugadores
-
-**Factores clave de análisis**
-
-• Historial de enfrentamientos directos (head-to-head)
-• Rendimiento por superficie
-• Forma reciente: pero contextualizada
-• Condiciones físicas y lesiones
-• Calendario y fatiga
-• Motivación y contexto del torneo
-
-**Estadísticas importantes**
-
-• % puntos ganados con primer servicio
-• % puntos ganados con segundo servicio
-• % puntos ganados al resto
-• % break points convertidos/salvados
-• Rendimiento en tie-breaks
-
-**Mercados de tenis**
-
-• Match winner: el más líquido
-• Hándicap de games: útil para partidos desequilibrados
-• Hándicap de sets: para expresar opiniones sobre margen
-• Total de games: over/under en el número total
-• Mercados de sets: resultado exacto de sets`
-        },
-        {
-          title: "Estrategias de tenis",
-          content: `**El factor superficie**
-
-La superficie es probablemente el factor más subestimado por el público. Un jugador puede ser top 20 en tierra y apenas top 100 en hierba. Las cuotas no siempre reflejan esta disparidad.
-
-**Torneos menores**
-
-Los Challengers y Futures ofrecen oportunidades porque:
-• Menos atención del mercado
-• Información menos disponible públicamente
-• Mayor variabilidad de motivación y esfuerzo
-
-Sin embargo, requieren trabajo especializado y los límites de apuesta son menores.
-
-**Live betting en tenis**
-
-El tenis es popular para apuestas en vivo debido a los cambios de momentum. Sin embargo:
-• Los algoritmos de las casas son sofisticados
-• El sesgo de recencia es fuerte (sobrerreacción a games recientes)
-• Las lesiones pueden manifestarse gradualmente
-
-**Trampas comunes en tenis**
-
-• Sobrevalorar rankings: no reflejan forma actual ni superficie
-• Ignorar el calendario: un jugador llegando de un torneo largo puede estar fatigado
-• Sesgo hacia nombres conocidos: los mercados ya incorporan la reputación
-• No considerar la motivación: no todos los torneos importan igual
-
-**Especialización**
-
-Considera especializarte en:
-• Una superficie específica
-• Un género (ATP vs WTA)
-• Un nivel de torneo
-• Un tipo de mercado (totales, hándicaps)`
-        }
-      ]
-    },
-    10: {
-      title: "Clase de Baloncesto",
-      subtitle: "Marcos para apostar en baloncesto",
-      duration: "35 min",
-      sections: [
-        {
-          title: "Fundamentos del baloncesto",
-          content: `El baloncesto, especialmente la NBA, tiene mercados altamente eficientes debido al volumen de apuestas y análisis. Sin embargo, el alto tanteo y la previsibilidad relativa ofrecen oportunidades para quienes profundizan.
-
-**Características del baloncesto**
-
-• Alto tanteo: menor varianza en resultados relativos
-• Back-to-backs: el descanso importa mucho
-• Rotaciones: los entrenadores gestionan minutos estratégicamente
-• Temporada larga: la motivación varía significativamente
-• Playoffs vs temporada regular: dinámicas completamente diferentes
-
-**Factores clave**
-
-• Días de descanso y calendario
-• Lesiones y gestión de minutos
-• Ritmo de juego (pace)
-• Eficiencia ofensiva y defensiva
-• Enfrentamientos específicos (matchups)
-• Situación del equipo (racha, standings, motivación)
-
-**Métricas avanzadas**
-
-• Net Rating: diferencial de eficiencia ofensiva/defensiva
-• Pace: posesiones por partido
-• eFG%: field goal percentage ajustado por triples
-• True Shooting %: eficiencia total de tiro
-• Rebound Rate, Assist Rate, Turnover Rate
-
-**Mercados de baloncesto**
-
-• Spread (hándicap de puntos): el mercado principal
-• Total (O/U): muy popular
-• Moneyline: para cuando el spread no refleja tu opinión
-• Quarters/Halves: mercados parciales
-• Props de jugadores: muy populares pero alto margen`
-        },
-        {
-          title: "Estrategias de baloncesto",
-          content: `**El factor descanso**
-
-Los back-to-backs (partidos en días consecutivos) son uno de los factores más documentados. Los equipos rinden peor, especialmente en el segundo partido de un back-to-back en carretera. Las casas de apuestas ajustan las líneas, pero no siempre suficientemente.
-
-**Temporada regular vs playoffs**
-
-La dinámica cambia completamente en playoffs:
-• Las estrellas juegan más minutos
-• Los ajustes tácticos son más pronunciados
-• Los árbitros "tragan el silbato" (menos faltas)
-• Los totales tienden a bajar
-• Los favoritos rinden mejor
-
-**Líneas de apertura vs cierre**
-
-Las líneas de la NBA se mueven significativamente entre apertura y cierre. Los "sharps" (apostadores profesionales) apuestan temprano, moviendo la línea. Si puedes identificar movimientos de sharp money, puedes obtener información sobre hacia dónde va el valor.
-
-**Trampas comunes**
-
-• Sobrevalorar la forma reciente (3-5 partidos)
-• Ignorar el contexto de back-to-back
-• No ajustar por tanking de fin de temporada
-• Sesgo hacia equipos de mercados grandes
-• Perseguir props de jugadores con alto margen
-
-**Live betting en baloncesto**
-
-El baloncesto es ideal para live betting debido al alto tanteo y los cambios frecuentes de momentum. Sin embargo, los algoritmos son muy sofisticados y las oportunidades genuinas son raras.`
-        }
-      ]
-    },
-    11: {
-      title: "Clase de Hockey sobre Hielo",
-      subtitle: "Marcos para apostar en hockey",
-      duration: "30 min",
-      sections: [
-        {
-          title: "Fundamentos del hockey",
-          content: `El hockey sobre hielo (NHL principalmente) ofrece mercados menos eficientes que NBA o NFL debido a menor volumen de apuestas en muchas regiones. Esto crea oportunidades para apostadores informados.
-
-**Características del hockey**
-
-• Bajo tanteo relativo: más varianza que baloncesto
-• Importancia del portero: un factor individual masivo
-• Back-to-backs: impacto significativo
-• Home ice advantage: históricamente significativo
-• Calendario comprimido: fatiga acumulada
-
-**Factores clave**
-
-• Portero confirmado: crítico antes de apostar
-• Días de descanso
-• Situación de lesiones, especialmente defensores top
-• Rendimiento reciente 5v5 vs equipos especiales
-• Enfrentamientos de líneas
-
-**Métricas avanzadas**
-
-• Corsi/Fenwick: intentos de tiro como proxy de posesión
-• xG (Expected Goals): también existe en hockey
-• Save percentage: del portero
-• PDO: proxy de suerte (shooting % + save %)
-• GSAA: Goals Saved Above Average
-
-**Mercados de hockey**
-
-• Puck Line (-1.5/+1.5): equivalente al spread
-• Moneyline: victoria directa
-• Total: O/U goles
-• Period betting: primer periodo, etc.
-• Props de portero y jugadores`
-        },
-        {
-          title: "Estrategias de hockey",
-          content: `**El factor portero**
-
-Ningún otro deporte tiene un jugador individual que impacte tanto el resultado. Un portero elite vs un backup puede significar varios goles de diferencia esperada. SIEMPRE confirma el portero titular antes de apostar.
-
-**El problema del puck line**
-
-El puck line estándar de -1.5 para favoritos tiene un problema: los partidos de hockey terminan 3-2, 2-1, 4-3 con mucha frecuencia. Un favorito puede ganar fácilmente pero no cubrir -1.5. Considera cuándo el ML ofrece mejor valor que el puck line.
-
-**Empty net goals**
-
-Los goles con portería vacía (últimos minutos cuando un equipo retira al portero) distorsionan los resultados. Un equipo puede cubrir o no cubrir el spread solo por un gol de empty net.
-
-**Temporada regular vs playoffs**
-
-Similar al baloncesto, los playoffs de NHL son diferentes:
-• Partidos más cerrados
-• Mejor portero juega más
-• Menos goles promedio
-• Los favoritos rinden algo mejor
-
-**Trampas comunes**
-
-• No verificar el portero confirmado
-• Sobrevalorar rachas cortas
-• Ignorar la situación del calendario
-• No entender el impacto de los equipos especiales
-• Apostar totales sin considerar los porteros específicos`
-        }
-      ]
-    },
-    12: {
-      title: "Clase de Béisbol",
-      subtitle: "Marcos para apostar en béisbol",
-      duration: "30 min",
-      sections: [
-        {
-          title: "Fundamentos del béisbol",
-          content: `El béisbol (MLB) tiene la temporada más larga de los deportes principales americanos, lo que significa muchísimas oportunidades y datos abundantes. Es considerado uno de los deportes más "apuestas-amigables" debido a la importancia de la estadística.
-
-**Características del béisbol**
-
-• Temporada de 162 partidos: muestra enorme
-• Pitcher dominante: el factor individual más importante
-• No hay reloj: los partidos pueden extenderse
-• Clima: factor significativo para totales
-• Platoon splits: diferencia vs zurdos/derechos
-
-**Factores clave**
-
-• Pitcher abridor: absolutamente crítico
-• Bullpen status: quién está disponible/cansado
-• Lineup confirmado: especialmente bateadores clave
-• Condiciones del estadio: park factors
-• Clima: viento, temperatura, humedad
-
-**Métricas avanzadas**
-
-• ERA vs FIP/xFIP: suerte del pitcher
-• wOBA: eficiencia ofensiva ajustada
-• WAR: valor total del jugador
-• BABIP: indicador de suerte/regresión
-• K% y BB%: strikeout y walk rates
-
-**Mercados de béisbol**
-
-• Run Line (-1.5/+1.5): el spread de béisbol
-• Moneyline: victoria directa
-• Total: O/U carreras
-• First 5 innings (F5): elimina la varianza del bullpen
-• Props de pitcher y bateador`
-        },
-        {
-          title: "Estrategias de béisbol",
-          content: `**El enfoque del pitcher**
-
-El pitcher abridor domina el béisbol más que cualquier posición individual en otros deportes de equipo. Un ace vs un quinto abridor puede ser una diferencia de 2+ carreras esperadas. Las líneas se ajustan, pero no siempre correctamente.
-
-**First 5 Innings (F5)**
-
-Este mercado elimina el bullpen y se enfoca solo en los abridores. Es útil cuando:
-• Confías en el abridor pero no en el bullpen
-• El bullpen del oponente es fuerte
-• Quieres reducir la varianza de los innings tardíos
-
-**Park Factors**
-
-Los estadios de béisbol varían enormemente:
-• Coors Field (Colorado): inflado para bateadores/totales
-• Petco Park (San Diego): suprime carreras
-• Yankee Stadium: favorece el right-field power
-
-Ajustar por park factors es esencial para totales.
-
-**Clima**
-
-• Viento hacia afuera: más home runs, más carreras
-• Viento hacia adentro: menos carreras
-• Humedad alta: la pelota viaja menos
-• Calor extremo: puede afectar el rendimiento
-
-**Regresión a la media**
-
-El béisbol es el deporte donde la regresión es más predecible:
-• BABIPs extremos regresan
-• Rachas de HR insostenibles
-• ERAs muy bajas/altas de pitchers tienden a normalizar
-
-Apostar contra rachas extremas (positivas o negativas) puede ser rentable.`
-        }
-      ]
-    },
-    13: {
-      title: "Clase de Fútbol Americano",
-      subtitle: "Marcos para apostar en NFL y college football",
-      duration: "35 min",
-      sections: [
-        {
-          title: "Fundamentos del fútbol americano",
-          content: `La NFL es probablemente el mercado de apuestas más eficiente del mundo debido al volumen masivo de apuestas y análisis. Encontrar ventaja requiere trabajo especializado.
-
-**Características del fútbol americano**
-
-• Temporada corta: 17 partidos de temporada regular NFL
-• Spread es rey: el mercado más apostado
-• Líneas estables: se mueven menos que otros deportes
-• Información pública abundante: pero bien incorporada
-• Diferencias masivas entre NFL y college
-
-**Factores clave**
-
-• Línea de quarterback: la posición más importante
-• Lesiones de línea ofensiva: subestimadas
-• Clima para partidos al aire libre
-• Situación de bye weeks y descanso
-• Motivación y standings
-
-**NFL vs College Football**
-
-La NCAA es menos eficiente que la NFL porque:
-• Más equipos, menos cobertura
-• Mayor disparidad de talento
-• Mercados menos líquidos
-• Información menos disponible
-
-**Métricas avanzadas**
-
-• EPA (Expected Points Added): valor de cada jugada
-• DVOA: eficiencia ajustada por oponente
-• Success Rate: % de jugadas exitosas
-• PFF Grades: evaluación jugada por jugada
-• Air Yards, YAC: passing efficiency breakdown`
-        },
-        {
-          title: "Estrategias de fútbol americano",
-          content: `**Key Numbers**
-
-En la NFL, ciertos números son más comunes para el margen de victoria:
-• 3: field goal
-• 7: touchdown
-• 6, 10, 14: otros comunes
-
-Esto significa que la diferencia entre -2.5 y -3.5 es mucho más significativa que entre -4.5 y -5.5.
-
-**Totals y clima**
-
-El clima afecta desproporcionadamente a los totales:
-• Viento fuerte: suprime el passing game y los puntos
-• Lluvia/nieve: reduce totales
-• Frío extremo: favorece el running game
-
-**Teaser y Parlays**
-
-Los teasers (mover la línea a tu favor) pueden tener valor si cruzas key numbers. Un teaser de 6 puntos que mueva -8.5 a -2.5 cruza el 3 y el 7, ambos key numbers.
-
-Los parlays generalmente tienen margen negativo, pero pueden ser útiles para correlacionar eventos (mismo partido total + spread).
-
-**Trampas comunes en NFL**
-
-• Sobrevalorar la semana anterior (recency bias extremo)
-• No ajustar por descanso y bye weeks
-• Ignorar lesiones de línea ofensiva
-• Apostar demasiados parlays de alto riesgo
-• No entender el impacto del clima
-
-**College Football específico**
-
-• Las líneas grandes (+/- 20+) son más volátiles
-• Los equipos locales tienen mayor ventaja
-• La motivación varía más entre partidos
-• Las lesiones se reportan menos`
-        }
-      ]
-    },
-    14: {
-      title: "Otros Deportes y Nichos",
-      subtitle: "Oportunidades fuera de los mercados principales",
-      duration: "25 min",
-      sections: [
-        {
-          title: "Por qué considerar nichos",
-          content: `Los mercados nicho pueden ofrecer más valor porque:
-• Menos atención de sharps y casas de apuestas
-• Líneas menos eficientes
-• Tu conocimiento especializado puede ser ventaja
-• Menor competencia por información
-
-**Deportes a considerar**
-
-• MMA/UFC: mercados crecientes, matchups individuales
-• Golf: campos grandes, muchas apuestas outright
-• Esports: mercados en desarrollo, información asimétrica
-• Cricket: enorme en ciertas regiones
-• Rugby: league y union tienen matices
-• Darts/Snooker: mercados establecidos en UK
-• Ciclismo: apuestas de etapa y general
-
-**La advertencia sobre nichos**
-
-• Límites más bajos
-• Márgenes potencialmente más altos
-• Menos liquidez en exchanges
-• Información puede ser más difícil de obtener
-• Necesitas genuina expertise, no solo curiosidad`
-        },
-        {
-          title: "Estrategias para nichos",
-          content: `**Especialización profunda**
-
-En lugar de saber un poco sobre muchos deportes, considera saber mucho sobre uno o dos nichos. La profundidad supera la amplitud en mercados menos eficientes.
-
-**MMA/UFC específico**
-
-• Los estilos hacen peleas: striker vs grappler
-• El peso importa: cambios de categoría
-• La edad y el daño acumulado
-• Los camps y la preparación específica
-• La motivación y situación del contrato
-
-**Golf específico**
-
-• Course fit: algunos jugadores brillan en ciertos tipos de campos
-• Forma reciente con contexto de campo
-• Stats relevantes varían por campo (driving vs putting)
-• El campo grande significa alta varianza
-
-**Esports específico**
-
-• Los rosters cambian frecuentemente
-• Las metas (parches de juego) alteran la dinámica
-• La información de scrims puede filtrarse
-• Los mercados son menos maduros
-
-**Principios generales para nichos**
-
-• Desarrolla tu propio modelo o enfoque
-• Mantén registros meticulosos
-• Sé paciente con muestras pequeñas
-• No asumas que las ineficiencias duran para siempre
-• Los márgenes pueden erosionar tu ventaja en mercados pequeños`
-        }
-      ]
-    },
-    15: {
-      title: "Masterclass de Tipos de Apuestas",
-      subtitle: "Más allá del ganador: mercados alternativos",
-      duration: "35 min",
-      sections: [
-        {
-          title: "Tipos de apuestas explicados",
-          content: `**Moneyline/Match Winner**
-
-La apuesta más simple: quién gana. El margen está todo en esta línea.
-
-**Spread/Handicap**
-
-Apuestas a que un equipo gane por más (o no pierda por más) de un margen especificado. Iguala equipos dispares y ofrece cuotas cercanas a evens.
-
-**Totales (Over/Under)**
-
-El total combinado de puntos/goles/carreras. Independiente del ganador, enfocado en el ritmo y estilo de juego.
-
-**Props (Propositions)**
-
-Apuestas a eventos específicos dentro del partido:
-• Player props: estadísticas individuales
-• Team props: primero en anotar, etc.
-• Game props: habrá overtime, etc.
-
-**Futures/Outrights**
-
-Apuestas a resultados a largo plazo: campeón de liga, MVP, etc. Alto margen pero potencialmente alto valor si tienes información temprana.
-
-**Parlays/Accumulators**
-
-Combinación de múltiples apuestas. Todas deben ganar. El margen se multiplica, haciendo los parlays generalmente -EV.
-
-**Teasers**
-
-Similar a parlays pero puedes mover las líneas a tu favor. Específico de fútbol americano y baloncesto principalmente.
-
-**Live/In-Play**
-
-Apuestas durante el evento. Cuotas cambian constantemente basadas en la acción.`
-        },
-        {
-          title: "Cuándo usar cada tipo",
-          content: `**Moneyline: cuándo tiene sentido**
-
-• Cuando el spread no refleja tu opinión
-• En deportes de bajo tanteo (hockey, fútbol)
-• Cuando necesitas que un favorito simplemente gane
-
-**Spread: cuándo usarlo**
-
-• Cuando tu opinión es sobre el margen, no solo el ganador
-• Para obtener mejores cuotas en favoritos
-• En deportes de alto tanteo (baloncesto, fútbol americano)
-
-**Totales: cuándo enfocarse aquí**
-
-• Cuando tienes opinión sobre ritmo/estilo pero no sobre ganador
-• Condiciones específicas (clima, lesiones) afectan puntuación
-• Como alternativa cuando ambos equipos son impredecibles
-
-**Props: cuándo pueden tener valor**
-
-• Cuando tienes información específica sobre un jugador
-• Matchups favorables para ciertos jugadores
-• Pero cuidado: márgenes típicamente muy altos
-
-**Futures: cuándo considerar**
-
-• Información temprana antes de que el mercado ajuste
-• Opiniones contrarias sobre equipos/jugadores
-• Pero recuerda: tu dinero está bloqueado mucho tiempo
-
-**Parlays: la regla general**
-
-Generalmente -EV. Solo considera:
-• Correlacioned parlays (mismo partido)
-• Promociones específicas
-• Entretenimiento con stake mínimo
-
-**La regla de oro**
-
-Elige el mercado que exprese tu ventaja más claramente, no el que ofrezca el pago más emocionante.`
-        }
-      ]
-    },
-    16: {
-      title: "Registro de Apuestas",
-      subtitle: "Construyendo tu cuaderno personal de apuestas",
-      duration: "30 min",
-      sections: [
-        {
-          title: "Por qué el registro es no negociable",
-          content: `Sin registros detallados, no puedes:
-• Saber si realmente eres rentable
-• Identificar qué mercados o deportes son tu fortaleza
-• Detectar patrones de error
-• Mejorar sistemáticamente
-• Separar suerte de habilidad
-
-**Lo mínimo que debes registrar**
-
-• Fecha y evento
-• Deporte y mercado
-• Selección y cuotas tomadas
-• Stake en puntos
-• Resultado y P/L
-• Precio de cierre (para CLV)
-
-**Lo que deberías registrar**
-
-Todo lo anterior más:
-• Tu precio justo estimado
-• Razonamiento de la apuesta (por qué valor)
-• Confianza/convicción
-• Casa de apuestas utilizada
-
-**Lo que separa a los profesionales**
-
-Todo lo anterior más:
-• Notas de proceso post-evento
-• Qué aprendiste
-• Qué harías diferente
-• Cómo el resultado afectó (o no) tu evaluación del proceso
-
-**Campos sugeridos**
-
-| Campo | Propósito |
-|-------|-----------|
-| Fecha y evento | Cronología y filtrado |
-| Deporte y mercado | Análisis por categoría |
-| Selección y cuotas | Registro de auditoría |
-| Precio de cierre | Medición de CLV |
-| Stake en puntos | Rendimiento ajustado por riesgo |
-| Resultado y P/L | Seguimiento de resultados |
-| Nota de proceso | Por qué se hizo la apuesta |
-| Nota de revisión | Qué se aprendió después |`
-        },
-        {
-          title: "Herramientas y sistemas de registro",
-          content: `**Opciones de herramientas**
-
-• Spreadsheet (Excel/Google Sheets): flexible, gratis, requiere disciplina
-• Aplicaciones dedicadas: Bet Tracker, Action Network, etc.
-• Software especializado: para apostadores de alto volumen
-
-**Qué sistema elegir**
-
-El mejor sistema es el que usarás consistentemente. Un spreadsheet simple usado religiosamente supera una aplicación sofisticada abandonada después de una semana.
-
-**Estructura sugerida de spreadsheet**
-
-1. Hoja de registro: cada apuesta individual
-2. Hoja de resumen: métricas agregadas
-3. Hoja por deporte: análisis específico
-4. Hoja de revisión: notas y aprendizajes
-
-**Métricas a calcular**
-
-• ROI: Return on Investment (ganancia / total apostado)
-• Yield: ganancia por unidad
-• CLV promedio
-• Win rate por tipo de apuesta
-• Rendimiento por deporte/liga
-• Rendimiento por rango de cuotas
-
-**Frecuencia de revisión**
-
-• Diario: registrar apuestas inmediatamente
-• Semanal: revisar resultados y proceso
-• Mensual: análisis más profundo, ajustes de enfoque
-• Trimestral: evaluación estratégica completa
-
-**El error común**
-
-Registrar resultados pero no el razonamiento. Sin notas de proceso, no puedes aprender de tus decisiones porque no recordarás por qué las tomaste.`
-        }
-      ]
-    },
-    17: {
-      title: "Revisión de Rendimiento",
-      subtitle: "Aprendiendo de tus resultados",
-      duration: "30 min",
-      sections: [
-        {
-          title: "Cómo revisar correctamente",
-          content: `**El principio fundamental**
-
-El resultado de una apuesta individual no te dice si la decisión fue buena. El proceso importa más que el resultado en el corto plazo.
-
-**Preguntas de revisión**
-
-Para cada apuesta (especialmente las perdidas):
-• ¿Mi precio justo era razonable dado la información disponible?
-• ¿Consideré los factores más relevantes?
-• ¿Hubo información que ignoré o subestimé?
-• ¿El tamaño del stake fue apropiado?
-• ¿Tomaría la misma decisión otra vez?
-
-**Separando señal de ruido**
-
-• Muestra pequeña = ruido dominante
-• Necesitas 500+ apuestas para conclusiones estadísticas robustas
-• Pero puedes identificar errores de proceso mucho antes
-
-**Qué buscar en el análisis**
-
-• Tendencias por deporte/liga
-• Rendimiento por rango de cuotas
-• CLV consistente (positivo o negativo)
-• Patrones de error repetidos
-• Sesgos en la selección de apuestas
-
-**Red flags en tu registro**
-
-• ROI positivo pero CLV negativo consistente = suerte
-• Gran variación en stakes sin justificación = indisciplina
-• Apuestas concentradas después de pérdidas = persiguiendo
-• Documentación esporádica = falta de compromiso`
-        },
-        {
-          title: "Mejora continua",
-          content: `**El ciclo de mejora**
-
-1. Hacer apuestas con proceso documentado
-2. Registrar resultados y razonamiento
-3. Revisar periódicamente buscando patrones
-4. Identificar áreas de mejora
-5. Ajustar enfoque
-6. Repetir
-
-**Tipos de ajustes**
-
-• Estratégicos: cambiar mercados, deportes, enfoque
-• Tácticos: ajustar criterios de selección
-• De proceso: mejorar investigación, timing
-• Psicológicos: gestionar emociones, disciplina
-
-**Cuándo cambiar de enfoque**
-
-Considera ajustes cuando:
-• CLV consistentemente negativo sobre muestra significativa
-• Un deporte/mercado consistentemente underperforma
-• Identificas un patrón de error repetido
-• Las condiciones del mercado cambian
-
-**Cuándo NO cambiar**
-
-• Después de una racha perdedora corta
-• Basándote solo en resultados sin analizar proceso
-• Por presión emocional
-• Sin suficiente muestra para conclusiones
-
-**La mentalidad correcta**
-
-Las apuestas son un proceso de mejora continua, no un destino. Incluso los mejores apostadores siguen aprendiendo y ajustando. El objetivo no es perfección sino mejora consistente sobre tiempo.`
-        }
-      ]
-    },
-    18: {
-      title: "Psicología y Disciplina",
-      subtitle: "Control del tilt y rutinas profesionales",
-      duration: "35 min",
-      sections: [
-        {
-          title: "La batalla mental",
-          content: `**Por qué la psicología importa**
-
-Puedes tener el mejor proceso analítico del mundo y aún perder dinero si no puedes ejecutarlo consistentemente. La disciplina emocional es tan importante como la habilidad analítica.
-
-**Sesgos cognitivos comunes**
-
-• Sesgo de confirmación: buscar información que confirme tu opinión
-• Sesgo de recencia: sobrevalorar eventos recientes
-• Sesgo de disponibilidad: sobrevalorar información fácil de recordar
-• Falacia del jugador: creer que resultados pasados afectan probabilidades futuras
-• Exceso de confianza: sobrestimar tu habilidad o información
-
-**El tilt**
-
-Tilt es cuando las emociones toman el control de tus decisiones. Señales de tilt:
-• Aumentar stakes después de pérdidas
-• Apostar en eventos que normalmente ignorarías
-• Abandonar tu proceso de investigación
-• Sentir urgencia por "recuperar"
-• Irritación o frustración intensas
-
-**Causas comunes de tilt**
-
-• Bad beats: perder apuestas que "deberían" haber ganado
-• Rachas perdedoras
-• Perder por poco margen
-• Ver selecciones no apostadas ganar
-• Presión externa (dinero necesitado, expectativas)`
-        },
-        {
-          title: "Estrategias de control",
-          content: `**Prevención del tilt**
-
-• Define reglas claras de staking ANTES de apostar
-• Establece límites de pérdida diarios/semanales
-• Toma descansos programados
-• No apuestes bajo influencia de alcohol o estrés
-• Mantén perspectiva: cada apuesta es una en miles
-
-**Qué hacer cuando sientes tilt**
-
-1. Reconócelo: admite que estás emocionalmente comprometido
-2. Para: no hagas ninguna apuesta más ese día
-3. Aléjate: haz algo completamente diferente
-4. Revisa: cuando estés calmado, analiza qué lo causó
-5. Aprende: ajusta tu sistema para prevenir recurrencia
-
-**Rutinas profesionales**
-
-• Horarios fijos para investigación y apuestas
-• Checklist antes de cada apuesta
-• Revisión semanal obligatoria
-• Días de descanso programados
-• Separación clara entre dinero de apuestas y personal
-
-**Mantener perspectiva**
-
-• Una apuesta perdida no define tu habilidad
-• Una racha ganadora tampoco
-• El largo plazo es lo único que importa
-• La varianza es inevitable y normal
-• Tu identidad no debería depender de resultados
-
-**La pregunta clave**
-
-Antes de cada apuesta: "¿Tomaría esta decisión si nadie más la viera?"
-
-Si la respuesta es no, probablemente estás apostando por razones equivocadas.`
-        }
-      ]
-    },
-    19: {
-      title: "Juego Responsable",
-      subtitle: "Estándares de seguridad y protección personal",
-      duration: "25 min",
-      sections: [
-        {
-          title: "Principios del juego responsable",
-          content: `**La regla fundamental**
-
-Nunca apuestes dinero que no puedas permitirte perder. Esto no es un cliché; es la base de la sostenibilidad.
-
-**Señales de advertencia**
-
-• Apostar dinero destinado a necesidades básicas
-• Pedir prestado para apostar
-• Mentir sobre apuestas a familia/amigos
-• Perseguir pérdidas compulsivamente
-• Apuestas que interfieren con trabajo/relaciones
-• Incapacidad de dejar de apostar cuando quieres
-
-**Protección del bankroll**
-
-• Separa completamente el bankroll del dinero personal
-• Define límites claros antes de empezar
-• Usa herramientas de límites de las casas de apuestas
-• Nunca aumentes el bankroll "tomando prestado"
-
-**Autoexclusión**
-
-Todas las casas de apuestas reguladas ofrecen opciones de autoexclusión. Si sientes que has perdido el control:
-• Usa la autoexclusión inmediatamente
-• No intentes "un último intento" para recuperar
-• Busca ayuda profesional
-
-**Recursos de ayuda**
-
-• Gambling Therapy (international)
-• Jugadores Anónimos (local)
-• Líneas de ayuda nacionales específicas
-• Terapia profesional especializada`
-        },
-        {
-          title: "Cumplimiento y legalidad",
-          content: `**Conoce tu jurisdicción**
-
-Las leyes de apuestas varían enormemente:
-• Algunos países prohíben completamente
-• Algunos permiten solo casas con licencia local
-• Algunos tienen mercados abiertos
-• Las leyes cambian frecuentemente
-
-**Responsabilidad del apostador**
-
-Es TU responsabilidad:
-• Conocer las leyes locales
-• Usar solo operadores legales
-• Declarar ganancias si es requerido
-• Mantener registros para impuestos
-
-**Operadores regulados**
-
-Prefiere siempre operadores con licencia:
-• Protección de fondos del cliente
-• Mecanismos de disputa
-• Estándares de juego responsable
-• Cumplimiento de normas de privacidad
-
-**Impuestos**
-
-Muchas jurisdicciones gravan las ganancias de apuestas:
-• Mantén registros detallados
-• Consulta con un profesional fiscal
-• No asumas que las ganancias son libres de impuestos
-
-**Protección de datos**
-
-• Usa contraseñas únicas y fuertes
-• Habilita autenticación de dos factores
-• No compartas credenciales
-• Verifica que los sitios usen HTTPS
-• Ten cuidado con promociones sospechosas
-
-**La regla final**
-
-Las apuestas deben ser entretenimiento informado, no una fuente de ingresos necesaria ni una compulsión. Si deja de ser divertido, es hora de parar.`
-        }
-      ]
-    },
-    20: {
-      title: "Ejercicios Prácticos",
-      subtitle: "Aplicando lo aprendido",
-      duration: "45 min",
-      sections: [
-        {
-          title: "Ejercicios de pricing",
-          content: `**Ejercicio 1: Cálculo de probabilidad implícita**
-
-Convierte estas cuotas a probabilidad implícita:
-• 1.50: ____%
-• 2.25: ____%
-• 3.40: ____%
-• 1.85: ____%
-• 4.50: ____%
-
-**Ejercicio 2: Cálculo de margen**
-
-Un partido tiene estas cuotas:
-• Local: 2.10
-• Empate: 3.40
-• Visitante: 3.50
-
-Calcula:
-• Probabilidad implícita de cada resultado
-• Margen total del libro
-• Probabilidades justas aproximadas
-
-**Ejercicio 3: Evaluación de valor**
-
-Crees que un equipo tiene 45% de probabilidad de ganar. Las cuotas disponibles son 2.40.
-
-• ¿Cuáles serían las cuotas justas?
-• ¿Hay valor en esta apuesta?
-• ¿Cuál es el EV por unidad apostada?
-
-**Ejercicio 4: Comparación de líneas**
-
-Para el mismo partido, tres casas ofrecen:
-• Casa A: Hándicap -1.5 @ 1.95
-• Casa B: Hándicap -1.5 @ 1.90
-• Casa C: Hándicap -1.5 @ 2.00
-
-Si apuestas regularmente esta cantidad:
-• ¿Cuánto más ganarías usando siempre la mejor línea?
-• ¿Por qué el line shopping importa a largo plazo?`
-        },
-        {
-          title: "Ejercicios de proceso",
-          content: `**Ejercicio 5: Análisis de partido**
-
-Elige un partido próximo y completa:
-1. Sin mirar cuotas, estima las probabilidades de cada resultado
-2. Anota los 3-5 factores más importantes para tu evaluación
-3. Ahora mira las cuotas del mercado
-4. ¿Hay discrepancia? ¿Por qué podría existir?
-5. ¿Apostarías? ¿En qué mercado?
-
-**Ejercicio 6: Revisión de apuesta pasada**
-
-Toma una apuesta reciente que perdiste:
-1. ¿Cuál fue tu razonamiento original?
-2. ¿Consideraste los factores correctos?
-3. ¿Tu precio justo era razonable?
-4. ¿Tomarías la misma decisión otra vez?
-5. ¿Qué aprendiste?
-
-**Ejercicio 7: Construcción de checklist**
-
-Crea tu checklist personal pre-apuesta:
-• ¿Qué información SIEMPRE necesitas?
-• ¿Qué preguntas te harás ANTES de apostar?
-• ¿Cuáles son tus reglas de stake?
-• ¿Cómo documentarás la apuesta?
-
-**Ejercicio 8: Simulación de varianza**
-
-Sin apostar dinero real, haz un seguimiento de 20 selecciones:
-• Registra tu precio justo y las cuotas del mercado
-• Sigue los resultados
-• Calcula qué habría pasado apostando 1 unidad cada una
-• Analiza: ¿Tus precios fueron razonables? ¿Identificaste valor?
-
-**Regla del curso**
-
-No has aprendido este material completamente hasta que puedas aplicarlo consistentemente bajo condiciones reales de mercado sin abandonar tus estándares en días difíciles.`
-        }
-      ]
-    },
-    21: {
-      title: "Apéndice A: Glosario",
-      subtitle: "Términos esenciales de apuestas",
-      duration: "Referencia",
-      sections: [
-        {
-          title: "A-M",
-          content: `**Acumulador (Parlay)**: Apuesta múltiple donde todas las selecciones deben ganar.
-
-**Arbitraje (Arb)**: Apostar todos los resultados con diferentes casas para garantizar ganancia.
-
-**Asian Handicap**: Hándicap que elimina el empate distribuyendo ventaja de goles.
-
-**Bankroll**: Capital total dedicado a apuestas.
-
-**Bookmaker (Bookie)**: Casa de apuestas tradicional.
-
-**Cierre (Closing Line)**: Cuotas finales antes del inicio del evento.
-
-**CLV (Closing Line Value)**: Diferencia entre cuotas tomadas y cuotas de cierre.
-
-**Decimal Odds**: Formato de cuotas donde 2.00 = dinero par.
-
-**Draw No Bet**: Apuesta donde se devuelve el stake si hay empate.
-
-**Each Way**: Apuesta combinada a ganar y a colocarse.
-
-**Edge**: Ventaja del apostador sobre la casa.
-
-**Even Money**: Cuotas de 2.00 (sin incluir stake, ganas lo mismo que apuestas).
-
-**Exchange**: Plataforma donde apostadores apuestan entre sí.
-
-**Expected Value (EV)**: Ganancia o pérdida esperada promedio.
-
-**Favorite**: Selección con menor cuota (más probable de ganar).
-
-**Fractional Odds**: Formato de cuotas como 5/2, 3/1, etc.
-
-**Futures**: Apuestas a largo plazo (campeón de liga, etc.).
-
-**Handicap**: Ventaja o desventaja aplicada a una selección.
-
-**Handle**: Volumen total apostado en un evento.
-
-**Hedge**: Apostar el lado opuesto para reducir riesgo.
-
-**Implied Probability**: Probabilidad sugerida por las cuotas.
-
-**Juice (Vig)**: Margen de la casa de apuestas.
-
-**Kelly Criterion**: Fórmula para optimizar tamaño de apuesta.
-
-**Lay**: Apostar en contra de una selección (en exchanges).
-
-**Line**: Las cuotas o spread ofrecidos.
-
-**Line Shopping**: Comparar cuotas entre casas de apuestas.
-
-**Lock**: Supuesta apuesta "segura" (no existe).
-
-**Longshot**: Selección con cuotas altas (poco probable).
-
-**Margin**: Ventaja incorporada en las cuotas por la casa.
-
-**Moneyline**: Apuesta simple a quién gana.`
-        },
-        {
-          title: "N-Z",
-          content: `**No Action**: Apuesta anulada (stake devuelto).
-
-**Odds**: Cuotas que determinan el pago potencial.
-
-**Outright**: Apuesta a un resultado de torneo/temporada.
-
-**Over/Under (Total)**: Apuesta al total de puntos/goles.
-
-**Parlay**: Apuesta múltiple combinada.
-
-**Pick 'em**: Partido sin favorito (cuotas iguales).
-
-**Point Spread**: Hándicap en puntos.
-
-**Prop Bet**: Apuesta a eventos específicos dentro del partido.
-
-**Push**: Empate contra el spread (stake devuelto).
-
-**ROI (Return on Investment)**: Ganancia como porcentaje del total apostado.
-
-**Run Line**: Spread estándar en béisbol (-1.5/+1.5).
-
-**Sharp**: Apostador profesional/experto.
-
-**Square**: Apostador casual/recreativo.
-
-**Stake**: Cantidad apostada.
-
-**Steam Move**: Movimiento rápido de línea por acción de sharps.
-
-**Straight Bet**: Apuesta simple a una selección.
-
-**Teaser**: Parlay donde puedes mover las líneas a tu favor.
-
-**Tilt**: Estado emocional que afecta negativamente las decisiones.
-
-**Tout**: Persona que vende selecciones/tips.
-
-**Underdog**: Selección con mayor cuota (menos probable).
-
-**Unit**: Medida estándar de apuesta (usualmente 1% del bankroll).
-
-**Value**: Cuando las cuotas ofrecidas superan la probabilidad real.
-
-**Variance**: Fluctuación de resultados alrededor del valor esperado.
-
-**Vig (Vigorish)**: Comisión/margen de la casa de apuestas.
-
-**Wager**: Apuesta.
-
-**Wiseguy**: Apostador profesional respetado.
-
-**Yield**: Ganancia por unidad apostada.`
-        }
-      ]
-    }
+Documenta la apuesta incluyendo: fecha, evento, mercado, selección, cuotas tomadas, apuesta, y críticamente, tu razonamiento y probabilidad estimada.`
+      },
+      {
+        title: 'Revisión post-evento',
+        content: `Después de que los eventos se liquiden, la revisión es esencial:
+
+**Qué revisar:**
+- ¿Fue bueno tu proceso independientemente del resultado?
+- ¿Tu estimación de probabilidad parece razonable en retrospectiva?
+- ¿Perdiste alguna información que deberías haber considerado?
+- ¿Obtuviste el mejor precio disponible?
+- ¿El staking fue apropiado?
+
+**Qué evitar:**
+- Juzgar la calidad solo por el resultado
+- Racionalizar después del hecho para sentirte mejor
+- Ignorar errores que "funcionaron de todos modos"
+- Castigarte por pérdidas que resultaron de buen proceso
+
+La revisión honesta es cómo mejoras. Los resultados son ruidosos. El proceso es la señal.`
+      }
+    ]
+  },
+  {
+    id: 7,
+    slug: 'football-soccer-masterclass',
+    title: '7. Masterclass de fútbol',
+    subtitle: 'Aplicando principios de apuestas al deporte más apostado del mundo',
+    duration: '15 min de lectura',
+    sections: [
+      {
+        title: 'Por qué el fútbol es único',
+        content: `El fútbol es el deporte más apostado del mundo, lo que lo hace tanto una oportunidad como un desafío. La liquidez masiva significa que los mercados son generalmente eficientes, pero el volumen de información y partidos disponibles crea bolsillos de ineficiencia para aquellos dispuestos a especializarse.
+
+**Características del fútbol que importan para las apuestas:**
+- Baja puntuación hace que los resultados sean más variables
+- Los empates son un resultado significativo (a diferencia de la mayoría de los deportes americanos)
+- El contexto de la liga importa enormemente (motivación, rotación de plantilla, congestión de calendario)
+- Las lesiones y suspensiones pueden impactar dramáticamente a equipos con plantillas poco profundas
+- Las condiciones de la cancha y el clima importan más que en deportes de interior`
+      },
+      {
+        title: 'Mercados clave de fútbol',
+        content: `**Resultado del partido (1X2):**
+El mercado más básico: victoria local, empate o victoria visitante. El empate crea complejidad que muchos apostadores evitan, pero entender el precio del empate es crucial.
+
+**Hándicaps asiáticos:**
+Eliminan el empate dando a un equipo una ventaja de gol. AH -0.5 significa que tu equipo debe ganar. AH -1.5 significa que deben ganar por 2+. AH 0 significa devolución si es empate.
+
+**Totales de goles:**
+Más/Menos 2.5 goles es el mercado más común. Las líneas se ajustan según los perfiles ofensivos/defensivos de los equipos y el contexto del partido.
+
+**Ambos equipos anotan (BTTS):**
+Apuesta binaria sobre si ambos equipos marcarán. A menudo impulsada por estadísticas defensivas y estilo de juego.
+
+**Corners, tarjetas, jugador:**
+Mercados de proposiciones que ofrecen oportunidades de especialización pero requieren un conocimiento más profundo de factores específicos.`
+      },
+      {
+        title: 'Factores de investigación del fútbol',
+        content: `**Contexto de la liga:**
+- ¿Dónde están los equipos en la tabla?
+- ¿Qué están jugando (título, descenso, nada)?
+- ¿Hay partidos de copa o de Europa en las cercanías?
+
+**Noticias del equipo:**
+- Lesiones de jugadores clave
+- Suspensiones
+- Rotación de plantilla para gestión de carga
+- Cambios gerenciales recientes
+
+**Forma:**
+- Resultados recientes (pero con contexto)
+- Goles esperados (xG) vs goles reales
+- Forma local vs visitante
+
+**Historial de enfrentamientos:**
+- Récord directo (pero con precaución: las plantillas cambian)
+- Empates de estilo que pueden favorecer a ciertos equipos
+
+**Factores externos:**
+- Clima
+- Hora del partido
+- Distancia de viaje para el equipo visitante
+- Afición y asistencia`
+      },
+      {
+        title: 'Errores comunes en apuestas de fútbol',
+        content: `**Error 1: Ignorar el empate**
+Los apostadores que vienen de deportes sin empates a menudo subestiman este resultado. En muchas ligas, aproximadamente el 25% de los partidos terminan en empate.
+
+**Error 2: Reaccionar exageradamente a resultados recientes**
+Un equipo que ganó 4-0 la semana pasada no necesariamente es mejor de lo que parecía antes. Los resultados de alto marcador a menudo implican suerte que no persistirá.
+
+**Error 3: Ignorar el contexto**
+Los partidos de mitad de tabla a final de temporada sin nada que jugar son diferentes de los choques de descenso. Ignorar la motivación es un error importante.
+
+**Error 4: Sobrevalorar nombres grandes**
+Los equipos de élite son buenas apuestas solo si el precio es correcto. "Barcelona en casa" no es automáticamente valor a cualquier precio.
+
+**Error 5: Especializarse en ligas demasiado eficientes**
+La Premier League inglesa es la más apostada del mundo. Los precios son muy afilados. Las ligas más pequeñas pueden ofrecer más ineficiencias.`
+      }
+    ]
+  },
+  {
+    id: 8,
+    slug: 'horse-racing-masterclass',
+    title: '8. Masterclass de carreras de caballos',
+    subtitle: 'Navegando un deporte único con factores complejos y mercados especializados',
+    duration: '15 min de lectura',
+    sections: [
+      {
+        title: 'Por qué las carreras de caballos son diferentes',
+        content: `Las carreras de caballos difieren de los deportes de equipo de maneras fundamentales que afectan cómo debes abordar las apuestas:
+
+**Características únicas:**
+- Eventos individuales con muchos competidores (a menudo 10-20+ corredores)
+- Un sistema de piscina (tote/pari-mutuel) que existe junto con las casas de apuestas
+- Bajas y cambios de última hora (corredores no participantes)
+- Las condiciones del suelo impactan dramáticamente el rendimiento
+- Evaluación del físico del caballo en el paddock
+- Valor de cría y propiedad creando incentivos no relacionados con las apuestas
+
+**Por qué esto importa:**
+La complejidad crea oportunidad. Muchos apostadores casuales apuestan según nombres, colores de camisetas o consejos de periódicos. El apostador serio entiende forma, terreno, distancia, preferencias de jockey/entrenador y movimientos de mercado.`
+      },
+      {
+        title: 'Factores clave para las carreras de caballos',
+        content: `**Forma:**
+Los resultados recientes importan, pero el contexto es crucial. Una derrota en un terreno equivocado o en una clase superior no es la misma que una mala carrera.
+
+**Terreno:**
+Los caballos tienen preferencias. Algunos necesitan suelo firme. Algunos necesitan suelo blando. Un especialista en terreno en su superficie preferida es muy diferente de uno en terreno equivocado.
+
+**Distancia:**
+Los caballos se especializan. Un sprinter puede no ver el final de una carrera de estancia. Un stayer puede quedarse sin velocidad en sprints. Busca coincidencias de distancia.
+
+**Clase:**
+Los caballos suben y bajan de clase. Un caballo bajando de clase (en una carrera más fácil) puede tener una ventaja. Un caballo subiendo de clase enfrenta competencia más dura.
+
+**Jockey/Entrenador:**
+Algunas combinaciones de jockey-entrenador tienen excelentes registros. Los entrenadores tienen pistas favoritas o tipos de carrera donde sobresalen.
+
+**Draw (Sorteo):**
+En ciertas pistas, la posición de salida importa significativamente, especialmente en sprints o en terreno pesado.`
+      },
+      {
+        title: 'Mercados de carreras de caballos',
+        content: `**Ganador:**
+Elige al ganador. Simple pero difícil cuando hay muchos corredores.
+
+**Each-way (E/W):**
+Dos apuestas en una: ganador y colocado. Los términos de colocación varían según el tamaño del campo y el tipo de carrera (típicamente 1/4 o 1/5 de las cuotas para 2°, 3° o 4°).
+
+**Forecast/Exacta:**
+Elige el 1° y 2° en orden. Pago más alto pero mucho más difícil.
+
+**Tricast/Trifecta:**
+Elige el 1°, 2° y 3° en orden. Pagos aún mayores, dificultad aún mayor.
+
+**Apuestas sin favorito:**
+Apuesta excluyendo a uno o más favoritos del mercado. Útil si quieres oponerte al favorito pero te gusta otro caballo.
+
+**Apuestas de mercado:**
+Apuesta sobre el ganador del mercado que será el más corto en la salida. Diferente de elegir al ganador real.`
+      },
+      {
+        title: 'Movimientos de mercado de carreras de caballos',
+        content: `Los mercados de carreras de caballos pueden ser muy informativos:
+
+**Steamers:**
+Caballos cuyo precio se acorta significativamente. Esto puede indicar dinero inteligente, información interna (legal o no), o simplemente dinero público abrumador.
+
+**Drifters:**
+Caballos cuyo precio se alarga. Podría indicar información negativa, o simplemente falta de apoyo en comparación con otros.
+
+**Movimientos de establo:**
+Cuando los establos respaldan a sus propios caballos, los precios a menudo se acortan. Las conexiones saben más sobre la preparación de su caballo que el público.
+
+**Precauciones:**
+- Los movimientos de mercado son evidencia, no prueba
+- Los precios pueden moverse por razones no relacionadas con la probabilidad de ganar
+- La liquidez en carreras de caballos varía enormemente entre carreras
+- Las bajas tardías cambian dramáticamente los cálculos del mercado`
+      }
+    ]
+  },
+  {
+    id: 9,
+    slug: 'tennis-masterclass',
+    title: '9. Masterclass de tenis',
+    subtitle: 'Apostando en un deporte individual con dinámicas únicas de emparejamientos',
+    duration: '12 min de lectura',
+    sections: [
+      {
+        title: 'Por qué el tenis es atractivo para los apostadores',
+        content: `El tenis ofrece varias ventajas para el apostador disciplinado:
+
+**Estructura:**
+- Deporte individual (sin dinámicas de equipo que seguir)
+- Sistema de puntuación clara
+- Calendario largo de torneos con partidos frecuentes
+- Buena disponibilidad de datos y estadísticas
+
+**Oportunidades:**
+- Diferencias de superficies crean especialistas
+- La forma y la aptitud fluctúan durante las temporadas largas
+- Las diferencias de motivación son medibles (defensa de puntos, calendario, etc.)
+- Los estilos de emparejamientos importan mucho
+- Menor cobertura de ciertos torneos crea ineficiencias`
+      },
+      {
+        title: 'Factores clave del tenis',
+        content: `**Superficie:**
+Las tres superficies principales juegan muy diferentemente:
+- Tierra batida: puntos más largos, favorece la consistencia, la construcción de puntos
+- Hierba: puntos más rápidos, favorece el servicio, volea, big-hitters
+- Pista dura: punto intermedio, pero varía según el torneo
+
+**Forma:**
+Los resultados recientes importan, pero el contexto es crucial. Algunos jugadores alcanzan su mejor nivel en Grand Slams. Algunos luchan al comienzo de las temporadas.
+
+**Historial directo:**
+Los emparejamientos estilísticos pueden crear patrones consistentes en partidos repetidos. Algunos jugadores simplemente coinciden bien o mal contra ciertos oponentes.
+
+**Condiciones físicas:**
+Lesiones, fatiga de calendarios pesados, ajuste a zonas horarias, todo importa. Los jugadores a menudo luchan después de partidos largos o jugando su tercer torneo consecutivo.
+
+**Condiciones de juego:**
+Clima (especialmente viento), altitud (pelotas viajan diferente), condiciones de interior vs exterior, partidos nocturnos vs diurnos.`
+      },
+      {
+        title: 'Mercados de tenis',
+        content: `**Ganador del partido:**
+Simple. ¿Quién gana? En tenis no hay empates.
+
+**Hándicaps de sets:**
+Por ejemplo, -1.5 sets significa que el jugador debe ganar en sets corridos.
+
+**Hándicaps de juegos:**
+Otorga a un jugador una ventaja de juegos. Por ejemplo, +4.5 juegos significa que pueden perder hasta 4 juegos más que el oponente y aún ganar la apuesta.
+
+**Total de juegos:**
+Más/Menos sobre el número total de juegos en el partido.
+
+**Sets totales:**
+¿Será un partido de 2 sets o 3 sets (mejor de 3) o la variación equivalente en mejor de 5?
+
+**Props:**
+Resultado del primer set, número de breaks, resultado exacto del set, etc.`
+      },
+      {
+        title: 'Errores comunes en apuestas de tenis',
+        content: `**Error 1: Ignorar variaciones de superficie**
+El ranking de un jugador puede no reflejar su nivel en superficies específicas. Un jugador #30 del mundo que es especialista en tierra batida puede ser el favorito correcto contra un jugador #15 que lucha en tierra.
+
+**Error 2: Subestimar la motivación**
+Los jugadores tienen diferentes motivaciones en diferentes puntos de la temporada. Defensa de puntos de ranking, calendario de torneos, preparación para majors: todo importa.
+
+**Error 3: No ajustar por desgaste físico**
+Un jugador que ganó un partido de 5 sets de 4 horas ayer es diferente del mismo jugador fresco.
+
+**Error 4: Seguir ciegamente el ranking**
+Los rankings son indicadores lentos y no capturan forma, superficie o especialización de emparejamientos.
+
+**Error 5: Ignorar estilos de juego**
+Algunos emparejamientos estilísticos crean patrones predecibles que el ranking por sí solo no captura. Un counterpuncher consistente puede frustrar a un big-hitter inconsistente incluso si está clasificado más bajo.`
+      }
+    ]
+  },
+  {
+    id: 10,
+    slug: 'basketball-masterclass',
+    title: '10. Masterclass de baloncesto',
+    subtitle: 'Apostando en un deporte de alta puntuación con enfoque en spreads y totales',
+    duration: '12 min de lectura',
+    sections: [
+      {
+        title: 'Características de las apuestas de baloncesto',
+        content: `El baloncesto difiere de los deportes de baja puntuación de maneras que afectan las apuestas:
+
+**Alta puntuación:**
+Con puntuaciones típicas de 95-115 en la NBA, la varianza del resultado es menor que en el fútbol. Pero la varianza del spread sigue siendo significativa.
+
+**Punto spread:**
+Debido a los resultados de alta puntuación, la mayoría de las apuestas de baloncesto involucran spreads (hándicaps) en lugar de líneas de dinero. El número más común en la NBA es alrededor de 7 puntos.
+
+**Totales:**
+Las apuestas de más/menos en puntos totales son populares. Las líneas de la NBA típicamente oscilan entre 205-235 dependiendo del ritmo y los perfiles defensivos de los equipos.
+
+**Contexto de temporada:**
+Las temporadas largas (82 juegos NBA) crean puntos donde la motivación fluctúa significativamente.`
+      },
+      {
+        title: 'Factores clave del baloncesto',
+        content: `**Descanso y fatiga:**
+Los back-to-backs (partidos en noches consecutivas) y los viajes largos importan. Los equipos con descanso vs equipos sin descanso es un factor medible.
+
+**Lesiones:**
+Las lesiones de jugadores estrella importan enormemente en el baloncesto donde los individuos tienen alto impacto. Pero las líneas se mueven rápido cuando se anuncia el estado de los jugadores.
+
+**Descanso estratégico:**
+Los equipos de playoffs a menudo descansan a jugadores cerca del final de la temporada regular. Esto crea oportunidades pero también trampas.
+
+**Intensidad:**
+Los juegos de temporada regular son simplemente diferentes de los playoffs. Los equipos elevan la intensidad defensiva en postemporada.
+
+**Diferencias de ritmo:**
+Algunos equipos juegan rápido (posesiones más altas, más puntos). Algunos juegan lento. Cuando se enfrentan diferentes estilos de ritmo, entender el impacto es clave para los totales.`
+      },
+      {
+        title: 'Mercados de baloncesto',
+        content: `**Point spread (hándicap):**
+El mercado más popular. -6.5 significa que tu equipo debe ganar por 7+. +6.5 significa que tu equipo puede perder hasta 6 y aún cubrir.
+
+**Línea de dinero:**
+Elige al ganador directamente. El favorito tiene precio negativo, el perdedor positivo.
+
+**Totales (Más/Menos):**
+Apuesta sobre si la puntuación combinada estará por encima o por debajo de un número establecido.
+
+**Totales del primer tiempo/cuarto:**
+Períodos más pequeños con más varianza pero también oportunidades de especialización.
+
+**Props de jugadores:**
+Puntos, rebotes, asistencias, etc. individuales de jugadores. Requiere conocimiento a nivel de jugador.
+
+**Apuestas alternativas:**
+Diferentes spreads o totales con cuotas ajustadas. Útil para expresar vistas matizadas.`
+      },
+      {
+        title: 'Errores comunes en apuestas de baloncesto',
+        content: `**Error 1: Ignorar el efecto back-to-back**
+Los equipos jugando su segundo juego en noches consecutivas rinden peor en promedio. Esto a menudo está valorado en las líneas pero no siempre completamente.
+
+**Error 2: Reaccionar a resultados de un solo juego**
+Con 82 juegos, las muestras de un solo juego no significan casi nada. Un equipo que perdió por 20 ayer podría ganar por 20 mañana.
+
+**Error 3: No verificar noticias de lesiones**
+Las líneas se mueven cuando se anuncia el estado de jugadores estrella. Si apuestas sin verificar las últimas noticias, estás en desventaja.
+
+**Error 4: Valorar en exceso los juegos televisados**
+Los juegos televisados a nivel nacional tienen mucha acción pública. A menudo las líneas se inflan hacia equipos populares.
+
+**Error 5: Ignorar el contexto de la temporada**
+Los juegos a mitad de temporada son diferentes de la carrera de playoffs. La motivación varía enormemente a lo largo de la temporada.`
+      }
+    ]
+  },
+  {
+    id: 11,
+    slug: 'ice-hockey-masterclass',
+    title: '11. Masterclass de hockey sobre hielo',
+    subtitle: 'Apostando en un deporte rápido donde los márgenes pequeños importan',
+    duration: '10 min de lectura',
+    sections: [
+      {
+        title: 'Características del hockey para apuestas',
+        content: `El hockey tiene características únicas:
+
+**Baja puntuación:**
+Las puntuaciones típicas de la NHL son 2-4 goles. Esto crea varianza significativa y hace que las alteraciones sean comunes.
+
+**Puck line:**
+El equivalente al point spread, típicamente fijado en 1.5 goles. Cubrir -1.5 requiere ganar por 2+.
+
+**Portería:**
+El rendimiento del portero tiene impacto enorme en los resultados pero también tiene alta varianza.
+
+**Temporada larga:**
+82 juegos crean fatiga y variación de motivación similar al baloncesto.`
+      },
+      {
+        title: 'Factores clave del hockey',
+        content: `**Partidos de porteros:**
+¿Quién está en la portería? Los porteros tienen enormes diferencias de rendimiento y las bajas de porteros importan mucho.
+
+**Descanso y fatiga:**
+Similar al baloncesto, los back-to-backs y los viajes importan.
+
+**Ventanas de power play:**
+Algunos equipos son mucho mejores en unidades especiales (power play y penalty kill). Esto puede ser explotado.
+
+**Calendario:**
+La NHL tiene calendarios condensados, especialmente cerca de playoffs.
+
+**Situaciones de portero de respaldo:**
+Cuando los porteros titulares descansan, las líneas deberían ajustarse significativamente.`
+      },
+      {
+        title: 'Mercados de hockey',
+        content: `**Línea de dinero:**
+Simplemente elige al ganador (en tiempo reglamentario para algunos libros).
+
+**Puck line:**
+Típicamente -1.5/+1.5 goles. Ganar por 2+ o perder por menos de 2.
+
+**Totales:**
+Las líneas de goles típicamente oscilan entre 5 y 7 goles totales.
+
+**Período/parciales:**
+Apuestas en períodos individuales o parciales del juego.
+
+**Props:**
+Anotadores de goles, disparos, y otros mercados específicos de jugadores.`
+      },
+      {
+        title: 'Errores comunes en apuestas de hockey',
+        content: `**Error 1: Ignorar situaciones de portero**
+Los porteros de respaldo cambian dramáticamente las probabilidades. Siempre verifica quién está en la portería.
+
+**Error 2: Sobrevalorar la forma reciente**
+Con baja puntuación, los resultados recientes pueden ser engañosos. Un equipo puede dominar y perder, o jugar mal y ganar.
+
+**Error 3: No valorar vacíos de red**
+Los goles de red vacía en los minutos finales afectan puck lines y totales. Considera esto en tu análisis.
+
+**Error 4: Ignorar motivación de playoffs**
+Similar a otros deportes, la intensidad de playoffs es muy diferente de la temporada regular.`
+      }
+    ]
+  },
+  {
+    id: 12,
+    slug: 'baseball-masterclass',
+    title: '12. Masterclass de béisbol',
+    subtitle: 'El deporte de apuestas impulsado por datos con enfoque en pitcheo',
+    duration: '12 min de lectura',
+    sections: [
+      {
+        title: 'Por qué el béisbol es único para apuestas',
+        content: `El béisbol tiene características distintivas:
+
+**Temporada larga:**
+162 juegos crean enormes oportunidades y requieren disciplina para no sobre-apostar.
+
+**Dominio del pitcheo:**
+El lanzador abridor tiene un impacto masivo en el resultado, más que cualquier jugador individual en otros deportes de equipo.
+
+**Sin reloj:**
+Los juegos toman el tiempo que toman. Esto afecta ritmo y estrategia.
+
+**Datos abundantes:**
+El béisbol es el deporte más analizado estadísticamente, con métricas avanzadas ampliamente disponibles.`
+      },
+      {
+        title: 'El factor del lanzador abridor',
+        content: `Los lanzadores abridores importan enormemente:
+
+**Por qué importa:**
+Un ace enfrentando un lanzador #5 puede valer 2+ carreras de expectativa diferencial.
+
+**Líneas de pitcheo listado:**
+Muchos libros ofrecen "pitcheo listado" donde la apuesta solo cuenta si los lanzadores anunciados realmente inician.
+
+**Estadísticas de pitcheo:**
+ERA, WHIP, K/9, FIP: todas ayudan a evaluar la calidad del lanzador.
+
+**Descanso:**
+Los lanzadores con descanso corto típicamente rinden peor. Verifica días de descanso.`
+      },
+      {
+        title: 'Mercados de béisbol',
+        content: `**Línea de dinero:**
+Elige al ganador. Las líneas de béisbol a menudo son las más cercanas al 50-50 de cualquier deporte importante.
+
+**Run line:**
+Típicamente fijado en 1.5 carreras. Similar al point spread pero con número fijo.
+
+**Totales:**
+Las líneas de carreras totales típicamente oscilan entre 7 y 10 dependiendo del estadio, clima y emparejamientos de pitcheo.
+
+**Primera mitad (F5):**
+Apuestas en las primeras 5 entradas, centradas en lanzadores abridores.
+
+**Props de jugadores:**
+Bases, hits, strikeouts, etc. de bateadores y lanzadores individuales.`
+      },
+      {
+        title: 'Errores comunes en apuestas de béisbol',
+        content: `**Error 1: Ignorar efectos del estadio**
+Algunos estadios favorecen la ofensiva (Coors Field). Algunos favorecen el pitcheo. Ajusta los totales acordemente.
+
+**Error 2: No verificar el clima**
+El viento puede afectar dramáticamente los totales. El viento soplando hacia afuera aumenta runs. El viento soplando hacia adentro los reduce.
+
+**Error 3: Sobre-apostar cada día**
+162 juegos significan que la selectividad es crucial. No puedes apostar cada juego con calidad.
+
+**Error 4: Ignorar divisiones de platoon**
+Algunos bateadores tienen grandes diferencias vs zurdos y derechos. Las alineaciones cambian basándose en la mano del lanzador.
+
+**Error 5: Valorar en exceso las rachas**
+Las rachas ganadoras y perdedoras son en su mayoría ruido en el béisbol. No persigas rachas calientes.`
+      }
+    ]
+  },
+  {
+    id: 13,
+    slug: 'american-football-masterclass',
+    title: '13. Masterclass de fútbol americano',
+    subtitle: 'NFL y fútbol universitario: spreads, totales y mercados de apoyos',
+    duration: '12 min de lectura',
+    sections: [
+      {
+        title: 'Características del fútbol americano para apuestas',
+        content: `El fútbol americano tiene características únicas:
+
+**Juegos limitados:**
+La NFL tiene solo 17 juegos de temporada regular por equipo. Esto hace que cada juego sea significativo y crea líneas más eficientes.
+
+**Dominio del point spread:**
+El spread es el rey en las apuestas de fútbol americano. "Cubrir el spread" es el concepto central.
+
+**Números clave:**
+Ciertos márgenes de victoria son más comunes (3, 7, 10). Estos "números clave" afectan cómo deben valorarse las líneas.
+
+**Información pública:**
+Los juegos de la NFL reciben atención mediática masiva. La información se incorpora rápidamente.`
+      },
+      {
+        title: 'Factores clave del fútbol americano',
+        content: `**Lesiones:**
+Los informes de lesiones del miércoles-viernes en la NFL son cruciales. El estado de los jugadores clave afecta las líneas significativamente.
+
+**Ventaja de local:**
+Históricamente significativa en el fútbol, aunque ha disminuido en años recientes.
+
+**Bye weeks:**
+Los equipos saliendo de semanas de descanso típicamente rinden mejor. Esto a menudo está valorado pero no siempre completamente.
+
+**Trampas de venganza:**
+Juegos que "parecen" demasiado fáciles a menudo no lo son. Usa precaución.
+
+**Clima:**
+Los juegos al aire libre pueden verse dramáticamente afectados por el clima, especialmente los totales.`
+      },
+      {
+        title: 'Mercados de fútbol americano',
+        content: `**Point spread:**
+El mercado dominante. -3 significa que debes ganar por 4+. +3 significa que puedes perder hasta 3 y aún cubrir.
+
+**Totales:**
+Las líneas de la NFL típicamente oscilan entre 37-54 puntos combinados.
+
+**Línea de dinero:**
+Disponible pero típicamente con alto jugo para favoritos y mucha compensación para perdedores.
+
+**Apoyos de jugadores:**
+Yardas de pase, yardas de carrera, recepciones, etc.
+
+**Apoyos de equipo:**
+Puntuación del equipo, márgenes, primeras mitades/cuartos.
+
+**Futuros:**
+Ganador del Super Bowl, totales de victorias de temporada, premios de jugadores.`
+      },
+      {
+        title: 'Errores comunes en apuestas de fútbol americano',
+        content: `**Error 1: Ignorar números clave**
+El 3 y el 7 son los márgenes de victoria más comunes. Un spread de -2.5 vs -3.5 importa mucho.
+
+**Error 2: Sesgo de equipos públicos**
+Los equipos populares como Cowboys, Patriots, Packers reciben acción pública desproporcionada. Las líneas a menudo se inflan.
+
+**Error 3: Reaccionar exageradamente a la semana anterior**
+Los resultados de la NFL tienen alta varianza. La derrota de la semana pasada no dice tanto como crees sobre la semana siguiente.
+
+**Error 4: Ignorar el clima para totales**
+Los juegos en condiciones de mal clima típicamente van under. Verifica pronósticos.
+
+**Error 5: Fútbol universitario como NFL**
+El fútbol universitario tiene mucha más varianza, más partidos lopsided y diferentes dinámicas. No apliques las mismas reglas.`
+      }
+    ]
+  },
+  {
+    id: 14,
+    slug: 'other-sports-and-niches',
+    title: '14. Otros deportes y nichos especializados',
+    subtitle: 'Encontrando ventajas en mercados menos cubiertos',
+    duration: '10 min de lectura',
+    sections: [
+      {
+        title: 'Por qué los nichos pueden ser rentables',
+        content: `Los deportes principales tienen mercados eficientes porque reciben mucha atención de apostadores sofisticados y casas de apuestas. Los nichos pueden ofrecer ventajas por varias razones:
+
+**Menos escrutinio:**
+Las casas de apuestas dedican menos recursos a valorar mercados de nicho, creando más errores de precio.
+
+**Menos competencia:**
+Menos apostadores sofisticados compitiendo por valor significa que los errores persisten más tiempo.
+
+**Especialización posible:**
+Puedes convertirte en experto en un área donde tienes ventaja informativa.
+
+**Límites más bajos:**
+El inconveniente: las casas de apuestas a menudo tienen límites más bajos en nichos.`
+      },
+      {
+        title: 'Ejemplos de nichos',
+        content: `**Ligas menores:**
+Ligas de fútbol de segunda división, básquetbol europeo menor, béisbol de ligas menores, etc.
+
+**Deportes de nicho:**
+Dardos, snooker, bádminton, voleibol, handball, cricket, rugby, etc.
+
+**Esports:**
+Un campo en crecimiento con mercados que todavía están madurando.
+
+**Torneos específicos:**
+Torneos de un solo evento que reciben menos atención que las ligas principales.
+
+**Mercados de proposiciones:**
+Props de jugadores individuales en deportes principales a menudo tienen márgenes más suaves.`
+      },
+      {
+        title: 'Precauciones con nichos',
+        content: `**Información limitada:**
+Menor cobertura significa menos datos disponibles. Necesitas fuentes alternativas.
+
+**Liquidez baja:**
+Los límites bajos significan que incluso si encuentras valor, no puedes apostar mucho.
+
+**Restricciones más rápidas:**
+Las casas de apuestas a menudo restringen más rápido a los ganadores en nichos.
+
+**Mercados frágiles:**
+Los precios pueden ser volátiles y moverse mucho con apuestas relativamente pequeñas.
+
+**Integridad:**
+Algunos nichos tienen mayor riesgo de manipulación de partidos. Usa precaución.`
+      }
+    ]
+  },
+  {
+    id: 15,
+    slug: 'bet-types-masterclass',
+    title: '15. Masterclass de tipos de apuestas',
+    subtitle: 'Entendiendo todos los mercados disponibles y cuándo usar cada uno',
+    duration: '12 min de lectura',
+    sections: [
+      {
+        title: 'Tipos básicos de apuestas',
+        content: `**Línea de dinero / Ganador del partido:**
+La apuesta más simple: elige al ganador. En mercados de 3 vías (fútbol) incluye el empate.
+
+**Point spread / Hándicap:**
+Otorga una ventaja a un equipo. Usado para nivelar partidos desiguales y crear odds cercanas al 50-50.
+
+**Totales (Más/Menos):**
+Apuesta sobre la puntuación combinada en relación con una línea establecida.
+
+**Props (Proposiciones):**
+Apuestas sobre eventos específicos: anotadores, estadísticas de jugadores, eventos del juego, etc.
+
+**Futuros:**
+Apuestas sobre resultados a largo plazo: campeones, totales de victorias de temporada, premios de jugadores.`
+      },
+      {
+        title: 'Tipos avanzados de apuestas',
+        content: `**Parlays (Combinadas):**
+Múltiples selecciones que deben ganar todas. Mayor pago pero menor probabilidad.
+
+**Teasers:**
+Parlays donde puedes mover el spread a tu favor, a cambio de menores cuotas.
+
+**If bets:**
+Apuestas condicionales donde la segunda apuesta solo se realiza si la primera gana.
+
+**Round robins:**
+Múltiples parlays creados a partir de un grupo de selecciones.
+
+**Constructores de apuestas (Same game parlays):**
+Parlays de múltiples resultados dentro del mismo juego.`
+      },
+      {
+        title: 'Cuándo usar cada tipo',
+        content: `**Línea de dinero:**
+- Cuando la ventaja está en quién gana, no el margen
+- Cuando los precios de spread no son atractivos
+- En deportes sin spreads comunes (tenis)
+
+**Spreads:**
+- Cuando la ventaja está en el margen de victoria
+- Para moderar el riesgo en partidos lopsided
+- En deportes de alta puntuación donde los spreads son el mercado principal
+
+**Totales:**
+- Cuando tienes una vista sobre la puntuación combinada pero no quién gana
+- Cuando los factores (clima, estilos) apuntan a juegos altos o bajos más que a ganadores
+
+**Props:**
+- Cuando tienes información específica sobre jugadores individuales
+- Para diversificar lejos de resultados de partidos
+- Cuando el margen del mercado principal es demasiado alto
+
+**Futuros:**
+- Cuando tienes una vista a largo plazo antes del consenso del mercado
+- Para hedging durante la temporada
+- Para entretenimiento a largo plazo (con moderación)`
+      },
+      {
+        title: 'Advertencias sobre parlays',
+        content: `Los parlays son el producto favorito de las casas de apuestas por una razón: son muy rentables para ellos.
+
+**Por qué los parlays son difíciles:**
+- El margen se compone con cada selección
+- Necesitas TODAS las selecciones correctas
+- Un mal pick arruina todo el parlay
+- La varianza es extremadamente alta
+
+**Cuándo los parlays pueden tener sentido:**
+- Cuando tienes selecciones genuinamente correlacionadas
+- Cuando los pagos del parlay ofrecen mejor valor que las apuestas individuales
+- Con moderación extrema y plena conciencia del impacto del margen
+
+**La regla general:**
+Si no puedes explicar por qué el parlay específico tiene valor que las apuestas individuales no tienen, probablemente no lo tiene.`
+      }
+    ]
+  },
+  {
+    id: 16,
+    slug: 'personal-betting-notebook',
+    title: '16. Cuaderno personal de apuestas, registro de decisiones y registro de revisión',
+    subtitle: 'Creando el sistema de documentación que permite la mejora',
+    duration: '10 min de lectura',
+    sections: [
+      {
+        title: 'Por qué el registro importa',
+        content: `El registro no es opcional para el apostador serio. Sin registros:
+- No puedes verificar tu rendimiento real vs percibido
+- No puedes identificar patrones en tus errores
+- No puedes distinguir mala suerte de mal proceso
+- No puedes mejorar sistemáticamente
+
+**Lo que el registro hace:**
+- Crea honestidad con uno mismo
+- Permite revisión retrospectiva
+- Identifica fortalezas y debilidades
+- Documenta el proceso, no solo los resultados`
+      },
+      {
+        title: 'Qué registrar para cada apuesta',
+        content: `**Información básica:**
+- Fecha y hora
+- Evento y mercado específico
+- Selección
+- Cuotas tomadas
+- Casa de apuestas/exchange utilizado
+- Tamaño de apuesta (unidades)
+- Resultado y ganancia/pérdida
+
+**Información de proceso:**
+- Tu probabilidad estimada
+- Cuotas justas calculadas
+- Razonamiento para la apuesta
+- Factores clave considerados
+- Confianza nivel (1-5)
+- Cualquier duda o preocupación
+
+**Información post-evento:**
+- ¿El razonamiento fue sólido?
+- ¿Perdiste algo importante?
+- ¿Obtuviste el mejor precio?
+- ¿Qué aprendiste?`
+      },
+      {
+        title: 'Formatos de registro',
+        content: `**Hojas de cálculo:**
+Excel, Google Sheets. Permite cálculos, filtros, análisis. La opción más común.
+
+**Bases de datos:**
+Más poderosas pero requieren más configuración. Buenas para apostadores de alto volumen.
+
+**Aplicaciones especializadas:**
+Varias apps diseñadas para seguimiento de apuestas. Conveniencia vs personalización.
+
+**Cuadernos físicos:**
+Algunas personas prefieren escribir a mano. Menos analítico pero bueno para reflexión.
+
+**Lo que importa:**
+- Usa algo que realmente uses consistentemente
+- Incluye tanto datos cuantitativos como notas cualitativas
+- Sea accesible cuando hagas apuestas
+- Permita fácil revisión y análisis`
+      },
+      {
+        title: 'Errores comunes de registro',
+        content: `**Error 1: No registrar todas las apuestas**
+Las pérdidas son fáciles de "olvidar". Registra TODO, especialmente las pérdidas.
+
+**Error 2: Solo registrar resultados**
+Los resultados sin proceso no enseñan nada. Documenta tu razonamiento.
+
+**Error 3: Registrar después del hecho**
+Registra antes de colocar la apuesta o inmediatamente después. La memoria es selectiva.
+
+**Error 4: Nunca revisar los registros**
+Los registros sin revisión son inútiles. Programa tiempo regular para análisis.
+
+**Error 5: Sistema demasiado complicado**
+Un sistema que no usas es inútil. Mantén simple lo suficiente para ser consistente.`
+      }
+    ]
+  },
+  {
+    id: 17,
+    slug: 'performance-review-learning',
+    title: '17. Revisión de rendimiento, mantenimiento de registros y aprendizaje de resultados',
+    subtitle: 'Convirtiendo datos en mejora a través de análisis sistemático',
+    duration: '10 min de lectura',
+    sections: [
+      {
+        title: 'Por qué la revisión sistemática importa',
+        content: `El registro sin revisión es solo acumulación de datos. La revisión es donde ocurre el aprendizaje.
+
+**Qué hace la revisión:**
+- Identifica patrones que no son obvios en tiempo real
+- Separa habilidad de suerte
+- Encuentra fugas de rentabilidad
+- Valida o invalida tu proceso
+- Guía dónde enfocar esfuerzos de mejora`
+      },
+      {
+        title: 'Métricas clave para rastrear',
+        content: `**ROI (Retorno sobre inversión):**
+Beneficio neto dividido por volumen total apostado. La métrica de rentabilidad más importante.
+
+**Tasa de acierto:**
+Porcentaje de apuestas ganadas. Útil pero debe interpretarse con cuotas promedio.
+
+**CLV (Valor de línea de cierre):**
+¿Tus precios fueron mejores o peores que los de cierre? Predictor fuerte de habilidad.
+
+**Yield:**
+Similar a ROI pero expresado como porcentaje de volumen.
+
+**Drawdown máximo:**
+La peor caída de pico a valle. Mide riesgo y supervivencia.
+
+**Sharpe ratio:**
+Retorno ajustado por riesgo. Más sofisticado pero útil para comparar estrategias.`
+      },
+      {
+        title: 'Frecuencia de revisión',
+        content: `**Revisión diaria/semanal:**
+- ¿Seguí mi proceso?
+- ¿Documenté todo correctamente?
+- ¿Hay errores de ejecución?
+
+**Revisión mensual:**
+- Métricas de rendimiento
+- ¿Qué deportes/mercados funcionan mejor?
+- ¿Qué tipos de apuestas tienen mejor rendimiento?
+- ¿Hay patrones en las pérdidas?
+
+**Revisión trimestral/anual:**
+- Análisis estratégico profundo
+- ¿El enfoque general funciona?
+- ¿Qué cambios importantes hacer?
+- ¿Dónde enfocar el próximo período?`
+      },
+      {
+        title: 'Errores comunes de revisión',
+        content: `**Error 1: Solo revisar cuando las cosas van mal**
+Revisa también los períodos exitosos. Aprende de ambos.
+
+**Error 2: Cambiar de estrategia demasiado rápido**
+La varianza requiere muestras grandes. No cambies todo después de una mala semana.
+
+**Error 3: Juzgar solo por resultados**
+Un buen proceso puede perder a corto plazo. Un mal proceso puede ganar. Mira más profundo.
+
+**Error 4: Ignorar contexto**
+¿Las pérdidas fueron en partidos donde el proceso fue bueno? ¿Las ganancias fueron con buen proceso o suerte?
+
+**Error 5: No actuar sobre los hallazgos**
+La revisión sin cambios de comportamiento es ejercicio vacío. Implementa lo que aprendas.`
+      }
+    ]
+  },
+  {
+    id: 18,
+    slug: 'psychology-discipline-tilt',
+    title: '18. Psicología, disciplina, control de tilt y rutinas profesionales',
+    subtitle: 'Manejando la mente del apostador',
+    duration: '12 min de lectura',
+    sections: [
+      {
+        title: 'Por qué la psicología importa',
+        content: `Puedes tener el mejor proceso analítico del mundo y aún perder dinero si no puedes ejecutarlo consistentemente. La psicología es el puente entre saber qué hacer y realmente hacerlo.
+
+**Desafíos psicológicos comunes:**
+- Tilt (apuestas emocionales después de pérdidas)
+- Persecución de pérdidas
+- Exceso de confianza después de rachas ganadoras
+- Aversión a la pérdida (no cortar apuestas malas)
+- Sesgo de confirmación (buscar información que confirme tu apuesta)
+- Sesgo de resultado (juzgar decisiones solo por resultados)`
+      },
+      {
+        title: 'Entendiendo y controlando el tilt',
+        content: `El tilt es el estado emocional donde abandonas tu proceso y tomas decisiones impulsivas. Típicamente se desencadena por:
+- Pérdidas inesperadas
+- "Bad beats" (pérdidas de último minuto)
+- Rachas perdedoras extendidas
+- Ganancias perdidas (no tomar una apuesta que hubiera ganado)
+
+**Señales de tilt:**
+- Aumentar apuestas para recuperar pérdidas
+- Tomar apuestas que no habrías tomado normalmente
+- Sentir urgencia de "arreglar" la situación
+- Ignorar tu proceso establecido
+- Justificar apuestas con lógica débil
+
+**Estrategias anti-tilt:**
+- Establece límites de pérdida diarios
+- Toma descansos obligatorios después de pérdidas grandes
+- Usa la regla de 24 horas para apuestas emocionales
+- Ten un compañero de rendición de cuentas
+- Registra tu estado emocional junto con tus apuestas`
+      },
+      {
+        title: 'Construyendo rutinas profesionales',
+        content: `Los apostadores exitosos tratan esto como un trabajo, no como un hobby. Esto significa rutinas:
+
+**Rutina pre-apuesta:**
+- Revisar la cartera del día
+- Identificar eventos de interés
+- Hacer investigación antes de ver precios
+- Calcular probabilidades justas
+- Comparar con el mercado
+- Tomar decisiones basadas en proceso, no emoción
+
+**Rutina post-apuesta:**
+- Documentar inmediatamente
+- Registrar razonamiento
+- No obsesionarse con resultados individuales
+
+**Rutina de fin del día:**
+- Revisar actividad del día
+- Verificar registros completos
+- Identificar cualquier desviación del proceso
+- Preparar para el día siguiente`
+      },
+      {
+        title: 'Mentalidad a largo plazo',
+        content: `**Aceptar varianza:**
+Las pérdidas a corto plazo son inevitables incluso con ventaja. Internaliza esto.
+
+**Proceso sobre resultados:**
+Evalúa decisiones por la calidad del proceso, no solo por si ganaron.
+
+**Paciencia:**
+La ventaja se realiza en cientos o miles de apuestas, no en docenas.
+
+**Humildad:**
+Siempre puedes estar equivocado. Mantén la mente abierta.
+
+**Crecimiento continuo:**
+Los mercados evolucionan. Sigue aprendiendo y adaptándote.
+
+**Balance de vida:**
+Las apuestas no son todo. Mantén perspectiva y relaciones saludables fuera de esto.`
+      }
+    ]
+  },
+  {
+    id: 19,
+    slug: 'safer-gambling-compliance',
+    title: '19. Estándares de juego más seguro, conciencia de cumplimiento y protección personal',
+    subtitle: 'Apostando responsablemente y protegiéndote',
+    duration: '10 min de lectura',
+    sections: [
+      {
+        title: 'Juego responsable: no es opcional',
+        content: `Las apuestas deportivas pueden ser una actividad de ocio o incluso una fuente de ingresos para algunos, pero también conlleva riesgos reales:
+
+**Riesgos del juego:**
+- Pérdida financiera (la mayoría de los apostadores pierden a largo plazo)
+- Adicción al juego (un problema real que afecta a millones)
+- Impacto en relaciones y salud mental
+- Problemas legales (en jurisdicciones donde es ilegal)
+
+**Señales de problema:**
+- Apostar más de lo que puedes permitirte perder
+- Perseguir pérdidas
+- Mentir sobre actividad de apuestas
+- Apostar afecta trabajo, relaciones o salud
+- Incapacidad de dejar de apostar
+- Pedir dinero prestado para apostar`
+      },
+      {
+        title: 'Estableciendo límites',
+        content: `**Límite de bankroll:**
+Solo apuesta con dinero que puedes permitirte perder completamente. Nunca dinero de alquiler, facturas o necesidades.
+
+**Límites de pérdida:**
+Establece límites diarios, semanales y mensuales de pérdida. Respétalos sin excepción.
+
+**Límites de tiempo:**
+Las sesiones largas conducen a decisiones fatigadas. Limita el tiempo dedicado.
+
+**Herramientas de autoexclusión:**
+Muchas casas de apuestas ofrecen herramientas para limitarte. Úsalas si es necesario.
+
+**Descansos obligatorios:**
+Toma descansos regulares de las apuestas, especialmente después de períodos intensos.`
+      },
+      {
+        title: 'Recursos de ayuda',
+        content: `Si tú o alguien que conoces tiene problemas con el juego, hay ayuda disponible:
+
+**Líneas de ayuda:**
+La mayoría de los países tienen líneas telefónicas de ayuda para jugadores problemáticos.
+
+**Grupos de apoyo:**
+Jugadores Anónimos y organizaciones similares ofrecen apoyo comunitario.
+
+**Terapia profesional:**
+Los terapeutas especializados en adicciones pueden ayudar.
+
+**Autoexclusión:**
+Programas que te prohíben entrar en casinos o sitios de apuestas.
+
+**Recursos financieros:**
+Asesoramiento de deudas si las apuestas han causado problemas financieros.`
+      },
+      {
+        title: 'Cumplimiento legal',
+        content: `**Conoce las leyes locales:**
+Las apuestas deportivas tienen diferentes estatus legales según el país y región. Conoce las leyes donde vives.
+
+**Impuestos:**
+En muchos lugares, las ganancias de apuestas son gravables. Mantén registros y cumple con las obligaciones fiscales.
+
+**Casas de apuestas con licencia:**
+Usa solo operadores con licencia que estén regulados y protejan tus fondos.
+
+**Edad legal:**
+Solo apuesta si tienes la edad legal en tu jurisdicción (típicamente 18 o 21).
+
+**Privacidad:**
+Protege tu información personal. Usa contraseñas fuertes y autenticación de dos factores cuando esté disponible.`
+      }
+    ]
+  },
+  {
+    id: 20,
+    slug: 'practical-exercises',
+    title: '20. Ejercicios prácticos',
+    subtitle: 'Aplicando lo aprendido a través de ejercicios estructurados',
+    duration: '15 min de lectura',
+    sections: [
+      {
+        title: 'Ejercicio 1: Cálculo de probabilidad y valor',
+        content: `**Objetivo:** Practicar la conversión entre cuotas y probabilidad, y identificar valor.
+
+**Instrucciones:**
+1. Elige un evento próximo en un deporte que conozcas
+2. Sin mirar las cuotas, estima la probabilidad de cada resultado
+3. Convierte tus probabilidades a cuotas justas
+4. Ahora mira las cuotas del mercado
+5. Compara: ¿Hay valor en algún lado?
+
+**Preguntas de reflexión:**
+- ¿Qué tan cerca estuvieron tus estimaciones del mercado?
+- ¿Dónde fue tu estimación muy diferente? ¿Por qué?
+- ¿El valor que identificaste es suficiente para compensar el margen?`
+      },
+      {
+        title: 'Ejercicio 2: Revisión de apuesta hipotética',
+        content: `**Objetivo:** Practicar la documentación y revisión de apuestas.
+
+**Instrucciones:**
+1. Identifica una apuesta que harías (o harías hipotéticamente)
+2. Documenta completamente:
+   - Evento, mercado, selección
+   - Tu probabilidad estimada
+   - Cuotas disponibles
+   - Tamaño de apuesta (asumiendo 100 unidades de bankroll)
+   - Razonamiento detallado
+   - Factores considerados
+   - Dudas o preocupaciones
+3. Después del evento, revisa:
+   - ¿El proceso fue sólido?
+   - ¿Perdiste algo importante?
+   - ¿Qué aprendiste?
+
+**Incluso si no apuestas dinero real, este ejercicio construye el hábito del proceso.`
+      },
+      {
+        title: 'Ejercicio 3: Análisis de línea de cierre',
+        content: `**Objetivo:** Entender cómo medir si estás obteniendo buenos precios.
+
+**Instrucciones:**
+1. Para tu próxima apuesta, registra:
+   - Cuotas cuando tomaste la apuesta
+   - Hora cuando tomaste la apuesta
+   - Cuotas al inicio del evento (línea de cierre)
+2. Calcula si obtuviste CLV+ o CLV-
+3. Repite para 20+ apuestas
+4. Analiza: ¿Consistentemente obtienes mejores o peores precios que el cierre?
+
+**Por qué esto importa:**
+CLV positivo consistente es uno de los mejores predictores de rentabilidad a largo plazo.`
+      },
+      {
+        title: 'Ejercicio 4: Staking bajo varianza',
+        content: `**Objetivo:** Experimentar la varianza y entender por qué el staking importa.
+
+**Instrucciones:**
+Usa una simulación (hoja de cálculo o papel):
+1. Asume 52% de probabilidad de ganar a cuotas de 2.00 (EV+)
+2. Simula 100 apuestas con diferentes tamaños de staking:
+   - 1% de bankroll por apuesta
+   - 5% de bankroll por apuesta
+   - 10% de bankroll por apuesta
+3. Rastrea el valor del bankroll a lo largo del tiempo
+4. Observa las diferencias en volatilidad y riesgo de ruina
+
+**Lección:**
+Incluso con ventaja, el staking inadecuado puede llevar a la ruina.`
+      }
+    ]
+  },
+  {
+    id: 21,
+    slug: 'extended-betting-glossary',
+    title: 'Apéndice A: Glosario extendido de apuestas',
+    subtitle: 'Términos esenciales que todo apostador debe conocer',
+    duration: '10 min de lectura',
+    sections: [
+      {
+        title: 'A-F',
+        content: `**Acca (Accumulator/Combinada):** Apuesta múltiple donde todas las selecciones deben ganar.
+
+**Against the spread (ATS):** Rendimiento de un equipo contra el point spread, no solo ganar/perder.
+
+**Asian Handicap:** Sistema de hándicap que elimina el empate dando ventajas en fracciones de gol.
+
+**Bankroll:** Capital total dedicado a apuestas.
+
+**Chalk:** El favorito en un evento.
+
+**Closing line:** Las cuotas finales antes del inicio del evento.
+
+**Cover:** Ganar contra el spread.
+
+**Dog (Underdog):** El no favorito.
+
+**Drift:** Cuando las cuotas se alargan (el pago potencial aumenta).
+
+**Edge:** Ventaja sobre el mercado.
+
+**Even money:** Cuotas de 2.00 / 1/1 / +100.
+
+**Expected value (EV):** Ganancia o pérdida promedio esperada de una apuesta.
+
+**Favorite:** La selección que el mercado considera más probable de ganar.
+
+**Fixed odds:** Cuotas que no cambian después de que se acepta la apuesta.
+
+**Futures:** Apuestas sobre eventos futuros (campeonatos, premios, etc.).`
+      },
+      {
+        title: 'G-M',
+        content: `**Handicap:** Ventaja dada a un equipo para nivelar el campo de apuestas.
+
+**Handle:** Cantidad total de dinero apostado en un evento.
+
+**Hedge:** Apostar en el lado opuesto para garantizar ganancias o limitar pérdidas.
+
+**Juice (Vig/Vigorish):** La comisión de la casa de apuestas incorporada en las cuotas.
+
+**Kelly criterion:** Fórmula para calcular el tamaño óptimo de apuesta.
+
+**Line:** Las cuotas o spread en un evento.
+
+**Line shopping:** Comparar cuotas entre múltiples casas de apuestas.
+
+**Live betting (In-play):** Apostar mientras el evento está en curso.
+
+**Lock:** Apuesta supuestamente "segura" (advertencia: no existe tal cosa).
+
+**Longshot:** Selección con baja probabilidad de ganar pero alto pago potencial.
+
+**Margin:** El porcentaje de beneficio incorporado en las cuotas por la casa de apuestas.
+
+**Middle:** Ganar en ambos lados de una apuesta debido a movimiento de línea.
+
+**Money line:** Apuesta simple sobre quién ganará.`
+      },
+      {
+        title: 'N-S',
+        content: `**No action:** Apuesta que se anula y se devuelve la apuesta.
+
+**Odds:** Representación numérica de la probabilidad y el pago.
+
+**Over/Under (Totals):** Apuesta sobre si la puntuación combinada será mayor o menor que un número establecido.
+
+**Parlay:** Apuesta múltiple donde todas las selecciones deben ganar.
+
+**Point spread:** Hándicap de puntos dado a un equipo.
+
+**Price:** Las cuotas ofrecidas.
+
+**Prop (Proposition bet):** Apuesta sobre un evento específico dentro de un juego.
+
+**Push:** Empate contra el spread; se devuelve la apuesta.
+
+**ROI (Return on Investment):** Beneficio dividido por cantidad apostada.
+
+**Sharp:** Apostador profesional o informado.
+
+**Soft book:** Casa de apuestas con líneas menos eficientes.
+
+**Square:** Apostador recreativo o no informado.
+
+**Steam move:** Movimiento rápido de línea debido a apuestas coordinadas o grandes.
+
+**Stake:** La cantidad apostada.
+
+**Straight bet:** Apuesta simple en un solo resultado.`
+      },
+      {
+        title: 'T-Z',
+        content: `**Teaser:** Parlay donde puedes mover los spreads a tu favor por cuotas reducidas.
+
+**Ticket:** El registro de una apuesta.
+
+**Tilt:** Estado emocional negativo que lleva a malas decisiones de apuestas.
+
+**Tout:** Persona que vende picks o predicciones.
+
+**True odds:** Cuotas que reflejan la probabilidad real sin margen.
+
+**Underdog:** El no favorito; el equipo que se espera que pierda.
+
+**Unit:** Medida estandarizada de apuesta, típicamente 1% del bankroll.
+
+**Value:** Cuando las cuotas son mejores de lo que deberían ser basándose en la probabilidad real.
+
+**Variance:** Fluctuación natural de resultados alrededor de la expectativa.
+
+**Vig (Vigorish):** La comisión de la casa de apuestas.
+
+**Wager:** Apuesta.
+
+**Whale:** Apostador que hace apuestas muy grandes.
+
+**Yield:** Beneficio como porcentaje del volumen apostado.`
+      }
+    ]
   }
-}
+]
