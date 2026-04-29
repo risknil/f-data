@@ -37,45 +37,52 @@ export interface TranslatedModule {
   }[]
 }
 
-// Helper to convert object format to array format
-function objectToArray(obj: Record<number, TrainingModule>): TrainingModule[] {
-  return Object.values(obj)
+// Helper to convert object format {1: {...}, 2: {...}} to array with id
+function objectModulesToArray(obj: Record<number, any>): TrainingModule[] {
+  return Object.entries(obj).map(([key, value]) => ({
+    ...value,
+    id: parseInt(key),
+    slug: englishModules.find(m => m.id === parseInt(key))?.slug || ''
+  }))
 }
 
-// Helper to convert content format (with modules property) to array
-function contentToArray(content: { modules: TrainingModule[] }): TrainingModule[] {
-  return content.modules || []
+// Helper for nested modules format {modules: {1: {...}, 2: {...}}}
+function nestedModulesToArray(content: any): TrainingModule[] {
+  if (content?.modules && typeof content.modules === 'object') {
+    return objectModulesToArray(content.modules)
+  }
+  return []
 }
 
-// Map of all available translations - normalize to arrays
+// Normalize all translations to arrays
 const translations: Record<string, TrainingModule[]> = {
   en: englishModules,
-  hu: trainingModulesHU,
-  de: trainingModulesDE,
-  es: contentToArray(trainingContentES as any),
-  fr: contentToArray(trainingContentFR as any),
-  pt: contentToArray(trainingContentPT as any),
-  it: contentToArray(trainingModulesIT as any),
-  nl: contentToArray(trainingModulesNL as any),
-  pl: contentToArray(trainingModulesPL as any),
-  sv: contentToArray(trainingModulesSv as any),
-  ro: contentToArray(trainingModulesRo as any),
-  'zh-CN': contentToArray(trainingModulesZhCN as any),
-  'zh-TW': contentToArray(trainingZhTW as any),
-  ja: contentToArray(trainingJa as any),
-  ko: contentToArray(trainingKo as any),
-  ar: contentToArray(trainingAr as any),
-  da: contentToArray(trainingDa as any),
-  el: contentToArray(trainingEl as any),
-  no: contentToArray(trainingNo as any),
-  fi: contentToArray(trainingFi as any),
-  cs: contentToArray(trainingCs as any),
-  sw: contentToArray(trainingSw as any),
-  af: trainingModulesAF,
-  zu: objectToArray(zuluModules),
-  xh: objectToArray(xhosaModules),
-  hi: trainingModulesHi,
-  tl: trainingModulesTl,
+  hu: Array.isArray(trainingModulesHU) ? trainingModulesHU : [],
+  de: Array.isArray(trainingModulesDE) ? trainingModulesDE : [],
+  es: nestedModulesToArray(trainingContentES),
+  fr: nestedModulesToArray(trainingContentFR),
+  pt: nestedModulesToArray(trainingContentPT),
+  it: nestedModulesToArray(trainingModulesIT),
+  nl: nestedModulesToArray(trainingModulesNL),
+  pl: nestedModulesToArray(trainingModulesPL),
+  sv: nestedModulesToArray(trainingModulesSv),
+  ro: nestedModulesToArray(trainingModulesRo),
+  'zh-CN': nestedModulesToArray(trainingModulesZhCN),
+  'zh-TW': nestedModulesToArray(trainingZhTW),
+  ja: nestedModulesToArray(trainingJa),
+  ko: nestedModulesToArray(trainingKo),
+  ar: nestedModulesToArray(trainingAr),
+  da: nestedModulesToArray(trainingDa),
+  el: nestedModulesToArray(trainingEl),
+  no: nestedModulesToArray(trainingNo),
+  fi: nestedModulesToArray(trainingFi),
+  cs: nestedModulesToArray(trainingCs),
+  sw: nestedModulesToArray(trainingSw),
+  af: Array.isArray(trainingModulesAF) ? trainingModulesAF : [],
+  zu: objectModulesToArray(zuluModules),
+  xh: objectModulesToArray(xhosaModules),
+  hi: Array.isArray(trainingModulesHi) ? trainingModulesHi : [],
+  tl: Array.isArray(trainingModulesTl) ? trainingModulesTl : [],
 }
 
 // Get translated training modules for a specific language
@@ -87,16 +94,17 @@ export function getTrainingModules(language: string): TrainingModule[] | null {
 export function getTranslatedModule(language: string, moduleId: number): TrainingModule | null {
   if (language === 'en') return null // Use English from training-content.ts
   const modules = translations[language]
-  if (!modules || !Array.isArray(modules)) return null
+  if (!modules || !Array.isArray(modules) || modules.length === 0) return null
   return modules.find(m => m.id === moduleId) || null
 }
 
 // Check if a language has translations available
 export function hasTranslation(language: string): boolean {
-  return language in translations
+  const modules = translations[language]
+  return modules && Array.isArray(modules) && modules.length > 0
 }
 
 // Get list of languages with translations
 export function getAvailableLanguages(): string[] {
-  return Object.keys(translations)
+  return Object.keys(translations).filter(lang => hasTranslation(lang))
 }

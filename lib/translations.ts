@@ -81,6 +81,12 @@ export interface Translations {
     resetPassword: string
     backToLogin: string
   }
+  cta: {
+    title: string
+    description: string
+    createAccount: string
+    seeHow: string
+  }
 }
 
 const en: Translations = {
@@ -92,6 +98,7 @@ const en: Translations = {
   sportTips: { event: 'Event', market: 'Market', pick: 'Pick', odds: 'Odds', noTips: 'Thank you for your patience! We are currently gathering and analyzing the best betting tips for this sport. Please check back soon.' },
   footer: { company: 'Company', sports: 'Sports', account: 'Account', howItWorks: 'How It Works', terms: 'Terms of Service', privacy: 'Privacy Policy', signUp: 'Sign Up Free', logIn: 'Log In', forgot: 'Forgot Password' },
   auth: { signUpTitle: 'Create Your Free Account', logInTitle: 'Sign in to RiskNil', forgotTitle: 'Reset Your Password', email: 'Email', password: 'Password', confirmPassword: 'Confirm Password', createAccount: 'Create Account', signIn: 'Sign In', resetPassword: 'Reset Password', backToLogin: 'Back to Login' },
+  cta: { title: 'Ready to Bet Smarter?', description: "Join thousands of bettors who already use RiskNil to get ahead. It's free — always.", createAccount: 'Create Your Free Account', seeHow: 'See How It Works' },
 }
 
 const es: Translations = {
@@ -103,6 +110,7 @@ const es: Translations = {
   sportTips: { event: 'Evento', market: 'Mercado', pick: 'Pick', odds: 'Cuotas', noTips: 'Gracias por tu paciencia. Estamos recopilando los mejores consejos de apuestas para este deporte. Por favor vuelve pronto.' },
   footer: { company: 'Empresa', sports: 'Deportes', account: 'Cuenta', howItWorks: 'Cómo Funciona', terms: 'Términos de Servicio', privacy: 'Política de Privacidad', signUp: 'Registrarse Gratis', logIn: 'Iniciar Sesión', forgot: 'Olvidé mi Contraseña' },
   auth: { signUpTitle: 'Crea Tu Cuenta Gratis', logInTitle: 'Inicia Sesión en RiskNil', forgotTitle: 'Restablecer Tu Contraseña', email: 'Correo', password: 'Contraseña', confirmPassword: 'Confirmar Contraseña', createAccount: 'Crear Cuenta', signIn: 'Iniciar Sesión', resetPassword: 'Restablecer Contraseña', backToLogin: 'Volver al Inicio de Sesión' },
+  cta: { title: '¿Listo para Apostar Mejor?', description: 'Únete a miles de apostadores que ya usan RiskNil para avanzar. Es gratis — siempre.', createAccount: 'Crea Tu Cuenta Gratis', seeHow: 'Ver Cómo Funciona' },
 }
 
 const pt: Translations = {
@@ -114,6 +122,7 @@ const pt: Translations = {
   sportTips: { event: 'Evento', market: 'Mercado', pick: 'Dica', odds: 'Odds', noTips: 'Obrigado pela paciência! Estamos coletando as melhores dicas de apostas para este esporte. Por favor, volte em breve.' },
   footer: { company: 'Empresa', sports: 'Esportes', account: 'Conta', howItWorks: 'Como Funciona', terms: 'Termos de Serviço', privacy: 'Política de Privacidade', signUp: 'Cadastrar Grátis', logIn: 'Entrar', forgot: 'Esqueci Minha Senha' },
   auth: { signUpTitle: 'Crie Sua Conta Grátis', logInTitle: 'Entrar no RiskNil', forgotTitle: 'Redefinir Sua Senha', email: 'Email', password: 'Senha', confirmPassword: 'Confirmar Senha', createAccount: 'Criar Conta', signIn: 'Entrar', resetPassword: 'Redefinir Senha', backToLogin: 'Voltar ao Login' },
+  cta: { title: 'Pronto para Apostar Melhor?', description: 'Junte-se a milhares de apostadores que já usam o RiskNil para avançar. É grátis — sempre.', createAccount: 'Crie Sua Conta Grátis', seeHow: 'Veja Como Funciona' },
 }
 
 const zhCN: Translations = {
@@ -125,6 +134,7 @@ const zhCN: Translations = {
   sportTips: { event: '赛事', market: '市场', pick: '选择', odds: '赔率', noTips: '感谢您的耐心！我们正在收集这项运动的最佳投注技巧。请稍后再来。' },
   footer: { company: '公司', sports: '体育', account: '账户', howItWorks: '如何运作', terms: '服务条款', privacy: '隐私政策', signUp: '免费注册', logIn: '登录', forgot: '忘记密码' },
   auth: { signUpTitle: '创建您的免费账户', logInTitle: '登录RiskNil', forgotTitle: '重置您的密码', email: '邮箱', password: '密码', confirmPassword: '确认密码', createAccount: '创建账户', signIn: '登录', resetPassword: '重置密码', backToLogin: '返回登录' },
+  cta: { title: '准备好更聪明地投注了吗？', description: '加入已经使用RiskNil领先的数千名投注者。永远免费。', createAccount: '创建您的免费账户', seeHow: '了解如何运作' },
 }
 
 const zhTW: Translations = {
@@ -136,6 +146,7 @@ const zhTW: Translations = {
   sportTips: { event: '賽事', market: '市場', pick: '選擇', odds: '賠率', noTips: '感謝您的耐心！我們正在收集這項運動的最佳投注技巧。請稍後再來。' },
   footer: { company: '公司', sports: '體育', account: '帳戶', howItWorks: '如何運作', terms: '服務條款', privacy: '隱私政策', signUp: '免費註冊', logIn: '登入', forgot: '忘記密碼' },
   auth: { signUpTitle: '創建您的免費帳戶', logInTitle: '登入RiskNil', forgotTitle: '重置您的密碼', email: '電郵', password: '密碼', confirmPassword: '確認密碼', createAccount: '創建帳戶', signIn: '登入', resetPassword: '重置密碼', backToLogin: '返回登入' },
+  cta: { title: '準備好更聰明地投注了嗎？', description: '加入已經使用RiskNil領先的數千名投注者。永遠免費。', createAccount: '創建您的免費帳戶', seeHow: '了解如何運作' },
 }
 
 const it: Translations = {
@@ -147,6 +158,7 @@ const it: Translations = {
   sportTips: { event: 'Evento', market: 'Mercato', pick: 'Pronostico', odds: 'Quote', noTips: 'Grazie per la pazienza! Stiamo raccogliendo i migliori pronostici per questo sport. Torna presto.' },
   footer: { company: 'Azienda', sports: 'Sport', account: 'Account', howItWorks: 'Come Funziona', terms: 'Termini di Servizio', privacy: 'Privacy Policy', signUp: 'Registrati Gratis', logIn: 'Accedi', forgot: 'Password Dimenticata' },
   auth: { signUpTitle: 'Crea il Tuo Account Gratis', logInTitle: 'Accedi a RiskNil', forgotTitle: 'Reimposta la Tua Password', email: 'Email', password: 'Password', confirmPassword: 'Conferma Password', createAccount: 'Crea Account', signIn: 'Accedi', resetPassword: 'Reimposta Password', backToLogin: 'Torna al Login' },
+  cta: { title: 'Pronto a Scommettere in Modo Più Intelligente?', description: 'Unisciti a migliaia di scommettitori che già usano RiskNil per avere un vantaggio. È gratis — sempre.', createAccount: 'Crea il Tuo Account Gratis', seeHow: 'Scopri Come Funziona' },
 }
 
 const fr: Translations = {
@@ -158,6 +170,7 @@ const fr: Translations = {
   sportTips: { event: 'Événement', market: 'Marché', pick: 'Pronostic', odds: 'Cotes', noTips: 'Merci pour votre patience! Nous collectons les meilleurs pronostics pour ce sport. Revenez bientôt.' },
   footer: { company: 'Entreprise', sports: 'Sports', account: 'Compte', howItWorks: 'Comment ça Marche', terms: 'Conditions d\'Utilisation', privacy: 'Politique de Confidentialité', signUp: 'Inscription Gratuite', logIn: 'Connexion', forgot: 'Mot de Passe Oublié' },
   auth: { signUpTitle: 'Créez Votre Compte Gratuit', logInTitle: 'Connectez-vous à RiskNil', forgotTitle: 'Réinitialisez Votre Mot de Passe', email: 'Email', password: 'Mot de Passe', confirmPassword: 'Confirmer le Mot de Passe', createAccount: 'Créer un Compte', signIn: 'Se Connecter', resetPassword: 'Réinitialiser le Mot de Passe', backToLogin: 'Retour à la Connexion' },
+  cta: { title: 'Prêt à Parier Plus Intelligemment?', description: 'Rejoignez des milliers de parieurs qui utilisent déjà RiskNil pour prendre de l\'avance. C\'est gratuit — toujours.', createAccount: 'Créez Votre Compte Gratuit', seeHow: 'Voir Comment ça Marche' },
 }
 
 const de: Translations = {
@@ -169,6 +182,7 @@ const de: Translations = {
   sportTips: { event: 'Event', market: 'Markt', pick: 'Tipp', odds: 'Quoten', noTips: 'Vielen Dank für Ihre Geduld! Wir sammeln die besten Wetttipps für diese Sportart. Bitte schauen Sie bald wieder vorbei.' },
   footer: { company: 'Unternehmen', sports: 'Sport', account: 'Konto', howItWorks: 'So funktioniert\'s', terms: 'Nutzungsbedingungen', privacy: 'Datenschutz', signUp: 'Kostenlos Anmelden', logIn: 'Anmelden', forgot: 'Passwort vergessen' },
   auth: { signUpTitle: 'Erstellen Sie Ihr kostenloses Konto', logInTitle: 'Bei RiskNil anmelden', forgotTitle: 'Passwort zurücksetzen', email: 'E-Mail', password: 'Passwort', confirmPassword: 'Passwort bestätigen', createAccount: 'Konto erstellen', signIn: 'Anmelden', resetPassword: 'Passwort zurücksetzen', backToLogin: 'Zurück zur Anmeldung' },
+  cta: { title: 'Bereit, klüger zu wetten?', description: 'Schließen Sie sich Tausenden von Wettern an, die bereits RiskNil nutzen. Es ist kostenlos — immer.', createAccount: 'Erstellen Sie Ihr kostenloses Konto', seeHow: 'So funktioniert\'s' },
 }
 
 const hu: Translations = {
@@ -180,6 +194,7 @@ const hu: Translations = {
   sportTips: { event: 'Esemény', market: 'Piac', pick: 'Tipp', odds: 'Odds', noTips: 'Köszönjük türelmét! Jelenleg gyűjtjük a legjobb fogadási tippeket ehhez a sporthoz. Kérjük, nézzen vissza hamarosan.' },
   footer: { company: 'Cég', sports: 'Sportok', account: 'Fiók', howItWorks: 'Hogyan működik', terms: 'Szolgáltatási feltételek', privacy: 'Adatvédelmi irányelvek', signUp: 'Ingyenes regisztráció', logIn: 'Bejelentkezés', forgot: 'Elfelejtett jelszó' },
   auth: { signUpTitle: 'Hozza létre ingyenes fiókját', logInTitle: 'Bejelentkezés a RiskNil-be', forgotTitle: 'Jelszó visszaállítása', email: 'E-mail', password: 'Jelszó', confirmPassword: 'Jelszó megerősítése', createAccount: 'Fiók létrehozása', signIn: 'Bejelentkezés', resetPassword: 'Jelszó visszaállítása', backToLogin: 'Vissza a bejelentkezéshez' },
+  cta: { title: 'Készen áll az okosabb fogadásra?', description: 'Csatlakozzon több ezer fogadóhoz, akik már használják a RiskNil-t. Ingyenes — mindig.', createAccount: 'Hozza létre ingyenes fiókját', seeHow: 'Nézze meg hogyan működik' },
 }
 
 const sv: Translations = {
@@ -191,6 +206,7 @@ const sv: Translations = {
   sportTips: { event: 'Evenemang', market: 'Marknad', pick: 'Tips', odds: 'Odds', noTips: 'Tack för ditt tålamod! Vi samlar de bästa tipsen för denna sport. Kolla igen snart.' },
   footer: { company: 'Företag', sports: 'Sport', account: 'Konto', howItWorks: 'Hur det fungerar', terms: 'Användarvillkor', privacy: 'Integritetspolicy', signUp: 'Registrera gratis', logIn: 'Logga in', forgot: 'Glömt lösenord' },
   auth: { signUpTitle: 'Skapa ditt gratiskonto', logInTitle: 'Logga in på RiskNil', forgotTitle: 'Återställ ditt lösenord', email: 'E-post', password: 'Lösenord', confirmPassword: 'Bekräfta lösenord', createAccount: 'Skapa konto', signIn: 'Logga in', resetPassword: 'Återställ lösenord', backToLogin: 'Tillbaka till inloggning' },
+  cta: { title: 'Redo att satsa smartare?', description: 'Gå med tusentals spelare som redan använder RiskNil. Det är gratis — alltid.', createAccount: 'Skapa ditt gratiskonto', seeHow: 'Se hur det fungerar' },
 }
 
 const da: Translations = {
@@ -202,6 +218,7 @@ const da: Translations = {
   sportTips: { event: 'Begivenhed', market: 'Marked', pick: 'Tip', odds: 'Odds', noTips: 'Tak for din tålmodighed! Vi indsamler de bedste tips til denne sport. Kom tilbage snart.' },
   footer: { company: 'Virksomhed', sports: 'Sport', account: 'Konto', howItWorks: 'Sådan fungerer det', terms: 'Servicevilkår', privacy: 'Privatlivspolitik', signUp: 'Tilmeld dig gratis', logIn: 'Log ind', forgot: 'Glemt adgangskode' },
   auth: { signUpTitle: 'Opret din gratis konto', logInTitle: 'Log ind på RiskNil', forgotTitle: 'Nulstil din adgangskode', email: 'Email', password: 'Adgangskode', confirmPassword: 'Bekræft adgangskode', createAccount: 'Opret konto', signIn: 'Log ind', resetPassword: 'Nulstil adgangskode', backToLogin: 'Tilbage til login' },
+  cta: { title: 'Klar til at vædde smartere?', description: 'Slut dig til tusindvis af spillere der allerede bruger RiskNil. Det er gratis — altid.', createAccount: 'Opret din gratis konto', seeHow: 'Se hvordan det fungerer' },
 }
 
 const nl: Translations = {
@@ -213,6 +230,7 @@ const nl: Translations = {
   sportTips: { event: 'Evenement', market: 'Markt', pick: 'Tip', odds: 'Odds', noTips: 'Bedankt voor je geduld! We verzamelen de beste tips voor deze sport. Kom snel terug.' },
   footer: { company: 'Bedrijf', sports: 'Sport', account: 'Account', howItWorks: 'Hoe het werkt', terms: 'Servicevoorwaarden', privacy: 'Privacybeleid', signUp: 'Gratis aanmelden', logIn: 'Inloggen', forgot: 'Wachtwoord vergeten' },
   auth: { signUpTitle: 'Maak je gratis account aan', logInTitle: 'Log in bij RiskNil', forgotTitle: 'Reset je wachtwoord', email: 'E-mail', password: 'Wachtwoord', confirmPassword: 'Bevestig wachtwoord', createAccount: 'Account aanmaken', signIn: 'Inloggen', resetPassword: 'Wachtwoord resetten', backToLogin: 'Terug naar inloggen' },
+  cta: { title: 'Klaar om slimmer te wedden?', description: 'Sluit je aan bij duizenden spelers die al RiskNil gebruiken. Het is gratis — altijd.', createAccount: 'Maak je gratis account aan', seeHow: 'Bekijk hoe het werkt' },
 }
 
 const el: Translations = {
@@ -224,6 +242,7 @@ const el: Translations = {
   sportTips: { event: 'Εκδήλωση', market: 'Αγορά', pick: 'Επιλογή', odds: 'Αποδόσεις', noTips: 'Ευχαριστούμε για την υπομονή σας! Συλλέγουμε τις καλύτερες συμβουλές για αυτό το άθλημα. Ελέγξτε ξανά σύντομα.' },
   footer: { company: 'Εταιρεία', sports: 'Αθλήματα', account: 'Λογαριασμός', howItWorks: 'Πώς λειτουργεί', terms: 'Όροι υπηρεσίας', privacy: 'Πολιτική απορρήτου', signUp: 'Δωρεάν εγγραφή', logIn: 'Σύνδεση', forgot: 'Ξεχάσατε τον κωδικό' },
   auth: { signUpTitle: 'Δημιουργήστε τον δωρεάν λογαριασμό σας', logInTitle: 'Συνδεθείτε στο RiskNil', forgotTitle: 'Επαναφορά κωδικού πρόσβασης', email: 'Email', password: 'Κωδικός', confirmPassword: 'Επιβεβαίωση κωδικού', createAccount: 'Δημιουργία λογαριασμού', signIn: 'Σύνδεση', resetPassword: 'Επαναφορά κωδικού', backToLogin: 'Πίσω στη σύνδεση' },
+  cta: { title: 'Έτοιμοι να στοιχηματίζετε πιο έξυπνα;', description: 'Ενταχθείτε σε χιλιάδες παίκτες που ήδη χρησιμοποιούν το RiskNil. Είναι δωρεάν — πάντα.', createAccount: 'Δημιουργήστε τον δωρεάν λογαριασμό σας', seeHow: 'Δείτε πώς λειτουργεί' },
 }
 
 const pl: Translations = {
@@ -235,6 +254,7 @@ const pl: Translations = {
   sportTips: { event: 'Wydarzenie', market: 'Rynek', pick: 'Typ', odds: 'Kursy', noTips: 'Dziękujemy za cierpliwość! Zbieramy najlepsze typy dla tego sportu. Wróć wkrótce.' },
   footer: { company: 'Firma', sports: 'Sport', account: 'Konto', howItWorks: 'Jak to działa', terms: 'Regulamin', privacy: 'Polityka prywatności', signUp: 'Darmowa rejestracja', logIn: 'Zaloguj się', forgot: 'Zapomniałem hasła' },
   auth: { signUpTitle: 'Utwórz darmowe konto', logInTitle: 'Zaloguj się do RiskNil', forgotTitle: 'Zresetuj hasło', email: 'Email', password: 'Hasło', confirmPassword: 'Potwierdź hasło', createAccount: 'Utwórz konto', signIn: 'Zaloguj się', resetPassword: 'Zresetuj hasło', backToLogin: 'Powrót do logowania' },
+  cta: { title: 'Gotowy na mądrzejsze obstawianie?', description: 'Dołącz do tysięcy graczy, którzy już używają RiskNil. To darmowe — zawsze.', createAccount: 'Utwórz darmowe konto', seeHow: 'Zobacz jak to działa' },
 }
 
 const no: Translations = {
@@ -246,6 +266,7 @@ const no: Translations = {
   sportTips: { event: 'Arrangement', market: 'Marked', pick: 'Tips', odds: 'Odds', noTips: 'Takk for tålmodigheten! Vi samler de beste tipsene for denne sporten. Kom tilbake snart.' },
   footer: { company: 'Selskap', sports: 'Sport', account: 'Konto', howItWorks: 'Slik fungerer det', terms: 'Vilkår for bruk', privacy: 'Personvernregler', signUp: 'Registrer gratis', logIn: 'Logg inn', forgot: 'Glemt passord' },
   auth: { signUpTitle: 'Opprett din gratis konto', logInTitle: 'Logg inn på RiskNil', forgotTitle: 'Tilbakestill passordet ditt', email: 'E-post', password: 'Passord', confirmPassword: 'Bekreft passord', createAccount: 'Opprett konto', signIn: 'Logg inn', resetPassword: 'Tilbakestill passord', backToLogin: 'Tilbake til innlogging' },
+  cta: { title: 'Klar for å vedde smartere?', description: 'Bli med tusenvis av spillere som allerede bruker RiskNil. Det er gratis — alltid.', createAccount: 'Opprett din gratis konto', seeHow: 'Se hvordan det fungerer' },
 }
 
 const fi: Translations = {
@@ -257,6 +278,7 @@ const fi: Translations = {
   sportTips: { event: 'Tapahtuma', market: 'Markkina', pick: 'Vihje', odds: 'Kertoimet', noTips: 'Kiitos kärsivällisyydestäsi! Keräämme parhaita vihjeitä tälle urheilulle. Tarkista pian uudelleen.' },
   footer: { company: 'Yritys', sports: 'Urheilu', account: 'Tili', howItWorks: 'Näin se toimii', terms: 'Käyttöehdot', privacy: 'Tietosuojakäytäntö', signUp: 'Rekisteröidy ilmaiseksi', logIn: 'Kirjaudu sisään', forgot: 'Unohdin salasanan' },
   auth: { signUpTitle: 'Luo ilmainen tilisi', logInTitle: 'Kirjaudu RiskNiliin', forgotTitle: 'Palauta salasanasi', email: 'Sähköposti', password: 'Salasana', confirmPassword: 'Vahvista salasana', createAccount: 'Luo tili', signIn: 'Kirjaudu sisään', resetPassword: 'Palauta salasana', backToLogin: 'Takaisin kirjautumiseen' },
+  cta: { title: 'Valmis lyömään vetoa fiksummin?', description: 'Liity tuhansien pelaajien joukkoon jotka jo käyttävät RiskNiliä. Se on ilmaista — aina.', createAccount: 'Luo ilmainen tilisi', seeHow: 'Katso miten se toimii' },
 }
 
 const ro: Translations = {
@@ -268,6 +290,7 @@ const ro: Translations = {
   sportTips: { event: 'Eveniment', market: 'Piață', pick: 'Sfat', odds: 'Cote', noTips: 'Mulțumim pentru răbdare! Colectăm cele mai bune sfaturi pentru acest sport. Reveniți curând.' },
   footer: { company: 'Companie', sports: 'Sporturi', account: 'Cont', howItWorks: 'Cum funcționează', terms: 'Termeni și condiții', privacy: 'Politica de confidențialitate', signUp: 'Înregistrare gratuită', logIn: 'Autentificare', forgot: 'Am uitat parola' },
   auth: { signUpTitle: 'Creează-ți contul gratuit', logInTitle: 'Autentifică-te în RiskNil', forgotTitle: 'Resetează-ți parola', email: 'Email', password: 'Parolă', confirmPassword: 'Confirmă parola', createAccount: 'Creează cont', signIn: 'Autentificare', resetPassword: 'Resetează parola', backToLogin: 'Înapoi la autentificare' },
+  cta: { title: 'Ești gata să pariezi mai inteligent?', description: 'Alătură-te miilor de jucători care folosesc deja RiskNil. Este gratuit — mereu.', createAccount: 'Creează-ți contul gratuit', seeHow: 'Vezi cum funcționează' },
 }
 
 const cs: Translations = {
@@ -279,6 +302,7 @@ const cs: Translations = {
   sportTips: { event: 'Událost', market: 'Trh', pick: 'Tip', odds: 'Kurzy', noTips: 'Děkujeme za trpělivost! Sbíráme nejlepší tipy pro tento sport. Zkontrolujte brzy znovu.' },
   footer: { company: 'Společnost', sports: 'Sport', account: 'Účet', howItWorks: 'Jak to funguje', terms: 'Podmínky služby', privacy: 'Zásady ochrany osobních údajů', signUp: 'Registrace zdarma', logIn: 'Přihlásit se', forgot: 'Zapomenuté heslo' },
   auth: { signUpTitle: 'Vytvořte si bezplatný účet', logInTitle: 'Přihlaste se do RiskNil', forgotTitle: 'Obnovte své heslo', email: 'E-mail', password: 'Heslo', confirmPassword: 'Potvrďte heslo', createAccount: 'Vytvořit účet', signIn: 'Přihlásit se', resetPassword: 'Obnovit heslo', backToLogin: 'Zpět k přihlášení' },
+  cta: { title: 'Jste připraveni sázet chytřeji?', description: 'Připojte se k tisícům hráčů, kteří již používají RiskNil. Je to zdarma — vždy.', createAccount: 'Vytvořte si bezplatný účet', seeHow: 'Podívejte se jak to funguje' },
 }
 
 const sw: Translations = {
@@ -290,6 +314,7 @@ const sw: Translations = {
   sportTips: { event: 'Tukio', market: 'Soko', pick: 'Kidokezo', odds: 'Uwiano', noTips: 'Asante kwa uvumilivu wako! Tunakusanya vidokezo bora kwa mchezo huu. Rudi tena hivi karibuni.' },
   footer: { company: 'Kampuni', sports: 'Michezo', account: 'Akaunti', howItWorks: 'Inavyofanya kazi', terms: 'Masharti ya huduma', privacy: 'Sera ya faragha', signUp: 'Jiandikishe bure', logIn: 'Ingia', forgot: 'Nimesahau nenosiri' },
   auth: { signUpTitle: 'Unda akaunti yako ya bure', logInTitle: 'Ingia kwenye RiskNil', forgotTitle: 'Weka upya nenosiri lako', email: 'Barua pepe', password: 'Nenosiri', confirmPassword: 'Thibitisha nenosiri', createAccount: 'Unda akaunti', signIn: 'Ingia', resetPassword: 'Weka upya nenosiri', backToLogin: 'Rudi kwenye kuingia' },
+  cta: { title: 'Uko tayari kubeti kwa busara zaidi?', description: 'Jiunge na maelfu ya wachezaji ambao tayari wanatumia RiskNil. Ni bure — daima.', createAccount: 'Unda akaunti yako ya bure', seeHow: 'Tazama inavyofanya kazi' },
 }
 
 const af: Translations = {
@@ -301,6 +326,7 @@ const af: Translations = {
   sportTips: { event: 'Gebeurtenis', market: 'Mark', pick: 'Wenk', odds: 'Odds', noTips: 'Dankie vir jou geduld! Ons versamel die beste wenke vir hierdie sport. Kom gou terug.' },
   footer: { company: 'Maatskappy', sports: 'Sport', account: 'Rekening', howItWorks: 'Hoe dit werk', terms: 'Diensvoorwaardes', privacy: 'Privaatheidsbeleid', signUp: 'Registreer gratis', logIn: 'Meld aan', forgot: 'Wagwoord vergeet' },
   auth: { signUpTitle: 'Skep jou gratis rekening', logInTitle: 'Meld aan by RiskNil', forgotTitle: 'Herstel jou wagwoord', email: 'E-pos', password: 'Wagwoord', confirmPassword: 'Bevestig wagwoord', createAccount: 'Skep rekening', signIn: 'Meld aan', resetPassword: 'Herstel wagwoord', backToLogin: 'Terug na aanmelding' },
+  cta: { title: 'Gereed om slimmer te wed?', description: 'Sluit aan by duisende spelers wat reeds RiskNil gebruik. Dit is gratis — altyd.', createAccount: 'Skep jou gratis rekening', seeHow: 'Sien hoe dit werk' },
 }
 
 const zu: Translations = {
@@ -312,6 +338,7 @@ const zu: Translations = {
   sportTips: { event: 'Umcimbi', market: 'Imakethe', pick: 'Ithiphu', odds: 'Amathuba', noTips: 'Siyabonga ngokubekezela kwakho! Siqoqa amathiphu angcono kakhulu kulo mdlalo. Buya maduzane.' },
   footer: { company: 'Inkampani', sports: 'Ezemidlalo', account: 'I-akhawunti', howItWorks: 'Isebenza kanjani', terms: 'Imibandela yesevisi', privacy: 'Inqubomgomo yobumfihlo', signUp: 'Bhalisa mahhala', logIn: 'Ngena', forgot: 'Iphasiwedi ikhohliwe' },
   auth: { signUpTitle: 'Dala i-akhawunti yakho yamahhala', logInTitle: 'Ngena ku-RiskNil', forgotTitle: 'Setha kabusha iphasiwedi yakho', email: 'I-imeyili', password: 'Iphasiwedi', confirmPassword: 'Qinisekisa iphasiwedi', createAccount: 'Dala i-akhawunti', signIn: 'Ngena', resetPassword: 'Setha kabusha iphasiwedi', backToLogin: 'Buyela ekungeneni' },
+  cta: { title: 'Ukulungele ukubheja ngokuhlakanipha?', description: 'Joyina izinkulungwane zabadlali abasebenzisa kakade i-RiskNil. Kumahhala — njalo.', createAccount: 'Dala i-akhawunti yakho yamahhala', seeHow: 'Bona isebenza kanjani' },
 }
 
 const xh: Translations = {
@@ -323,6 +350,7 @@ const xh: Translations = {
   sportTips: { event: 'Isiganeko', market: 'Imarike', pick: 'Icebiso', odds: 'Amathuba', noTips: 'Enkosi ngomonde wakho! Siqokelela amacebiso angcono kakhulu kulo mdlalo. Buya kwakhona.' },
   footer: { company: 'Inkampani', sports: 'Ezemidlalo', account: 'Iakhawunti', howItWorks: 'Isebenza njani', terms: 'Imiqathango yenkonzo', privacy: 'Umgaqo-nkqubo wobumfihlo', signUp: 'Bhalisa simahla', logIn: 'Ngena', forgot: 'Ipasiwedi ilibele' },
   auth: { signUpTitle: 'Yenza iakhawunti yakho yasimahla', logInTitle: 'Ngena ku-RiskNil', forgotTitle: 'Seta kwakhona ipasiwedi yakho', email: 'I-imeyile', password: 'Ipasiwedi', confirmPassword: 'Qinisekisa ipasiwedi', createAccount: 'Yenza iakhawunti', signIn: 'Ngena', resetPassword: 'Seta kwakhona ipasiwedi', backToLogin: 'Buyela ekungeneni' },
+  cta: { title: 'Ulungile ukubheja ngobulumko?', description: 'Joyina amawaka abadlali abasebenzisa sele i-RiskNil. Isimahla — ngalo lonke ixesha.', createAccount: 'Yenza iakhawunti yakho yasimahla', seeHow: 'Bona isebenza njani' },
 }
 
 const ja: Translations = {
@@ -334,6 +362,7 @@ const ja: Translations = {
   sportTips: { event: 'イベント', market: 'マーケット', pick: 'ピック', odds: 'オッズ', noTips: 'お待ちいただきありがとうございます！このスポーツの最高のヒントを収集中です。すぐに戻ってきてください。' },
   footer: { company: '会社', sports: 'スポーツ', account: 'アカウント', howItWorks: '使い方', terms: '利用規約', privacy: 'プライバシーポリシー', signUp: '無料登録', logIn: 'ログイン', forgot: 'パスワードを忘れた' },
   auth: { signUpTitle: '無料アカウントを作成', logInTitle: 'RiskNilにログイン', forgotTitle: 'パスワードをリセット', email: 'メール', password: 'パスワード', confirmPassword: 'パスワードを確認', createAccount: 'アカウント作成', signIn: 'ログイン', resetPassword: 'パスワードリセット', backToLogin: 'ログインに戻る' },
+  cta: { title: 'よりスマートに賭ける準備はできましたか？', description: 'すでにRiskNilを使用している数千人のプレイヤーに参加しましょう。永久無料です。', createAccount: '無料アカウントを作成', seeHow: '使い方を見る' },
 }
 
 const ko: Translations = {
@@ -345,6 +374,7 @@ const ko: Translations = {
   sportTips: { event: '이벤트', market: '마켓', pick: '픽', odds: '배당률', noTips: '기다려 주셔서 감사합니다! 이 스포츠에 대한 최고의 팁을 수집하고 있습니다. 곧 다시 확인하세요.' },
   footer: { company: '회사', sports: '스포츠', account: '계정', howItWorks: '작동 방식', terms: '서비스 약관', privacy: '개인정보 보호정책', signUp: '무료 가입', logIn: '로그인', forgot: '비밀번호 찾기' },
   auth: { signUpTitle: '무료 계정 만들기', logInTitle: 'RiskNil에 로그인', forgotTitle: '비밀번호 재설정', email: '이메일', password: '비밀번호', confirmPassword: '비밀번호 확인', createAccount: '계정 만들기', signIn: '로그인', resetPassword: '비밀번호 재설정', backToLogin: '로그인으로 돌아가기' },
+  cta: { title: '더 스마트하게 베팅할 준비가 되셨나요?', description: '이미 RiskNil을 사용하는 수천 명의 플레이어와 함께하세요. 영원히 무료입니다.', createAccount: '무료 계정 만들기', seeHow: '작동 방식 보기' },
 }
 
 const hi: Translations = {
@@ -356,6 +386,7 @@ const hi: Translations = {
   sportTips: { event: 'इवेंट', market: 'मार्केट', pick: 'पिक', odds: 'ऑड्स', noTips: 'धैर्य के लिए धन्यवाद! हम इस खेल के लिए सर्वश्रेष्ठ टिप्स एकत्र कर रहे हैं। जल्द वापस आएं।' },
   footer: { company: 'कंपनी', sports: 'खेल', account: 'खाता', howItWorks: 'यह कैसे काम करता है', terms: 'सेवा की शर्तें', privacy: 'गोपनीयता नीति', signUp: 'मुफ्त साइन अप', logIn: 'लॉग इन', forgot: 'पासवर्ड भूल गए' },
   auth: { signUpTitle: 'अपना मुफ्त खाता बनाएं', logInTitle: 'RiskNil में साइन इन करें', forgotTitle: 'अपना पासवर्ड रीसेट करें', email: 'ईमेल', password: 'पासवर्ड', confirmPassword: 'पासवर्ड की पुष्टि करें', createAccount: 'खाता बनाएं', signIn: 'साइन इन', resetPassword: 'पासवर्ड रीसेट करें', backToLogin: 'लॉगिन पर वापस जाएं' },
+  cta: { title: 'स्मार्ट तरीके से दांव लगाने के लिए तैयार हैं?', description: 'हजारों खिलाड़ियों से जुड़ें जो पहले से RiskNil का उपयोग कर रहे हैं। यह मुफ्त है — हमेशा।', createAccount: 'अपना मुफ्त खाता बनाएं', seeHow: 'देखें यह कैसे काम करता है' },
 }
 
 const tl: Translations = {
@@ -367,6 +398,7 @@ const tl: Translations = {
   sportTips: { event: 'Kaganapan', market: 'Market', pick: 'Pili', odds: 'Odds', noTips: 'Salamat sa iyong pasensya! Nagtitipon kami ng pinakamahusay na mga tip para sa palakarong ito. Bumalik kaagad.' },
   footer: { company: 'Kumpanya', sports: 'Palakasan', account: 'Account', howItWorks: 'Paano ito gumagana', terms: 'Mga tuntunin ng serbisyo', privacy: 'Patakaran sa privacy', signUp: 'Mag-sign up nang libre', logIn: 'Mag-log in', forgot: 'Nakalimutan ang password' },
   auth: { signUpTitle: 'Gumawa ng iyong libreng account', logInTitle: 'Mag-sign in sa RiskNil', forgotTitle: 'I-reset ang iyong password', email: 'Email', password: 'Password', confirmPassword: 'Kumpirmahin ang password', createAccount: 'Gumawa ng account', signIn: 'Mag-sign in', resetPassword: 'I-reset ang password', backToLogin: 'Bumalik sa pag-login' },
+  cta: { title: 'Handa ka na bang tumaya nang mas matalino?', description: 'Sumali sa libu-libong manlalaro na gumagamit na ng RiskNil. Libre — palagi.', createAccount: 'Gumawa ng iyong libreng account', seeHow: 'Tingnan kung paano ito gumagana' },
 }
 
 const ar: Translations = {
@@ -378,6 +410,7 @@ const ar: Translations = {
   sportTips: { event: 'الحدث', market: 'السوق', pick: 'الاختيار', odds: 'الاحتمالات', noTips: 'شكراً لصبرك! نجمع أفضل النصائح لهذه الرياضة. عد قريباً.' },
   footer: { company: 'الشركة', sports: 'الرياضة', account: 'الحساب', howItWorks: 'كيف يعمل', terms: 'شروط الخدمة', privacy: 'سياسة الخصوصية', signUp: 'سجل مجاناً', logIn: 'تسجيل الدخول', forgot: 'نسيت كلمة المرور' },
   auth: { signUpTitle: 'أنشئ حسابك المجاني', logInTitle: 'سجل الدخول إلى RiskNil', forgotTitle: 'إعادة تعيين كلمة المرور', email: 'البريد الإلكتروني', password: 'كلمة المرور', confirmPassword: 'تأكيد كلمة المرور', createAccount: 'إنشاء حساب', signIn: 'تسجيل الدخول', resetPassword: 'إعادة تعيين كلمة المرور', backToLogin: 'العودة لتسجيل الدخول' },
+  cta: { title: 'هل أنت مستعد للمراهنة بذكاء؟', description: 'انضم إلى آلاف اللاعبين الذين يستخدمون RiskNil بالفعل. مجاني — دائماً.', createAccount: 'أنشئ حسابك المجاني', seeHow: 'شاهد كيف يعمل' },
 }
 
 export const translations: Record<Language, Translations> = {
