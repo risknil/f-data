@@ -225,12 +225,12 @@ export default function ModulePage() {
         {/* Module Layout */}
         <div className="flex gap-8">
             {/* Sidebar Navigation */}
-            {baseSections.length > 1 && (
+            {displaySections.length > 1 && (
               <aside className="hidden lg:block w-64 flex-shrink-0">
                 <div className="sticky top-24">
                   <h3 className="text-sm font-semibold text-foreground mb-4">Sections</h3>
                   <nav className="space-y-1">
-                    {baseSections.map((section, i) => (
+                    {displaySections.map((section, i) => (
                       <button
                         key={i}
                         onClick={() => setActiveSection(i)}
@@ -251,21 +251,21 @@ export default function ModulePage() {
             {/* Content */}
             <div className="flex-1 min-w-0">
               {/* Mobile Section Selector */}
-              {baseSections.length > 1 && (
+              {displaySections.length > 1 && (
                 <div className="lg:hidden mb-6">
                   <select
                     value={activeSection}
                     onChange={(e) => setActiveSection(Number(e.target.value))}
                     className="w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/20"
                   >
-                    {baseSections.map((section, i) => (
+                    {displaySections.map((section, i) => (
                       <option key={i} value={i}>{section.title}</option>
                     ))}
                   </select>
                 </div>
               )}
 
-              {baseSections[activeSection] && (
+              {displaySections[activeSection] && (
                 <Card>
                   <CardContent className="py-8">
                     <div className="flex items-center gap-3 mb-6">
@@ -284,7 +284,7 @@ export default function ModulePage() {
               )}
 
               {/* Section Navigation */}
-              {baseSections.length > 1 && (
+              {displaySections.length > 1 && (
                 <div className="mt-6 flex items-center justify-between">
                   <Button
                     variant="outline"
@@ -296,13 +296,13 @@ export default function ModulePage() {
                     <ChevronLeft className="h-4 w-4" /> Previous
                   </Button>
                   <span className="text-sm text-muted-foreground">
-                    {activeSection + 1} / {baseSections.length}
+                    {activeSection + 1} / {displaySections.length}
                   </span>
                   <Button
                     variant="outline"
                     size="sm"
-                    onClick={() => setActiveSection(prev => Math.min(baseSections.length - 1, prev + 1))}
-                    disabled={activeSection === baseSections.length - 1}
+                    onClick={() => setActiveSection(prev => Math.min(displaySections.length - 1, prev + 1))}
+                    disabled={activeSection === displaySections.length - 1}
                     className="gap-2"
                   >
                     Next <ChevronRight className="h-4 w-4" />
