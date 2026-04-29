@@ -1,31 +1,31 @@
 // Training content translations index
-import { trainingModulesHu } from './training-hu'
-import { trainingModulesDe } from './training-de'
-import { trainingModulesEs } from './training-es'
-import { trainingModulesFr } from './training-fr'
-import { trainingModulesPt } from './training-pt'
-import { trainingModulesIt } from './training-it'
-import { trainingModulesNl } from './training-nl'
-import { trainingModulesPl } from './training-pl'
+import { trainingModulesHU } from './training-hu'
+import { trainingModulesDE } from './training-de'
+import { trainingContentES } from './training-es'
+import { trainingContentFR } from './training-fr'
+import { trainingContentPT } from './training-pt'
+import { trainingModulesIT } from './training-it'
+import { trainingModulesNL } from './training-nl'
+import { trainingModulesPL } from './training-pl'
 import { trainingModulesSv } from './training-sv'
 import { trainingModulesRo } from './training-ro'
 import { trainingModulesZhCN } from './training-zh-CN'
-import { trainingModulesZhTW } from './training-zh-TW'
-import { trainingModulesJa } from './training-ja'
-import { trainingModulesKo } from './training-ko'
-import { trainingModulesAr } from './training-ar'
-import { trainingModulesDa } from './training-da'
-import { trainingModulesEl } from './training-el'
-import { trainingModulesNo } from './training-no'
-import { trainingModulesFi } from './training-fi'
-import { trainingModulesCs } from './training-cs'
-import { trainingModulesSw } from './training-sw'
-import { trainingModulesAf } from './training-af'
-import { trainingModulesZu } from './training-zu'
-import { trainingModulesXh } from './training-xh'
+import { trainingZhTW } from './training-zh-TW'
+import { trainingJa } from './training-ja'
+import { trainingKo } from './training-ko'
+import { trainingAr } from './training-ar'
+import { trainingDa } from './training-da'
+import { trainingEl } from './training-el'
+import { trainingNo } from './training-no'
+import { trainingFi } from './training-fi'
+import { trainingCs } from './training-cs'
+import { trainingSw } from './training-sw'
+import { trainingModulesAF } from './training-af'
+import { zuluModules } from './training-zu'
+import { xhosaModules } from './training-xh'
 import { trainingModulesHi } from './training-hi'
 import { trainingModulesTl } from './training-tl'
-import { TrainingModule } from '../training-content'
+import { TrainingModule, trainingModules as englishModules } from '../training-content'
 
 export interface TranslatedModule {
   title: string
@@ -37,32 +37,43 @@ export interface TranslatedModule {
   }[]
 }
 
-// Map of all available translations - each returns an array of TrainingModule
+// Helper to convert object format to array format
+function objectToArray(obj: Record<number, TrainingModule>): TrainingModule[] {
+  return Object.values(obj)
+}
+
+// Helper to convert content format (with modules property) to array
+function contentToArray(content: { modules: TrainingModule[] }): TrainingModule[] {
+  return content.modules || []
+}
+
+// Map of all available translations - normalize to arrays
 const translations: Record<string, TrainingModule[]> = {
-  hu: trainingModulesHu,
-  de: trainingModulesDe,
-  es: trainingModulesEs,
-  fr: trainingModulesFr,
-  pt: trainingModulesPt,
-  it: trainingModulesIt,
-  nl: trainingModulesNl,
-  pl: trainingModulesPl,
-  sv: trainingModulesSv,
-  ro: trainingModulesRo,
-  'zh-CN': trainingModulesZhCN,
-  'zh-TW': trainingModulesZhTW,
-  ja: trainingModulesJa,
-  ko: trainingModulesKo,
-  ar: trainingModulesAr,
-  da: trainingModulesDa,
-  el: trainingModulesEl,
-  no: trainingModulesNo,
-  fi: trainingModulesFi,
-  cs: trainingModulesCs,
-  sw: trainingModulesSw,
-  af: trainingModulesAf,
-  zu: trainingModulesZu,
-  xh: trainingModulesXh,
+  en: englishModules,
+  hu: trainingModulesHU,
+  de: trainingModulesDE,
+  es: contentToArray(trainingContentES as any),
+  fr: contentToArray(trainingContentFR as any),
+  pt: contentToArray(trainingContentPT as any),
+  it: contentToArray(trainingModulesIT as any),
+  nl: contentToArray(trainingModulesNL as any),
+  pl: contentToArray(trainingModulesPL as any),
+  sv: contentToArray(trainingModulesSv as any),
+  ro: contentToArray(trainingModulesRo as any),
+  'zh-CN': contentToArray(trainingModulesZhCN as any),
+  'zh-TW': contentToArray(trainingZhTW as any),
+  ja: contentToArray(trainingJa as any),
+  ko: contentToArray(trainingKo as any),
+  ar: contentToArray(trainingAr as any),
+  da: contentToArray(trainingDa as any),
+  el: contentToArray(trainingEl as any),
+  no: contentToArray(trainingNo as any),
+  fi: contentToArray(trainingFi as any),
+  cs: contentToArray(trainingCs as any),
+  sw: contentToArray(trainingSw as any),
+  af: trainingModulesAF,
+  zu: objectToArray(zuluModules),
+  xh: objectToArray(xhosaModules),
   hi: trainingModulesHi,
   tl: trainingModulesTl,
 }
@@ -74,8 +85,9 @@ export function getTrainingModules(language: string): TrainingModule[] | null {
 
 // Get translated module for a specific language and module ID
 export function getTranslatedModule(language: string, moduleId: number): TrainingModule | null {
+  if (language === 'en') return null // Use English from training-content.ts
   const modules = translations[language]
-  if (!modules) return null
+  if (!modules || !Array.isArray(modules)) return null
   return modules.find(m => m.id === moduleId) || null
 }
 

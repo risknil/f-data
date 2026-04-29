@@ -1,6 +1,6 @@
 import { TrainingModule } from '../training-content'
 
-export const zuluModules: Record&lt;number, TrainingModule&gt; = {
+export const zuluModules: Record<number, TrainingModule> = {
   1: {
     id: 1,
     slug: 'foundation-and-philosophy',
