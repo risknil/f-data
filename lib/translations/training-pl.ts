@@ -512,5 +512,256 @@ export const trainingModulesPL: TrainingModule[] = [
         content: `Implikowane prawdopodobieństwo = 1 / kursy dziesiętne\nEV = (P × zysk) - ((1-P) × stawka)\nKelly % = (P × kursy - 1) / (kursy - 1)\nROI = zysk / suma stawek × 100%\nCLV = (kursy zakładu - kursy zamknięcia) / kursy zamknięcia × 100%`
       }
     ]
+  },
+  {
+    id: 21,
+    slug: 'appendix-glossary',
+    title: 'Załącznik A: Rozszerzony Słownik Zakładów',
+    subtitle: 'Kompleksowy słownik terminów zakładowych napisany w języku szkoleniowym',
+    duration: '15 min czytania',
+    sections: [
+      {
+        title: 'Rozszerzony Słownik Zakładów dla Graczy',
+        content: `Ten słownik jest napisany w języku szkoleniowym dla ludzkich graczy. Jest celowo praktyczny. Celem nie jest brzmieć encyklopedycznie, ale uczynić termin użytecznym w rzeczywistej analizie, wymiarowaniu stawek i pracy rejestracyjnej.
+
+**A**
+
+**Accumulator** - Zakład wielokrotnego wyboru, gdzie każda noga musi wygrać. Atrakcyjne wypłaty ukrywają złożoną marżę i złożony błąd.
+
+**Across the card** - Wyrażenie wyścigowe na obstawianie każdego wyścigu na spotkaniu. Zwykle rekreacyjne, nie selektywne.
+
+**All-weather** - Sztuczna nawierzchnia wyścigowa używana, gdy warunki trawnikowe są nieodpowiednie. Preferencja nawierzchni ma znaczenie w analizie koni.
+
+**American odds** - Format kursów używający liczb dodatnich i ujemnych. Szybko przelicz je na prawdopodobieństwo, aby uniknąć błędów cenowych.
+
+**Ante-post** - Zakład postawiony z dużym wyprzedzeniem przed wydarzeniem, często z lepszymi cenami, ale większym ryzykiem nie-startera w zależności od zasad.
+
+**Arbitrage** - Obstawianie wszystkich wyników u różnych bukmacherów, aby zagwarantować zysk. Teoretycznie możliwe, ale ograniczenia kont utrudniają to w praktyce.
+
+**Asian handicap** - Rynek handicapu, powszechny w piłce nożnej, który dostosowuje wynik i może eliminować lub dzielić ryzyko remisu.
+
+**B**
+
+**Back price** - Kursy, po których wspierasz wynik, szczególnie na giełdzie.
+
+**Bankroll** - Kapitał przeznaczony wyłącznie na zakłady. Istnieje, aby absorbować wariancję i chronić jakość decyzji.
+
+**Best odds guaranteed** - Promocja, powszechna w wyścigach, gdzie gracz otrzymuje lepszy z wczesnej ceny lub SP, jeśli koń wygra.
+
+**Bet builder** - Multi z tego samego meczu łączące wiele wyborów z jednego wydarzenia. Wygodne, ale często z wysoką marżą.
+
+**Bookmaker** - Firma, która ustala ceny i przyjmuje zakłady, budując marżę w kursach.
+
+**Both teams to score** - Rynek piłkarski rozliczany, jeśli każda drużyna strzeli co najmniej raz.
+
+**Break point** - Punkt tenisowy, gdzie odbierający może wygrać gema łamiąc serwis.
+
+**Break percentage** - Jak często tenisista łamie serwis przeciwnika. Kluczowa metryka konfrontacji.
+
+**Bullpen** - Jednostka miotaczy rezerwowych w baseballu. Krytyczna w wycenie pełnego meczu.
+
+**C**
+
+**Cash out** - Funkcja bukmachera umożliwiająca wcześniejszą wypłatę. Generalnie wygoda najpierw, wartość na drugim miejscu.
+
+**Chance quality** - Praktyczny sposób opisania, czy próby są niebezpieczne, nie tylko liczne.
+
+**Chalk** - Slang na faworyta.
+
+**Closing line** - Ostatnia szeroko dostępna cena rynkowa przed rozpoczęciem wydarzenia.
+
+**Closing line value** - Różnica między twoją ceną a ceną zamknięcia. Przydatna jako audyt procesu.
+
+**Coin flip game** - Starcie wycenione blisko parytetu. Wymaga dyscypliny, bo wielu graczy przecenia małe przewagi.
+
+**Correct score** - Rynek wymagający dokładnego wyniku końcowego. Wysoka wariancja i bardzo wrażliwy na cenę.
+
+**Cover the spread** - Pokonanie handicapu lub spreadu po zastosowaniu korekty.
+
+**Course and distance** - Notatka wyścigowa pokazująca wcześniejszy sukces na tym samym torze i dystansie.
+
+**D**
+
+**Dead heat** - Remis o miejsce lub zwycięstwo, gdzie rozliczenie stawki jest dostosowywane zgodnie z zasadami.
+
+**Decimal odds** - Format kursów wyrażający całkowity zwrot na jednostkę stawki. Generalnie najłatwiejszy profesjonalny format roboczy.
+
+**Derivative** - Rynek wtórny jak pierwsza połowa, pierwsze pięć inningów, suma drużynowa, kwarta lub rynek okresu.
+
+**Draw no bet** - Rynek, gdzie remis zwraca stawkę i tylko wygrana wybranej strony płaci.
+
+**Drift** - Gdy kursy stają się większe. Może odzwierciedlać negatywne informacje, słabszy popyt lub korektę rynkową.
+
+**E**
+
+**Each-way** - Zakład wyścigowy podzielony na części zwycięstwa i miejsca. Wartościowy tylko gdy warunki miejsca i cena to uzasadniają.
+
+**Edge** - Praktyczna przewaga, jaką twoja analiza ma nad rynkiem przy danej cenie.
+
+**Evens** - Równe pieniądze: dziesiętne 2.00 lub 1/1.
+
+**Expected goals** - Metryka piłkarska szacująca prawdopodobieństwo, że strzały staną się golami. Przydatna do przeglądu procesu przy ostrożnym użyciu.
+
+**Expected value** - Długoterminowa wartość zakładu oparta na twojej ocenie prawdopodobieństwa i oferowanej cenie.
+
+**Exchange** - Platforma zakładów peer-to-peer, gdzie użytkownicy backują i layują wyniki, a platforma pobiera prowizję.
+
+**F**
+
+**Favourite** - Wybór z najkrótszą ceną na rynku.
+
+**Fair line** - Twoja własna ocena kursów przed marżą bukmachera.
+
+**First five** - Derywat baseballowy obejmujący tylko pierwsze pięć inningów. Przydatny do izolowania przewagi startującego miotacza.
+
+**First goalscorer** - Rynek o tym, który gracz strzeli pierwszego gola. Wysoka wariancja i wrażliwy na rolę.
+
+**Fold** - Liczba nóg w akumulatorze lub parlay.
+
+**Form** - Zapis poprzednich występów. Przydatny tylko gdy umieszczony w odpowiednim kontekście.
+
+**Fractional odds** - Tradycyjny brytyjski i irlandzki format wyrażający zysk w stosunku do stawki.
+
+**Freeze the line** - Pauza rynkowa lub brak ruchu, gdy traderzy czekają na świeże informacje.
+
+**G**
+
+**Game script** - Prawdopodobny kształt i przebieg meczu, szczególnie ważny w piłce nożnej i koszykówce.
+
+**Going** - Termin wyścigowy na stan podłoża, od twardego do ciężkiego. Często decydujący.
+
+**H**
+
+**Handicap** - Rynek lub struktura wyścigowa zaprojektowana do wyrównania konkurentów poprzez dostosowanie wyniku lub noszonej wagi.
+
+**Hold percentage** - Jak często tenisista utrzymuje swój serwis. Centralny dla analizy meczu i sumy.
+
+**I**
+
+**Implied probability** - Prawdopodobieństwo reprezentowane przez cenę rynkową przed dostosowaniem do twojej własnej opinii.
+
+**In-play** - Obstawianie po rozpoczęciu wydarzenia. Wymaga szybkości, dyscypliny i świadomości opóźnienia i płynności.
+
+**J**
+
+**Juice** - Inne słowo na marżę bukmachera lub vig.
+
+**K**
+
+**Kelly criterion** - Formuła wymiarowania łącząca przewagę z wielkością zakładu. Potężna w teorii, niebezpieczna gdy oceny prawdopodobieństwa są słabe.
+
+**L**
+
+**Lay** - Obstawianie przeciw wynikowi na giełdzie.
+
+**Limit** - Maksymalna kwota, którą bukmacher lub rynek pozwoli przy danej cenie.
+
+**Line shopping** - Sprawdzanie wielu bukmacherów, aby uzyskać najlepszą dostępną cenę.
+
+**Liquidity** - Ile pieniędzy jest dostępne na rynku bez zbytniego poruszania ceną.
+
+**Live odds** - Ceny dostępne podczas trwania wydarzenia.
+
+**M**
+
+**Market maker** - Sharp bukmacher lub aktywność giełdowa, która pomaga określić, gdzie powinny być ceny.
+
+**Middle** - Trzymanie pozycji na różnych liniach tak, że może stworzyć zyskowne nakładanie się, jeśli wynik wypada między nimi.
+
+**Moneyline** - Rynek zwycięstwa, szczególnie w sportach północnoamerykańskich, zwykle bez remisu.
+
+**O**
+
+**Overround** - Kwota, o którą całkowite implikowane prawdopodobieństwo przekracza 100 procent. To jest marża bukmachera.
+
+**Overtime** - Dodatkowy okres po regulaminowym czasie gry. Czy się liczy, zależy od rynku i sportu.
+
+**P**
+
+**Parlay** - Północnoamerykański termin na akumulator.
+
+**Pace** - Tempo gry lub liczba posiadań. Ważne w wyścigach, piłce nożnej, koszykówce i nie tylko, choć dokładne znaczenie się różni.
+
+**Pick'em** - Rynek spreadu lub strony blisko parytetu, gdzie drużyny są uważane za bardzo bliskie.
+
+**Place terms** - Zasady określające, ile miejsc wyścigowych płaci i przy jakiej frakcji kursów zwycięstwa.
+
+**Positive EV** - Zakład, którego cena jest lepsza niż twoja szacowana fair linia.
+
+**Price sensitive** - Sytuacja, gdzie zakład jest atrakcyjny tylko powyżej lub poniżej wąskiego progu kursów.
+
+**Prop** - Rynek propozycji na konkretne wyniki gracza lub wydarzenia zamiast głównego zwycięzcy.
+
+**Push** - Zakład, który kończy się remisem na linii i jest zwracany.
+
+**R**
+
+**Regulation** - Standardowa długość meczu przed dogrywką. Kluczowe sformułowanie rozliczenia w hokeju i niektórych rynkach piłkarskich.
+
+**Return on investment** - Zysk podzielony przez postawioną kwotę, zwykle wyrażony jako procent.
+
+**Run line** - Baseballowa wersja spreadu, zwykle ±1.5 runu.
+
+**S**
+
+**Sample size** - Ilość danych lub liczba wydarzeń za trendem lub statystyką. Małe próbki łatwo wprowadzają w błąd.
+
+**Scratch** - Późne wycofanie konia lub gracza. Ważne dla reakcji rynku i rozliczenia.
+
+**Second-serve liability** - Słabość tenisowa, gdzie gracz staje się wrażliwy, gdy jest zmuszony do drugiego serwisu.
+
+**Sharp** - Szanowany gracz, cena lub bukmacher związany z silniejszą inteligencją rynkową.
+
+**Shootout** - Procedura tiebreakera w hokeju w niektórych zawodach. Czy się liczy, zależy od rynku.
+
+**Side** - Zakład na drużynę lub uczestnika do wygrania lub pokrycia, w przeciwieństwie do sumy lub prop.
+
+**Soft book** - Rekreacyjny bukmacher bardziej skłonny oferować wolniejsze lub mniej efektywne ceny.
+
+**Spread** - Linia handicapu zaprojektowana do zrównoważenia dwóch drużyn na rynku.
+
+**Stake** - Kwota ryzykowana na zakład.
+
+**Steam** - Silny, nagły ruch rynkowy, często przypisywany wpływowym pieniądzom lub informacjom.
+
+**Strike rate** - Procent wygranych zakładów. Przydatny, ale sam niewystarczający, bo cena ma znaczenie.
+
+**T**
+
+**Team total** - Rynek o tym, ile punktów, runów, goli lub podobnych zdobywa drużyna niezależnie od sumy całego meczu.
+
+**Tick** - Najmniejszy przyrost ruchu cenowego na rynku.
+
+**Tilt** - Emocjonalnie zaburzone zachowanie zakładowe, często po wygranych lub przegranych.
+
+**Total** - Rynek na łączny wynik lub produkcję, jak over/under goli, punktów lub runów.
+
+**Trap game** - Nadużywane wyrażenie często używane leniwie. Znaczące tylko jeśli odnosi się do rzeczywistego ryzyka sytuacyjnego lub konfrontacyjnego.
+
+**True probability** - Twoja uczciwa ocena, jak często wynik się zdarza, oddzielona od widoku rynku.
+
+**U**
+
+**Unit** - Standardowy rozmiar stawki używany do spójnego wyrażania ryzyka między bankrollami.
+
+**V**
+
+**Value** - Cena lepsza niż prawdopodobieństwo, które przypisujesz wynikowi.
+
+**Vig** - Inne słowo na marżę, szczególnie w amerykańskim języku zakładowym.
+
+**Void** - Anulowany zakład, gdzie stawka jest zwracana zgodnie z zasadami.
+
+**W**
+
+**WHIP** - Statystyka baseballowa mierząca spacery i trafienia dozwolone na rzuconą zmianę; przydatna dla kontekstu ruchu i kontroli.
+
+**Win rate** - Ta sama ogólna idea co strike rate; jak często zakłady wypłacają.
+
+**Y**
+
+**Yield** - Zysk jako procent całkowitej stawki na zestawie zakładów.`
+      }
+    ]
   }
 ]

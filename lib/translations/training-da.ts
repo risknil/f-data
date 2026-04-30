@@ -248,5 +248,256 @@ export const trainingModulesDA: TrainingModule[] = [
       { title: 'Øvelse: CLV-analyse', content: 'For dine seneste 50 spil: registrer odds, lukningsodds, beregn CLV.' },
       { title: 'Appendiks: Formler', content: 'Implicit sandsynlighed = 1 / decimal odds\nEV = (P × profit) - ((1-P) × indsats)' }
     ]
+  },
+  {
+    id: 21,
+    slug: 'appendix-glossary',
+    title: 'Bilag A: Udvidet Spilordliste',
+    subtitle: 'En omfattende ordliste over spiltermer skrevet på træningssprog',
+    duration: '15 min læsning',
+    sections: [
+      {
+        title: 'Udvidet Spilordliste for Spillere',
+        content: `Denne ordliste er skrevet på træningssprog for menneskelige spillere. Den er bevidst praktisk. Målet er ikke at lyde encyklopædisk, men at gøre termen anvendelig i reel analyse, indsatsdimensionering og registreringsarbejde.
+
+**A**
+
+**Accumulator** - Spil med flere valg, hvor hvert ben skal vinde. Attraktive udbetalinger skjuler sammensat margin og sammensat fejl.
+
+**Across the card** - Væddeløbsudtryk for at spille på hvert løb ved et stævne. Normalt rekreativt snarere end selektivt.
+
+**All-weather** - Kunstig løbsoverflade brugt når græsforholdene er uegnede. Overfladepræference betyder noget i hesteanalyse.
+
+**American odds** - Oddsformat med plus- og minustal. Konverter dem hurtigt til sandsynlighed for at undgå prisfejl.
+
+**Ante-post** - Spil lagt længe før en begivenhed, ofte med bedre priser men større ikke-starter risiko afhængigt af regler.
+
+**Arbitrage** - Spille på alle udfald hos forskellige bookmakere for at sikre profit. Muligt i teorien, men kontorestriktioner gør det svært i praksis.
+
+**Asian handicap** - Handicapmarked, almindeligt i fodbold, der justerer resultatet og kan eliminere eller dele uafgjort-risiko.
+
+**B**
+
+**Back price** - Oddsen hvormed du støtter et udfald, især på en børs.
+
+**Bankroll** - Kapital tildelt udelukkende til spil. Eksisterer for at absorbere varians og beskytte beslutningskvalitet.
+
+**Best odds guaranteed** - Tilbud, almindeligt ved væddeløb, hvor spilleren får det bedste af tidlig pris eller SP hvis hesten vinder.
+
+**Bet builder** - Multi fra samme kamp der kombinerer flere valg fra en begivenhed. Bekvemt, men ofte med høj margin.
+
+**Bookmaker** - Virksomhed der sætter priser og accepterer spil mens de bygger margin ind i oddsen.
+
+**Both teams to score** - Fodboldmarked der afgøres hvis hvert hold scorer mindst én gang.
+
+**Break point** - Tennispoint hvor returspilleren kan vinde gamet ved at bryde serven.
+
+**Break percentage** - Hvor ofte en tennisspiller bryder modstanderens serve. En nøglekonfrontationsmetrik.
+
+**Bullpen** - Reservekasterenhed i baseball. Kritisk i prissætning af hele kampen.
+
+**C**
+
+**Cash out** - Bookmaker-funktion for tidlig udbetaling. Generelt bekvemmelighed først, værdi dernæst.
+
+**Chance quality** - Praktisk måde at beskrive om forsøg er farlige, ikke blot talrige.
+
+**Chalk** - Slang for favoritten.
+
+**Closing line** - Den sidste bredt tilgængelige markedspris før begivenheden starter.
+
+**Closing line value** - Forskellen mellem din tagne pris og lukkepris. Nyttig som procesrevision.
+
+**Coin flip game** - Møde prissat tæt på paritet. Kræver disciplin fordi mange spillere overvurderer små fordele.
+
+**Correct score** - Marked der kræver det nøjagtige slutresultat. Høj varians og meget prisfølsom.
+
+**Cover the spread** - Slå handicappet eller spreaden efter justeringen er anvendt.
+
+**Course and distance** - Væddeløbsnotering der viser tidligere succes på samme bane og distance.
+
+**D**
+
+**Dead heat** - Delt placering eller sejr hvor indsatsafregning justeres ifølge regler.
+
+**Decimal odds** - Oddsformat der udtrykker total afkast pr. indsatsenhed. Generelt det nemmeste professionelle arbejdsformat.
+
+**Derivative** - Sekundært marked som første halvleg, første fem innings, holdtotal, kvarter eller periodemarked.
+
+**Draw no bet** - Marked hvor uafgjort tilbagebetaler indsatsen og kun sejr for valgt side betaler.
+
+**Drift** - Når odds bliver større. Kan afspejle negativ information, svagere efterspørgsel eller markedskorrektion.
+
+**E**
+
+**Each-way** - Væddeløbsspil opdelt i sejrs- og placeringsdele. Værdifuldt kun når placeringsvilkår og pris retfærdiggør det.
+
+**Edge** - Den praktiske fordel din analyse har over markedet ved en given pris.
+
+**Evens** - Lige penge: decimal 2.00 eller 1/1.
+
+**Expected goals** - Fodboldmetrik der estimerer sandsynligheden for at skud bliver mål. Nyttig for procesgennemgang ved forsigtig brug.
+
+**Expected value** - Den langsigtede værdi af et spil baseret på din sandsynlighedsvurdering og den tilbudte pris.
+
+**Exchange** - Peer-to-peer spilleplatform hvor brugere backer og layer udfald og platformen tager provision.
+
+**F**
+
+**Favourite** - Valget med korteste pris på et marked.
+
+**Fair line** - Din egen oddsvurdering før bookmakerens margin.
+
+**First five** - Baseballderivat der kun dækker de første fem innings. Nyttigt for at isolere startende kasters fordel.
+
+**First goalscorer** - Marked om hvilken spiller der scorer første mål. Høj varians og rollefølsom.
+
+**Fold** - Antallet af ben i en accumulator eller parlay.
+
+**Form** - Registrering af tidligere præstationer. Nyttig kun når placeret i passende kontekst.
+
+**Fractional odds** - Traditionelt britisk og irsk format der udtrykker profit relativt til indsats.
+
+**Freeze the line** - Markedspause eller mangel på bevægelse mens tradere venter på frisk information.
+
+**G**
+
+**Game script** - Den sandsynlige form og flow af en kamp, særligt vigtigt i fodbold og basketball.
+
+**Going** - Væddeløbsterm for baneforhold, fra fast til tungt. Ofte afgørende.
+
+**H**
+
+**Handicap** - Marked eller løbsstruktur designet til at udligne deltagere ved at justere resultat eller båret vægt.
+
+**Hold percentage** - Hvor ofte en tennisspiller holder sin serve. Centralt for kamp- og totalanalyse.
+
+**I**
+
+**Implied probability** - Sandsynligheden repræsenteret af markedsprisen før justering for din egen mening.
+
+**In-play** - Spille efter begivenheden er startet. Kræver hurtighed, disciplin og bevidsthed om forsinkelse og likviditet.
+
+**J**
+
+**Juice** - Andet ord for bookmakermargin eller vig.
+
+**K**
+
+**Kelly criterion** - Dimensioneringsformel der kobler fordel til spilstørrelse. Kraftfuld i teorien, farlig når sandsynlighedsvurderinger er svage.
+
+**L**
+
+**Lay** - Spille mod et udfald på en børs.
+
+**Limit** - Maksimumbeløb en bookmaker eller marked vil tillade ved en given pris.
+
+**Line shopping** - Tjekke flere bookmakere for at få bedste tilgængelige pris.
+
+**Liquidity** - Hvor mange penge der er tilgængelige på et marked uden at flytte prisen for meget.
+
+**Live odds** - Tilgængelige priser mens begivenheden spilles.
+
+**M**
+
+**Market maker** - Sharp bookmaker eller børsaktivitet der hjælper med at definere hvor priser bør være.
+
+**Middle** - Holde positioner på forskellige linjer så det kan skabe profitabel overlap hvis udfaldet falder mellem dem.
+
+**Moneyline** - Sejrsmarked, især i nordamerikanske sportsgrene, normalt uden uafgjort.
+
+**O**
+
+**Overround** - Beløbet hvormed den totale implicitte sandsynlighed overstiger 100 procent. Dette er bookmakerens margin.
+
+**Overtime** - Ekstra periode efter ordinær tid. Om det tæller afhænger af marked og sport.
+
+**P**
+
+**Parlay** - Nordamerikansk term for accumulator.
+
+**Pace** - Spiltempo eller antal boldbesiddelser. Vigtigt i væddeløb, fodbold, basketball og mere, selvom den præcise betydning varierer.
+
+**Pick'em** - Spread- eller sidemarked tæt på paritet hvor holdene anses for meget tætte.
+
+**Place terms** - Regler der styrer hvor mange væddeløbsplaceringer der betaler og ved hvilken brøkdel af sejrsodds.
+
+**Positive EV** - Spil hvis pris er bedre end din estimerede fair linje.
+
+**Price sensitive** - Situation hvor spillet kun er attraktivt over eller under en smal oddstærskel.
+
+**Prop** - Propositionsmarked om specifikke spiller- eller begivenhedsudfald snarere end hovedvinderen.
+
+**Push** - Spil der ender uafgjort på linjen og tilbagebetales.
+
+**R**
+
+**Regulation** - Standard kamplængde før overtid. Afgørende afregningsformulering i hockey og nogle fodboldmarkeder.
+
+**Return on investment** - Profit delt med spillet beløb, normalt udtrykt som procent.
+
+**Run line** - Baseballversion af en spread, normalt ±1.5 runs.
+
+**S**
+
+**Sample size** - Mængde data eller antal begivenheder bag en trend eller statistik. Små samples vildleder nemt.
+
+**Scratch** - Sen tilbagetrækning af hest eller spiller. Vigtigt for markedsreaktion og afregning.
+
+**Second-serve liability** - Tennissvaghed hvor spilleren bliver sårbar når tvunget til andensserve.
+
+**Sharp** - Respekteret spiller, pris eller bookmaker associeret med stærkere markedsintelligens.
+
+**Shootout** - Tiebreaker-procedure i hockey ved nogle konkurrencer. Om det tæller afhænger af markedet.
+
+**Side** - Spil på et hold eller deltager til at vinde eller dække, i modsætning til total eller prop.
+
+**Soft book** - Rekreativ bookmaker mere tilbøjelig til at tilbyde langsommere eller mindre effektive priser.
+
+**Spread** - Handicaplinje designet til at balancere to hold på et marked.
+
+**Stake** - Beløbet risikeret på et spil.
+
+**Steam** - Stærk, pludselig markedsbevægelse, ofte tilskrevet indflydelsesrige penge eller information.
+
+**Strike rate** - Procent af vundne spil. Nyttig, men ikke tilstrækkelig alene fordi pris betyder noget.
+
+**T**
+
+**Team total** - Marked om hvor mange point, runs, mål eller lignende et hold scorer uafhængigt af hele kampens total.
+
+**Tick** - Mindste inkrement af prisbevægelse på et marked.
+
+**Tilt** - Følelsesmæssigt kompromitteret spiladfærd, ofte efter gevinster eller tab.
+
+**Total** - Marked om kombineret score eller produktion, som over/under mål, point eller runs.
+
+**Trap game** - Overbrugt udtryk ofte brugt dovent. Meningsfuldt kun hvis det refererer til reel situations- eller konfrontationsrisiko.
+
+**True probability** - Din ærlige vurdering af hvor ofte udfaldet indtræffer, adskilt fra markedets syn.
+
+**U**
+
+**Unit** - Standardiseret indsatsstørrelse brugt til at udtrykke risiko konsekvent på tværs af bankrolls.
+
+**V**
+
+**Value** - Pris der er bedre end sandsynligheden du tildeler udfaldet.
+
+**Vig** - Andet ord for margin, især i amerikansk spilsprog.
+
+**Void** - Annulleret spil hvor indsatsen tilbagebetales ifølge regler.
+
+**W**
+
+**WHIP** - Baseballstatistik der måler walks og hits tilladt pr. kastet inning; nyttig for trafik- og kontrolkontekst.
+
+**Win rate** - Samme generelle idé som strike rate; hvor ofte spil udbetaler.
+
+**Y**
+
+**Yield** - Profit som procent af total indsats over et sæt spil.`
+      }
+    ]
   }
 ]

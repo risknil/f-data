@@ -925,5 +925,256 @@ ahol b = decimális odds - 1, p = nyerési valószínűség, q = vesztési való
 Sok sikert a fegyelmezett fogadás útján.`
       }
     ]
+  },
+  {
+    id: 21,
+    slug: 'appendix-glossary',
+    title: 'A Függelék: Kibővített Fogadási Szószedet',
+    subtitle: 'Átfogó fogadási kifejezések szószedete képzési nyelven írva',
+    duration: '15 perc olvasás',
+    sections: [
+      {
+        title: 'Kibővített Fogadási Szószedet Fogadóknak',
+        content: `Ez a szószedet képzési nyelven íródott emberi fogadók számára. Szándékosan praktikus. A cél nem az, hogy enciklopédikusan hangozzon, hanem hogy a kifejezést használhatóvá tegye a valós elemzésben, tétméretezésben és nyilvántartási munkában.
+
+**A**
+
+**Accumulator** - Többszörös kiválasztású fogadás, ahol minden lábnak nyernie kell. A vonzó kifizetések összetett árrést és összetett hibát rejtenek.
+
+**Across the card** - Versenykifejezés minden futamra való fogadásra egy találkozón. Általában rekreációs, nem szelektív.
+
+**All-weather** - Mesterséges versenypálya, amikor a gyepkörülmények alkalmatlanok. A felületpreferencia számít a lóelemzésben.
+
+**American odds** - Odds formátum plusz és mínusz számokkal. Gyorsan alakítsa át valószínűségre az árképzési hibák elkerülése érdekében.
+
+**Ante-post** - Jóval az esemény előtt kötött fogadás, gyakran jobb árakkal, de nagyobb nem-induló kockázattal a szabályoktól függően.
+
+**Arbitrage** - Minden kimenetelre fogadás különböző fogadóirodáknál a profit biztosítására. Elméletben lehetséges, de a fiókkorlátozások megnehezítik a gyakorlatban.
+
+**Asian handicap** - Hendikep piac, gyakori a labdarúgásban, amely módosítja az eredményt és kiküszöbölheti vagy megoszthatja a döntetlen kockázatát.
+
+**B**
+
+**Back price** - Az odds, amelyen támogatsz egy kimenetelt, különösen tőzsdén.
+
+**Bankroll** - Kizárólag fogadásra elkülönített tőke. A variancia elnyelésére és a döntésminőség védelmére létezik.
+
+**Best odds guaranteed** - Promóció, gyakori versenyeken, ahol a fogadó a korai ár vagy SP közül a jobbat kapja, ha a ló nyer.
+
+**Bet builder** - Ugyanazon mérkőzés multi, amely több kiválasztást kombinál egy eseményből. Kényelmes, de gyakran magas árrés.
+
+**Bookmaker** - Cég, amely árakat határoz meg és fogadásokat fogad el, miközben árrést épít az oddsba.
+
+**Both teams to score** - Labdarúgás piac, amely akkor kerül elszámolásra, ha mindkét csapat legalább egyszer gólt szerez.
+
+**Break point** - Teniszpont, ahol a fogadó fél megnyerheti a játékot a szerva megtörésével.
+
+**Break percentage** - Milyen gyakran töri meg egy teniszező az ellenfél szervát. Kulcsfontosságú összecsapás metrika.
+
+**Bullpen** - Váltódobó egység a baseballban. Kritikus a teljes mérkőzés árképzésében.
+
+**C**
+
+**Cash out** - Fogadóiroda funkció korai kifizetésre. Általában kényelem először, érték másodszor.
+
+**Chance quality** - Praktikus módja annak leírására, hogy a kísérletek veszélyesek-e, nem pusztán számosak.
+
+**Chalk** - Szleng a favoritre.
+
+**Closing line** - Az utolsó széles körben elérhető piaci ár az esemény kezdete előtt.
+
+**Closing line value** - A különbség a fogadott ár és a záró ár között. Hasznos folyamat-auditként.
+
+**Coin flip game** - Paritáshoz közeli árazású összecsapás. Fegyelmet igényel, mert sok fogadó túlbecsüli a kis előnyöket.
+
+**Correct score** - Pontos végeredményt igénylő piac. Magas variancia és nagyon árérzzény.
+
+**Cover the spread** - A hendikep vagy spread legyőzése a kiigazítás alkalmazása után.
+
+**Course and distance** - Versenyjegyzet, amely korábbi sikert mutat ugyanazon a pályán és távolságon.
+
+**D**
+
+**Dead heat** - Holtverseny helyezésért vagy győzelemért, ahol a tét elszámolása a szabályok szerint módosul.
+
+**Decimal odds** - Odds formátum, amely a tétenként teljes hozamot fejezi ki. Általában a legkönnyebb professzionális munkaformátum.
+
+**Derivative** - Másodlagos piac, mint első félidő, első öt inning, csapatösszesen, negyed vagy időszak piac.
+
+**Draw no bet** - Piac, ahol a döntetlen visszaadja a tétet és csak a választott oldal győzelme fizet.
+
+**Drift** - Amikor az odds nagyobb lesz. Tükrözheti a negatív információt, gyengébb keresletet vagy piaci korrekciót.
+
+**E**
+
+**Each-way** - Verseny fogadás győzelem és helyezés részekre osztva. Csak akkor értékes, ha a helyezési feltételek és az ár indokolja.
+
+**Edge** - Az a gyakorlati előny, amellyel az elemzésed rendelkezik a piaccal szemben egy adott áron.
+
+**Evens** - Páros pénz: decimális 2.00 vagy 1/1.
+
+**Expected goals** - Labdarúgás metrika, amely a lövések gólba fordulásának valószínűségét becsüli. Hasznos folyamat-felülvizsgálatra óvatos használat mellett.
+
+**Expected value** - Egy fogadás hosszú távú értéke a valószínűségbecslésed és a kínált ár alapján.
+
+**Exchange** - Peer-to-peer fogadási platform, ahol a felhasználók kimeneteleket back-elnek és lay-elnek, és a platform jutalékot szed.
+
+**F**
+
+**Favourite** - A legrövidebb árú kiválasztás egy piacon.
+
+**Fair line** - A saját odds becslésed a fogadóiroda árrése előtt.
+
+**First five** - Baseball derivatíva, amely csak az első öt inninget fedi le. Hasznos a kezdő dobó előnyének elkülönítésére.
+
+**First goalscorer** - Piac arról, melyik játékos szerzi az első gólt. Magas variancia és szerepérzékeny.
+
+**Fold** - A lábak száma egy accumulatorban vagy parlay-ben.
+
+**Form** - Korábbi teljesítmények nyilvántartása. Csak megfelelő kontextusba helyezve hasznos.
+
+**Fractional odds** - Hagyományos brit és ír formátum, amely a nyereséget fejezi ki a téthez viszonyítva.
+
+**Freeze the line** - Piaci szünet vagy mozgáshiány, amíg a kereskedők friss információra várnak.
+
+**G**
+
+**Game script** - Egy mérkőzés valószínű formája és menete, különösen fontos a labdarúgásban és kosárlabdában.
+
+**Going** - Versenykifejezés a talajállapotra, szilárdtól nehézig. Gyakran döntő.
+
+**H**
+
+**Handicap** - Piac vagy versenystruktúra, amely a versenyzők kiegyenlítésére szolgál az eredmény vagy a hordozott súly módosításával.
+
+**Hold percentage** - Milyen gyakran tartja meg egy teniszező a szerváját. Központi a mérkőzés- és összesen-elemzéshez.
+
+**I**
+
+**Implied probability** - A piaci ár által képviselt valószínűség a saját véleményedre való kiigazítás előtt.
+
+**In-play** - Fogadás az esemény megkezdése után. Sebességet, fegyelmet és késleltetés- és likviditás-tudatosságot igényel.
+
+**J**
+
+**Juice** - Másik szó a fogadóiroda árrésére vagy vig-re.
+
+**K**
+
+**Kelly criterion** - Méretezési képlet, amely összekapcsolja az előnyt a fogadás méretével. Elméletben hatékony, veszélyes, ha a valószínűségbecslések gyengék.
+
+**L**
+
+**Lay** - Fogadás egy kimenetel ellen tőzsdén.
+
+**Limit** - Maximális összeg, amelyet egy fogadóiroda vagy piac megenged egy adott áron.
+
+**Line shopping** - Több fogadóiroda ellenőrzése a legjobb elérhető ár megszerzéséhez.
+
+**Liquidity** - Mennyi pénz érhető el egy piacon az ár túlzott mozgatása nélkül.
+
+**Live odds** - Elérhető árak, miközben az esemény zajlik.
+
+**M**
+
+**Market maker** - Sharp fogadóiroda vagy tőzsdei tevékenység, amely segít meghatározni, hol kell lenniük az áraknak.
+
+**Middle** - Pozíciók tartása különböző vonalakon úgy, hogy nyereséges átfedést hozhat létre, ha az eredmény közéjük esik.
+
+**Moneyline** - Győzelem piac, különösen észak-amerikai sportokban, általában döntetlen nélkül.
+
+**O**
+
+**Overround** - Az az összeg, amennyivel a teljes implikált valószínűség meghaladja a 100 százalékot. Ez a fogadóiroda árrése.
+
+**Overtime** - Extra időszak a rendes játékidő után. Hogy számít-e, a piactól és sporttól függ.
+
+**P**
+
+**Parlay** - Észak-amerikai kifejezés az accumulatorra.
+
+**Pace** - Játéksebesség vagy birtoklások száma. Fontos a versenyeken, labdarúgásban, kosárlabdában és azon túl, bár a pontos jelentés változik.
+
+**Pick'em** - Spread vagy oldal piac paritáshoz közel, ahol a csapatokat nagyon közelinek tekintik.
+
+**Place terms** - Szabályok, amelyek meghatározzák, hány versenyhelyezés fizet és a győzelmi odds hányadrészénél.
+
+**Positive EV** - Fogadás, amelynek ára jobb a becsült fair vonalnál.
+
+**Price sensitive** - Helyzet, ahol a fogadás csak egy szűk odds-küszöb felett vagy alatt vonzó.
+
+**Prop** - Propozíciós piac specifikus játékos- vagy esemény-eredményekről a fő győztes helyett.
+
+**Push** - Fogadás, amely holtversenyben végződik a vonalon és visszatérítésre kerül.
+
+**R**
+
+**Regulation** - Standard játékhossz a hosszabbítás előtt. Döntő elszámolási megfogalmazás a jégkorongban és egyes labdarúgás piacokon.
+
+**Return on investment** - Nyereség osztva a fogadott összeggel, általában százalékban kifejezve.
+
+**Run line** - Baseball verzió a spreadből, általában ±1.5 run.
+
+**S**
+
+**Sample size** - Adatmennyiség vagy események száma egy trend vagy statisztika mögött. A kis minták könnyen félrevezetnek.
+
+**Scratch** - Késői visszalépés lótól vagy játékostól. Fontos a piaci reakció és elszámolás szempontjából.
+
+**Second-serve liability** - Tenisz gyengeség, ahol a játékos sebezhetővé válik, amikor második szervára kényszerül.
+
+**Sharp** - Tisztelt fogadó, ár vagy fogadóiroda, amely erősebb piaci intelligenciával társul.
+
+**Shootout** - Tiebreaker eljárás a jégkorongban egyes versenyeken. Hogy számít-e, a piactól függ.
+
+**Side** - Fogadás egy csapatra vagy résztvevőre a győzelemre vagy fedezésre, az összesen vagy prop-pal szemben.
+
+**Soft book** - Rekreációs fogadóiroda, amely valószínűbben kínál lassabb vagy kevésbé hatékony árakat.
+
+**Spread** - Hendikep vonal, amely két csapat kiegyensúlyozására szolgál egy piacon.
+
+**Stake** - A fogadásra kockáztatott összeg.
+
+**Steam** - Erős, hirtelen piacmozgás, gyakran befolyásos pénznek vagy információnak tulajdonítva.
+
+**Strike rate** - Nyert fogadások százaléka. Hasznos, de önmagában nem elegendő, mert az ár számít.
+
+**T**
+
+**Team total** - Piac arról, hány pontot, runt, gólt vagy hasonlót szerez egy csapat a teljes mérkőzés összesétől függetlenül.
+
+**Tick** - A legkisebb ármozgási egység egy piacon.
+
+**Tilt** - Érzelmileg veszélyeztetett fogadási viselkedés, gyakran nyerések vagy veszteségek után.
+
+**Total** - Piac az összesített pontszámról vagy termelésről, mint over/under gólok, pontok vagy runok.
+
+**Trap game** - Túlhasznált kifejezés, gyakran lustán alkalmazva. Csak akkor jelentős, ha valós szituációs vagy összecsapás kockázatra utal.
+
+**True probability** - Őszinte becslésed arról, milyen gyakran következik be az eredmény, elkülönítve a piac nézetétől.
+
+**U**
+
+**Unit** - Szabványosított tétméret, amelyet a kockázat konzisztens kifejezésére használnak a bankrollok között.
+
+**V**
+
+**Value** - Ár, amely jobb, mint az eredményhez rendelt valószínűség.
+
+**Vig** - Másik szó az árrésre, különösen az amerikai fogadási nyelvben.
+
+**Void** - Érvénytelenített fogadás, ahol a tét a szabályok szerint visszatérítésre kerül.
+
+**W**
+
+**WHIP** - Baseball statisztika, amely a dobott inningenkénti engedélyezett séta és ütést méri; hasznos a forgalom és irányítás kontextusához.
+
+**Win rate** - Ugyanaz az általános gondolat, mint a strike rate; milyen gyakran fizetnek a fogadások.
+
+**Y**
+
+**Yield** - Nyereség a teljes tét százalékában egy fogadássorozaton.`
+      }
+    ]
   }
 ]
