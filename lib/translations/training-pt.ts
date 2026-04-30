@@ -1771,12 +1771,124 @@ e) Que ajustes você consideraria?`
 Fórmulas úteis:
 - EV = (prob × lucro) - ((1-prob) × stake)
 - Kelly = (prob × odds - 1) / (odds - 1)
-- ROI = lucro / total apostado
+- ROI = lucro / total apostado`
+      },
+      {
+        title: 'Planilha: Verificação de Qualidade Pré-Aposta',
+        content: `| Item de Verificação | Completo? | Notas |
+|---|---|---|
+| Criei minha própria linha justa antes de ancorar no mercado? | □ | |
+| O mercado escolhido é a expressão mais limpa da vantagem? | □ | |
+| O preço recomendado ainda é realisticamente obtível? | □ | |
+| O stake é consistente com minha estrutura de dimensionamento? | □ | |
+| Notei notícias materiais do time, escalação, clima ou efeitos de calendário? | □ | |
+| Um apostador pode entender a tese em menos de um minuto? | □ | |
+| Declarei a liquidação claramente onde confusão é possível? | □ | |
+| Eu ainda apostaria isso se ninguém mais visse o registro? | □ | |`
+      },
+      {
+        title: 'Apêndice A: Glossário Estendido de Apostas',
+        content: `Este glossário está escrito em linguagem de treinamento para apostadores. É deliberadamente prático.
 
-Recursos recomendados:
-- Pinnacle Articles (teoria de apostas)
-- PlusEV Analytics (ferramentas)
-- Comunidades de apostadores sérios
+| Termo | Definição de Treinamento |
+|---|---|
+| Accumulator | Aposta de múltiplas seleções onde cada perna deve vencer. Pagamentos atraentes escondem margem composta. |
+| Across the card | Frase de corridas para apostar em todas as corridas de uma reunião. Geralmente recreativo. |
+| All-weather | Superfície artificial de corridas usada quando condições de grama são inadequadas. |
+| American odds | Formato de odds usando números positivos e negativos. Converta para probabilidade rapidamente. |
+| Ante-post | Aposta feita bem antes de um evento, frequentemente com preços melhores mas maior risco de não-corredor. |
+| Arbitrage | Apostar em todos os resultados em diferentes casas para garantir lucro. Possível em teoria, difícil na prática. |
+| Asian handicap | Mercado de handicap, comum no futebol, que ajusta o placar e pode remover o risco de empate. |
+| Back price | As odds nas quais você apoia um resultado a acontecer, especialmente em uma exchange. |
+| Bankroll | Capital alocado exclusivamente para apostas. Existe para absorver variância e proteger qualidade de decisão. |
+| Best odds guaranteed | Promoção onde o apostador recebe o maior entre preço antecipado ou SP se o cavalo vencer. |
+| Bet builder | Multi do mesmo jogo combinando várias seleções de um evento. Conveniente, mas frequentemente com margem alta. |
+| Bookmaker | Empresa que precifica e aceita apostas enquanto constrói margem nas odds. |
+| Both teams to score | Mercado de futebol liquidado se cada time marca pelo menos uma vez. |
+| Break point | Ponto de tênis onde o recebedor pode ganhar o game quebrando o saque. |
+| Break percentage | Frequência com que um jogador de tênis quebra o saque do oponente. |
+| Bullpen | Unidade de arremessadores de alívio no beisebol. Crítico na precificação de jogo completo. |
+| Cash out | Recurso de casa de apostas permitindo liquidação antecipada. Geralmente conveniência primeiro, valor segundo. |
+| Chance quality | Forma prática de descrever se tentativas são perigosas, não meramente numerosas. |
+| Chalk | Gíria para o favorito. |
+| Closing line | O último preço de mercado amplamente disponível antes do evento começar. |
+| Closing line value | A diferença entre seu preço tomado e o preço de fechamento. Útil como auditoria de processo. |
+| Coin flip game | Confronto precificado perto de par. Requer disciplina porque muitos apostadores superestimam pequenas vantagens. |
+| Correct score | Mercado exigindo o placar final exato. Alta variância e altamente sensível a preço. |
+| Cover the spread | Vencer o handicap ou spread após o ajuste ser aplicado. |
+| Course and distance | Nota de corridas mostrando sucesso anterior na mesma pista e distância. |
+| Dead heat | Empate para colocação ou vitória onde liquidação de stake é ajustada de acordo com regras. |
+| Decimal odds | Formato de odds expressando retorno total por unidade de stake. |
+| Derivative | Mercado secundário como primeiro tempo, primeiras cinco entradas, total do time. |
+| Draw no bet | Mercado onde empate retorna stake e apenas vitória do lado escolhido paga. |
+| Drift | Quando odds ficam maiores. Pode refletir informação negativa ou correção de mercado. |
+| Each-way | Aposta de corrida dividida em partes de vitória e lugar. |
+| Edge | A vantagem prática que sua análise tem sobre o mercado em um dado preço. |
+| Evens | Dinheiro par: decimal 2.00 ou 1/1. |
+| Expected goals | Métrica de futebol estimando a probabilidade de chutes se tornarem gols. |
+| Expected value | O valor de longo prazo de uma aposta baseado em sua estimativa de probabilidade e o preço oferecido. |
+| Exchange | Plataforma de apostas peer-to-peer onde usuários apoiam e fazem lay de resultados. |
+| Favourite | A seleção com menor preço em um mercado. |
+| Fair line | Sua própria estimativa de odds antes da margem da casa de apostas. |
+| First five | Derivativo de beisebol cobrindo apenas as primeiras cinco entradas. |
+| First goalscorer | Mercado sobre qual jogador marca o primeiro gol. Alta variância e sensível a função. |
+| Fold | O número de pernas em um acumulador ou parlay. |
+| Form | Registro de desempenhos anteriores. Útil apenas quando colocado em contexto adequado. |
+| Fractional odds | Formato tradicional do Reino Unido e Irlanda expressando lucro relativo ao stake. |
+| Freeze the line | Pausa de mercado enquanto traders esperam informação nova. |
+| Game script | A forma e fluxo prováveis de um jogo, especialmente importante no futebol e basquete. |
+| Going | Termo de corrida para condição do terreno, de firme a pesado. |
+| Handicap | Mercado projetado para nivelar competidores ajustando placar ou peso carregado. |
+| Hold percentage | Frequência com que um jogador de tênis mantém seu saque. |
+| Implied probability | A probabilidade representada pelo preço de mercado antes de ajustar para sua própria opinião. |
+| In-play | Apostar após o evento ter começado. Requer velocidade, disciplina e consciência de delay. |
+| Juice | Outra palavra para margem de casa de apostas ou vig. |
+| Kelly criterion | Fórmula de dimensionamento ligando vantagem ao tamanho da aposta. |
+| Lay | Apostar contra um resultado em uma exchange. |
+| Limit | Quantia máxima que uma casa permitirá em um dado preço. |
+| Line shopping | Verificar múltiplas casas para obter o melhor preço disponível. |
+| Liquidity | Quanto dinheiro está disponível em um mercado sem mover muito o preço. |
+| Live odds | Preços disponíveis enquanto o evento está sendo jogado. |
+| Market maker | Casa sharp ou atividade de exchange que ajuda a definir onde os preços devem estar. |
+| Middle | Manter posições em diferentes linhas que pode criar sobreposição lucrativa se o resultado cair entre elas. |
+| Moneyline | Mercado de vitória, especialmente em esportes norte-americanos, geralmente sem empate. |
+| Overround | A quantia pela qual a probabilidade implícita total excede 100 por cento. Esta é a margem da casa. |
+| Overtime | Período extra após o tempo regulamentar. Se conta depende do mercado e esporte. |
+| Parlay | Termo norte-americano para acumulador. |
+| Pace | Velocidade do jogo ou número de posses. |
+| Pick'em | Mercado de spread ou lado perto de par onde times são considerados muito próximos. |
+| Place terms | Regras governando quantos lugares de corrida pagam e em qual fração das odds de vitória. |
+| Positive EV | Aposta cujo preço é melhor que sua linha justa estimada. |
+| Price sensitive | Situação onde a aposta só é atraente acima ou abaixo de um limite estreito de odds. |
+| Prop | Mercado de proposição sobre resultados específicos de jogador ou evento. |
+| Push | Aposta que empata na linha e é reembolsada. |
+| Regulation | Duração padrão do jogo antes de overtime. |
+| Return on investment | Lucro dividido por quantia apostada, geralmente expresso como porcentagem. |
+| Run line | Versão do beisebol de um spread, comumente ±1.5 corridas. |
+| Sample size | Quantidade de dados por trás de uma tendência. Amostras pequenas enganam facilmente. |
+| Scratch | Retirada tardia de cavalo ou jogador. |
+| Second-serve liability | Fraqueza de tênis onde o jogador fica vulnerável quando forçado ao segundo saque. |
+| Sharp | Apostador, preço ou casa de apostas respeitado associado com inteligência de mercado mais forte. |
+| Shootout | Procedimento de desempate de hóquei em algumas competições. |
+| Side | Aposta em um time para vencer ou cobrir, em oposição a total ou prop. |
+| Soft book | Casa de apostas recreativa mais provável de oferecer precificação menos eficiente. |
+| Spread | Linha de handicap projetada para equilibrar dois times em um mercado. |
+| Stake | A quantia arriscada em uma aposta. |
+| Steam | Movimento de mercado forte e repentino, frequentemente atribuído a dinheiro influente. |
+| Strike rate | Porcentagem de apostas ganhas. |
+| Team total | Mercado sobre quantos pontos um time marca independente do total do jogo completo. |
+| Tick | O menor incremento de movimento de precificação em um mercado. |
+| Tilt | Comportamento de apostas emocionalmente comprometido, frequentemente após vitórias ou derrotas. |
+| Total | Mercado sobre pontuação combinada, como over/under gols, pontos ou corridas. |
+| Trap game | Frase excessivamente usada. Significativa apenas se refere a risco situacional real. |
+| True probability | Sua estimativa honesta de quão frequentemente o resultado acontece, separada da visão do mercado. |
+| Unit | Tamanho de stake padronizado usado para expressar risco consistentemente entre bankrolls. |
+| Value | Preço que é melhor que a probabilidade que você atribui ao resultado. |
+| Vig | Outra palavra para margem, especialmente em linguagem de apostas dos EUA. |
+| Void | Aposta cancelada onde stake é retornado sob as regras. |
+| WHIP | Estatística de beisebol medindo walks e hits permitidos por entrada arremessada. |
+| Win rate | Frequência com que apostas pagam. |
+| Yield | Lucro como porcentagem do stake total sobre um conjunto de apostas. |
 
 Lembre-se: O objetivo deste material é construir fundamentos. A prática contínua e revisão honesta são o que transformam conhecimento em habilidade.
 
