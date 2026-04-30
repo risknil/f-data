@@ -1895,5 +1895,256 @@ Lembre-se: O objetivo deste material é construir fundamentos. A prática contí
 Boa sorte em sua jornada de apostas.`
       }
     ]
+  },
+  {
+    id: 21,
+    slug: 'appendix-glossary',
+    title: 'Apêndice A: Glossário Estendido de Apostas',
+    subtitle: 'Um glossário abrangente de termos de apostas escrito em linguagem de treinamento',
+    duration: '15 min de leitura',
+    sections: [
+      {
+        title: 'Glossário Estendido de Apostas para Apostadores',
+        content: `Este glossário está escrito em linguagem de treinamento para apostadores humanos. É deliberadamente prático. O objetivo não é soar enciclopédico, mas tornar o termo utilizável em análise real, dimensionamento e trabalho de registro.
+
+**A**
+
+**Accumulator** - Aposta de múltiplas seleções onde cada perna deve vencer. Pagamentos atraentes escondem margem composta e erro composto.
+
+**Across the card** - Frase de corridas para apostar em todas as corridas de uma reunião. Geralmente recreativo em vez de seletivo.
+
+**All-weather** - Superfície artificial de corridas usada quando condições de grama são inadequadas. Preferência de superfície importa na análise de cavalos.
+
+**American odds** - Formato de odds usando números positivos e negativos. Converta-os em probabilidade rapidamente para evitar erros de precificação.
+
+**Ante-post** - Aposta feita bem antes de um evento, frequentemente com preços melhores mas maior risco de não-corredor dependendo das regras.
+
+**Arbitrage** - Apostar em todos os resultados em diferentes casas para garantir lucro. Possível em teoria, mas restrições de conta dificultam na prática.
+
+**Asian handicap** - Mercado de handicap, comum no futebol, que ajusta o placar e pode remover ou dividir o risco de empate.
+
+**B**
+
+**Back price** - As odds nas quais você apoia um resultado a acontecer, especialmente em uma exchange.
+
+**Bankroll** - Capital alocado exclusivamente para apostas. Existe para absorver variância e proteger qualidade de decisão.
+
+**Best odds guaranteed** - Promoção, comum em corridas, onde o apostador recebe o maior entre preço antecipado ou SP se o cavalo vencer.
+
+**Bet builder** - Multi do mesmo jogo combinando várias seleções de um evento. Conveniente, mas frequentemente com margem alta.
+
+**Bookmaker** - Empresa que precifica e aceita apostas enquanto constrói margem nas odds.
+
+**Both teams to score** - Mercado de futebol liquidado se cada time marca pelo menos uma vez.
+
+**Break point** - Ponto de tênis onde o recebedor pode ganhar o game quebrando o saque.
+
+**Break percentage** - Frequência com que um jogador de tênis quebra o saque do oponente. Uma métrica chave de confronto.
+
+**Bullpen** - Unidade de arremessadores de alívio no beisebol. Crítico na precificação de jogo completo.
+
+**C**
+
+**Cash out** - Recurso de casa de apostas permitindo liquidação antecipada. Geralmente conveniência primeiro, valor segundo.
+
+**Chance quality** - Forma prática de descrever se tentativas são perigosas, não meramente numerosas.
+
+**Chalk** - Gíria para o favorito.
+
+**Closing line** - O último preço de mercado amplamente disponível antes do evento começar.
+
+**Closing line value** - A diferença entre seu preço tomado e o preço de fechamento. Útil como auditoria de processo.
+
+**Coin flip game** - Confronto precificado perto de par. Requer disciplina porque muitos apostadores superestimam pequenas vantagens.
+
+**Correct score** - Mercado exigindo o placar final exato. Alta variância e altamente sensível a preço.
+
+**Cover the spread** - Vencer o handicap ou spread após o ajuste ser aplicado.
+
+**Course and distance** - Nota de corridas mostrando sucesso anterior na mesma pista e distância.
+
+**D**
+
+**Dead heat** - Empate para colocação ou vitória onde liquidação de stake é ajustada de acordo com regras.
+
+**Decimal odds** - Formato de odds expressando retorno total por unidade de stake. Geralmente o formato de trabalho profissional mais fácil.
+
+**Derivative** - Mercado secundário como primeiro tempo, primeiras cinco entradas, total do time, quarto ou mercado de período.
+
+**Draw no bet** - Mercado onde empate retorna stake e apenas vitória do lado escolhido paga.
+
+**Drift** - Quando odds ficam maiores. Pode refletir informação negativa, demanda mais fraca ou correção de mercado.
+
+**E**
+
+**Each-way** - Aposta de corrida dividida em partes de vitória e lugar. Valiosa apenas quando os termos de lugar e preço justificam.
+
+**Edge** - A vantagem prática que sua análise tem sobre o mercado em um dado preço.
+
+**Evens** - Dinheiro par: decimal 2.00 ou 1/1.
+
+**Expected goals** - Métrica de futebol estimando a probabilidade de chutes se tornarem gols. Útil para revisão de processo quando usado com cuidado.
+
+**Expected value** - O valor de longo prazo de uma aposta baseado em sua estimativa de probabilidade e o preço oferecido.
+
+**Exchange** - Plataforma de apostas peer-to-peer onde usuários apoiam e fazem lay de resultados e a plataforma cobra comissão.
+
+**F**
+
+**Favourite** - A seleção com menor preço em um mercado.
+
+**Fair line** - Sua própria estimativa de odds antes da margem da casa de apostas.
+
+**First five** - Derivativo de beisebol cobrindo apenas as primeiras cinco entradas. Útil para isolar vantagem de arremessador titular.
+
+**First goalscorer** - Mercado sobre qual jogador marca o primeiro gol. Alta variância e sensível a função.
+
+**Fold** - O número de pernas em um acumulador ou parlay.
+
+**Form** - Registro de desempenhos anteriores. Útil apenas quando colocado em contexto adequado.
+
+**Fractional odds** - Formato tradicional do Reino Unido e Irlanda expressando lucro relativo ao stake.
+
+**Freeze the line** - Pausa de mercado ou falta de movimento enquanto traders esperam informação nova.
+
+**G**
+
+**Game script** - A forma e fluxo prováveis de um jogo, especialmente importante no futebol e basquete.
+
+**Going** - Termo de corrida para condição do terreno, de firme a pesado. Frequentemente decisivo.
+
+**H**
+
+**Handicap** - Mercado ou estrutura de corrida projetada para nivelar competidores ajustando placar ou peso carregado.
+
+**Hold percentage** - Frequência com que um jogador de tênis mantém seu saque. Central para análise de partida e total.
+
+**I**
+
+**Implied probability** - A probabilidade representada pelo preço de mercado antes de ajustar para sua própria opinião.
+
+**In-play** - Apostar após o evento ter começado. Requer velocidade, disciplina e consciência de delay e liquidez.
+
+**J**
+
+**Juice** - Outra palavra para margem de casa de apostas ou vig.
+
+**K**
+
+**Kelly criterion** - Fórmula de dimensionamento ligando vantagem ao tamanho da aposta. Poderosa em teoria, perigosa quando estimativas de probabilidade são fracas.
+
+**L**
+
+**Lay** - Apostar contra um resultado em uma exchange.
+
+**Limit** - Quantia máxima que uma casa ou mercado permitirá em um dado preço.
+
+**Line shopping** - Verificar múltiplas casas para obter o melhor preço disponível.
+
+**Liquidity** - Quanto dinheiro está disponível em um mercado sem mover muito o preço.
+
+**Live odds** - Preços disponíveis enquanto o evento está sendo jogado.
+
+**M**
+
+**Market maker** - Casa sharp ou atividade de exchange que ajuda a definir onde os preços devem estar.
+
+**Middle** - Manter posições em diferentes linhas de forma que pode criar sobreposição lucrativa se o resultado cair entre elas.
+
+**Moneyline** - Mercado de vitória, especialmente em esportes norte-americanos, geralmente sem empate no quadro.
+
+**O**
+
+**Overround** - A quantia pela qual a probabilidade implícita total excede 100 por cento. Esta é a margem da casa de apostas.
+
+**Overtime** - Período extra após o tempo regulamentar. Se conta depende do mercado e esporte.
+
+**P**
+
+**Parlay** - Termo norte-americano para acumulador.
+
+**Pace** - Velocidade do jogo ou número de posses. Importante em corridas, futebol, basquete e além, embora o significado exato varie.
+
+**Pick'em** - Mercado de spread ou lado perto de par onde times são considerados muito próximos.
+
+**Place terms** - Regras governando quantos lugares de corrida pagam e em qual fração das odds de vitória.
+
+**Positive EV** - Aposta cujo preço é melhor que sua linha justa estimada.
+
+**Price sensitive** - Situação onde a aposta só é atraente acima ou abaixo de um limite estreito de odds.
+
+**Prop** - Mercado de proposição sobre resultados específicos de jogador ou evento em vez do vencedor principal.
+
+**Push** - Aposta que empata na linha e é reembolsada.
+
+**R**
+
+**Regulation** - Duração padrão do jogo antes de overtime. Formulação crucial de liquidação em hóquei e alguns mercados de futebol.
+
+**Return on investment** - Lucro dividido por quantia apostada, geralmente expresso como porcentagem.
+
+**Run line** - Versão do beisebol de um spread, comumente ±1.5 corridas.
+
+**S**
+
+**Sample size** - Quantidade de dados ou número de eventos por trás de uma tendência ou estatística. Amostras pequenas enganam facilmente.
+
+**Scratch** - Retirada tardia de cavalo ou jogador. Importante para reação de mercado e liquidação.
+
+**Second-serve liability** - Fraqueza de tênis onde o jogador fica vulnerável quando forçado ao segundo saque.
+
+**Sharp** - Apostador, preço ou casa de apostas respeitado associado com inteligência de mercado mais forte.
+
+**Shootout** - Procedimento de desempate de hóquei em algumas competições. Se conta depende do mercado.
+
+**Side** - Aposta em um time ou participante para vencer ou cobrir, em oposição a total ou prop.
+
+**Soft book** - Casa de apostas recreativa mais provável de oferecer precificação mais lenta ou menos eficiente.
+
+**Spread** - Linha de handicap projetada para equilibrar dois times em um mercado.
+
+**Stake** - A quantia arriscada em uma aposta.
+
+**Steam** - Movimento de mercado forte e repentino, frequentemente atribuído a dinheiro ou informação influente.
+
+**Strike rate** - Porcentagem de apostas ganhas. Útil, mas não suficiente sozinha porque preço importa.
+
+**T**
+
+**Team total** - Mercado sobre quantos pontos, corridas, gols ou similar um time marca independente do total do jogo completo.
+
+**Tick** - O menor incremento de movimento de precificação em um mercado.
+
+**Tilt** - Comportamento de apostas emocionalmente comprometido, frequentemente após vitórias ou derrotas.
+
+**Total** - Mercado sobre pontuação ou produção combinada, como over/under gols, pontos ou corridas.
+
+**Trap game** - Frase excessivamente usada frequentemente empregada de forma preguiçosa. Significativa apenas se refere a risco situacional ou de confronto real.
+
+**True probability** - Sua estimativa honesta de quão frequentemente o resultado acontece, separada da visão do mercado.
+
+**U**
+
+**Unit** - Tamanho de stake padronizado usado para expressar risco consistentemente entre bankrolls.
+
+**V**
+
+**Value** - Preço que é melhor que a probabilidade que você atribui ao resultado.
+
+**Vig** - Outra palavra para margem, especialmente em linguagem de apostas dos EUA.
+
+**Void** - Aposta cancelada onde stake é retornado sob as regras.
+
+**W**
+
+**WHIP** - Estatística de beisebol medindo walks e hits permitidos por entrada arremessada; útil para contexto de tráfego e comando.
+
+**Win rate** - Mesma ideia geral que taxa de acerto; frequência com que apostas pagam.
+
+**Y**
+
+**Yield** - Lucro como porcentagem do stake total sobre um conjunto de apostas.`
+      }
+    ]
   }
 ]
