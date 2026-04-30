@@ -925,5 +925,256 @@ waar b = decimale odds - 1, p = winstkans, q = verlieskans`
 Succes met je reis naar gedisciplineerd wedden.`
       }
     ]
+  },
+  {
+    id: 21,
+    slug: 'appendix-glossary',
+    title: 'Bijlage A: Uitgebreide Wedden Woordenlijst',
+    subtitle: 'Een uitgebreide woordenlijst van weddentermen geschreven in trainingstaai',
+    duration: '15 min leestijd',
+    sections: [
+      {
+        title: 'Uitgebreide Wedden Woordenlijst voor Gokkers',
+        content: `Deze woordenlijst is geschreven in trainingstaai voor menselijke gokkers. Het is bewust praktisch. Het doel is niet encyclopedisch te klinken maar de term bruikbaar te maken in echte analyse, inzetberekening en registratiewerk.
+
+**A**
+
+**Accumulator** - Weddenschap met meerdere selecties waarbij elk been moet winnen. Aantrekkelijke uitbetalingen verbergen samengestelde marge en samengestelde fout.
+
+**Across the card** - Raceterm voor wedden op elke race van een bijeenkomst. Meestal recreatief in plaats van selectief.
+
+**All-weather** - Kunstmatig raceoppervlak gebruikt wanneer grasomstandigheden ongeschikt zijn. Oppervlaktevoorkeur telt in paardenanalyse.
+
+**American odds** - Quotenformaat met plus- en mingetallen. Zet ze snel om naar waarschijnlijkheid om prijsfouten te vermijden.
+
+**Ante-post** - Weddenschap ruim voor een evenement geplaatst, vaak met betere prijzen maar groter niet-starter risico afhankelijk van regels.
+
+**Arbitrage** - Op alle uitkomsten wedden bij verschillende bookmakers om winst te verzekeren. Theoretisch mogelijk, maar accountbeperkingen maken het praktisch moeilijk.
+
+**Asian handicap** - Handicapmarkt, gebruikelijk in voetbal, die de score aanpast en gelijkspelrisico kan elimineren of splitsen.
+
+**B**
+
+**Back price** - De odds waarop je een uitkomst steunt, vooral op een beurs.
+
+**Bankroll** - Kapitaal uitsluitend toegewezen aan wedden. Bestaat om variantie te absorberen en beslissingskwaliteit te beschermen.
+
+**Best odds guaranteed** - Promotie, gebruikelijk bij races, waarbij de gokker de beste van vroege prijs of SP ontvangt als het paard wint.
+
+**Bet builder** - Same-game multi die meerdere selecties van één evenement combineert. Handig, maar vaak met hoge marge.
+
+**Bookmaker** - Bedrijf dat prijzen bepaalt en weddenschappen accepteert terwijl het marge in de odds inbouwt.
+
+**Both teams to score** - Voetbalmarkt afgewikkeld als elk team minstens één keer scoort.
+
+**Break point** - Tennispunt waar de ontvanger de game kan winnen door de service te breken.
+
+**Break percentage** - Hoe vaak een tennisser de service van de tegenstander breekt. Een belangrijke confrontatiemetriek.
+
+**Bullpen** - Relief pitcher eenheid in honkbal. Kritisch in de prijsbepaling van de volledige wedstrijd.
+
+**C**
+
+**Cash out** - Bookmakerfunctie voor vroege uitbetaling. Over het algemeen gemak eerst, waarde tweede.
+
+**Chance quality** - Praktische manier om te beschrijven of pogingen gevaarlijk zijn, niet slechts talrijk.
+
+**Chalk** - Slang voor de favoriet.
+
+**Closing line** - De laatste breed beschikbare marktprijs voordat het evenement begint.
+
+**Closing line value** - Het verschil tussen jouw genomen prijs en de slotprijs. Nuttig als procesaudit.
+
+**Coin flip game** - Confrontatie dicht bij pariteit geprijsd. Vereist discipline omdat veel gokkers kleine voordelen overschatten.
+
+**Correct score** - Markt die de exacte eindscore vereist. Hoge variantie en zeer prijsgevoelig.
+
+**Cover the spread** - De handicap of spread verslaan nadat de aanpassing is toegepast.
+
+**Course and distance** - Racenotitie die eerder succes op dezelfde baan en afstand toont.
+
+**D**
+
+**Dead heat** - Gelijke stand voor plaats of overwinning waarbij inzetafwikkeling volgens regels wordt aangepast.
+
+**Decimal odds** - Quotenformaat dat totale opbrengst per inzeteenheid uitdrukt. Over het algemeen het makkelijkste professionele werkformaat.
+
+**Derivative** - Secundaire markt zoals eerste helft, eerste vijf innings, teamtotaal, kwart of periodemarkt.
+
+**Draw no bet** - Markt waar een gelijkspel de inzet teruggeeft en alleen een overwinning van de gekozen kant betaalt.
+
+**Drift** - Wanneer odds groter worden. Kan negatieve informatie, zwakkere vraag of marktcorrectie weerspiegelen.
+
+**E**
+
+**Each-way** - Raceweddenschap verdeeld in winst- en plaatsdelen. Alleen waardevol wanneer plaatsvoorwaarden en prijs het rechtvaardigen.
+
+**Edge** - Het praktische voordeel dat jouw analyse heeft over de markt bij een bepaalde prijs.
+
+**Evens** - Gelijk geld: decimaal 2.00 of 1/1.
+
+**Expected goals** - Voetbalmetriek die de waarschijnlijkheid schat dat schoten doelpunten worden. Nuttig voor procesrevisie bij zorgvuldig gebruik.
+
+**Expected value** - De langetermijnwaarde van een weddenschap gebaseerd op jouw waarschijnlijkheidsschatting en de aangeboden prijs.
+
+**Exchange** - Peer-to-peer wedplatform waar gebruikers uitkomsten backen en layen en het platform commissie neemt.
+
+**F**
+
+**Favourite** - De selectie met de kortste prijs in een markt.
+
+**Fair line** - Jouw eigen quotenschatting voor de bookmaker-marge.
+
+**First five** - Honkbalderivaat dat alleen de eerste vijf innings dekt. Nuttig om startend pitchervoordeel te isoleren.
+
+**First goalscorer** - Markt over welke speler het eerste doelpunt scoort. Hoge variantie en rolgevoelig.
+
+**Fold** - Het aantal benen in een accumulator of parlay.
+
+**Form** - Overzicht van eerdere prestaties. Alleen nuttig wanneer in de juiste context geplaatst.
+
+**Fractional odds** - Traditioneel Brits en Iers formaat dat winst uitdrukt relatief aan inzet.
+
+**Freeze the line** - Marktpauze of gebrek aan beweging terwijl traders op verse informatie wachten.
+
+**G**
+
+**Game script** - De waarschijnlijke vorm en flow van een wedstrijd, vooral belangrijk in voetbal en basketbal.
+
+**Going** - Raceterm voor grondconditie, van stevig tot zwaar. Vaak beslissend.
+
+**H**
+
+**Handicap** - Markt of racestructuur ontworpen om deelnemers gelijk te stellen door score of gedragen gewicht aan te passen.
+
+**Hold percentage** - Hoe vaak een tennisser zijn service houdt. Centraal voor wedstrijd- en totaalanalyse.
+
+**I**
+
+**Implied probability** - De waarschijnlijkheid vertegenwoordigd door de marktprijs voor aanpassing voor jouw eigen mening.
+
+**In-play** - Wedden nadat het evenement is begonnen. Vereist snelheid, discipline en bewustzijn van vertraging en liquiditeit.
+
+**J**
+
+**Juice** - Ander woord voor bookmaker-marge of vig.
+
+**K**
+
+**Kelly criterion** - Dimensioneringsformule die voordeel koppelt aan inzetgrootte. Krachtig in theorie, gevaarlijk wanneer waarschijnlijkheidsschattingen zwak zijn.
+
+**L**
+
+**Lay** - Tegen een uitkomst wedden op een beurs.
+
+**Limit** - Maximumbedrag dat een bookmaker of markt bij een bepaalde prijs toestaat.
+
+**Line shopping** - Meerdere bookmakers controleren om de beste beschikbare prijs te krijgen.
+
+**Liquidity** - Hoeveel geld beschikbaar is in een markt zonder de prijs te veel te bewegen.
+
+**Live odds** - Beschikbare prijzen terwijl het evenement wordt gespeeld.
+
+**M**
+
+**Market maker** - Sharp bookmaker of beursactiviteit die helpt bepalen waar prijzen zouden moeten zijn.
+
+**Middle** - Posities houden op verschillende lijnen zodat het een winstgevende overlap kan creëren als de uitkomst ertussen valt.
+
+**Moneyline** - Winstmarkt, vooral in Noord-Amerikaanse sporten, meestal zonder gelijkspel op het bord.
+
+**O**
+
+**Overround** - Het bedrag waarmee de totale impliciete waarschijnlijkheid 100 procent overschrijdt. Dit is de bookmaker-marge.
+
+**Overtime** - Extra periode na reguliere tijd. Of het telt hangt af van markt en sport.
+
+**P**
+
+**Parlay** - Noord-Amerikaanse term voor accumulator.
+
+**Pace** - Speelsnelheid of aantal balbezit. Belangrijk in races, voetbal, basketbal en verder, hoewel de exacte betekenis varieert.
+
+**Pick'em** - Spread- of zijmarkt dicht bij pariteit waar teams als zeer dichtbij worden beschouwd.
+
+**Place terms** - Regels die bepalen hoeveel raceplaatsen betalen en tegen welke fractie van de winstquoten.
+
+**Positive EV** - Weddenschap waarvan de prijs beter is dan jouw geschatte faire lijn.
+
+**Price sensitive** - Situatie waar de weddenschap alleen aantrekkelijk is boven of onder een smalle quotendrempel.
+
+**Prop** - Propositiemarkt over specifieke speler- of evenementuitkomsten in plaats van de hoofdwinnaar.
+
+**Push** - Weddenschap die gelijk eindigt op de lijn en wordt terugbetaald.
+
+**R**
+
+**Regulation** - Standaard wedstrijdduur voor overtime. Cruciale afwikkelingsformulering in hockey en sommige voetbalmarkten.
+
+**Return on investment** - Winst gedeeld door ingezet bedrag, meestal uitgedrukt als percentage.
+
+**Run line** - Honkbalversie van een spread, gewoonlijk ±1.5 runs.
+
+**S**
+
+**Sample size** - Hoeveelheid data of aantal evenementen achter een trend of statistiek. Kleine steekproeven misleiden gemakkelijk.
+
+**Scratch** - Late terugtrekking van paard of speler. Belangrijk voor marktreactie en afwikkeling.
+
+**Second-serve liability** - Tenniszwakte waar de speler kwetsbaar wordt wanneer geforceerd tot tweede service.
+
+**Sharp** - Gerespecteerde gokker, prijs of bookmaker geassocieerd met sterkere marktintelligentie.
+
+**Shootout** - Tiebreaker-procedure in hockey bij sommige competities. Of het telt hangt af van de markt.
+
+**Side** - Weddenschap op een team of deelnemer om te winnen of te coveren, in tegenstelling tot totaal of prop.
+
+**Soft book** - Recreatieve bookmaker die eerder tragere of minder efficiënte prijzen aanbiedt.
+
+**Spread** - Handicaplijn ontworpen om twee teams in een markt te balanceren.
+
+**Stake** - Het bedrag dat op een weddenschap wordt geriskeerd.
+
+**Steam** - Sterke, plotselinge marktbeweging, vaak toegeschreven aan invloedrijk geld of informatie.
+
+**Strike rate** - Percentage gewonnen weddenschappen. Nuttig, maar alleen niet voldoende omdat prijs ertoe doet.
+
+**T**
+
+**Team total** - Markt over hoeveel punten, runs, doelpunten of vergelijkbaar een team scoort onafhankelijk van het totaal van de volledige wedstrijd.
+
+**Tick** - Het kleinste increment van prijsbeweging in een markt.
+
+**Tilt** - Emotioneel gecompromitteerd wedgedrag, vaak na winsten of verliezen.
+
+**Total** - Markt over gecombineerde score of productie, zoals over/under doelpunten, punten of runs.
+
+**Trap game** - Overgebruikte uitdrukking vaak lui gebruikt. Alleen betekenisvol als het verwijst naar echt situationeel of confrontatierisico.
+
+**True probability** - Jouw eerlijke schatting van hoe vaak de uitkomst plaatsvindt, gescheiden van de marktvisie.
+
+**U**
+
+**Unit** - Gestandaardiseerde inzetgrootte gebruikt om risico consistent uit te drukken over bankrolls.
+
+**V**
+
+**Value** - Prijs die beter is dan de waarschijnlijkheid die je aan de uitkomst toekent.
+
+**Vig** - Ander woord voor marge, vooral in Amerikaanse wedtaal.
+
+**Void** - Geannuleerde weddenschap waarbij de inzet volgens de regels wordt terugbetaald.
+
+**W**
+
+**WHIP** - Honkbalstatistiek die walks en hits toegestaan per geworpen inning meet; nuttig voor verkeer- en controlecontext.
+
+**Win rate** - Zelfde algemene idee als strike rate; hoe vaak weddenschappen uitbetalen.
+
+**Y**
+
+**Yield** - Winst als percentage van totale inzet over een reeks weddenschappen.`
+      }
+    ]
   }
 ]

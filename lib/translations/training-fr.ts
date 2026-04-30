@@ -696,5 +696,256 @@ Votre registre est votre trace d'audit. Les parieurs sérieux traitent cela comm
       { title: 'Glossaire des Termes Clés', content: 'Bankroll, CLV, EV, Marge, ROI, Mise, Tilt, Valeur, Variance.' },
       { title: 'Ressources Supplémentaires', content: 'Sites de comparaison de cotes, fournisseurs de statistiques, communautés de paris, livres.' }
     ]
+  },
+  {
+    id: 21,
+    slug: 'appendix-glossary',
+    title: 'Annexe A: Glossaire Étendu des Paris',
+    subtitle: 'Un glossaire complet des termes de paris écrit en langage de formation',
+    duration: '15 min de lecture',
+    sections: [
+      {
+        title: 'Glossaire Étendu des Paris pour Parieurs',
+        content: `Ce glossaire est écrit en langage de formation pour parieurs humains. Il est délibérément pratique. L'objectif n'est pas de paraître encyclopédique mais de rendre le terme utilisable dans l'analyse réelle, le dimensionnement et le travail d'enregistrement.
+
+**A**
+
+**Accumulator** - Pari à sélections multiples où chaque jambe doit gagner. Les gains attractifs cachent la marge composée et l'erreur composée.
+
+**Across the card** - Expression de courses pour parier sur chaque course d'une réunion. Généralement récréatif plutôt que sélectif.
+
+**All-weather** - Surface de course artificielle utilisée lorsque les conditions de gazon sont inadaptées. La préférence de surface compte dans l'analyse des chevaux.
+
+**American odds** - Format de cotes utilisant des nombres positifs et négatifs. Convertissez-les rapidement en probabilité pour éviter les erreurs de prix.
+
+**Ante-post** - Pari placé bien avant un événement, souvent avec de meilleurs prix mais un risque accru de non-partant selon les règles.
+
+**Arbitrage** - Parier sur tous les résultats chez différents bookmakers pour garantir un profit. Possible en théorie, mais les restrictions de compte le rendent difficile en pratique.
+
+**Asian handicap** - Marché de handicap, courant au football, qui ajuste le score et peut éliminer ou diviser le risque de match nul.
+
+**B**
+
+**Back price** - Les cotes auxquelles vous soutenez un résultat, surtout sur une bourse d'échange.
+
+**Bankroll** - Capital alloué exclusivement aux paris. Existe pour absorber la variance et protéger la qualité des décisions.
+
+**Best odds guaranteed** - Promotion, courante aux courses, où le parieur reçoit le meilleur entre le prix anticipé ou SP si le cheval gagne.
+
+**Bet builder** - Multi du même match combinant plusieurs sélections d'un événement. Pratique, mais souvent avec une marge élevée.
+
+**Bookmaker** - Entreprise qui fixe les prix et accepte les paris tout en intégrant une marge dans les cotes.
+
+**Both teams to score** - Marché de football liquidé si chaque équipe marque au moins une fois.
+
+**Break point** - Point de tennis où le receveur peut gagner le jeu en cassant le service.
+
+**Break percentage** - Fréquence à laquelle un joueur de tennis casse le service de l'adversaire. Une métrique clé de confrontation.
+
+**Bullpen** - Unité de lanceurs de relève au baseball. Critique dans la tarification du match complet.
+
+**C**
+
+**Cash out** - Fonction du bookmaker permettant la liquidation anticipée. Généralement commodité d'abord, valeur ensuite.
+
+**Chance quality** - Façon pratique de décrire si les tentatives sont dangereuses, pas simplement nombreuses.
+
+**Chalk** - Argot pour le favori.
+
+**Closing line** - Le dernier prix du marché largement disponible avant le début de l'événement.
+
+**Closing line value** - La différence entre votre prix pris et le prix de clôture. Utile comme audit de processus.
+
+**Coin flip game** - Match tarifé proche de la parité. Nécessite de la discipline car de nombreux parieurs surestiment les petits avantages.
+
+**Correct score** - Marché nécessitant le score final exact. Haute variance et très sensible au prix.
+
+**Cover the spread** - Battre le handicap ou spread après application de l'ajustement.
+
+**Course and distance** - Note de course montrant le succès précédent sur la même piste et distance.
+
+**D**
+
+**Dead heat** - Égalité pour une place ou victoire où le règlement de la mise est ajusté selon les règles.
+
+**Decimal odds** - Format de cotes exprimant le retour total par unité de mise. Généralement le format de travail professionnel le plus facile.
+
+**Derivative** - Marché secondaire comme première mi-temps, cinq premières manches, total d'équipe, quart ou marché de période.
+
+**Draw no bet** - Marché où un nul rembourse la mise et seule une victoire du côté choisi paie.
+
+**Drift** - Quand les cotes augmentent. Peut refléter une information négative, une demande plus faible ou une correction du marché.
+
+**E**
+
+**Each-way** - Pari de course divisé en parties victoire et place. Valuable uniquement quand les termes de place et le prix le justifient.
+
+**Edge** - L'avantage pratique que votre analyse a sur le marché à un prix donné.
+
+**Evens** - Argent pair: décimal 2.00 ou 1/1.
+
+**Expected goals** - Métrique de football estimant la probabilité que les tirs deviennent des buts. Utile pour la révision de processus quand utilisé avec soin.
+
+**Expected value** - La valeur à long terme d'un pari basée sur votre estimation de probabilité et le prix offert.
+
+**Exchange** - Plateforme de paris peer-to-peer où les utilisateurs soutiennent et font lay des résultats et la plateforme prend une commission.
+
+**F**
+
+**Favourite** - La sélection avec le prix le plus court dans un marché.
+
+**Fair line** - Votre propre estimation de cotes avant la marge du bookmaker.
+
+**First five** - Dérivé de baseball couvrant uniquement les cinq premières manches. Utile pour isoler un avantage de lanceur partant.
+
+**First goalscorer** - Marché sur quel joueur marque le premier but. Haute variance et sensible au rôle.
+
+**Fold** - Le nombre de jambes dans un accumulator ou parlay.
+
+**Form** - Historique des performances passées. Utile seulement quand placé dans un contexte approprié.
+
+**Fractional odds** - Format traditionnel britannique et irlandais exprimant le profit par rapport à la mise.
+
+**Freeze the line** - Pause du marché ou absence de mouvement pendant que les traders attendent de nouvelles informations.
+
+**G**
+
+**Game script** - La forme et le flux probables d'un match, particulièrement important au football et basketball.
+
+**Going** - Terme de course pour l'état du terrain, de ferme à lourd. Souvent décisif.
+
+**H**
+
+**Handicap** - Marché ou structure de course conçu pour égaliser les concurrents en ajustant le score ou le poids porté.
+
+**Hold percentage** - Fréquence à laquelle un joueur de tennis garde son service. Central pour l'analyse de match et de total.
+
+**I**
+
+**Implied probability** - La probabilité représentée par le prix du marché avant ajustement pour votre propre opinion.
+
+**In-play** - Parier après le début de l'événement. Nécessite vitesse, discipline et conscience du délai et de la liquidité.
+
+**J**
+
+**Juice** - Autre mot pour marge du bookmaker ou vig.
+
+**K**
+
+**Kelly criterion** - Formule de dimensionnement liant l'avantage à la taille du pari. Puissante en théorie, dangereuse quand les estimations de probabilité sont faibles.
+
+**L**
+
+**Lay** - Parier contre un résultat sur une bourse d'échange.
+
+**Limit** - Montant maximum qu'un bookmaker ou marché permettra à un prix donné.
+
+**Line shopping** - Vérifier plusieurs bookmakers pour obtenir le meilleur prix disponible.
+
+**Liquidity** - Combien d'argent est disponible dans un marché sans trop faire bouger le prix.
+
+**Live odds** - Prix disponibles pendant que l'événement se joue.
+
+**M**
+
+**Market maker** - Bookmaker sharp ou activité de bourse d'échange qui aide à définir où les prix devraient être.
+
+**Middle** - Détenir des positions sur différentes lignes de sorte que cela puisse créer un chevauchement rentable si le résultat tombe entre elles.
+
+**Moneyline** - Marché de victoire, surtout dans les sports nord-américains, généralement sans nul au tableau.
+
+**O**
+
+**Overround** - Le montant par lequel la probabilité implicite totale dépasse 100 pour cent. C'est la marge du bookmaker.
+
+**Overtime** - Période supplémentaire après le temps réglementaire. Si ça compte dépend du marché et du sport.
+
+**P**
+
+**Parlay** - Terme nord-américain pour accumulator.
+
+**Pace** - Vitesse du jeu ou nombre de possessions. Important dans les courses, football, basketball et au-delà, bien que le sens exact varie.
+
+**Pick'em** - Marché de spread ou côté proche de la parité où les équipes sont considérées très proches.
+
+**Place terms** - Règles gouvernant combien de places de course paient et à quelle fraction des cotes de victoire.
+
+**Positive EV** - Pari dont le prix est meilleur que votre ligne juste estimée.
+
+**Price sensitive** - Situation où le pari n'est attractif qu'au-dessus ou en dessous d'un seuil étroit de cotes.
+
+**Prop** - Marché de proposition sur des résultats spécifiques de joueur ou d'événement plutôt que le vainqueur principal.
+
+**Push** - Pari qui égalise sur la ligne et est remboursé.
+
+**R**
+
+**Regulation** - Durée standard du match avant prolongation. Formulation de règlement cruciale en hockey et certains marchés de football.
+
+**Return on investment** - Profit divisé par montant parié, généralement exprimé en pourcentage.
+
+**Run line** - Version baseball d'un spread, couramment ±1.5 points.
+
+**S**
+
+**Sample size** - Quantité de données ou nombre d'événements derrière une tendance ou statistique. Les petits échantillons trompent facilement.
+
+**Scratch** - Retrait tardif de cheval ou joueur. Important pour la réaction du marché et le règlement.
+
+**Second-serve liability** - Faiblesse au tennis où le joueur devient vulnérable quand forcé au deuxième service.
+
+**Sharp** - Parieur, prix ou bookmaker respecté associé à une intelligence de marché plus forte.
+
+**Shootout** - Procédure de départage en hockey dans certaines compétitions. Si ça compte dépend du marché.
+
+**Side** - Pari sur une équipe ou participant pour gagner ou couvrir, par opposition à total ou prop.
+
+**Soft book** - Bookmaker récréatif plus susceptible d'offrir des prix plus lents ou moins efficaces.
+
+**Spread** - Ligne de handicap conçue pour équilibrer deux équipes dans un marché.
+
+**Stake** - Le montant risqué sur un pari.
+
+**Steam** - Mouvement de marché fort et soudain, souvent attribué à de l'argent ou information influente.
+
+**Strike rate** - Pourcentage de paris gagnés. Utile, mais pas suffisant seul car le prix compte.
+
+**T**
+
+**Team total** - Marché sur combien de points, runs, buts ou similaire une équipe marque indépendamment du total du match complet.
+
+**Tick** - Le plus petit incrément de mouvement de prix dans un marché.
+
+**Tilt** - Comportement de paris émotionnellement compromis, souvent après victoires ou défaites.
+
+**Total** - Marché sur le score ou production combinée, comme over/under buts, points ou runs.
+
+**Trap game** - Expression surutilisée souvent employée paresseusement. Significative seulement si elle fait référence à un risque situationnel ou de confrontation réel.
+
+**True probability** - Votre estimation honnête de la fréquence à laquelle le résultat se produit, séparée de la vue du marché.
+
+**U**
+
+**Unit** - Taille de mise standardisée utilisée pour exprimer le risque de manière cohérente entre les bankrolls.
+
+**V**
+
+**Value** - Prix qui est meilleur que la probabilité que vous attribuez au résultat.
+
+**Vig** - Autre mot pour marge, surtout dans le langage des paris américains.
+
+**Void** - Pari annulé où la mise est remboursée selon les règles.
+
+**W**
+
+**WHIP** - Statistique de baseball mesurant les bases sur balles et coups sûrs accordés par manche lancée; utile pour le contexte de trafic et de contrôle.
+
+**Win rate** - Même idée générale que strike rate; fréquence à laquelle les paris paient.
+
+**Y**
+
+**Yield** - Profit en pourcentage de la mise totale sur un ensemble de paris.`
+      }
+    ]
   }
 ]

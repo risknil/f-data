@@ -237,7 +237,7 @@ Disziplinierte Passivität – die Bereitschaft, keine Wette zu platzieren – i
     id: 5,
     title: 'Bankroll-Management, Einsätze und Überleben bei Varianz',
     slug: 'bankroll-management-einsaetze-varianz',
-    description: 'Ihre Gelder schützen und Verlustserien überstehen.',
+    description: 'Ihre Gelder schützen und Verlustserien ��berstehen.',
     duration: '22 Min. Lesezeit',
     sections: [
       {
@@ -2004,6 +2004,257 @@ Der Markt ist schwer zu schlagen. Überschätzen Sie Ihren Edge nicht.
 Setzen Sie Limits. Wetten soll kontrolliert und nachhaltig sein.
 
 Viel Erfolg – mögen Ihre Wetten werthaltig und Ihre Varianz günstig sein.`
+      }
+    ]
+  },
+  {
+    id: 21,
+    slug: 'appendix-glossary',
+    title: 'Anhang A: Erweitertes Wett-Glossar',
+    subtitle: 'Ein umfassendes Glossar der Wettbegriffe in Trainingssprache',
+    duration: '15 Min. Lesezeit',
+    sections: [
+      {
+        title: 'Erweitertes Wett-Glossar für Wetter',
+        content: `Dieses Glossar ist in Trainingssprache für menschliche Wetter geschrieben. Es ist bewusst praktisch. Das Ziel ist nicht enzyklopädisch zu klingen, sondern den Begriff in der echten Analyse, Einsatzberechnung und Aufzeichnungsarbeit nutzbar zu machen.
+
+**A**
+
+**Accumulator** - Wette mit mehreren Auswahlen, bei der jedes Bein gewinnen muss. Attraktive Auszahlungen verbergen zusammengesetzte Marge und zusammengesetzten Fehler.
+
+**Across the card** - Rennbegriff für Wetten auf jedes Rennen eines Meetings. Normalerweise Freizeit statt selektiv.
+
+**All-weather** - Künstliche Rennoberfläche, wenn Rasenbedingungen ungeeignet sind. Oberflächenpräferenz zählt in der Pferdeanalyse.
+
+**American odds** - Quotenformat mit Plus- und Minuszahlen. Wandeln Sie sie schnell in Wahrscheinlichkeit um, um Preisfehler zu vermeiden.
+
+**Ante-post** - Wette weit vor einem Ereignis, oft mit besseren Preisen aber höherem Nicht-Starter-Risiko je nach Regeln.
+
+**Arbitrage** - Auf alle Ergebnisse bei verschiedenen Buchmachern wetten, um Gewinn zu sichern. Theoretisch möglich, aber Kontobeschränkungen machen es praktisch schwierig.
+
+**Asian handicap** - Handicap-Markt, häufig im Fußball, der das Ergebnis anpasst und Unentschieden-Risiko eliminieren oder teilen kann.
+
+**B**
+
+**Back price** - Die Quote, zu der Sie ein Ergebnis unterstützen, besonders an einer Börse.
+
+**Bankroll** - Kapital ausschließlich für Wetten. Existiert, um Varianz zu absorbieren und Entscheidungsqualität zu schützen.
+
+**Best odds guaranteed** - Aktion, häufig bei Rennen, bei der der Wetter den besseren von Vorauspreis oder SP erhält, wenn das Pferd gewinnt.
+
+**Bet builder** - Same-Game-Multi, das mehrere Auswahlen eines Events kombiniert. Bequem, aber oft mit hoher Marge.
+
+**Bookmaker** - Unternehmen, das Preise festsetzt und Wetten annimmt, während es Marge in die Quoten einbaut.
+
+**Both teams to score** - Fußballmarkt, der sich auflöst, wenn jedes Team mindestens einmal trifft.
+
+**Break point** - Tennispunkt, an dem der Rückschläger das Spiel durch Brechen des Aufschlags gewinnen kann.
+
+**Break percentage** - Wie oft ein Tennisspieler den Aufschlag des Gegners bricht. Eine Schlüsselkennzahl für Begegnungen.
+
+**Bullpen** - Relief-Pitcher-Einheit im Baseball. Kritisch für die Preisgestaltung des gesamten Spiels.
+
+**C**
+
+**Cash out** - Buchmacher-Funktion für vorzeitige Auszahlung. Generell Bequemlichkeit zuerst, Wert zweitens.
+
+**Chance quality** - Praktische Art zu beschreiben, ob Versuche gefährlich sind, nicht nur zahlreich.
+
+**Chalk** - Slang für den Favoriten.
+
+**Closing line** - Der letzte weithin verfügbare Marktpreis vor Eventbeginn.
+
+**Closing line value** - Die Differenz zwischen Ihrem genommenen Preis und dem Schlusspreis. Nützlich als Prozess-Audit.
+
+**Coin flip game** - Begegnung nahe Parität bepreist. Erfordert Disziplin, weil viele Wetter kleine Vorteile überschätzen.
+
+**Correct score** - Markt, der das exakte Endergebnis erfordert. Hohe Varianz und sehr preissensibel.
+
+**Cover the spread** - Das Handicap oder Spread nach Anwendung der Anpassung schlagen.
+
+**Course and distance** - Rennnotiz, die früheren Erfolg auf derselben Strecke und Distanz zeigt.
+
+**D**
+
+**Dead heat** - Gleichstand für Platz oder Sieg, bei dem die Einsatzabrechnung gemäß Regeln angepasst wird.
+
+**Decimal odds** - Quotenformat, das Gesamtrendite pro Einsatzeinheit ausdrückt. Generell das einfachste professionelle Arbeitsformat.
+
+**Derivative** - Sekundärmarkt wie erste Halbzeit, erste fünf Innings, Team-Total, Viertel- oder Periodenmarkt.
+
+**Draw no bet** - Markt, bei dem ein Unentschieden den Einsatz zurückgibt und nur ein Sieg der gewählten Seite zahlt.
+
+**Drift** - Wenn Quoten größer werden. Kann negative Informationen, schwächere Nachfrage oder Marktkorrektur widerspiegeln.
+
+**E**
+
+**Each-way** - Rennwette aufgeteilt in Sieg- und Platzteile. Nur wertvoll, wenn Platzbedingungen und Preis es rechtfertigen.
+
+**Edge** - Der praktische Vorteil, den Ihre Analyse gegenüber dem Markt bei einem bestimmten Preis hat.
+
+**Evens** - Gerades Geld: Dezimal 2.00 oder 1/1.
+
+**Expected goals** - Fußballmetrik, die die Wahrscheinlichkeit schätzt, dass Schüsse Tore werden. Nützlich für Prozessüberprüfung bei sorgfältiger Verwendung.
+
+**Expected value** - Der langfristige Wert einer Wette basierend auf Ihrer Wahrscheinlichkeitsschätzung und dem angebotenen Preis.
+
+**Exchange** - Peer-to-Peer-Wettplattform, wo Benutzer Ergebnisse back-en und lay-en und die Plattform Provision nimmt.
+
+**F**
+
+**Favourite** - Die Auswahl mit dem kürzesten Preis in einem Markt.
+
+**Fair line** - Ihre eigene Quotenschätzung vor der Buchmacher-Marge.
+
+**First five** - Baseball-Derivat, das nur die ersten fünf Innings abdeckt. Nützlich, um Starting-Pitcher-Vorteil zu isolieren.
+
+**First goalscorer** - Markt darüber, welcher Spieler das erste Tor schießt. Hohe Varianz und rollensensibel.
+
+**Fold** - Die Anzahl der Beine in einem Accumulator oder Parlay.
+
+**Form** - Aufzeichnung vergangener Leistungen. Nur nützlich, wenn in angemessenen Kontext gestellt.
+
+**Fractional odds** - Traditionelles britisches und irisches Format, das Gewinn relativ zum Einsatz ausdrückt.
+
+**Freeze the line** - Marktpause oder fehlende Bewegung, während Trader auf frische Informationen warten.
+
+**G**
+
+**Game script** - Die wahrscheinliche Form und der Fluss eines Spiels, besonders wichtig im Fußball und Basketball.
+
+**Going** - Rennbegriff für Bodenzustand, von fest bis schwer. Oft entscheidend.
+
+**H**
+
+**Handicap** - Markt oder Rennstruktur, um Wettbewerber durch Anpassung von Ergebnis oder getragenem Gewicht anzugleichen.
+
+**Hold percentage** - Wie oft ein Tennisspieler seinen Aufschlag hält. Zentral für Match- und Total-Analyse.
+
+**I**
+
+**Implied probability** - Die durch den Marktpreis dargestellte Wahrscheinlichkeit vor Anpassung für Ihre eigene Meinung.
+
+**In-play** - Wetten nach Eventbeginn. Erfordert Geschwindigkeit, Disziplin und Bewusstsein für Verzögerung und Liquidität.
+
+**J**
+
+**Juice** - Anderes Wort für Buchmacher-Marge oder Vig.
+
+**K**
+
+**Kelly criterion** - Dimensionierungsformel, die Vorteil mit Wettgröße verknüpft. Mächtig in der Theorie, gefährlich wenn Wahrscheinlichkeitsschätzungen schwach sind.
+
+**L**
+
+**Lay** - Gegen ein Ergebnis an einer Börse wetten.
+
+**Limit** - Maximalbetrag, den ein Buchmacher oder Markt bei einem gegebenen Preis erlaubt.
+
+**Line shopping** - Mehrere Buchmacher prüfen, um den besten verfügbaren Preis zu erhalten.
+
+**Liquidity** - Wie viel Geld in einem Markt verfügbar ist, ohne den Preis zu stark zu bewegen.
+
+**Live odds** - Verfügbare Preise während das Event gespielt wird.
+
+**M**
+
+**Market maker** - Sharp-Buchmacher oder Börsenaktivität, die hilft zu definieren, wo Preise sein sollten.
+
+**Middle** - Positionen auf verschiedenen Linien halten, so dass eine profitable Überlappung entstehen kann, wenn das Ergebnis dazwischen fällt.
+
+**Moneyline** - Siegmarkt, besonders in nordamerikanischen Sportarten, normalerweise ohne Unentschieden auf dem Brett.
+
+**O**
+
+**Overround** - Der Betrag, um den die implizite Gesamtwahrscheinlichkeit 100 Prozent übersteigt. Dies ist die Buchmacher-Marge.
+
+**Overtime** - Zusätzliche Periode nach regulärer Spielzeit. Ob es zählt, hängt von Markt und Sport ab.
+
+**P**
+
+**Parlay** - Nordamerikanischer Begriff für Accumulator.
+
+**Pace** - Spielgeschwindigkeit oder Anzahl der Ballbesitze. Wichtig bei Rennen, Fußball, Basketball und darüber hinaus, obwohl die genaue Bedeutung variiert.
+
+**Pick'em** - Spread- oder Seitenmarkt nahe Parität, wo Teams als sehr nah angesehen werden.
+
+**Place terms** - Regeln, die bestimmen, wie viele Rennplätze zahlen und zu welchem Bruchteil der Siegquoten.
+
+**Positive EV** - Wette, deren Preis besser ist als Ihre geschätzte faire Linie.
+
+**Price sensitive** - Situation, in der die Wette nur über oder unter einer engen Quotenschwelle attraktiv ist.
+
+**Prop** - Propositionsmarkt über spezifische Spieler- oder Event-Ergebnisse statt des Hauptgewinners.
+
+**Push** - Wette, die auf der Linie unentschieden endet und erstattet wird.
+
+**R**
+
+**Regulation** - Standard-Spiellänge vor Verlängerung. Entscheidende Abrechnungsformulierung im Hockey und einigen Fußballmärkten.
+
+**Return on investment** - Gewinn geteilt durch gewetteten Betrag, normalerweise als Prozentsatz ausgedrückt.
+
+**Run line** - Baseball-Version eines Spreads, üblicherweise ±1,5 Runs.
+
+**S**
+
+**Sample size** - Datenmenge oder Anzahl der Events hinter einem Trend oder einer Statistik. Kleine Stichproben täuschen leicht.
+
+**Scratch** - Später Rückzug von Pferd oder Spieler. Wichtig für Marktreaktion und Abrechnung.
+
+**Second-serve liability** - Tennis-Schwäche, bei der der Spieler verwundbar wird, wenn er zum zweiten Aufschlag gezwungen wird.
+
+**Sharp** - Respektierter Wetter, Preis oder Buchmacher, der mit stärkerer Marktintelligenz verbunden ist.
+
+**Shootout** - Tiebreaker-Prozedur im Hockey bei einigen Wettbewerben. Ob es zählt, hängt vom Markt ab.
+
+**Side** - Wette auf ein Team oder Teilnehmer zum Gewinnen oder Covern, im Gegensatz zu Total oder Prop.
+
+**Soft book** - Freizeit-Buchmacher, der eher langsamere oder weniger effiziente Preise anbietet.
+
+**Spread** - Handicap-Linie, um zwei Teams in einem Markt auszugleichen.
+
+**Stake** - Der auf eine Wette riskierte Betrag.
+
+**Steam** - Starke, plötzliche Marktbewegung, oft einflussreichem Geld oder Informationen zugeschrieben.
+
+**Strike rate** - Prozentsatz gewonnener Wetten. Nützlich, aber allein nicht ausreichend, weil der Preis zählt.
+
+**T**
+
+**Team total** - Markt darüber, wie viele Punkte, Runs, Tore oder Ähnliches ein Team unabhängig vom Gesamtspiel-Total erzielt.
+
+**Tick** - Das kleinste Inkrement der Preisbewegung in einem Markt.
+
+**Tilt** - Emotional beeinträchtigtes Wettverhalten, oft nach Gewinnen oder Verlusten.
+
+**Total** - Markt über kombinierte Punktzahl oder Produktion, wie Over/Under Tore, Punkte oder Runs.
+
+**Trap game** - Überstrapazierter Begriff, oft faul verwendet. Nur bedeutsam, wenn er sich auf echtes situatives oder Gegner-Risiko bezieht.
+
+**True probability** - Ihre ehrliche Schätzung, wie oft das Ergebnis eintritt, getrennt von der Marktansicht.
+
+**U**
+
+**Unit** - Standardisierte Einsatzgröße, um Risiko konsistent über Bankrolls auszudrücken.
+
+**V**
+
+**Value** - Preis, der besser ist als die Wahrscheinlichkeit, die Sie dem Ergebnis zuweisen.
+
+**Vig** - Anderes Wort für Marge, besonders in US-Wettsprache.
+
+**Void** - Annullierte Wette, bei der der Einsatz gemäß Regeln erstattet wird.
+
+**W**
+
+**WHIP** - Baseball-Statistik, die Walks und Hits pro geworfenem Inning misst; nützlich für Verkehrs- und Kontrollkontext.
+
+**Win rate** - Gleiche allgemeine Idee wie Strike Rate; wie oft Wetten auszahlen.
+
+**Y**
+
+**Yield** - Gewinn als Prozentsatz des Gesamteinsatzes über eine Reihe von Wetten.`
       }
     ]
   }
