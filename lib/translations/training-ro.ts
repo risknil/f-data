@@ -359,5 +359,256 @@ Pregătește-te pentru serii de pierderi. Vor veni cu siguranță. Întrebarea e
       { title: 'Exercițiul 3: Paper trading', content: 'Începe cu paper trading înainte de a juca cu bani reali. Înregistrează pariurile ca și cum ar fi reale, dar nu pune bani adevărați. Fă asta o lună și analizează rezultatele.' },
       { title: 'Exercițiul 4: Analiza jurnalului', content: 'Dacă ai deja istoric de pariuri, parcurge ultimele 100 de pariuri. Categorizează-le după sport, tip de pariu și piață. Unde ai fost profitabil? Unde în pierdere?' }
     ]
+  },
+  {
+    id: 21,
+    slug: 'appendix-glossary',
+    title: 'Anexa A: Glosar Extins de Pariuri',
+    subtitle: 'Un glosar cuprinzător al termenilor de pariuri scris în limbaj de antrenament',
+    duration: '15 min lectură',
+    sections: [
+      {
+        title: 'Glosar Extins de Pariuri pentru Jucători',
+        content: `Acest glosar este scris în limbaj de antrenament pentru pariori umani. Este intenționat practic. Scopul nu este să sune enciclopedic, ci să facă termenul utilizabil în analiză reală, dimensionarea mizei și munca de înregistrare.
+
+**A**
+
+**Accumulator (Acumulator)** - Pariu cu mai multe selecții unde fiecare picior trebuie să câștige. Plățile atractive ascund marja compusă și eroarea compusă.
+
+**Across the card** - Expresie de curse pentru a paria pe fiecare cursă la o întâlnire. De obicei recreativ mai degrabă decât selectiv.
+
+**All-weather** - Suprafață sintetică de curse folosită când condițiile de iarbă nu sunt potrivite. Preferința de suprafață contează în analiza cailor.
+
+**American odds (Cote americane)** - Format de cote cu numere plus și minus. Convertește-le rapid în probabilitate pentru a evita erorile de preț.
+
+**Ante-post** - Pariuri plasate cu mult înainte de un eveniment, adesea cu prețuri mai bune dar risc mai mare de neîncepere în funcție de reguli.
+
+**Arbitrage (Arbitraj)** - Parierea pe toate rezultatele la diferiți bookmakeri pentru a garanta profit. Posibil în teorie, dar restricțiile de cont îl fac dificil în practică.
+
+**Asian handicap (Handicap asiatic)** - Piață de handicap, comună în fotbal, care ajustează rezultatul și poate elimina sau diviza riscul de egal.
+
+**B**
+
+**Back price** - Cota la care susții un rezultat, în special la o bursă.
+
+**Bankroll** - Capital alocat exclusiv pentru pariuri. Există pentru a absorbi varianța și a proteja calitatea deciziilor.
+
+**Best odds guaranteed** - Ofertă, comună la curse, unde jucătorul primește cel mai bun preț timpuriu sau SP dacă calul câștigă.
+
+**Bet builder** - Multi din același meci combinând mai multe selecții dintr-un eveniment. Convenabil dar adesea cu marjă mare.
+
+**Bookmaker (Casa de pariuri)** - Companie care stabilește prețuri și acceptă pariuri construind marjă în cote.
+
+**Both teams to score (BTTS)** - Piață de fotbal care se decide dacă fiecare echipă înscrie cel puțin un gol.
+
+**Break point (Minge de break)** - Punct de tenis unde returnerul poate câștiga game-ul prin spargerea serviciului.
+
+**Break percentage (Procentaj de break)** - Cât de des un jucător de tenis sparge serviciul adversarului. O metrică cheie de confruntare.
+
+**Bullpen** - Unitatea de pitcheri de schimb în baseball. Critică în prețuirea întregului joc.
+
+**C**
+
+**Cash out (Retragere)** - Funcție de bookmaker pentru plată timpurie. În general comoditate mai întâi, valoare a doua.
+
+**Chance quality (Calitatea șanselor)** - Mod practic de a descrie dacă încercările sunt periculoase, nu doar numeroase.
+
+**Chalk** - Argou pentru favorit.
+
+**Closing line (Linie de închidere)** - Ultimul preț de piață disponibil pe scară largă înainte de începerea evenimentului.
+
+**Closing line value (CLV)** - Diferența dintre prețul luat și prețul de închidere. Utilă ca audit de proces.
+
+**Coin flip game** - Meci prețuit aproape de paritate. Necesită disciplină pentru că mulți jucători supraestimează marginile mici.
+
+**Correct score (Scor corect)** - Piață care necesită rezultatul final exact. Varianță mare și foarte sensibilă la preț.
+
+**Cover the spread** - Bate handicapul sau spreadul după aplicarea ajustării.
+
+**Course and distance** - Notație de curse arătând succesul anterior pe aceeași pistă și distanță.
+
+**D**
+
+**Dead heat** - Plasament sau victorie împărțită unde plata mizei se ajustează conform regulilor.
+
+**Decimal odds (Cote zecimale)** - Format de cote care exprimă returnul total per unitate mizată. În general cel mai ușor format de lucru profesional.
+
+**Derivative (Derivat)** - Piață secundară precum prima repriză, primele cinci inning-uri, total echipă, sfert sau perioadă.
+
+**Draw no bet (Egal = ramburs)** - Piață unde egalul rambursează miza și doar victoria părții selectate plătește.
+
+**Drift** - Când cota crește. Poate reflecta informații negative, cerere mai slabă sau corecție de piață.
+
+**E**
+
+**Each-way (Câștigător și loc)** - Pariu de curse împărțit în părți de câștig și loc. Valoros doar când termenii de loc și prețul îl justifică.
+
+**Edge (Avantaj)** - Avantajul practic al analizei tale asupra pieței la un preț dat.
+
+**Evens (Paritate)** - Bani egali: zecimal 2.00 sau 1/1.
+
+**Expected goals (Goluri așteptate, xG)** - Metrică de fotbal care estimează probabilitatea ca șuturile să devină goluri. Utilă pentru revizuirea procesului cu utilizare atentă.
+
+**Expected value (Valoare așteptată, EV)** - Valoarea pe termen lung a unui pariu bazată pe evaluarea ta de probabilitate și prețul oferit.
+
+**Exchange (Bursă)** - Platformă de pariuri peer-to-peer unde utilizatorii susțin și se opun rezultatelor și platforma ia comision.
+
+**F**
+
+**Favourite (Favorit)** - Selecția cu prețul cel mai scurt pe o piață.
+
+**Fair line (Linie corectă)** - Propria ta evaluare a cotelor înainte de marja bookmakerului.
+
+**First five** - Derivat de baseball acoperind doar primele cinci inning-uri. Util pentru izolarea avantajului starting pitcher-ului.
+
+**First goalscorer (Primul marcator)** - Piață despre care jucător înscrie primul gol. Varianță mare și dependentă de rol.
+
+**Fold** - Numărul de picioare într-un acumulator sau parlay.
+
+**Form (Formă)** - Înregistrarea performanțelor anterioare. Utilă doar când este plasată în context adecvat.
+
+**Fractional odds (Cote fracționare)** - Format tradițional britanic și irlandez exprimând profitul relativ la miză.
+
+**Freeze the line** - Pauză de piață sau lipsă de mișcare în timp ce traderii așteaptă informații proaspete.
+
+**G**
+
+**Game script (Scenariul jocului)** - Forma probabilă și fluxul unui meci, important în special în fotbal și baschet.
+
+**Going (Teren)** - Termen de curse pentru condițiile pistei, de la tare la greu. Adesea decisiv.
+
+**H**
+
+**Handicap** - Piață sau structură de cursă concepută pentru a egaliza participanții prin ajustarea rezultatului sau a greutății purtate.
+
+**Hold percentage (Procentaj de ținere)** - Cât de des un jucător de tenis își ține serviciul. Central în analiza meciului și totalurilor.
+
+**I**
+
+**Implied probability (Probabilitate implicată)** - Probabilitatea reprezentată de prețul pieței înainte de ajustarea pentru propria opinie.
+
+**In-play (Live)** - Parierea după ce evenimentul a început. Necesită viteză, disciplină și conștientizarea întârzierii și lichidității.
+
+**J**
+
+**Juice** - Alt cuvânt pentru marja bookmakerului sau vig.
+
+**K**
+
+**Kelly criterion (Criteriul Kelly)** - Formulă de dimensionare care leagă avantajul de mărimea mizei. Puternică în teorie, periculoasă când evaluările de probabilitate sunt slabe.
+
+**L**
+
+**Lay (A paria împotrivă)** - Parierea împotriva unui rezultat la o bursă.
+
+**Limit (Limită)** - Suma maximă pe care un bookmaker sau o piață o va permite la un preț dat.
+
+**Line shopping (Compararea cotelor)** - Verificarea mai multor bookmakeri pentru a obține cel mai bun preț disponibil.
+
+**Liquidity (Lichiditate)** - Câți bani sunt disponibili pe o piață fără a mișca prea mult prețul.
+
+**Live odds (Cote live)** - Prețuri disponibile în timpul desfășurării evenimentului.
+
+**M**
+
+**Market maker** - Bookmaker sharp sau activitate de bursă care ajută la definirea unde ar trebui să fie prețurile.
+
+**Middle** - Deținerea pozițiilor pe linii diferite astfel încât să poată crea suprapunere profitabilă dacă rezultatul cade între ele.
+
+**Moneyline** - Piață de câștig, în special în sporturile nord-americane, de obicei fără egal.
+
+**O**
+
+**Overround** - Suma cu care probabilitatea totală implicată depășește 100 de procente. Aceasta este marja bookmakerului.
+
+**Overtime (Prelungiri)** - Perioadă suplimentară după timpul regulamentar. Dacă se numără depinde de piață și sport.
+
+**P**
+
+**Parlay** - Termen nord-american pentru acumulator.
+
+**Pace (Ritm)** - Tempo-ul jocului sau numărul de posesii. Important în curse, fotbal, baschet și altele, deși sensul exact variază.
+
+**Pick'em** - Piață de spread sau parte aproape de paritate unde echipele sunt considerate foarte apropiate.
+
+**Place terms (Termeni de loc)** - Reguli care guvernează câte locuri de curse plătesc și la ce fracțiune din cota de câștig.
+
+**Positive EV (EV pozitiv)** - Pariu al cărui preț este mai bun decât linia ta corectă estimată.
+
+**Price sensitive (Sensibil la preț)** - Situație unde pariul este atractiv doar deasupra sau sub un prag îngust de cote.
+
+**Prop (Propoziție)** - Piață de propoziție despre rezultate specifice ale jucătorului sau evenimentului mai degrabă decât câștigătorul principal.
+
+**Push (Ramburs)** - Pariu care se termină la egalitate pe linie și este rambursat.
+
+**R**
+
+**Regulation (Timp regulamentar)** - Lungimea standard a meciului înainte de prelungiri. Formulare crucială de decontare în hochei și unele piețe de fotbal.
+
+**Return on investment (ROI)** - Profit împărțit la suma pariată, de obicei exprimat ca procent.
+
+**Run line** - Versiunea de baseball a unui spread, de obicei ±1.5 run-uri.
+
+**S**
+
+**Sample size (Mărime eșantion)** - Cantitatea de date sau numărul de evenimente din spatele unei tendințe sau statistici. Eșantioanele mici înșală ușor.
+
+**Scratch (Retragere)** - Retragerea târzie a unui cal sau jucător. Importantă pentru reacția pieței și decontare.
+
+**Second-serve liability** - Slăbiciune în tenis unde jucătorul devine vulnerabil când este forțat la al doilea serviciu.
+
+**Sharp** - Jucător, preț sau bookmaker respectat asociat cu inteligență de piață mai puternică.
+
+**Shootout** - Procedură de tiebreaker în hochei la unele competiții. Dacă se numără depinde de piață.
+
+**Side (Parte)** - Pariu pe o echipă sau participant să câștige sau să acopere, spre deosebire de total sau prop.
+
+**Soft book (Carte moale)** - Bookmaker recreativ mai predispus să ofere prețuri mai lente sau mai puțin eficiente.
+
+**Spread** - Linie de handicap concepută pentru a echilibra două echipe pe o piață.
+
+**Stake (Miză)** - Suma riscată pe un pariu.
+
+**Steam** - Mișcare puternică, bruscă de piață, adesea atribuită banilor influenți sau informațiilor.
+
+**Strike rate (Rată de succes)** - Procentul de pariuri câștigate. Utilă dar nu suficientă singură pentru că prețul contează.
+
+**T**
+
+**Team total (Total echipă)** - Piață despre câte puncte, run-uri, goluri sau similar înscrie o echipă independent de totalul întregului meci.
+
+**Tick** - Cel mai mic increment de mișcare a prețului pe o piață.
+
+**Tilt** - Comportament de pariuri compromis emoțional, adesea după câștiguri sau pierderi.
+
+**Total** - Piață despre scorul combinat sau producția, cum ar fi peste/sub goluri, puncte sau run-uri.
+
+**Trap game** - Expresie suprautilizată adesea folosită leneș. Semnificativă doar dacă se referă la risc real situațional sau de confruntare.
+
+**True probability (Probabilitate adevărată)** - Evaluarea ta onestă a cât de des se întâmplă rezultatul, separată de viziunea pieței.
+
+**U**
+
+**Unit (Unitate)** - Mărime standardizată a mizei folosită pentru a exprima riscul consistent între bankroll-uri.
+
+**V**
+
+**Value (Valoare)** - Preț care este mai bun decât probabilitatea pe care o atribui rezultatului.
+
+**Vig** - Alt cuvânt pentru marjă, în special în limbajul de pariuri american.
+
+**Void (Anulat)** - Pariu anulat unde miza este rambursată conform regulilor.
+
+**W**
+
+**WHIP** - Statistică de baseball care măsoară walk-urile și loviturile permise per inning lansat; utilă pentru contextul de trafic și control.
+
+**Win rate (Rată de câștig)** - Aceeași idee generală ca rata de succes; cât de des plătesc pariurile.
+
+**Y**
+
+**Yield (Randament)** - Profit ca procent din miza totală pe un set de pariuri.`
+      }
+    ]
   }
 ]

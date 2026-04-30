@@ -577,5 +577,256 @@ Avun hakeminen on vahvuuden merkki, ei heikkouden.`
         content: `Jos sinulla on jo vetohistoriaa, käy läpi viimeiset 100 vetoa. Kategorisoi ne lajin, vetotyypin ja markkinan mukaan. Missä olet ollut kannattava? Missä tappiollinen?`
       }
     ]
+  },
+  {
+    id: 21,
+    slug: 'appendix-glossary',
+    title: 'Liite A: Laajennettu Vedonlyöntisanasto',
+    subtitle: 'Kattava sanasto vedonlyöntitermeistä kirjoitettuna harjoituskielellä',
+    duration: '15 min lukeminen',
+    sections: [
+      {
+        title: 'Laajennettu Vedonlyöntisanasto Pelaajille',
+        content: `Tämä sanasto on kirjoitettu harjoituskielellä inhimillisille vedonlyöjille. Se on tarkoituksella käytännönläheinen. Tavoite ei ole kuulostaa ensyklopediselta vaan tehdä termistä käyttökelpoinen todellisessa analyysissä, panoksen mitoituksessa ja kirjanpidossa.
+
+**A**
+
+**Accumulator (Monivetokupong)** - Usean valinnan veto, jossa jokaisen täytyy voittaa. Houkuttelevat voitot piilottavat yhdistetyn marginaalin ja yhdistetyn virheen.
+
+**Across the card** - Raviurheilu-ilmaus vedonlyönnistä jokaiseen kilpailuun tapahtumassa. Yleensä viihdettä selektiivisyyden sijaan.
+
+**All-weather** - Synteettinen kilpailualusta, kun nurmiolosuhteet eivät sovellu. Alustaprefenrenssillä on merkitystä hevosanalyysissä.
+
+**American odds (Amerikkalaiset kertoimet)** - Kerroinjärjestelmä plus- ja miinusluvuilla. Muunna ne nopeasti todennäköisyydeksi välttääksesi hintavirheet.
+
+**Ante-post** - Vedot tehdään kauan ennen tapahtumaa, usein paremmilla hinnoilla mutta suuremmalla ei-lähde-riskillä sääntöjen mukaan.
+
+**Arbitrage (Arbitraasi)** - Vedonlyönti kaikista lopputuloksista eri vedonvälittäjillä voiton takaamiseksi. Teoriassa mahdollista, mutta tililrajoitukset tekevät sen vaikeaksi käytännössä.
+
+**Asian handicap (Aasialainen tasoitus)** - Tasoitusmarkkina, yleinen jalkapallossa, joka säätää tulosta ja voi eliminoida tai jakaa tasapeliriskin.
+
+**B**
+
+**Back price** - Kerroin jolla tuet lopputulosta, erityisesti vaihdossa.
+
+**Bankroll (Pelikassa)** - Ainoastaan vedonlyöntiin allokoitu pääoma. On olemassa varianssin absorboimiseksi ja päätöksenlaadun suojaamiseksi.
+
+**Best odds guaranteed** - Tarjous, yleinen raviurheilussa, jossa pelaaja saa paremman joko aikaisesta hinnasta tai SP:stä jos hevonen voittaa.
+
+**Bet builder** - Saman ottelun moniveto, joka yhdistää useita valintoja yhdestä tapahtumasta. Kätevä mutta usein korkea marginaali.
+
+**Bookmaker (Vedonvälittäjä)** - Yritys joka asettaa hintoja ja hyväksyy vetoja rakentaen marginaalin kertoimiin.
+
+**Both teams to score (BTTS)** - Jalkapallomarkkina, joka toteutuu jos molemmat joukkueet tekevät vähintään yhden maalin.
+
+**Break point (Murtomahdollisuus)** - Tennispiste jossa palauttaja voi voittaa pelin murtamalla syötön.
+
+**Break percentage (Murtoprosentti)** - Kuinka usein tennispelaaja murtaa vastustajan syötön. Keskeinen kohtaamismittari.
+
+**Bullpen** - Baseballin vaihtoheittoalue. Kriittinen koko pelin hinnoittelussa.
+
+**C**
+
+**Cash out (Lunastus)** - Vedonvälittäjän ominaisuus aikaiselle maksulle. Yleensä mukavuus ensin, arvo toiseksi.
+
+**Chance quality (Mahdollisuuksien laatu)** - Käytännöllinen tapa kuvata ovatko yritykset vaarallisia, eivät vain lukuisia.
+
+**Chalk (Suosikki)** - Slangi suosikille.
+
+**Closing line (Päätöskerroin)** - Viimeisin laajasti saatavilla oleva markkinahinta ennen tapahtuman alkua.
+
+**Closing line value (CLV)** - Ero ottamasi kertoimen ja päätöskertoimen välillä. Hyödyllinen prosessirevisiona.
+
+**Coin flip game** - Ottelu hinnoiteltu lähelle pariteettia. Vaatii kurinalaisuutta koska monet pelaajat yliarvioivat pieniä etuja.
+
+**Correct score (Tarkka tulos)** - Markkina joka vaatii tarkan lopputuloksen. Korkea varianssi ja hyvin hintaherkkä.
+
+**Cover the spread** - Voita tasoitus tai spread jälkeen säädön käyttämistä.
+
+**Course and distance** - Raviurheilumuistiinpano, joka näyttää aikaisemman menestyksen samalla radalla ja matkalla.
+
+**D**
+
+**Dead heat** - Jaettu sijoitus tai voitto, jossa panoksen maksu säädetään sääntöjen mukaan.
+
+**Decimal odds (Desimaalikerroin)** - Kerroinjärjestelmä joka ilmaisee kokonaistuoton yksikköä kohti. Yleensä helpoin ammattilaisten työformaatti.
+
+**Derivative (Johdannainen)** - Toissijainen markkina kuten ensimmäinen puoliaika, ensimmäiset viisi vuoroparia, joukkueen kokonais, neljännes tai erämärkkä.
+
+**Draw no bet (Tasapeli = palautus)** - Markkina jossa tasapeli palauttaa panoksen ja vain valitun puolen voitto maksaa.
+
+**Drift** - Kun kerroin kasvaa. Voi heijastaa negatiivista informaatiota, heikompaa kysyntää tai markkina-korjausta.
+
+**E**
+
+**Each-way (Sija- ja voittoveto)** - Raviurheiluveto jaettu voitto- ja sijaosiin. Arvoa vain kun sijavaihtoehdot ja hinta oikeuttavat sen.
+
+**Edge (Etu)** - Analyysisi käytännön etu markkinoihin nähden tietyssä hinnassa.
+
+**Evens (Tasakerroin)** - Tasaraha: desimaali 2.00 tai 1/1.
+
+**Expected goals (xG)** - Jalkapallomittari joka arvioi todennäköisyyttä laukausten muuttumiseksi maaleiksi. Hyödyllinen prosessiarviointiin varovaisella käytöllä.
+
+**Expected value (Odotusarvo, EV)** - Vedon pitkän aikavälin arvo perustuen todennäköisyysarvioosi ja tarjottuun hintaan.
+
+**Exchange (Vaihto)** - Vertaisverkko vedonlyöntialusta jossa käyttäjät tukevat ja vastustavat lopputuloksia ja alusta ottaa provision.
+
+**F**
+
+**Favourite (Suosikki)** - Valinta lyhimmällä hinnalla markkinassa.
+
+**Fair line (Reilu linja)** - Oma kerroinarviosi ennen vedonvälittäjän marginaalia.
+
+**First five (Ensimmäiset viisi)** - Baseballin johdannainen joka kattaa vain ensimmäiset viisi vuoroparia. Hyödyllinen aloitusheittäjän edun eristämiseen.
+
+**First goalscorer (Ensimmäinen maalintekijä)** - Markkina siitä kuka pelaaja tekee ensimmäisen maalin. Korkea varianssi ja rooliriippuvainen.
+
+**Fold (Taitokset)** - Osien lukumäärä monivedossa.
+
+**Form (Vire)** - Aikaisempien suoritusten kirjanpito. Hyödyllinen vain kun kontekstissa.
+
+**Fractional odds (Murtokerroin)** - Perinteinen brittiläinen ja irlantilainen järjestelmä joka ilmaisee voiton suhteessa panokseen.
+
+**Freeze the line** - Markkinan pysähtyminen tai liikkeen puuttuminen kun kauppiaat odottavat uutta informaatiota.
+
+**G**
+
+**Game script (Peliskripti)** - Ottelun todennäköinen muoto ja kulku, erityisen tärkeä jalkapallossa ja koripallossa.
+
+**Going (Rataolosuhteet)** - Raviurheilutermi rataolosuhteille, kovasta pehmeään. Usein ratkaiseva.
+
+**H**
+
+**Handicap (Tasoitus)** - Markkina tai kilpailurakenne suunniteltu tasoittamaan osallistujia säätämällä tulosta tai kannettavaa painoa.
+
+**Hold percentage (Pitoprosentti)** - Kuinka usein tennispelaaja pitää syöttönsä. Keskeinen ottelu- ja totaalianalyysissa.
+
+**I**
+
+**Implied probability (Implikoitu todennäköisyys)** - Todennäköisyys markkinahinnasta ennen korjausta omaan mielipiteeseesi.
+
+**In-play (Live-veto)** - Vedonlyönti tapahtuman alkamisen jälkeen. Vaatii nopeutta, kurinalaisuutta ja tietoisuutta viiveestä ja likviditeetistä.
+
+**J**
+
+**Juice (Mehu)** - Toinen sana vedonvälittäjän marginaalille tai vigille.
+
+**K**
+
+**Kelly criterion (Kellyn kriteeri)** - Panoksen mitoituskaava joka yhdistää edun ja panoskoon. Tehokas teoriassa, vaarallinen kun todennäköisyysarviot ovat heikkoja.
+
+**L**
+
+**Lay (Vastustaa)** - Vedonlyönti lopputulosta vastaan vaihdossa.
+
+**Limit (Raja)** - Maksimisumma jonka vedonvälittäjä tai markkina sallii tietyssä hinnassa.
+
+**Line shopping (Kerroinvertailu)** - Useiden vedonvälittäjien tarkistaminen parhaan saatavilla olevan hinnan saamiseksi.
+
+**Liquidity (Likviditeetti)** - Kuinka paljon rahaa on saatavilla markkinassa ilman hinnan liiallista liikuttamista.
+
+**Live odds (Live-kertoimet)** - Saatavilla olevat hinnat tapahtuman aikana.
+
+**M**
+
+**Market maker (Markkinantekijä)** - Sharp vedonvälittäjä tai vaihtoaktiviteetti joka auttaa määrittelemään missä hintojen tulisi olla.
+
+**Middle (Väli)** - Positioiden pitäminen eri linjoilla siten että se voi luoda kannattavan limittäisyyden jos lopputulos osuu niiden väliin.
+
+**Moneyline (Rahalinja)** - Voittomarkkina, erityisesti pohjoismaalaisissa lajeissa, yleensä ilman tasapeliä.
+
+**O**
+
+**Overround (Ylikerroin)** - Määrä jolla kokonaisimplikoitu todennäköisyys ylittää 100 prosenttia. Tämä on vedonvälittäjän marginaali.
+
+**Overtime (Jatkoaika)** - Lisäjakso normaalin ajan jälkeen. Lasketaanko se riippuu markkinasta ja lajista.
+
+**P**
+
+**Parlay** - Pohjoisamerikkalainen termi monividolle.
+
+**Pace (Tempo)** - Pelitempo tai hallussaolojen määrä. Tärkeä raviurheilussa, jalkapallossa, koripallossa ja muissa, vaikka tarkka merkitys vaihtelee.
+
+**Pick'em (Tasapeli)** - Spread- tai sivumarkkina lähellä pariteettia jossa joukkueet katsotaan hyvin läheisiksi.
+
+**Place terms (Sijaehdot)** - Säännöt jotka määrittelevät kuinka monta raviurheilupaikkaa maksaa ja millä osalla voittokertoimesta.
+
+**Positive EV (Positiivinen odotusarvo)** - Veto jonka hinta on parempi kuin arvioitu reilu linja.
+
+**Price sensitive (Hintaherkkä)** - Tilanne jossa veto on houkutteleva vain tietyn kapean kerroinsyauksen ylä- tai alapuolella.
+
+**Prop (Erikoistulos)** - Propositiomarkkina tietyistä pelaaja- tai tapahtumalopputulosista päävoittajan sijaan.
+
+**Push (Palautus)** - Veto joka päättyy tasaan linjalla ja palautetaan.
+
+**R**
+
+**Regulation (Normaali aika)** - Normaali ottelupituus ennen jatkoaikaa. Kriittinen selvityslauseke jääkiekossa ja joissain jalkapallomarkkinoissa.
+
+**Return on investment (ROI)** - Voitto jaettuna pelatulla määrällä, yleensä ilmaistuna prosenttina.
+
+**Run line** - Baseballin versio spreadistä, yleensä ±1.5 juoksua.
+
+**S**
+
+**Sample size (Otoskoko)** - Datamäärä tai tapahtumien määrä trendin tai tilaston takana. Pienet otokset johtavat herkästi harhaan.
+
+**Scratch (Peruutus)** - Myöhäinen hevosen tai pelaajan vetäytyminen. Tärkeä markkinarekationen ja selvityksen kannalta.
+
+**Second-serve liability (Toisensyötön riski)** - Tenniksen heikkous jossa pelaaja tulee haavoittuvaksi kun pakotetaan toiseen syöttöön.
+
+**Sharp (Terävä)** - Arvostettu pelaaja, hinta tai vedonvälittäjä liitetty vahvempaan markkinatiedusteluun.
+
+**Shootout** - Tiebreaker-menettely jääkiekossa joissain kilpailuissa. Lasketaanko se riippuu markkinasta.
+
+**Side (Sivu)** - Veto joukkueesta tai osallistujasta voittamaan tai kattamaan, erotuksena totaalista tai propista.
+
+**Soft book (Pehmeä kirja)** - Viihdeveronvälittäjä todennäköisemmin tarjoamassa hitaampia tai vähemmän tehokkaita hintoja.
+
+**Spread (Tasoitus)** - Tasoituslinja suunniteltu tasapainottamaan kahta joukkuetta markkinassa.
+
+**Stake (Panos)** - Vedossa riskeerattu summa.
+
+**Steam** - Voimakas, äkillinen markkinalike, usein johdettu vaikutusvaltaisesta rahasta tai informaatiosta.
+
+**Strike rate (Osuvuus)** - Voitettujen vetojen prosentti. Hyödyllinen mutta ei riittävä yksinään koska hinnalla on merkitystä.
+
+**T**
+
+**Team total (Joukkueen kokonais)** - Markkina siitä kuinka monta pistettä, juoksua, maalia tai vastaavaa joukkue tekee riippumatta koko ottelun totaalista.
+
+**Tick** - Pienin hinnanliikkeen inkrementti markkinassa.
+
+**Tilt** - Emotionaalisesti kompromissoitunut pelaamiskäyttäytyminen, usein voittojen tai tappioiden jälkeen.
+
+**Total (Totaali)** - Markkina yhdistetystä pisteistä tai tuotannosta, kuten yli/ali maalit, pisteet tai juoksut.
+
+**Trap game** - Ylikäytetty ilmaus usein käytetty laiskasti. Merkityksellinen vain jos se viittaa todelliseen tilanteelliseen tai kohtaamisriskiin.
+
+**True probability (Todellinen todennäköisyys)** - Rehellinen arviaosi kuinka usein lopputulos tapahtuu, erillään markkinan näkemyksestä.
+
+**U**
+
+**Unit (Yksikkö)** - Standardoitu panoskoko käytetty ilmaisemaan riskiä johdonmukaisesti eri pelkassojen kesken.
+
+**V**
+
+**Value (Arvo)** - Hinta joka on parempi kuin todennäköisyys jonka annat lopputulokselle.
+
+**Vig** - Toinen sana marginaalille, erityisesti amerikkalaisessa vedonlyöntikielessä.
+
+**Void (Mitätöity)** - Peruttu veto jossa panos palautetaan sääntöjen mukaan.
+
+**W**
+
+**WHIP** - Baseballin tilasto joka mittaa kävelyjä ja lyöntejä sallittuja per heitetty vuoropari; hyödyllinen liikenteen ja kontrollikon tekstiissa.
+
+**Win rate (Voittoprosentti)** - Sama yleinen idea kuin osuvuus; kuinka usein vedot maksavat.
+
+**Y**
+
+**Yield (Tuotto)** - Voitto prosenttina kokonaispanoksesta vedotojen joukon yli.`
+      }
+    ]
   }
 ]
