@@ -1,0 +1,53 @@
+6. El flujo completo del apostador: de la lista de eventos a la apuesta colocada
+
+Un proceso fuerte de apuestas debe ser repetible. Muchos apostadores creen que disciplina significa apostar poco y controlar la emoción. Sí significa eso, pero también significa seguir el mismo flujo de trabajo cada día para que la mente no improvise bajo presión. Un apostador que puede explicar claramente su flujo es mucho menos propenso a colocar apuestas aleatorias, a perseguir pérdidas y más propenso a aprender de la experiencia.
+
+Esta sección convierte la teoría anterior en un sistema operativo. No significa que todos los deportes sean idénticos. Significa que el orden de operaciones debe permanecer estable: filtrar la cartelera, elegir dónde importa la información, construir un precio justo, comparar con el mercado, decidir si existe ventaja, seleccionar el mercado correcto, apostar con stake adecuado, registrar la apuesta y revisar después sin reescribir la historia.
+
+Así se pasa de “me apetece esta” a “tengo suficiente evidencia, suficiente precio y suficiente control para justificar arriesgar dinero aquí”.
+
+Etapa uno: filtrado de cartelera
+
+Filtrar es el arte de excluir oportunidades débiles rápido. Algunas carteleras tienen poca información, son caóticas o están eficientemente valoradas más allá de tu ventaja. Pasar es profesional. Construye reglas de filtrado como liquidez de mercado, disponibilidad de datos, claridad de lesiones, acceso realista a cuotas y si entiendes la liga o circuito lo bastante bien para actuar.
+
+¿El mercado es lo bastante líquido para tomarlo en serio?
+¿Tengo fuentes de información fiables para este evento?
+¿Podré obtener algo cercano al precio objetivo?
+¿Realmente tengo conocimiento aquí o estoy saliendo de mi competencia?
+
+Etapa dos: investigación dirigida
+
+La investigación debe responder preguntas, no crear desorden. Escribe los cinco a ocho factores que más importan en el deporte y mercado que analizas, y puntúa el evento contra ellos. Esto evita el error clásico del novato: ahogarse en estadísticas sin ponderarlas. No todos los números importan igual. Algunos describen pero no predicen. El trabajo del apostador es separar señal de decoración.
+
+Forma reciente, pero en contexto y no como resumen perezoso de victorias y derrotas.
+Disponibilidad: lesiones, sanciones, scratches, rotaciones, porteros, lanzadores, viajes y descanso.
+Emparejamiento táctico o estilístico.
+Motivación, pero solo cuando tiene efecto concreto sobre comportamiento o selección.
+Precio de mercado relativo a tu línea justa.
+
+Etapa tres: creación de precio y elección de mercado
+
+Después de investigar, produce una línea justa. Luego decide qué mercado expresa mejor la idea. A veces tu opinión más fuerte no está en el ganador. Tal vez está en un under, un draw-no-bet, un hándicap asiático, un first-five de béisbol, un each-way de caballos o un mercado de jugador. Los nuevos apostadores creen que escoger el equipo correcto es todo el trabajo. Los profesionales saben que expresar la opinión a través del mercado correcto es a menudo la mitad de la ventaja.
+
+Etapa cuatro: colocación, anotación y timing
+
+Cuando una apuesta califica, la ejecución importa. Registra evento, mercado, stake, precio, casa o bolsa y cualquier número mínimo aceptable antes de confirmar. Si la ventaja solo existe a 2,10 y la línea ya es 1,98, la apuesta se fue. Los buenos apostadores están dispuestos a perder acción antes que comprar malos precios. Anota también el timing. Algunos mercados premian posiciones tempranas; otros son mejores después de alineaciones, declaraciones, clima o confirmación de portero. La ejecución no es una nota lateral. Es parte de capturar la ventaja.
+
+Etapa cinco: revisión posterior al evento
+
+La revisión es donde la experiencia se convierte en mejora. Califica la decisión, no solo el resultado. Pregunta si el precio seguía siendo justo al colocar la apuesta, si existía mejor expresión de mercado, si el conjunto de información estaba completo y si el stake coincidía con ventaja e incertidumbre. Mantén la revisión breve el día del evento y amplíala en el análisis semanal o mensual cuando la emoción se haya enfriado.
+
+Chequeo personal antes de apostar: debes poder responder cuál es mi línea justa, por qué este mercado, por qué este stake y qué me haría pasar.
+
+Plantilla de investigación
+
+Campo	Qué anotar
+Evento	Liga, equipos/participantes, fecha, mercado y casas.
+Filtro inicial	Liquidez, información, competencia y restricciones.
+Factores clave	Lesiones, estilo, descanso, clima, calendario, tácticas.
+Precio justo	Probabilidad estimada y cuota justa.
+Mercado elegido	Por qué expresa mejor la ventaja.
+Línea jugable	Precio mínimo o máximo aceptable.
+Stake	Unidad según marco de banca.
+Riesgos	Qué podría invalidar o debilitar la tesis.
+Revisión	Resultado, CLV, proceso y aprendizaje.
