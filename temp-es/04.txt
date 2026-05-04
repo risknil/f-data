@@ -1,0 +1,42 @@
+4. Valor, valor esperado, comparación de cuotas y valor de cierre
+
+El cambio intelectual más importante en las apuestas es pasar de escoger ganadores a buscar valor. El aficionado pregunta: “¿Ganará esto?” El profesional pregunta: “¿Está el mercado subestimando este resultado en relación con el precio?” La diferencia parece pequeña, pero lo cambia todo. Una apuesta puede perder y seguir siendo buena. Una apuesta puede ganar y seguir siendo pobre. Cuando entiendes el valor, dejas de venerar resultados y empiezas a juzgar decisiones en el momento en que se toman.
+
+El valor esperado, abreviado EV, es la rentabilidad a largo plazo de una apuesta según tu probabilidad estimada y el precio ofrecido. Si tu estimación es sólida y el precio es mayor de lo que debería, la apuesta tiene valor esperado positivo. Eso no significa que ganará hoy. Significa que, repetida en muchas situaciones similares, debería generar beneficio. Por eso los apostadores disciplinados hablan tanto de proceso, precio y repetibilidad. Los resultados aislados son ruido. El EV de largo plazo es el verdadero objetivo.
+
+La comparación de cuotas es el lado práctico del valor. Si haces un partido 1,90 y una casa ofrece 1,95 mientras otra ofrece 2,05, esos números no son básicamente iguales. Son precios materialmente distintos. Durante meses y años, esa diferencia puede decidir si un apostador es rentable o mediocre. No es trabajo glamuroso. Es administrativo, disciplinado y a veces frustrante. Pero muchas ventajas profesionales están hechas de hábitos poco glamorosos repetidos con constancia.
+
+Cómo pensar en EV sin volverte robótico
+
+Un error común es tratar el lenguaje de EV como magia. No lo es. El EV solo es tan bueno como la estimación de probabilidad que lo sostiene. Una mala estimación vestida de matemáticas sigue siendo mal trabajo. El uso correcto del EV tiene dos funciones: primero, obligarte a comparar disciplinadamente tu línea justa con el mercado; segundo, recordarte que la varianza de corto plazo dice muy poco. El EV no elimina la incertidumbre. Te da una forma estructurada de vivir con ella.
+
+EV positivo no garantiza ganar esta noche.
+EV negativo puede ganar esta noche y tentarte a malos hábitos.
+La calidad de tu estimación de probabilidad importa más que la elegancia de tu hoja de cálculo.
+El EV es una brújula de largo plazo, no una manta de consuelo a corto plazo.
+
+Comparación de cuotas como rutina profesional
+
+Un apostador serio debe mantener acceso a múltiples casas y saber cuáles son útiles para cada deporte y mercado. Algunas firmas son más fuertes en líneas principales de fútbol, otras en props, otras en ligas menores, otras en términos de colocado en carreras, otras en precios vinculados a bolsa y otras en promociones que a veces crean valor puntual. El punto no es perseguir cada mínima diferencia a cualquier coste. El punto es entender que conseguir el precio es parte de la apuesta misma.
+
+Comprueba al menos tres fuentes en cualquier mercado que pretendas apostar con regularidad.
+Registra el mejor número ampliamente disponible, no solo uno que viste si desapareció al instante.
+Ten cuidado con mercados obsoletos de baja liquidez; pueden desaparecer antes de que los apostadores actúen.
+No presentes un mal precio como aceptable solo porque perdiste el mejor número.
+
+Valor de cierre como herramienta de auditoría
+
+El valor de cierre, o CLV, mide si el precio que tomaste fue mejor o peor que el precio final de mercado. Con el tiempo, batir de forma consistente la línea de cierre es una de las señales más fuertes de que tu proceso tiene mérito. No es perfecto ni es la única métrica, pero es útil porque la línea de cierre en un mercado líquido tiende a ser más eficiente que el panel temprano. Si tus selecciones cierran rutinariamente más cortas que tu precio tomado, el mercado a menudo confirma que compraste bien.
+
+Buen CLV con malos resultados aún puede indicar calidad de proceso a corto plazo.
+Mal CLV con buenos resultados puede indicar que la varianza te rescató.
+El CLV es más fuerte en mercados líquidos; sé cauteloso en nichos con poca liquidez.
+No uses CLV para excusar malas estimaciones; úsalo como una señal más.
+
+Errores comunes sobre valor
+
+Muchos apostadores dicen “valor” cuando en realidad quieren decir “cuota alta”. Una cuota alta no es automáticamente valor. Un outsider a 6,00 puede ser horrible si su precio justo es 9,00. Un favorito a 1,60 puede ser valor si debería estar a 1,40. El valor no vive en cuotas grandes o pequeñas. Vive en la diferencia entre probabilidad real y precio disponible.
+
+Otro error es confundir movimiento de mercado con prueba absoluta. A veces el mercado se mueve por información real. A veces se mueve por flujo público, límites bajos, rumores o reacción excesiva. Tu tarea no es obedecer todos los movimientos, sino entender qué pudo causarlos y si tu precio sigue siendo defendible.
+
+Regla de valor: antes de apostar, debes poder escribir tres números: tu probabilidad estimada, tu precio justo y el precio disponible. Si falta uno, tu decisión está incompleta.

@@ -1,0 +1,38 @@
+12. Clase de béisbol: lanzadores, bullpens, splits y lógica de primeras cinco entradas
+
+El béisbol es quizá el deporte mayor más limpio para apuestas guiadas por proceso porque el juego se divide en eventos discretos y los roles son especializados. Esa misma estructura expone rápido el análisis superficial. Un apostador que ignora abridores, carga del bullpen, splits de mano, composición de lineup, factores de parque y clima apenas analiza el deporte.
+
+El punto de partida obvio es el lanzador abridor, pero no en sentido simplista de victorias y derrotas. Quieres saber cómo genera outs, cuán profundo probablemente trabajará, si su perfil de comando encaja con el rival, si la carga reciente sugiere una correa más corta y cuánto importará el bullpen si sale temprano. Un abridor excelente cinco entradas detrás de un bullpen pobre puede hacer más atractiva una apuesta first five que una de partido completo. Es una de las ventajas más claras para apostadores atentos.
+
+El béisbol también recompensa conciencia de splits. Los lineups no son objetos estáticos. Matchup zurdo-derecho, perfil contra velocidad o rompientes, interacción entre rodados/elevados y dimensiones del parque, y efectos del clima sobre anotación importan. Apostar béisbol de forma profesional es altamente condicional. No apoyas simplemente al mejor equipo. Apoyas una colisión específica de lanzador, lineup, bullpen y ambiente.
+
+Análisis del abridor
+
+Empieza con forma actual con cuidado, luego amplía a rol y matchup. ¿Cuántas entradas cubrirá de forma realista? ¿Falla bates o depende de gestión de contacto? ¿Los boletos son problema? ¿El rival castiga los tipos de pitcheo que más usa? ¿Puede navegar el lineup por tercera vez? Estas preguntas moldean la elección de mercado.
+
+El perfil de strikeouts a boletos importa más que victorias del pitcher.
+WHIP y control de corredores explican estrés y tráfico en bases.
+Mezcla de pitcheos contra perfil del lineup importa, especialmente contra equipos extremos de platoon.
+Una “buena ERA” puede esconder señales de alarma si la calidad de contacto subyacente es pobre.
+
+Bullpens y leverage
+
+Muchos se enfocan en el abridor y paran. Los profesionales saben que el bullpen decide si un ángulo de partido completo es jugable. Las unidades de relevo difieren en calidad, frescura y gestión de high leverage. Un bullpen agotado tras extras no es lo mismo que una unidad élite descansada. Los managers también difieren en uso agresivo de sus mejores relevistas. Las entradas finales no son ruido de fondo. A menudo allí vive el valor.
+
+Comprueba uso del bullpen durante los últimos tres a cinco días.
+Anota si relevistas de alto leverage probablemente están disponibles.
+Toma en serio mercados first five cuando la claridad del abridor supera la claridad del bullpen.
+
+Parque y clima
+
+No todos los estadios juegan igual. Dimensiones, altitud, temperatura y viento cambian el entorno de carreras. Un pitcher de elevados en parque favorable a jonrones con viento hacia fuera es diferente al mismo pitcher en aire pesado. El clima no es solo nota de totales. Puede cambiar textura del juego, demanda de bullpen y calidad de anotación tardía.
+
+Usa parque y clima para refinar totales y ángulos sensibles a jonrón.
+Cuidado con precios obsoletos tras actualizaciones de clima.
+Recuerda que los factores de parque interactúan con estilo de pitcher, no solo con niveles genéricos de anotación.
+
+Moneyline, run line, total o first five
+
+El béisbol ofrece separación elegante de mercados. Si tu ventaja vive en el abridor, first five puede ser mejor. Si el bullpen refuerza el mismo lado, partido completo puede mejorar el caso. Si un lineup encaja contra el pitcher rival pero la volatilidad defensiva te asusta del lado, quizá un total de equipo sea más limpio. La elección de mercado debe aislar lo que realmente sabes.
+
+Regla de béisbol: no apuestes un equipo; apuesta la combinación concreta de abridor, bullpen, lineup, parque, clima y precio.

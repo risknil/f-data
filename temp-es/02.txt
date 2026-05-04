@@ -1,0 +1,38 @@
+2. Cómo funcionan realmente las casas de apuestas, las bolsas de apuestas y los mercados
+
+Un principiante suele imaginar que una casa de apuestas simplemente predice el futuro y escribe esas predicciones como cuotas. En realidad, la casa de apuestas opera como un negocio de fijación de precios con margen, gestión de responsabilidad, segmentación de clientes y sistemas de control de riesgo. La primera preocupación de la casa no es tu experiencia del evento. Es si los precios de su panel son lo bastante eficientes, protegidos y rentables para justificar mantener abierto el mercado.
+
+La idea central que debes entender es el margen. En un evento realmente 50-50, las cuotas justas serían 2,00 y 2,00 en formato decimal. Una casa de apuestas no puede sobrevivir ofreciendo ambos lados al precio justo porque necesita una ventaja incorporada. Por eso acorta ambos lados. Eso puede significar ofrecer 1,91 y 1,91, o 1,90 y 1,90, según el mercado. La probabilidad implícita total sube por encima del 100 por ciento. Ese exceso es el overround, también llamado margen, vig o juice. Es una de las razones principales por las que escoger ganadores no basta. Debes vencer el precio, no solo adivinar resultados.
+
+En los mercados modernos, las casas también reaccionan a la información y al comportamiento de clientes. Noticias de equipos, clima, retiradas, designaciones arbitrales, porteros titulares, cambios de lanzador e informes de lesiones mueven números. También lo hace el dinero, sobre todo el dinero de cuentas respetadas. Algunas casas son más sharp y se mueven primero. Otras copian. Algunas son blandas y lentas, lo que las vuelve útiles para comparar precios. Un apostador disciplinado presta atención a estas diferencias, porque no todos los precios son iguales y no todas las casas son igual de informativas.
+
+Las bolsas de apuestas funcionan de otra manera. En una bolsa, los usuarios respaldan y layeen resultados entre sí y la plataforma cobra comisión. Esta estructura puede crear mejores precios, especialmente cerca del inicio cuando la liquidez es saludable. Las bolsas también enseñan una lección importante sobre la verdad del mercado: si suficientes participantes informados discrepan contigo a cierto número, debes preguntarte si tu modelo del evento es incorrecto, si tu información está vieja o si de verdad has encontrado valor. La respuesta no siempre es la misma.
+
+Margen de la casa en lenguaje práctico
+
+Un ejercicio útil es mirar un mercado de dos vías y calcular tú mismo la probabilidad implícita total. Si el Equipo A está a 1,91 y el Equipo B a 1,91, cada lado implica aproximadamente 52,36 por ciento. Juntos implican 104,72 por ciento. La diferencia entre 104,72 y 100 es el margen. Puede parecer poco, pero repetido en cientos de apuestas es enorme. Por tanto, la tarea del apostador es comprar mejores precios de los que el mercado merece ofrecer, no simplemente identificar resultados que parecen probables.
+
+Los mercados con margen más alto son más difíciles de batir.
+Los mercados recreativos populares suelen llevar más impuesto oculto que las líneas sharp o los precios de bolsa.
+La misma opinión puede ser rentable a un precio e injugable a otro.
+Las combinadas y bet builders suelen componer el margen salvo que seas muy selectivo.
+
+Casas sharp, casas blandas y por qué importa la distinción
+
+Una casa sharp es aquella cuyos precios se respetan porque se mueven rápido ante información y dinero educado. Una casa blanda puede ofrecer más promociones y funciones de entretenimiento, pero puede ir por detrás de fuentes más sharp. Para un apostador serio, la casa sharp suele ser un punto de referencia y la casa blanda a veces es el lugar donde aún se encuentra valor obsoleto. No es una distinción moral. Es práctica.
+
+Las casas sharp son útiles para leer la opinión del mercado.
+Las casas blandas son útiles para buscar precio si los límites y restricciones de cuenta lo permiten.
+Un apostador debe registrar dónde estaba disponible la apuesta, porque importa el realismo del precio.
+Si un precio desaparece de todas partes en segundos, puede ser injusto presentarlo como si fuera ampliamente obtenible.
+
+Pensamiento de bolsa para apostadores
+
+Aprender lógica de bolsa mejora a un apostador aunque apueste principalmente con casas. Te obliga a pensar en precios negociables y opiniones contrarias. Si no estarías cómodo layendo tu propia selección a un número, esa incomodidad puede revelar convicción débil o trabajo de precio descuidado. Las bolsas también enseñan que un mercado puede acertar por la razón equivocada o equivocarse por la razón correcta. El timing importa. La liquidez importa. El momento de las noticias importa.
+
+Usa precios de bolsa para contrastar si un número de casa es realmente generoso.
+Observa cómo reaccionan los mercados a las noticias de equipo y si los traders de bolsa se mueven antes de que las casas copien.
+Entiende la comisión porque un precio aparentemente mejor puede dejar de serlo después de costes.
+Registra la liquidez: un precio con muy poco dinero disponible no es igual que un precio ampliamente negociable.
+
+La lección no es que la casa siempre tenga razón. La lección es que cada precio contiene margen, información, sesgo, flujo de dinero y gestión de riesgo. Tu trabajo es saber cuál de esas fuerzas está dominando antes de arriesgar dinero.

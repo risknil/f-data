@@ -1,0 +1,146 @@
+20. Ejercicios prácticos, hojas de trabajo y tareas de evaluación final
+
+El conocimiento solo se convierte en habilidad cuando se practica con algún tipo de estructura. El propósito de esta sección final es convertir lectura en acción. Los ejercicios siguientes son intencionalmente prácticos. Te piden crear precios, elegir mercados, construir notas de apuesta, revisar resultados y defender tu razonamiento. Una persona que los complete honestamente mejorará mucho más que una que solo lea el curso y asienta.
+
+No apresures esta sección. Trátala como trabajo de curso. Usa una hoja de cálculo. Conserva tus respuestas antiguas. Revísalas después de un mes. A menudo descubrirás que tu primera mejora no es “encontrar más ganadores”, sino volverte más selectivo, más preciso con rangos de precio y más honesto sobre dónde tu ventaja es realmente fina.
+
+Bloque de ejercicios uno: pricing y lenguaje de mercado
+
+Toma veinte eventos de tu deporte principal. Antes de mirar cuotas de casas, crea tu propia línea justa para el mercado principal. Luego compara tus precios con el mercado. Registra dónde estabas más alto, más bajo o alineado. El objetivo no es demostrar desde el día uno que eres más listo que el mercado. El objetivo es desarrollar el hábito de pricing independiente.
+
+Convierte cada precio aconsejado en probabilidad implícita.
+Escribe una frase explicando por qué el mercado puede estar equivocado.
+Declara la línea jugable máxima o mínima aceptable para cada idea.
+
+Bloque de ejercicios dos: selección de mercado
+
+Encuentra diez eventos donde te guste un lado. En cada evento, oblígate a decidir si la mejor expresión es mercado de ganador, mercado protegido, hándicap, total, total de equipo o derivado. Luego defiende esa elección por escrito. Este ejercicio enseña que tener razón sobre el equipo no basta.
+
+Bloque de ejercicios tres: notas, diario y registro de apuestas
+
+Escribe cinco notas de apuesta claras y cinco notas de analista más completas sobre los mismos eventos. Compáralas. Las notas cortas deben capturar rápidamente la decisión central. Las notas largas deben preservar el razonamiento técnico detrás de la apuesta. Esto enseña a mantener tus registros privados útiles y detallados.
+
+Bloque de ejercicios cuatro: revisión de proceso
+
+Después de treinta apuestas, revisa cada selección y colócala en una de cuatro categorías: buen proceso ganó, buen proceso perdió, mal proceso ganó, mal proceso perdió. Es uno de los ejercicios más educativos de todo el manual porque te obliga a separar calidad de resultado.
+
+Evaluación final
+
+Crea una cartera simulada de una semana en tu deporte principal. Incluye no más de diez selecciones. Para cada una, proporciona mercado, línea justa, cuota tomada, stake, nota corta de apuesta y revisión postevento. Después escribe un resumen de una página respondiendo tres preguntas: qué hiciste bien, dónde te excediste y qué reglas ajustarás la semana siguiente.
+
+Regla de finalización del curso: no has aprendido este material plenamente hasta que puedes aplicarlo de forma consistente bajo condiciones reales de mercado sin abandonar tus estándares en días difíciles.
+
+Hoja de trabajo: chequeo de calidad preapuesta
+
+Elemento de chequeo	¿Completo?	Notas
+¿He creado mi propia línea justa antes de anclarme al mercado?	□	
+¿El mercado elegido es la expresión más limpia de la ventaja?	□	
+¿El precio aconsejado todavía es realistamente obtenible?	□	
+¿El stake es consistente con mi marco de staking?	□	
+¿He anotado noticias importantes de equipo, alineación, clima o calendario?	□	
+¿Un apostador puede entender la tesis en menos de un minuto?	□	
+¿He declarado la liquidación claramente donde puede haber confusión?	□	
+¿Apostaría esto si nadie más viera nunca el registro?	□	
+
+Apéndice A. Glosario ampliado de apuestas para apostadores
+
+Este glosario está escrito en lenguaje de formación para apostadores humanos. Es deliberadamente práctico. La meta no es sonar enciclopédico, sino hacer que el término sea usable en análisis real, staking y registros.
+
+Término	Definición de formación
+Accumulator	Apuesta de múltiples selecciones en la que cada pierna debe ganar. Los pagos atractivos ocultan margen y error compuestos.
+Across the card	Frase de carreras para apostar en todas las carreras de una reunión. Normalmente recreativo más que selectivo.
+All-weather	Superficie artificial de carreras usada cuando el césped no es adecuado. La preferencia de superficie importa.
+American odds	Formato de cuotas con números positivos y negativos. Convierte a probabilidad rápido para evitar errores.
+Ante-post	Apuesta hecha con mucha antelación, a menudo con mejores precios pero más riesgo de no participante según reglas.
+Arbitrage	Respaldar todos los resultados en distintas casas para fijar beneficio. Posible en teoría; difícil por restricciones.
+Asian handicap	Mercado de hándicap, común en fútbol, que ajusta el marcador y puede eliminar o dividir riesgo de empate.
+Back price	Cuota a la que apoyas que un resultado ocurra, especialmente en una bolsa.
+Bankroll	Capital asignado exclusivamente a apuestas. Absorbe varianza y protege calidad de decisión.
+Best odds guaranteed	Promoción de carreras donde recibes el mayor entre precio temprano y SP si el caballo gana.
+Bet builder	Múltiple del mismo partido que combina selecciones de un evento. Conveniente, pero a menudo de margen alto.
+Bookmaker	Negocio que pone precio y acepta apuestas incorporando margen en las cuotas.
+Both teams to score	Mercado de fútbol liquidado según si ambos equipos marcan al menos una vez.
+Break point	Punto de tenis en el que el restador puede ganar el juego rompiendo el saque.
+Break percentage	Frecuencia con que un tenista rompe el saque rival. Métrica clave de matchup.
+Bullpen	Unidad de relevistas en béisbol. Crítica en pricing de partido completo.
+Cash out	Función de casa que permite cierre temprano. Normalmente comodidad primero, valor después.
+Chance quality	Forma práctica de describir si los intentos son peligrosos, no solo numerosos.
+Chalk	Jerga para el favorito.
+Closing line	Precio final ampliamente disponible antes del inicio del evento.
+Closing line value	Diferencia entre tu precio tomado y el cierre. Útil como auditoría de proceso.
+Coin flip game	Partido valorado cerca del equilibrio. Requiere disciplina porque se exageran ventajas pequeñas.
+Correct score	Mercado que exige el marcador exacto final. Alta varianza y muy sensible al precio.
+Cover the spread	Superar el hándicap o spread después de aplicar el ajuste.
+Course and distance	Nota de carreras que muestra éxito previo en la misma pista y distancia.
+Dead heat	Empate por posición o victoria donde la liquidación se ajusta según reglas.
+Decimal odds	Formato que expresa retorno total por unidad apostada. Suele ser el formato profesional más fácil.
+Derivative	Mercado secundario como primera mitad, primeras cinco entradas, total de equipo, cuarto o periodo.
+Draw no bet	Mercado donde el empate devuelve stake y solo paga la victoria del lado elegido.
+Drift	Cuando las cuotas se agrandan. Puede reflejar información negativa, menor demanda o corrección.
+Each-way	Apuesta de carreras dividida en parte de ganador y colocado. Vale solo si términos y precio justifican.
+Edge	Ventaja práctica que tu análisis tiene frente al mercado a un precio dado.
+Evens	Par: decimal 2,00 o 1/1.
+Expected goals	Métrica de fútbol que estima probabilidad de que los tiros sean gol. Útil si se usa con cuidado.
+Expected value	Valor de largo plazo de una apuesta según tu probabilidad y el precio ofrecido.
+Exchange	Plataforma peer-to-peer donde usuarios respaldan y layeen resultados y la plataforma cobra comisión.
+Favourite	Selección de cuota más corta en un mercado.
+Fair line	Tu estimación propia de cuota antes del margen de la casa.
+First five	Derivado de béisbol que cubre solo las primeras cinco entradas. Aísla ventaja de abridor.
+First goalscorer	Mercado sobre qué jugador marca el primer gol. Alta varianza y sensible al rol.
+Fold	Número de piernas en una acumulada o parlay.
+Form	Registro de actuaciones previas. Útil solo con contexto correcto.
+Fractional odds	Formato tradicional británico e irlandés que expresa beneficio relativo al stake.
+Freeze the line	Pausa de mercado o falta de movimiento mientras traders esperan información fresca.
+Game script	Forma y flujo probable del partido, importante en fútbol americano y baloncesto.
+Going	Condición del terreno en carreras, de firme a pesado. A menudo decisiva.
+Handicap	Mercado o estructura de carrera que nivela competidores ajustando marcador o peso.
+Hold percentage	Frecuencia con que un tenista mantiene el saque. Central para análisis de partido y total.
+Implied probability	Probabilidad representada por el precio de mercado antes de tu ajuste propio.
+In-play	Apostar después del inicio. Requiere velocidad, disciplina y conciencia de delay y liquidez.
+Juice	Otra palabra para margen o vig de la casa.
+Kelly criterion	Fórmula de staking que vincula ventaja y tamaño de apuesta. Potente en teoría, peligrosa con estimaciones débiles.
+Lay	Apostar contra un resultado en una bolsa.
+Limit	Máximo que una casa o mercado permite a un precio dado.
+Line shopping	Comprobar varias casas para obtener el mejor precio disponible.
+Liquidity	Cantidad de dinero disponible en un mercado sin mover demasiado el precio.
+Live odds	Precios disponibles mientras el evento se juega.
+Market maker	Casa sharp o actividad de bolsa que ayuda a definir dónde deberían estar los precios.
+Middle	Mantener posiciones en distintas líneas que pueden crear solapamiento rentable si el resultado cae entre ellas.
+Moneyline	Mercado de ganador, especialmente en deportes norteamericanos, usualmente sin empate en el panel.
+Overround	Cantidad por la que la probabilidad implícita total supera 100 por ciento. Es margen de la casa.
+Overtime	Periodo extra tras el reglamentario. Si cuenta depende del mercado y deporte.
+Parlay	Término norteamericano para acumulada.
+Pace	Velocidad de juego o número de posesiones. Importante en carreras, fútbol, baloncesto y más, con significado variable.
+Pick’em	Mercado de spread o lado casi igualado donde los equipos se consideran muy cercanos.
+Place terms	Reglas que determinan cuántos puestos pagan en carreras y a qué fracción de la cuota de ganador.
+Positive EV	Apuesta cuyo precio es mejor que tu línea justa estimada.
+Price sensitive	Situación donde la apuesta solo es atractiva por encima o debajo de un umbral estrecho.
+Prop	Mercado de proposición sobre resultados de jugador o evento específico, no ganador principal.
+Push	Apuesta que empata la línea y se reembolsa.
+Regulation	Duración estándar antes de prórroga. Redacción crucial en hockey y algunos mercados.
+Return on investment	Beneficio dividido por cantidad apostada, normalmente en porcentaje.
+Run line	Versión de spread en béisbol, comúnmente ±1,5 carreras.
+Sample size	Cantidad de datos o eventos detrás de una tendencia. Las muestras pequeñas engañan fácilmente.
+Scratch	Retirada tardía de caballo o jugador. Importante para reacción de mercado y liquidación.
+Second-serve liability	Debilidad de tenis cuando el jugador se vuelve vulnerable al segundo saque.
+Sharp	Apostador, precio o casa respetados y asociados a mayor inteligencia de mercado.
+Shootout	Procedimiento de desempate de hockey. Si cuenta depende del mercado.
+Side	Apuesta por equipo o participante a ganar o cubrir, frente a total o prop.
+Soft book	Casa recreativa más propensa a ofrecer precios lentos o menos eficientes.
+Spread	Línea de hándicap diseñada para equilibrar dos equipos.
+Stake	Cantidad arriesgada en una apuesta.
+Steam	Movimiento fuerte y repentino de mercado, atribuido a dinero o información influyente.
+Strike rate	Porcentaje de apuestas ganadas. Útil, pero insuficiente porque importa el precio.
+Team total	Mercado sobre cuántos puntos, carreras, goles o similar anota un equipo, independiente del total completo.
+Tick	Incremento mínimo de movimiento de precio en un mercado.
+Tilt	Conducta de apuesta emocionalmente comprometida, a menudo tras victorias o pérdidas.
+Total	Mercado sobre anotación o producción combinada, como over/under de goles, puntos o carreras.
+Trap game	Frase sobreutilizada y a menudo perezosa. Solo tiene sentido si apunta a riesgo real situacional o de matchup.
+True probability	Tu estimación honesta de cuán a menudo ocurre el resultado, separada del mercado.
+Unit	Tamaño estándar de stake usado para expresar riesgo de forma consistente entre bancas.
+Value	Precio mejor que la probabilidad que asignas al resultado.
+Vig	Otra palabra para margen, especialmente en lenguaje estadounidense.
+Void	Apuesta cancelada donde el stake se devuelve según reglas.
+WHIP	Estadística de béisbol que mide bases por bolas y hits permitidos por entrada; útil para tráfico y comando.
+Win rate	Misma idea general que strike rate: frecuencia con que las apuestas cobran.
+Yield	Beneficio como porcentaje del stake total en una muestra de apuestas.

@@ -1,0 +1,50 @@
+3. Cuotas, probabilidad implícita y precio justo
+
+Las cuotas son el idioma del mercado. Un apostador casual las ve como una cotización de pago. Un apostador disciplinado las ve como declaraciones comprimidas de probabilidad expresadas a través del margen de la casa. Volverse fluido en cuotas es la primera habilidad técnica real. Hasta que puedas traducir precios a probabilidades de forma rápida y segura, estás operando a oscuras.
+
+Las cuotas decimales suelen ser las más fáciles para trabajo profesional porque se convierten limpiamente en probabilidad implícita con una fórmula simple: 1 dividido por el precio decimal. Decimal 2,00 implica 50 por ciento. Decimal 4,00 implica 25 por ciento. Decimal 1,50 implica 66,67 por ciento. Los formatos fraccional y americano comunican la misma realidad subyacente, pero el formato decimal acelera la comparación y el trabajo de pricing, sobre todo cuando manejas múltiples mercados y deportes.
+
+El movimiento crucial es dejar de preguntar si un resultado parece probable y empezar a preguntar qué probabilidad te está cobrando el mercado para comprarlo. Ese es el puente entre opinión y disciplina. Cuando conoces la probabilidad implícita del mercado, puedes compararla con tu propia estimación de probabilidad verdadera. Esa comparación es el inicio de la apuesta de valor.
+
+Tres formatos de cuota que todo apostador debe entender
+
+Distintas casas y deportes usan distintos formatos, así que debes ser bilingüe o incluso trilingüe en términos de precio. Las cuotas decimales muestran retorno total por unidad apostada. Las fraccionales muestran beneficio relativo al stake. Las americanas muestran cuánto debe arriesgarse para ganar una cantidad fija o cuánto beneficio se devuelve por una cantidad fija. No necesitas amar todos los formatos, pero debes interpretar cada uno sin dudar, porque la duda crea errores.
+
+Decimal 2,50 = 40,00 por ciento de probabilidad implícita.
+Fraccional 3/1 = decimal 4,00 = 25,00 por ciento de probabilidad implícita.
+Americana -150 significa arriesgar 150 para ganar 100 e implica 60 por ciento.
+Americana +200 significa ganar 200 por cada 100 apostados e implica 33,33 por ciento.
+
+Qué es un precio justo
+
+Un precio justo es el equivalente en cuotas de tu propia probabilidad verdadera estimada antes del margen de la casa. Si crees que un resultado ocurre el 55 por ciento de las veces, tu precio justo decimal es aproximadamente 1,82. Si el mercado ofrece 1,95, el número es mejor que tu línea justa y puede ser valor. Si el mercado ofrece 1,72, el número es peor que tu línea justa y normalmente debe pasarse. Esa línea justa se convierte en la brújula del apostador disciplinado. Sin ella solo reaccionas al panel, no piensas de forma independiente.
+
+Estima primero la probabilidad.
+Convierte la estimación en cuota justa.
+Solo entonces compara con el precio disponible del mercado.
+Registra tanto tu línea justa como el precio que realmente tomaste.
+
+Construir rangos de probabilidad en lugar de falsa precisión
+
+En el trabajo real de apuestas no siempre sabrás si el número verdadero es 53,4 o 54,1 por ciento. Fingir lo contrario es falsa precisión. Un hábito mejor es pensar en rangos de probabilidad. Tal vez estimas que el local debería estar entre 52 y 55 por ciento. Aun así puedes tomar una decisión disciplinada. Si el mercado implica 47 por ciento, probablemente tienes valor. Si el mercado implica 54,5 por ciento, la ventaja quizá sea demasiado fina o inexistente. Los rangos crean humildad sin destruir decisión.
+
+Por qué crear precios mejora las decisiones
+
+Muchos apostadores saltan la creación de precio porque es difícil. Simplemente escanean paneles de cuotas y buscan apuestas que parezcan atractivas. Eso lleva a anclaje, sesgo narrativo y explicaciones débiles. Un apostador que crea primero un precio justo puede comunicarse con mucha más claridad. En vez de decir “me gusta el visitante aquí”, puede decir “yo lo hice 2,10 y cualquier cosa por encima de 2,35 es jugable”. Esa frase dice de inmediato que la selección vino de trabajo de precio, no de vibraciones.
+
+Hábito de entrenamiento: durante un mes, crea tu propio precio antes de mirar las cuotas de mercado en cada evento que analices. Haz la conversión a mano con la frecuencia suficiente para que porcentajes y precios se vuelvan intuitivos. Nunca coloques una apuesta sin conocer tu línea justa y la línea del mercado.
+
+Referencia rápida: conversiones comunes de probabilidad y precio
+
+Probabilidad	Decimal justo	Fraccional justo	Interpretación rápida
+66,7%	1,50	1/2	Favorito fuerte, pero aún pierde una de cada tres.
+60,0%	1,67	4/6	Debe ganar a menudo; sensible al precio.
+55,0%	1,82	4/5 aprox.	Ligera ventaja favorita; no pagues demasiado.
+50,0%	2,00	1/1	Evento equilibrado.
+45,0%	2,22	6/5 aprox.	Ligero outsider.
+40,0%	2,50	6/4	Necesita precio, no solo argumento.
+33,3%	3,00	2/1	Gana una de cada tres en una línea justa.
+25,0%	4,00	3/1	Outsider claro; varianza alta.
+20,0%	5,00	4/1	Necesita disciplina de stake.
+
+La regla práctica es que el precio decide si una opinión puede convertirse en apuesta. Una selección no es “buena” o “mala” por su nombre. Es buena o mala en relación con su probabilidad y la cuota disponible.

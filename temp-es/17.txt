@@ -1,0 +1,36 @@
+17. Revisar el rendimiento, mantener registros y aprender de los resultados
+
+Ningún apostador mejora de forma significativa sin un sistema de revisión. La memoria es demasiado selectiva. La emoción edita el pasado. Las victorias parecen más inteligentes de lo que fueron, las derrotas más crueles y los casi aciertos crean historias que no existían al momento. La revisión te protege de tu propio sesgo narrativo.
+
+El registro serio mínimo debe incluir evento, mercado, cuota tomada, precio de cierre cuando sea posible, stake, resultado y beneficio o pérdida en puntos. Pero registros más ricos crean aprendizaje más rico. Anota por qué se hizo la apuesta, qué información importó más, si la línea se movió a tu favor, si tu precio justo fue realista y si el stake reflejó ventaja e incertidumbre.
+
+Revisión de resultado frente a revisión de proceso
+
+La revisión de proceso pregunta si la apuesta estaba justificada al momento de colocarla. La de resultado pregunta qué ocurrió en el evento. Están relacionadas, pero no son idénticas. Un lado puede perder pese a crear mejores ocasiones. Un tenista puede retirarse. Un caballo puede encontrar tráfico. Igualmente, una mala apuesta puede cobrar por rojas, goles a puerta vacía o tiro insostenible. La revisión evita que esos accidentes enseñen la lección equivocada.
+
+Análisis por categorías
+
+Divide tu historial en categorías. ¿Qué deportes son más fuertes? ¿Qué mercados producen mejor CLV? ¿Qué tipos de apuesta rinden mal? ¿Los props añaden ruido? ¿Los nichos valen el esfuerzo? Los registros profesionales muestran dónde se concentra tu ventaja y dónde tu confianza está mal colocada.
+
+Rutinas mensuales y trimestrales
+
+Las revisiones semanales pueden ser demasiado emocionales. Las de temporada o trimestre pueden ser demasiado lentas. Un ritmo útil es notas semanales rápidas, revisión mensual más profunda y revisión estratégica trimestral. La mensual se centra en ejecución y tendencias. La trimestral pregunta si debe cambiar el foco de mercado, si deben ajustarse supuestos de stake y si hay deportes que deben bajar o subir en tu cartera.
+
+Aprender de mercados, no solo de marcadores
+
+Seguir CLV y movimiento de mercado puede mejorar mucho la revisión. Si bates el cierre repetidamente en un mercado líquido, eso señala mérito de proceso incluso con resultados planos. Si tomas números obsoletos que se mueven contra ti, es advertencia. El mercado no es infalible, pero es retroalimentación valiosa.
+
+Campos sugeridos de seguimiento
+
+Campo	Propósito
+Fecha y evento	Cronología y filtros.
+Deporte y mercado	Análisis por categoría.
+Selección y cuota tomada	Pista central de auditoría.
+Precio de cierre	Medición de CLV cuando sea posible.
+Stake	Disciplina de banca.
+Resultado	Liquidación objetiva.
+Beneficio/pérdida	Seguimiento de unidades.
+Notas de proceso	Aprendizaje real.
+Categoría de revisión	Buen proceso ganó, buen proceso perdió, mal proceso ganó, mal proceso perdió.
+
+Regla de revisión: un registro profesional debe decir la verdad incluso en tu peor mes.
