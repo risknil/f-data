@@ -62,7 +62,7 @@ export default function TrainingPage() {
           <div className="flex items-center gap-4">
             <span className="text-sm text-muted-foreground">{user.email}</span>
             <Button variant="outline" size="sm" onClick={logout} className="gap-2">
-              <LogOut className="h-4 w-4" /> Log Out
+              <LogOut className="h-4 w-4" /> {t.logOut}
             </Button>
           </div>
         </div>

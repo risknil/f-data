@@ -16,6 +16,7 @@ export interface TrainingTranslations {
   modulesTitle: string
   backToTraining: string
   returnToModules: string
+  logOut: string
   readTime: string
   modules: Record<number, TrainingModuleTranslation>
 }
@@ -27,6 +28,7 @@ const enTraining: TrainingTranslations = {
   modulesTitle: 'Training Modules',
   backToTraining: 'Back to Training',
   returnToModules: 'Return to All Modules',
+  logOut: 'Log Out',
   readTime: 'min read',
   modules: {}  // English uses the main training-content.ts file
 }
@@ -38,6 +40,7 @@ const huTraining: TrainingTranslations = {
   modulesTitle: 'Képzési Modulok',
   backToTraining: 'Vissza a Képzéshez',
   returnToModules: 'Vissza az Összes Modulhoz',
+  logOut: 'Kijelentkezés',
   readTime: 'perc olvasás',
   modules: {
     1: {
@@ -113,6 +116,7 @@ const deTraining: TrainingTranslations = {
   modulesTitle: 'Trainingsmodule',
   backToTraining: 'Zurück zum Training',
   returnToModules: 'Zurück zu allen Modulen',
+  logOut: 'Abmelden',
   readTime: 'Min. Lesezeit',
   modules: {}
 }
@@ -124,6 +128,7 @@ const esTraining: TrainingTranslations = {
   modulesTitle: 'Módulos de Entrenamiento',
   backToTraining: 'Volver al Entrenamiento',
   returnToModules: 'Volver a Todos los Módulos',
+  logOut: 'Cerrar Sesión',
   readTime: 'min de lectura',
   modules: {}
 }
@@ -135,6 +140,7 @@ const frTraining: TrainingTranslations = {
   modulesTitle: 'Modules de Formation',
   backToTraining: 'Retour à la Formation',
   returnToModules: 'Retour à Tous les Modules',
+  logOut: 'Déconnexion',
   readTime: 'min de lecture',
   modules: {}
 }
@@ -146,6 +152,7 @@ const ptTraining: TrainingTranslations = {
   modulesTitle: 'Módulos de Treinamento',
   backToTraining: 'Voltar ao Treinamento',
   returnToModules: 'Voltar a Todos os Módulos',
+  logOut: 'Sair',
   readTime: 'min de leitura',
   modules: {}
 }
@@ -157,6 +164,7 @@ const itTraining: TrainingTranslations = {
   modulesTitle: 'Moduli di Formazione',
   backToTraining: 'Torna alla Formazione',
   returnToModules: 'Torna a Tutti i Moduli',
+  logOut: 'Esci',
   readTime: 'min di lettura',
   modules: {}
 }
@@ -168,6 +176,7 @@ const nlTraining: TrainingTranslations = {
   modulesTitle: 'Trainingsmodules',
   backToTraining: 'Terug naar Training',
   returnToModules: 'Terug naar Alle Modules',
+  logOut: 'Uitloggen',
   readTime: 'min leestijd',
   modules: {}
 }
@@ -179,6 +188,7 @@ const plTraining: TrainingTranslations = {
   modulesTitle: 'Moduły Szkoleniowe',
   backToTraining: 'Powrót do Szkolenia',
   returnToModules: 'Powrót do Wszystkich Modułów',
+  logOut: 'Wyloguj',
   readTime: 'min czytania',
   modules: {}
 }
@@ -190,6 +200,7 @@ const svTraining: TrainingTranslations = {
   modulesTitle: 'Utbildningsmoduler',
   backToTraining: 'Tillbaka till Utbildning',
   returnToModules: 'Tillbaka till Alla Moduler',
+  logOut: 'Logga ut',
   readTime: 'min läsning',
   modules: {}
 }
@@ -201,6 +212,7 @@ const roTraining: TrainingTranslations = {
   modulesTitle: 'Module de Formare',
   backToTraining: 'Înapoi la Formare',
   returnToModules: 'Înapoi la Toate Modulele',
+  logOut: 'Deconectare',
   readTime: 'min de citit',
   modules: {}
 }
@@ -212,6 +224,7 @@ const zhCNTraining: TrainingTranslations = {
   modulesTitle: '培训模块',
   backToTraining: '返回培训',
   returnToModules: '返回所有模块',
+  logOut: '退出',
   readTime: '分钟阅读',
   modules: {}
 }
@@ -223,6 +236,7 @@ const jaTraining: TrainingTranslations = {
   modulesTitle: 'トレーニングモジュール',
   backToTraining: 'トレーニングに戻る',
   returnToModules: 'すべてのモジュールに戻る',
+  logOut: 'ログアウト',
   readTime: '分で読める',
   modules: {}
 }
@@ -234,6 +248,7 @@ const koTraining: TrainingTranslations = {
   modulesTitle: '교육 모듈',
   backToTraining: '교육으로 돌아가기',
   returnToModules: '모든 모듈로 돌아가기',
+  logOut: '로그아웃',
   readTime: '분 읽기',
   modules: {}
 }

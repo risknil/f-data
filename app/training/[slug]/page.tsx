@@ -200,12 +200,12 @@ export default function ModulePage() {
       <div className="sticky top-0 z-10 border-b border-border bg-card/95 backdrop-blur supports-[backdrop-filter]:bg-card/80">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
           <Button variant="ghost" size="sm" asChild className="gap-2 text-muted-foreground">
-            <a href="/training"><ArrowLeft className="h-4 w-4" /> Back to Training</a>
+            <a href="/training"><ArrowLeft className="h-4 w-4" /> {t.backToTraining}</a>
           </Button>
           <div className="flex items-center gap-4">
             <span className="text-sm text-muted-foreground hidden sm:block">{user.email}</span>
             <Button variant="outline" size="sm" onClick={logout} className="gap-2">
-              <LogOut className="h-4 w-4" /> <span className="hidden sm:inline">Log Out</span>
+              <LogOut className="h-4 w-4" /> <span className="hidden sm:inline">{t.logOut}</span>
             </Button>
           </div>
         </div>
