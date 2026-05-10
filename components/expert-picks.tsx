@@ -5,6 +5,8 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Lock, Unlock, Star } from 'lucide-react'
 import { useLanguage } from '@/lib/language-context'
+import { useAuth } from '@/lib/auth-context'
+import Link from 'next/link'
 
 interface AccumulatorTip {
   sport: string
@@ -28,6 +30,12 @@ export function ExpertPicks() {
   const [accumulators, setAccumulators] = useState<Accumulator[]>([])
   const [isLoading, setIsLoading] = useState(true)
   const { t } = useLanguage()
+  const { user, isLoading: authLoading } = useAuth()
+
+  // If not logged in, don't show the Expert Picks section
+  if (!authLoading && !user) {
+    return null
+  }
 
   useEffect(() => {
     let cancelled = false
