@@ -32,11 +32,6 @@ export function ExpertPicks() {
   const { t } = useLanguage()
   const { user, isLoading: authLoading } = useAuth()
 
-  // If not logged in, don't show the Expert Picks section
-  if (!authLoading && !user) {
-    return null
-  }
-
   useEffect(() => {
     let cancelled = false
 
@@ -70,6 +65,11 @@ export function ExpertPicks() {
   }
 
   const hasAccumulators = accumulators.length > 0
+
+  // If not logged in, don't show the Expert Picks section
+  if (!authLoading && !user) {
+    return null
+  }
 
   return (
     <section id="expert-picks" className="scroll-mt-20 py-20 sm:py-28">
