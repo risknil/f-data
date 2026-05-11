@@ -6,6 +6,7 @@ import { useState, useRef } from 'react'
 import type { SportItem } from '@/lib/sheets'
 import { LanguageSelector } from '@/components/language-selector'
 import { useLanguage } from '@/lib/language-context'
+import { useAuth } from '@/lib/auth-context'
 
 interface NavbarProps {
   sports: SportItem[]
@@ -17,6 +18,7 @@ export function Navbar({ sports }: NavbarProps) {
   const [mobileSportsOpen, setMobileSportsOpen] = useState(false)
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
   const { t } = useLanguage()
+  const { user } = useAuth()
 
   function handleMouseEnter() {
     if (closeTimer.current) clearTimeout(closeTimer.current)
@@ -76,9 +78,11 @@ export function Navbar({ sports }: NavbarProps) {
             <a href="/how-it-works" className="text-sm font-medium text-muted-foreground hover:text-foreground">
               {t.navbar.howItWorks}
             </a>
-            <a href="/expert-picks" className="text-sm font-medium text-muted-foreground hover:text-foreground">
-              {t.navbar.expertPicks}
-            </a>
+            {user && (
+              <a href="/expert-picks" className="text-sm font-medium text-muted-foreground hover:text-foreground">
+                {t.navbar.expertPicks}
+              </a>
+            )}
           </div>
 
           {/* CTA Buttons + Language Selector */}
@@ -137,13 +141,15 @@ export function Navbar({ sports }: NavbarProps) {
             >
               {t.navbar.howItWorks}
             </a>
-            <a
-              href="/expert-picks"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block rounded-md px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground"
-            >
-              {t.navbar.expertPicks}
-            </a>
+            {user && (
+              <a
+                href="/expert-picks"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block rounded-md px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground"
+              >
+                {t.navbar.expertPicks}
+              </a>
+            )}
 
             <div className="pt-4 space-y-2">
               <a href="/login" onClick={() => setMobileMenuOpen(false)} className="block w-full rounded-md border border-border px-3 py-2 text-center text-sm font-medium text-foreground hover:bg-secondary">
