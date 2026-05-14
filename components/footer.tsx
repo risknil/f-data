@@ -34,10 +34,10 @@ export function Footer({ sports = [] }: { sports?: Sport[] }) {
               <span className="font-heading text-xl font-bold tracking-tight text-foreground">RiskNil</span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-              The smartest way to get sports betting tips. Curated from 100s of experts, free for everyone.
+              {t.footer.tagline}
             </p>
             <p className="mt-4 text-xs text-muted-foreground/60">
-              Please gamble responsibly. Betting involves risk. 18+.
+              {t.footer.disclaimer}
             </p>
           </div>
 
@@ -80,8 +80,8 @@ export function Footer({ sports = [] }: { sports?: Sport[] }) {
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 sm:flex-row">
           <p className="text-xs text-muted-foreground">© 2026 RiskNil. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="/privacy" className="text-xs text-muted-foreground hover:text-foreground">Privacy Policy</a>
-            <a href="/terms" className="text-xs text-muted-foreground hover:text-foreground">Terms of Service</a>
+            <a href="/privacy" className="text-xs text-muted-foreground hover:text-foreground">{t.footer.privacy}</a>
+            <a href="/terms" className="text-xs text-muted-foreground hover:text-foreground">{t.footer.terms}</a>
           </div>
         </div>
       </div>
