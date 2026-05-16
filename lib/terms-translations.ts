@@ -52,7 +52,7 @@ Not a Gambling Service: The Website is an information tool and not a gambling or
 
 Limitation of Loss: The Provider is not liable for any direct or indirect loss, including loss of profits or winnings, resulting from the use of the Website.` },
     { title: 'Privacy Policy', content: '' },
-    { title: '11. Data Protection and GDPR', content: 'The Website is committed to protecting User privacy in compliance with international standards, including the General Data Protection Regulation (GDPR). The Data Controller is MK Sport-Webs LTD.' },
+    { title: '11. Data Protection and GDPR', content: 'The Website is committed to protecting User privacy in compliance with international standards, including the General Data Protection Regulation (GDPR). The Data Controller is risknil.com.' },
     { title: '12. Collection of Personal Data', content: `Registration: Personal data (e.g., email, name) is collected only when a User registers for advanced services.
 
 Consent: By using these services, the User consents to the collection of their data. Consent can be withdrawn at any time by emailing info@risknil.com.` },
@@ -122,7 +122,7 @@ No es un Servicio de Juego: El Sitio Web es una herramienta de información y no
 
 Limitación de Pérdidas: El Proveedor no es responsable de ninguna pérdida directa o indirecta, incluyendo pérdida de ganancias o premios, resultante del uso del Sitio Web.` },
     { title: 'Política de Privacidad', content: '' },
-    { title: '11. Protección de Datos y RGPD', content: 'El Sitio Web está comprometido con la protección de la privacidad del Usuario en cumplimiento con los estándares internacionales, incluido el Reglamento General de Protección de Datos (RGPD). El Responsable del Tratamiento de Datos es MK Sport-Webs LTD.' },
+    { title: '11. Protección de Datos y RGPD', content: 'El Sitio Web está comprometido con la protección de la privacidad del Usuario en cumplimiento con los estándares internacionales, incluido el Reglamento General de Protección de Datos (RGPD). El Responsable del Tratamiento de Datos es risknil.com.' },
     { title: '12. Recopilación de Datos Personales', content: `Registro: Los datos personales (por ejemplo, correo electrónico, nombre) se recopilan solo cuando un Usuario se registra para servicios avanzados.
 
 Consentimiento: Al utilizar estos servicios, el Usuario consiente la recopilación de sus datos. El consentimiento puede retirarse en cualquier momento enviando un correo electrónico a info@risknil.com.` },
@@ -192,7 +192,7 @@ Não é um Serviço de Jogos: O Site é uma ferramenta de informação e não um
 
 Limitação de Perdas: O Provedor não é responsável por qualquer perda direta ou indireta, incluindo perda de lucros ou ganhos, resultante do uso do Site.` },
     { title: 'Política de Privacidade', content: '' },
-    { title: '11. Proteção de Dados e RGPD', content: 'O Site está comprometido em proteger a privacidade do Usuário em conformidade com os padrões internacionais, incluindo o Regulamento Geral de Proteção de Dados (RGPD). O Controlador de Dados é MK Sport-Webs LTD.' },
+    { title: '11. Proteção de Dados e RGPD', content: 'O Site está comprometido em proteger a privacidade do Usuário em conformidade com os padrões internacionais, incluindo o Regulamento Geral de Proteção de Dados (RGPD). O Controlador de Dados é risknil.com.' },
     { title: '12. Coleta de Dados Pessoais', content: `Registro: Dados pessoais (por exemplo, e-mail, nome) são coletados apenas quando um Usuário se registra para serviços avançados.
 
 Consentimento: Ao usar estes serviços, o Usuário consente com a coleta de seus dados. O consentimento pode ser retirado a qualquer momento enviando um e-mail para info@risknil.com.` },
@@ -262,7 +262,7 @@ Kein Glücksspieldienst: Die Website ist ein Informationsinstrument und kein Gl�
 
 Haftungsbeschränkung: Der Anbieter haftet nicht für direkte oder indirekte Verluste, einschließlich Gewinn- oder Gewinnverluste, die sich aus der Nutzung der Website ergeben.` },
     { title: 'Datenschutzrichtlinie', content: '' },
-    { title: '11. Datenschutz und DSGVO', content: 'Die Website ist dem Schutz der Privatsphäre der Nutzer in Übereinstimmung mit internationalen Standards, einschließlich der Datenschutz-Grundverordnung (DSGVO), verpflichtet. Der Datenverantwortliche ist MK Sport-Webs LTD.' },
+    { title: '11. Datenschutz und DSGVO', content: 'Die Website ist dem Schutz der Privatsphäre der Nutzer in Übereinstimmung mit internationalen Standards, einschließlich der Datenschutz-Grundverordnung (DSGVO), verpflichtet. Der Datenverantwortliche ist risknil.com.' },
     { title: '12. Erhebung personenbezogener Daten', content: `Registrierung: Personenbezogene Daten (z.B. E-Mail, Name) werden nur erhoben, wenn sich ein Nutzer für erweiterte Dienste registriert.
 
 Einwilligung: Durch die Nutzung dieser Dienste willigt der Nutzer in die Erhebung seiner Daten ein. Die Einwilligung kann jederzeit durch eine E-Mail an info@risknil.com widerrufen werden.` },
@@ -332,7 +332,7 @@ Pas un Service de Jeu : Le Site Web est un outil d'information et non un service
 
 Limitation des Pertes : Le Fournisseur n'est pas responsable des pertes directes ou indirectes, y compris la perte de bénéfices ou de gains, résultant de l'utilisation du Site Web.` },
     { title: 'Politique de Confidentialité', content: '' },
-    { title: '11. Protection des Données et RGPD', content: 'Le Site Web s\'engage à protéger la vie privée des Utilisateurs conformément aux normes internationales, y compris le Règlement Général sur la Protection des Données (RGPD). Le Responsable du Traitement des Données est MK Sport-Webs LTD.' },
+    { title: '11. Protection des Données et RGPD', content: 'Le Site Web s\'engage à protéger la vie privée des Utilisateurs conformément aux normes internationales, y compris le Règlement Général sur la Protection des Données (RGPD). Le Responsable du Traitement des Données est risknil.com.' },
     { title: '12. Collecte des Données Personnelles', content: `Inscription : Les données personnelles (par exemple, e-mail, nom) ne sont collectées que lorsqu'un Utilisateur s'inscrit à des services avancés.
 
 Consentement : En utilisant ces services, l'Utilisateur consent à la collecte de ses données. Le consentement peut être retiré à tout moment en envoyant un e-mail à info@risknil.com.` },
@@ -402,7 +402,7 @@ Nem Szerencsejáték Szolgáltatás: A Weboldal információs eszköz, nem szere
 
 Veszteségkorlátozás: A Szolgáltató nem felelős semmilyen közvetlen vagy közvetett veszteségért, beleértve a nyereség vagy nyeremény elvesztését, amely a Weboldal használatából ered.` },
     { title: 'Adatvédelmi Szabályzat', content: '' },
-    { title: '11. Adatvédelem és GDPR', content: 'A Weboldal elkötelezett a Felhasználók magánéletének védelme mellett a nemzetközi szabványoknak megfelelően, beleértve az Általános Adatvédelmi Rendeletet (GDPR). Az Adatkezelő az MK Sport-Webs LTD.' },
+    { title: '11. Adatvédelem és GDPR', content: 'A Weboldal elkötelezett a Felhasználók magánéletének védelme mellett a nemzetközi szabványoknak megfelelően, beleértve az Általános Adatvédelmi Rendeletet (GDPR). Az Adatkezelő az risknil.com.' },
     { title: '12. Személyes Adatok Gyűjtése', content: `Regisztráció: Személyes adatokat (pl. e-mail, név) csak akkor gyűjtünk, amikor a Felhasználó regisztrál haladó szolgáltatásokra.
 
 Hozzájárulás: Ezen szolgáltatások használatával a Felhasználó hozzájárul adatai gyűjtéséhez. A hozzájárulás bármikor visszavonható az info@risknil.com címre küldött e-maillel.` },
