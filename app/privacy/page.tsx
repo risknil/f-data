@@ -1,13 +1,13 @@
 'use client'
 
 import { useLanguage } from '@/lib/language-context'
-import { getPrivacyTranslations } from '@/lib/privacy-translations'
+import { getPrivacyTranslation } from '@/lib/privacy-translations'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
 
 export default function PrivacyPage() {
   const { language } = useLanguage()
-  const content = getPrivacyTranslations(language)
+  const content = getPrivacyTranslation(language)
 
   return (
     <div className="min-h-screen bg-background">
