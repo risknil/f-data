@@ -1,25 +1,30 @@
-import { Button } from '@/components/ui/button'
-import { ArrowLeft } from 'lucide-react'
+'use client'
 
-export const metadata = {
-  title: 'Privacy Policy — RiskNil',
-}
+import { useLanguage } from '@/lib/language-context'
+import { getPrivacyTranslations } from '@/lib/privacy-translations'
+import { Navbar } from '@/components/navbar'
+import { Footer } from '@/components/footer'
 
 export default function PrivacyPage() {
+  const { language } = useLanguage()
+  const content = getPrivacyTranslations(language)
+
   return (
-    <div className="min-h-screen bg-background px-4 py-16">
-      <div className="mx-auto max-w-2xl">
-        <Button variant="ghost" size="sm" asChild className="mb-8 gap-2 text-muted-foreground">
-          <a href="/"><ArrowLeft className="h-4 w-4" /> Back to RiskNil</a>
-        </Button>
-        <h1 className="font-heading text-4xl font-bold text-foreground">Privacy Policy</h1>
-        <p className="mt-4 text-muted-foreground">Last updated: March 2026</p>
-        <div className="mt-8 space-y-6 text-muted-foreground leading-relaxed">
-          <p>RiskNil collects minimal data required to provide the service, including your email address and account preferences. We do not sell your personal data to third parties.</p>
-          <p>We use industry-standard security practices to protect your information. Cookies may be used to maintain your session and personalise your experience.</p>
-          <p>You may request deletion of your account and associated data at any time by contacting us. We will respond within 30 days.</p>
-        </div>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <main className="container mx-auto px-4 py-12 max-w-4xl">
+        <h1 className="text-3xl font-bold mb-8">{content.title}</h1>
+        
+        {content.sections.map((section, index) => (
+          <div key={index} className="mb-8">
+            <h2 className="text-xl font-semibold mb-4">{section.heading}</h2>
+            <div className="text-muted-foreground whitespace-pre-line">
+              {section.content}
+            </div>
+          </div>
+        ))}
+      </main>
+      <Footer />
     </div>
   )
 }
