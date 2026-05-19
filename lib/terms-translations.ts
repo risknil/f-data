@@ -390,7 +390,7 @@ Nincs Felhasználói Beküldés: A Weboldal nem engedélyezi, nem tárolja és n
 Tiltott Tevékenységek: A Felhasználók nem kísérelhetik meg tartalom közzétételét, feltöltését vagy beillesztését a Weboldalra. Bármilyen kísérlet ennek a korlátozásnak a megkerülésére biztonsági megsértésnek és ezen Feltételek megsértésének minősül.` },
     { title: '6. Harmadik Fél Linkek és Hirdetések', content: 'A Felhasználó tudomásul veszi, hogy a Weboldalon található harmadik fél weboldalakkal vagy hirdetésekkel való bármilyen interakció teljes mértékben saját felelősségére történik. A Szolgáltató nem részese a Felhasználó és harmadik fél között létrejött megállapodásoknak, és nem vállal felelősséget az ilyen interakciókból eredő vitákért.' },
     { title: '7. Fiók Inaktivitás', content: 'A Szolgáltató fenntartja a jogot bármely Felhasználói fiók bezárására, amelyhez 180 egymást követő napon nem fértek hozzá. Ez a bezárás azonnali hatállyal és előzetes értesítés nélkül történhet.' },
-    { title: '8. Szellemi Tulajdon és Szerzői Jog', content: `Tulajdonjog: A Weboldalon található összes tartalom, szoftver és tulajdonosi algoritmus a Szolgáltató tulajdona. A Felhasználók számára szigor����an tilos a Weboldal bármely részének másolása, terjesztése, "szkrépelése" vagy reprodukálása előzetes írásbeli hozzájárulás nélkül.
+    { title: '8. Szellemi Tulajdon és Szerzői Jog', content: `Tulajdonjog: A Weboldalon található összes tartalom, szoftver és tulajdonosi algoritmus a Szolgáltató tulajdona. A Felhasználók számára szigor������an tilos a Weboldal bármely részének másolása, terjesztése, "szkrépelése" vagy reprodukálása előzetes írásbeli hozzájárulás nélkül.
 
 Érvényesítés: A szellemi tulajdonjogok bármilyen megsértését a törvény teljes mértékében üldözzük.` },
     { title: '9. Jogi Megfelelés és Joghatóság', content: `Irányadó Jog: Ezeket a Feltételeket az Egyesült Királyság törvényei szabályozzák és értelmezik. Minden Fél aláveti magát az Egyesült Királyság bíróságainak kizárólagos joghatóságának.
@@ -434,6 +434,237 @@ A nyelvi verziók közötti eltérés esetén az angol verzió az irányadó.` }
 // For other languages, we'll use the English version as base
 // The page will show a note that English version prevails for legal accuracy
 
+const zhCNTerms: TermsContent = {
+  title: 'Risknil.com 一般使用条款',
+  lastUpdated: '最后更新：2026年5月14日',
+  backButton: '返回 RiskNil',
+  legalNote: '如语言版本之间存在任何差异，以英文版本为准。',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. 使用条款', '2. 一般规定和全球范围', '3. 服务说明', '4. 付款和银行转账', '5. 专有内容（无用户生成内容）', '6. 第三方链接和广告', '7. 账户不活动', '8. 知识产权和版权', '9. 法律合规和管辖权', '10. 免责声明和责任限制', '隐私政策', '11. 数据保护和GDPR', '12. 个人数据收集', '13. 您作为数据主体的权利', '14. 数据使用和营销', '15. 数据披露', '16. 安全和保留', '17. Cookie政策', '18. 版本和联系方式'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const zhTWTerms: TermsContent = {
+  title: 'Risknil.com 一般使用條款',
+  lastUpdated: '最後更新：2026年5月14日',
+  backButton: '返回 RiskNil',
+  legalNote: '如語言版本之間存在任何差異，以英文版本為準。',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. 使用條款', '2. 一般規定和全球範圍', '3. 服務說明', '4. 付款和銀行轉賬', '5. 專有內容（無用戶生成內容）', '6. 第三方連結和廣告', '7. 帳戶不活動', '8. 知識產權和版權', '9. 法律合規和管轄權', '10. 免責聲明和責任限制', '隱私政策', '11. 數據保護和GDPR', '12. 個人數據收集', '13. 您作為數據主體的權利', '14. 數據使用和營銷', '15. 數據披露', '16. 安全和保留', '17. Cookie政策', '18. 版本和聯繫方式'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const itTerms: TermsContent = {
+  title: 'Termini Generali di Utilizzo per Risknil.com',
+  lastUpdated: 'Ultimo aggiornamento: 14 maggio 2026',
+  backButton: 'Torna a RiskNil',
+  legalNote: 'In caso di discrepanza tra le versioni linguistiche, prevarrà la versione inglese.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. Termini di Utilizzo', '2. Disposizioni Generali e Ambito Globale', '3. Descrizione dei Servizi', '4. Pagamenti e Bonifici Bancari', '5. Contenuto Proprietario (Nessun Contenuto Generato dagli Utenti)', '6. Link di Terze Parti e Pubblicità', '7. Inattività dell\'Account', '8. Proprietà Intellettuale e Copyright', '9. Conformità Legale e Giurisdizione', '10. Esclusione di Responsabilità e Limitazione di Responsabilità', 'Informativa sulla Privacy', '11. Protezione dei Dati e GDPR', '12. Raccolta di Dati Personali', '13. I Tuoi Diritti come Interessato', '14. Utilizzo dei Dati e Marketing', '15. Divulgazione dei Dati', '16. Sicurezza e Conservazione', '17. Politica sui Cookie', '18. Versione e Contatto'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const svTerms: TermsContent = {
+  title: 'Allmänna Användarvillkor för Risknil.com',
+  lastUpdated: 'Senast uppdaterad: 14 maj 2026',
+  backButton: 'Tillbaka till RiskNil',
+  legalNote: 'Vid eventuella avvikelser mellan språkversioner ska den engelska versionen gälla.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. Användarvillkor', '2. Allmänna Bestämmelser och Globalt Tillämpningsområde', '3. Beskrivning av Tjänster', '4. Betalningar och Banköverföringar', '5. Eget Innehåll (Inget Användargenererat Innehåll)', '6. Tredjepartslänkar och Reklam', '7. Kontoinaktivitet', '8. Immateriella Rättigheter och Upphovsrätt', '9. Juridisk Efterlevnad och Jurisdiktion', '10. Friskrivning och Ansvarsbegränsning', 'Integritetspolicy', '11. Dataskydd och GDPR', '12. Insamling av Personuppgifter', '13. Dina Rättigheter som Registrerad', '14. Användning av Data och Marknadsföring', '15. Utlämnande av Data', '16. Säkerhet och Lagring', '17. Cookiepolicy', '18. Version och Kontakt'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const daTerms: TermsContent = {
+  title: 'Generelle Brugsvilkår for Risknil.com',
+  lastUpdated: 'Sidst opdateret: 14. maj 2026',
+  backButton: 'Tilbage til RiskNil',
+  legalNote: 'I tilfælde af uoverensstemmelse mellem sprogversioner, vil den engelske version være gældende.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. Brugsvilkår', '2. Generelle Bestemmelser og Globalt Omfang', '3. Beskrivelse af Tjenester', '4. Betalinger og Bankoverførsler', '5. Ejet Indhold (Intet Brugergenereret Indhold)', '6. Tredjepartslinks og Reklamer', '7. Kontoinaktivitet', '8. Intellektuel Ejendomsret og Ophavsret', '9. Juridisk Overholdelse og Jurisdiktion', '10. Ansvarsfraskrivelse og Ansvarsbegrænsning', 'Privatlivspolitik', '11. Databeskyttelse og GDPR', '12. Indsamling af Personoplysninger', '13. Dine Rettigheder som Registreret', '14. Brug af Data og Markedsføring', '15. Videregivelse af Data', '16. Sikkerhed og Opbevaring', '17. Cookiepolitik', '18. Version og Kontakt'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const nlTerms: TermsContent = {
+  title: 'Algemene Gebruiksvoorwaarden voor Risknil.com',
+  lastUpdated: 'Laatst bijgewerkt: 14 mei 2026',
+  backButton: 'Terug naar RiskNil',
+  legalNote: 'Bij eventuele discrepanties tussen taalversies prevaleert de Engelse versie.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. Gebruiksvoorwaarden', '2. Algemene Bepalingen en Mondiale Reikwijdte', '3. Beschrijving van Diensten', '4. Betalingen en Bankoverschrijvingen', '5. Eigendomsinhoud (Geen Door Gebruikers Gegenereerde Inhoud)', '6. Links van Derden en Reclame', '7. Account Inactiviteit', '8. Intellectueel Eigendom en Auteursrecht', '9. Juridische Naleving en Jurisdictie', '10. Disclaimer en Beperking van Aansprakelijkheid', 'Privacybeleid', '11. Gegevensbescherming en AVG', '12. Verzameling van Persoonsgegevens', '13. Uw Rechten als Betrokkene', '14. Gebruik van Gegevens en Marketing', '15. Openbaarmaking van Gegevens', '16. Beveiliging en Bewaring', '17. Cookiebeleid', '18. Versie en Contact'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const elTerms: TermsContent = {
+  title: 'Γενικοί Όροι Χρήσης για το Risknil.com',
+  lastUpdated: 'Τελευταία ενημέρωση: 14 Μαΐου 2026',
+  backButton: 'Επιστροφή στο RiskNil',
+  legalNote: 'Σε περίπτωση οποιασδήποτε απόκλισης μεταξύ γλωσσικών εκδόσεων, υπερισχύει η αγγλική έκδοση.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. Όροι Χρήσης', '2. Γενικές Διατάξεις και Παγκόσμιο Πεδίο', '3. Περιγραφή Υπηρεσιών', '4. Πληρωμές και Τραπεζικές Μεταφορές', '5. Ιδιοκτησιακό Περιεχόμενο', '6. Σύνδεσμοι Τρίτων και Διαφήμιση', '7. Αδράνεια Λογαριασμού', '8. Πνευματική Ιδιοκτησία', '9. Νομική Συμμόρφωση', '10. Αποποίηση Ευθυνών', 'Πολιτική Απορρήτου', '11. Προστασία Δεδομένων', '12. Συλλογή Προσωπικών Δεδομένων', '13. Τα Δικαιώματά Σας', '14. Χρήση Δεδομένων', '15. Αποκάλυψη Δεδομένων', '16. Ασφάλεια και Διατήρηση', '17. Πολιτική Cookies', '18. Έκδοση και Επικοινωνία'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const plTerms: TermsContent = {
+  title: 'Ogólne Warunki Użytkowania dla Risknil.com',
+  lastUpdated: 'Ostatnia aktualizacja: 14 maja 2026',
+  backButton: 'Powrót do RiskNil',
+  legalNote: 'W przypadku jakichkolwiek rozbieżności między wersjami językowymi, obowiązuje wersja angielska.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. Warunki Użytkowania', '2. Postanowienia Ogólne i Zakres Globalny', '3. Opis Usług', '4. Płatności i Przelewy Bankowe', '5. Treści Własnościowe', '6. Linki Stron Trzecich i Reklamy', '7. Nieaktywność Konta', '8. Własność Intelektualna i Prawa Autorskie', '9. Zgodność Prawna i Jurysdykcja', '10. Zastrzeżenia i Ograniczenie Odpowiedzialności', 'Polityka Prywatności', '11. Ochrona Danych i RODO', '12. Zbieranie Danych Osobowych', '13. Twoje Prawa jako Osoby', '14. Wykorzystanie Danych i Marketing', '15. Ujawnianie Danych', '16. Bezpieczeństwo i Przechowywanie', '17. Polityka Cookies', '18. Wersja i Kontakt'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const noTerms: TermsContent = {
+  title: 'Generelle Bruksvilkår for Risknil.com',
+  lastUpdated: 'Sist oppdatert: 14. mai 2026',
+  backButton: 'Tilbake til RiskNil',
+  legalNote: 'Ved eventuell uoverensstemmelse mellom språkversjoner, skal den engelske versjonen gjelde.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. Bruksvilkår', '2. Generelle Bestemmelser og Globalt Omfang', '3. Beskrivelse av Tjenester', '4. Betalinger og Bankoverføringer', '5. Eget Innhold', '6. Tredjepartslenker og Reklame', '7. Kontoinaktivitet', '8. Immaterielle Rettigheter', '9. Juridisk Overholdelse', '10. Ansvarsfraskrivelse', 'Personvernpolicy', '11. Databeskyttelse og GDPR', '12. Innsamling av Personopplysninger', '13. Dine Rettigheter', '14. Bruk av Data og Markedsføring', '15. Utlevering av Data', '16. Sikkerhet og Lagring', '17. Informasjonskapselpolicy', '18. Versjon og Kontakt'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const fiTerms: TermsContent = {
+  title: 'Yleiset Käyttöehdot Risknil.com-sivustolle',
+  lastUpdated: 'Viimeksi päivitetty: 14. toukokuuta 2026',
+  backButton: 'Takaisin RiskNiliin',
+  legalNote: 'Kieliversioiden välisten eroavaisuuksien sattuessa englanninkielinen versio on määräävä.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. Käyttöehdot', '2. Yleiset Määräykset ja Maailmanlaajuinen Soveltamisala', '3. Palvelujen Kuvaus', '4. Maksut ja Pankkisiirrot', '5. Omistusoikeudellinen Sisältö', '6. Kolmannen Osapuolen Linkit ja Mainonta', '7. Tilin Toimettomuus', '8. Immateriaalioikeudet ja Tekijänoikeudet', '9. Oikeudellinen Noudattaminen ja Toimivalta', '10. Vastuuvapauslauseke', 'Tietosuojakäytäntö', '11. Tietosuoja ja GDPR', '12. Henkilötietojen Kerääminen', '13. Oikeutesi Rekisteröitynä', '14. Tietojen Käyttö ja Markkinointi', '15. Tietojen Luovuttaminen', '16. Turvallisuus ja Säilytys', '17. Evästekäytäntö', '18. Versio ja Yhteystiedot'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const roTerms: TermsContent = {
+  title: 'Termeni Generali de Utilizare pentru Risknil.com',
+  lastUpdated: 'Ultima actualizare: 14 mai 2026',
+  backButton: 'Înapoi la RiskNil',
+  legalNote: 'În cazul oricărei discrepanțe între versiunile lingvistice, versiunea în limba engleză va prevala.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. Termeni de Utilizare', '2. Dispoziții Generale și Sfera Globală', '3. Descrierea Serviciilor', '4. Plăți și Transferuri Bancare', '5. Conținut Proprietar', '6. Linkuri Terțe și Publicitate', '7. Inactivitatea Contului', '8. Proprietate Intelectuală și Drepturi de Autor', '9. Conformitate Legală și Jurisdicție', '10. Declinarea Responsabilității', 'Politica de Confidențialitate', '11. Protecția Datelor și GDPR', '12. Colectarea Datelor Personale', '13. Drepturile Dumneavoastră', '14. Utilizarea Datelor și Marketing', '15. Divulgarea Datelor', '16. Securitate și Păstrare', '17. Politica Cookie', '18. Versiune și Contact'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const csTerms: TermsContent = {
+  title: 'Všeobecné Podmínky Použití pro Risknil.com',
+  lastUpdated: 'Poslední aktualizace: 14. května 2026',
+  backButton: 'Zpět na RiskNil',
+  legalNote: 'V případě jakýchkoli nesrovnalostí mezi jazykovými verzemi má přednost anglická verze.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. Podmínky Použití', '2. Obecná Ustanovení a Globální Rozsah', '3. Popis Služeb', '4. Platby a Bankovní Převody', '5. Vlastnický Obsah', '6. Odkazy Třetích Stran a Reklama', '7. Neaktivita Účtu', '8. Duševní Vlastnictví a Autorská Práva', '9. Právní Soulad a Jurisdikce', '10. Vyloučení a Omezení Odpovědnosti', 'Zásady Ochrany Osobních Údajů', '11. Ochrana Údajů a GDPR', '12. Shromažďování Osobních Údajů', '13. Vaše Práva', '14. Použití Údajů a Marketing', '15. Zveřejnění Údajů', '16. Bezpečnost a Uchovávání', '17. Zásady Cookies', '18. Verze a Kontakt'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const jaTerms: TermsContent = {
+  title: 'Risknil.com 一般利用規約',
+  lastUpdated: '最終更新日：2026年5月14日',
+  backButton: 'RiskNilに戻る',
+  legalNote: '言語バージョン間に相違がある場合は、英語版が優先されます。',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. 利用規約', '2. 一般規定とグローバル範囲', '3. サービスの説明', '4. 支払いと銀行振込', '5. 独自コンテンツ', '6. 第三者リンクと広告', '7. アカウントの非アクティブ', '8. 知的財産権と著作権', '9. 法的遵守と管轄権', '10. 免責事項と責任制限', 'プライバシーポリシー', '11. データ保護とGDPR', '12. 個人データの収集', '13. データ主体としてのあなたの権利', '14. データ使用とマーケティング', '15. データの開示', '16. セキュリティと保持', '17. Cookieポリシー', '18. バージョンと連絡先'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const koTerms: TermsContent = {
+  title: 'Risknil.com 일반 이용약관',
+  lastUpdated: '최종 업데이트: 2026년 5월 14일',
+  backButton: 'RiskNil로 돌아가기',
+  legalNote: '언어 버전 간에 불일치가 있는 경우 영어 버전이 우선합니다.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. 이용약관', '2. 일반 조항 및 글로벌 범위', '3. 서비스 설명', '4. 결제 및 은행 송금', '5. 독점 콘텐츠', '6. 제3자 링크 및 광고', '7. 계정 비활성', '8. 지적 재산권 및 저작권', '9. 법적 준수 및 관할권', '10. 면책 조항 및 책임 제한', '개인정보 보호정책', '11. 데이터 보호 및 GDPR', '12. 개인 데이터 수집', '13. 데이터 주체로서의 귀하의 권리', '14. 데이터 사용 및 마케팅', '15. 데이터 공개', '16. 보안 및 보존', '17. 쿠키 정책', '18. 버전 및 연락처'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const hiTerms: TermsContent = {
+  title: 'Risknil.com के लिए सामान्य उपयोग की शर्तें',
+  lastUpdated: 'अंतिम अपडेट: 14 मई 2026',
+  backButton: 'RiskNil पर वापस जाएं',
+  legalNote: 'भाषा संस्करणों के बीच किसी भी विसंगति की स्थिति में, अंग्रेजी संस्करण मान्य होगा।',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. उपयोग की शर्तें', '2. सामान्य प्रावधान और वैश्विक दायरा', '3. सेवाओं का विवरण', '4. भुगतान और बैंक हस्तांतरण', '5. स्वामित्व सामग्री', '6. तृतीय-पक्ष लिंक और विज्ञापन', '7. खाता निष्क्रियता', '8. बौद्धिक संपदा और कॉपीराइट', '9. कानूनी अनुपालन और क्षेत्राधिकार', '10. अस्वीकरण और दायित्व सीमा', 'गोपनीयता नीति', '11. डेटा सुरक्षा और GDPR', '12. व्यक्तिगत डेटा संग्रह', '13. डेटा विषय के रूप में आपके अधिकार', '14. डेटा उपयोग और विपणन', '15. डेटा प्रकटीकरण', '16. सुरक्षा और प्रतिधारण', '17. कुकी नीति', '18. संस्करण और संपर्क'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const arTerms: TermsContent = {
+  title: 'الشروط العامة للاستخدام لموقع Risknil.com',
+  lastUpdated: 'آخر تحديث: 14 مايو 2026',
+  backButton: 'العودة إلى RiskNil',
+  legalNote: 'في حالة وجود أي تعارض بين الإصدارات اللغوية، تسود النسخة الإنجليزية.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. شروط الاستخدام', '2. الأحكام العامة والنطاق العالمي', '3. وصف الخدمات', '4. المدفوعات والتحويلات البنكية', '5. المحتوى الملكي', '6. روابط الطرف الثالث والإعلانات', '7. عدم نشاط الحساب', '8. الملكية الفكرية وحقوق النشر', '9. الامتثال القانوني والولاية القضائية', '10. إخلاء المسؤولية وتحديد المسؤولية', 'سياسة الخصوصية', '11. حماية البيانات واللائحة العامة لحماية البيانات', '12. جمع البيانات الشخصية', '13. حقوقك كصاحب بيانات', '14. استخدام البيانات والتسويق', '15. الإفصاح عن البيانات', '16. الأمان والاحتفاظ', '17. سياسة ملفات تعريف الارتباط', '18. الإصدار والاتصال'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const tlTerms: TermsContent = {
+  title: 'Pangkalahatang Mga Tuntunin ng Paggamit para sa Risknil.com',
+  lastUpdated: 'Huling Na-update: Mayo 14, 2026',
+  backButton: 'Bumalik sa RiskNil',
+  legalNote: 'Sa kaganapan ng anumang pagkakaiba sa pagitan ng mga bersyon ng wika, ang bersyon sa Ingles ang mangingibabaw.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. Mga Tuntunin ng Paggamit', '2. Pangkalahatang Probisyon', '3. Paglalarawan ng mga Serbisyo', '4. Mga Pagbabayad', '5. Pagmamay-ari na Nilalaman', '6. Mga Link ng Third-Party', '7. Hindi Aktibong Account', '8. Intellectual Property', '9. Legal na Pagsunod', '10. Disclaimer', 'Patakaran sa Privacy', '11. Proteksyon ng Data', '12. Pangongolekta ng Data', '13. Ang Iyong mga Karapatan', '14. Paggamit ng Data', '15. Pagsisiwalat ng Data', '16. Seguridad at Pagpapanatili', '17. Patakaran sa Cookie', '18. Bersyon at Makipag-ugnayan'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const swTerms: TermsContent = {
+  title: 'Masharti ya Jumla ya Matumizi kwa Risknil.com',
+  lastUpdated: 'Imesasishwa Mwisho: Mei 14, 2026',
+  backButton: 'Rudi kwa RiskNil',
+  legalNote: 'Ikiwa kuna tofauti yoyote kati ya matoleo ya lugha, toleo la Kiingereza litakuwa na nguvu.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. Masharti ya Matumizi', '2. Masharti ya Jumla', '3. Maelezo ya Huduma', '4. Malipo na Uhamisho wa Benki', '5. Maudhui ya Umiliki', '6. Viungo vya Wahusika wa Tatu', '7. Kutofanya Kazi kwa Akaunti', '8. Mali ya Kiakili', '9. Kufuata Sheria', '10. Kanusho', 'Sera ya Faragha', '11. Ulinzi wa Data', '12. Ukusanyaji wa Data', '13. Haki Zako', '14. Matumizi ya Data', '15. Ufunuo wa Data', '16. Usalama na Uhifadhi', '17. Sera ya Kuki', '18. Toleo na Mawasiliano'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const afTerms: TermsContent = {
+  title: 'Algemene Gebruiksvoorwaardes vir Risknil.com',
+  lastUpdated: 'Laas opgedateer: 14 Mei 2026',
+  backButton: 'Terug na RiskNil',
+  legalNote: 'In die geval van enige teenstrydighede tussen taalweergawes, sal die Engelse weergawe geld.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. Gebruiksvoorwaardes', '2. Algemene Bepalings', '3. Beskrywing van Dienste', '4. Betalings en Bankoordragte', '5. Eie Inhoud', '6. Derdeparty Skakels', '7. Rekening Onaktiwiteit', '8. Intellektuele Eiendom', '9. Wetlike Nakoming', '10. Vrywaring', 'Privaatheidsbeleid', '11. Databeskerming', '12. Insameling van Data', '13. Jou Regte', '14. Gebruik van Data', '15. Openbaarmaking van Data', '16. Sekuriteit en Bewaring', '17. Koekiebeleid', '18. Weergawe en Kontak'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const zuTerms: TermsContent = {
+  title: 'Imigomo Evamile Yokusebenzisa i-Risknil.com',
+  lastUpdated: 'Igcine ukubuyekezwa: Meyi 14, 2026',
+  backButton: 'Buyela ku-RiskNil',
+  legalNote: 'Uma kukhona ukungqubuzana phakathi kwezinguqulo zezilimi, inguqulo yesiNgisi iyoba namandla.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. Imigomo Yokusebenzisa', '2. Izimiso Ezijwayelekile', '3. Incazelo Yamasevisi', '4. Izinkokhelo', '5. Okuqukethwe Okungokwakho', '6. Izixhumanisi Zabantu Besithathu', '7. Ukungasebenzi Kwe-akhawunti', '8. Impahla Yengqondo', '9. Ukuthobela Umthetho', '10. Ukuphika', 'Inqubomgomo Yobumfihlo', '11. Ukuvikelwa Kwedatha', '12. Ukuqoqwa Kwedatha', '13. Amalungelo Akho', '14. Ukusetshenziswa Kwedatha', '15. Ukudalulwa Kwedatha', '16. Ukuphepha Nokugcinwa', '17. Inqubomgomo Yamakhukhisi', '18. Inguqulo Nokuxhumana'][i] || s.title,
+    content: s.content
+  }))
+}
+
+const xhTerms: TermsContent = {
+  title: 'Imiqathango Jikelele Yokusetyenziswa kwe-Risknil.com',
+  lastUpdated: 'Ihlaziywe okokugqibela: Meyi 14, 2026',
+  backButton: 'Buyela ku-RiskNil',
+  legalNote: 'Ukuba kukho naluphi na umahluko phakathi kweenguqulelo zeelwimi, inguqulelo yesiNgesi iya kuphumelela.',
+  sections: enTerms.sections.map((s, i) => ({
+    title: ['1. Imiqathango Yokusetyenziswa', '2. Amalungiselelo Jikelele', '3. Inkcazelo Yeenkonzo', '4. Iintlawulo', '5. Umxholo Wobunikazi', '6. Amakhonkco Abantu Besithathu', '7. Ukungasebenzi Kwe-akhawunti', '8. Impahla Yengqondo', '9. Ukuthobela Umthetho', '10. Ukuphika', 'Umgaqo-nkqubo Wobumfihlo', '11. Ukukhuselwa Kwedatha', '12. Ukuqokelelwa Kwedatha', '13. Amalungelo Akho', '14. Ukusetyenziswa Kwedatha', '15. Ukutyhilwa Kwedatha', '16. Ukhuseleko Nokugcinwa', '17. Umgaqo-nkqubo Weekhukhi', '18. Inguqulelo Noqhagamshelwano'][i] || s.title,
+    content: s.content
+  }))
+}
+
 export function getTermsContent(lang: string): TermsContent {
   switch (lang) {
     case 'es': return esTerms
@@ -441,6 +672,27 @@ export function getTermsContent(lang: string): TermsContent {
     case 'de': return deTerms
     case 'fr': return frTerms
     case 'hu': return huTerms
+    case 'zh-CN': return zhCNTerms
+    case 'zh-TW': return zhTWTerms
+    case 'it': return itTerms
+    case 'sv': return svTerms
+    case 'da': return daTerms
+    case 'nl': return nlTerms
+    case 'el': return elTerms
+    case 'pl': return plTerms
+    case 'no': return noTerms
+    case 'fi': return fiTerms
+    case 'ro': return roTerms
+    case 'cs': return csTerms
+    case 'ja': return jaTerms
+    case 'ko': return koTerms
+    case 'hi': return hiTerms
+    case 'ar': return arTerms
+    case 'tl': return tlTerms
+    case 'sw': return swTerms
+    case 'af': return afTerms
+    case 'zu': return zuTerms
+    case 'xh': return xhTerms
     default: return enTerms
   }
 }

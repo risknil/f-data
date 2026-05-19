@@ -677,28 +677,154 @@ export const privacyTranslations: Record<string, PrivacyTranslation> = {
   de: dePrivacy,
   hu: huPrivacy,
   fr: frPrivacy,
-  // Fallback to English for other languages
-  'zh-CN': enPrivacy,
-  'zh-TW': enPrivacy,
-  it: enPrivacy,
-  sv: enPrivacy,
-  da: enPrivacy,
-  nl: enPrivacy,
-  el: enPrivacy,
-  pl: enPrivacy,
-  no: enPrivacy,
-  fi: enPrivacy,
-  ro: enPrivacy,
-  cs: enPrivacy,
-  sw: enPrivacy,
-  af: enPrivacy,
-  zu: enPrivacy,
-  xh: enPrivacy,
-  ja: enPrivacy,
-  ko: enPrivacy,
-  hi: enPrivacy,
-  tl: enPrivacy,
-  ar: enPrivacy
+  // All other languages with translated titles but English content
+  'zh-CN': {
+    title: '隐私政策',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. 简介', '2. 我们收集的数据', '3. 我们如何使用您的数据', '4. Cookie和跟踪', '5. 数据保留', '6. 第三方服务', '7. 数据安全', '8. 您的权利', '9. 儿童隐私', '10. 国际用户', '11. 本政策的变更', '12. 联系我们'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  'zh-TW': {
+    title: '隱私政策',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. 簡介', '2. 我們收集的數據', '3. 我們如何使用您的數據', '4. Cookie和跟蹤', '5. 數據保留', '6. 第三方服務', '7. 數據安全', '8. 您的權利', '9. 兒童隱私', '10. 國際用戶', '11. 本政策的變更', '12. 聯繫我們'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  it: {
+    title: 'Informativa sulla Privacy',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. Introduzione', '2. Dati che Raccogliamo', '3. Come Utilizziamo i Tuoi Dati', '4. Cookie e Tracciamento', '5. Conservazione dei Dati', '6. Servizi di Terze Parti', '7. Sicurezza dei Dati', '8. I Tuoi Diritti', '9. Privacy dei Minori', '10. Utenti Internazionali', '11. Modifiche a Questa Politica', '12. Contattaci'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  sv: {
+    title: 'Integritetspolicy',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. Introduktion', '2. Data Vi Samlar In', '3. Hur Vi Använder Din Data', '4. Cookies och Spårning', '5. Datalagring', '6. Tredjepartstjänster', '7. Datasäkerhet', '8. Dina Rättigheter', '9. Barns Integritet', '10. Internationella Användare', '11. Ändringar av Denna Policy', '12. Kontakta Oss'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  da: {
+    title: 'Privatlivspolitik',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. Introduktion', '2. Data Vi Indsamler', '3. Hvordan Vi Bruger Dine Data', '4. Cookies og Sporing', '5. Dataopbevaring', '6. Tredjepartstjenester', '7. Datasikkerhed', '8. Dine Rettigheder', '9. Børns Privatliv', '10. Internationale Brugere', '11. Ændringer af Denne Politik', '12. Kontakt Os'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  nl: {
+    title: 'Privacybeleid',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. Inleiding', '2. Gegevens Die We Verzamelen', '3. Hoe We Uw Gegevens Gebruiken', '4. Cookies en Tracking', '5. Gegevensbewaring', '6. Diensten van Derden', '7. Gegevensbeveiliging', '8. Uw Rechten', '9. Privacy van Kinderen', '10. Internationale Gebruikers', '11. Wijzigingen in Dit Beleid', '12. Neem Contact Op'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  el: {
+    title: 'Πολιτική Απορρήτου',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. Εισαγωγή', '2. Δεδομένα που Συλλέγουμε', '3. Πώς Χρησιμοποιούμε τα Δεδομένα Σας', '4. Cookies και Παρακολούθηση', '5. Διατήρηση Δεδομένων', '6. Υπηρεσίες Τρίτων', '7. Ασφάλεια Δεδομένων', '8. Τα Δικαιώματά Σας', '9. Απόρρητο Παιδιών', '10. Διεθνείς Χρήστες', '11. Αλλαγές σε Αυτή την Πολιτική', '12. Επικοινωνήστε Μαζί Μας'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  pl: {
+    title: 'Polityka Prywatności',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. Wprowadzenie', '2. Dane, Które Zbieramy', '3. Jak Wykorzystujemy Twoje Dane', '4. Pliki Cookie i Śledzenie', '5. Przechowywanie Danych', '6. Usługi Stron Trzecich', '7. Bezpieczeństwo Danych', '8. Twoje Prawa', '9. Prywatność Dzieci', '10. Użytkownicy Międzynarodowi', '11. Zmiany w Tej Polityce', '12. Skontaktuj się z Nami'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  no: {
+    title: 'Personvernpolicy',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. Introduksjon', '2. Data Vi Samler Inn', '3. Hvordan Vi Bruker Dine Data', '4. Informasjonskapsler og Sporing', '5. Dataoppbevaring', '6. Tredjepartstjenester', '7. Datasikkerhet', '8. Dine Rettigheter', '9. Barns Personvern', '10. Internasjonale Brukere', '11. Endringer i Denne Policyen', '12. Kontakt Oss'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  fi: {
+    title: 'Tietosuojakäytäntö',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. Johdanto', '2. Keräämämme Tiedot', '3. Miten Käytämme Tietojasi', '4. Evästeet ja Seuranta', '5. Tietojen Säilytys', '6. Kolmannen Osapuolen Palvelut', '7. Tietoturva', '8. Oikeutesi', '9. Lasten Yksityisyys', '10. Kansainväliset Käyttäjät', '11. Muutokset Tähän Käytäntöön', '12. Ota Yhteyttä'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  ro: {
+    title: 'Politica de Confidențialitate',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. Introducere', '2. Datele pe Care le Colectăm', '3. Cum Folosim Datele Tale', '4. Cookie-uri și Urmărire', '5. Păstrarea Datelor', '6. Servicii Terțe', '7. Securitatea Datelor', '8. Drepturile Tale', '9. Confidențialitatea Copiilor', '10. Utilizatori Internaționali', '11. Modificări ale Acestei Politici', '12. Contactează-ne'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  cs: {
+    title: 'Zásady Ochrany Osobních Údajů',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. Úvod', '2. Data, Která Shromažďujeme', '3. Jak Používáme Vaše Data', '4. Cookies a Sledování', '5. Uchovávání Dat', '6. Služby Třetích Stran', '7. Zabezpečení Dat', '8. Vaše Práva', '9. Ochrana Soukromí Dětí', '10. Mezinárodní Uživatelé', '11. Změny Těchto Zásad', '12. Kontaktujte Nás'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  ja: {
+    title: 'プライバシーポリシー',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. はじめに', '2. 収集するデータ', '3. データの使用方法', '4. Cookieとトラッキング', '5. データの保持', '6. 第三者サービス', '7. データセキュリティ', '8. あなたの権利', '9. 子供のプライバシー', '10. 国際ユーザー', '11. このポリシーの変更', '12. お問い合わせ'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  ko: {
+    title: '개인정보 보호정책',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. 소개', '2. 수집하는 데이터', '3. 데이터 사용 방법', '4. 쿠키 및 추적', '5. 데이터 보존', '6. 제3자 서비스', '7. 데이터 보안', '8. 귀하의 권리', '9. 아동 개인정보 보호', '10. 국제 사용자', '11. 본 정책의 변경', '12. 문의하기'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  hi: {
+    title: 'गोपनीयता नीति',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. परिचय', '2. हम कौन सा डेटा एकत्र करते हैं', '3. हम आपके डेटा का उपयोग कैसे करते हैं', '4. कुकीज़ और ट्रैकिंग', '5. डेटा प्रतिधारण', '6. तृतीय-पक्ष सेवाएं', '7. डेटा सुरक्षा', '8. आपके अधिकार', '9. बच्चों की गोपनीयता', '10. अंतर्राष्ट्रीय उपयोगकर्ता', '11. इस नीति में परिवर्तन', '12. हमसे संपर्क करें'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  ar: {
+    title: 'سياسة الخصوصية',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. المقدمة', '2. البيانات التي نجمعها', '3. كيف نستخدم بياناتك', '4. ملفات تعريف الارتباط والتتبع', '5. الاحتفاظ بالبيانات', '6. خدمات الطرف الثالث', '7. أمان البيانات', '8. حقوقك', '9. خصوصية الأطفال', '10. المستخدمون الدوليون', '11. التغييرات على هذه السياسة', '12. اتصل بنا'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  tl: {
+    title: 'Patakaran sa Pagkapribado',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. Panimula', '2. Data na Kinokolekta Namin', '3. Paano Namin Ginagamit ang Iyong Data', '4. Cookies at Pagsubaybay', '5. Pagpapanatili ng Data', '6. Mga Serbisyo ng Third-Party', '7. Seguridad ng Data', '8. Ang Iyong mga Karapatan', '9. Privacy ng mga Bata', '10. Mga International na User', '11. Mga Pagbabago sa Patakarang Ito', '12. Makipag-ugnayan sa Amin'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  sw: {
+    title: 'Sera ya Faragha',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. Utangulizi', '2. Data Tunayokusanya', '3. Jinsi Tunavyotumia Data Yako', '4. Vidakuzi na Ufuatiliaji', '5. Uhifadhi wa Data', '6. Huduma za Wahusika wa Tatu', '7. Usalama wa Data', '8. Haki Zako', '9. Faragha ya Watoto', '10. Watumiaji wa Kimataifa', '11. Mabadiliko ya Sera Hii', '12. Wasiliana Nasi'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  af: {
+    title: 'Privaatheidsbeleid',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. Inleiding', '2. Data Wat Ons Versamel', '3. Hoe Ons Jou Data Gebruik', '4. Koekies en Opsporing', '5. Data Bewaring', '6. Derdeparty Dienste', '7. Data Sekuriteit', '8. Jou Regte', '9. Kinders se Privaatheid', '10. Internasionale Gebruikers', '11. Veranderinge aan Hierdie Beleid', '12. Kontak Ons'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  zu: {
+    title: 'Inqubomgomo Yobumfihlo',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. Isingeniso', '2. Idatha Esiyiqoqayo', '3. Indlela Esisebenzisa Ngayo Idatha Yakho', '4. Amakhukhisi Nokulandelela', '5. Ukugcinwa Kwedatha', '6. Amasevisi Abantu Besithathu', '7. Ukuphepha Kwedatha', '8. Amalungelo Akho', '9. Ubumfihlo Bezingane', '10. Abasebenzisi Bomhlaba Wonke', '11. Izinguquko Kule Nqubomgomo', '12. Xhumana Nathi'][i] || s.heading,
+      content: s.content
+    }))
+  },
+  xh: {
+    title: 'Umgaqo-nkqubo Wobumfihlo',
+    sections: enPrivacy.sections.map((s, i) => ({
+      heading: ['1. Intshayelelo', '2. Idatha Esiyiqokelelayo', '3. Indlela Esisebenzisa Ngayo Idatha Yakho', '4. Iikhukhisi Nokulandelela', '5. Ukugcinwa Kwedatha', '6. Iinkonzo Zabantu Besithathu', '7. Ukhuseleko Lwedatha', '8. Amalungelo Akho', '9. Ubumfihlo Babantwana', '10. Abasebenzisi Bamazwe Ngamazwe', '11. Utshintsho Kulo Mgaqo-nkqubo', '12. Qhagamshelana Nathi'][i] || s.heading,
+      content: s.content
+    }))
+  }
 }
 
 export function getPrivacyTranslation(locale: string): PrivacyTranslation {
