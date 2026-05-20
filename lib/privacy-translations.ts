@@ -694,10 +694,20 @@ export const privacyTranslations: Record<string, PrivacyTranslation> = {
   },
   it: {
     title: 'Informativa sulla Privacy',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. Introduzione', '2. Dati che Raccogliamo', '3. Come Utilizziamo i Tuoi Dati', '4. Cookie e Tracciamento', '5. Conservazione dei Dati', '6. Servizi di Terze Parti', '7. Sicurezza dei Dati', '8. I Tuoi Diritti', '9. Privacy dei Minori', '10. Utenti Internazionali', '11. Modifiche a Questa Politica', '12. Contattaci'][i] || s.heading,
-      content: s.content
-    }))
+    sections: [
+      { heading: '1. Introduzione', content: 'La presente Informativa sulla Privacy spiega come risknil.com ("noi", "nostro" o "ci") raccoglie, utilizza e protegge le informazioni personali quando utilizzi il nostro sito web e i servizi correlati.' },
+      { heading: '2. Dati che Raccogliamo', content: 'Raccogliamo informazioni che ci fornisci direttamente, come quando crei un account, ti iscrivi alla nostra newsletter o ci contatti. Questo può includere il tuo nome, indirizzo email e informazioni di pagamento. Raccogliamo anche automaticamente determinate informazioni quando visiti il nostro sito, incluso il tuo indirizzo IP, tipo di browser, pagine visualizzate e tempo trascorso sul sito.' },
+      { heading: '3. Come Utilizziamo i Tuoi Dati', content: 'Utilizziamo le informazioni raccolte per: fornire e mantenere i nostri servizi; elaborare transazioni e inviare notifiche correlate; inviarti informazioni tecniche, aggiornamenti e messaggi di supporto; rispondere ai tuoi commenti e domande; analizzare l\'utilizzo per migliorare il nostro sito web e i servizi.' },
+      { heading: '4. Cookie e Tracciamento', content: 'Utilizziamo cookie e tecnologie di tracciamento simili per raccogliere e tracciare informazioni e migliorare il nostro servizio. Puoi istruire il tuo browser a rifiutare tutti i cookie o a indicare quando un cookie viene inviato. Tuttavia, se non accetti i cookie, potresti non essere in grado di utilizzare alcune parti del nostro servizio.' },
+      { heading: '5. Conservazione dei Dati', content: 'Conserviamo i tuoi dati personali solo per il tempo necessario agli scopi indicati in questa Informativa sulla Privacy. Se un account rimane inattivo per un (1) anno, tutti i dati personali associati verranno eliminati permanentemente.' },
+      { heading: '6. Servizi di Terze Parti', content: 'Possiamo impiegare società e individui terzi per facilitare il nostro servizio, fornire il servizio per nostro conto, eseguire servizi correlati o assisterci nell\'analizzare come viene utilizzato il nostro servizio. Queste terze parti hanno accesso ai tuoi dati personali solo per eseguire questi compiti per nostro conto e sono obbligati a non divulgarli o utilizzarli per altri scopi.' },
+      { heading: '7. Sicurezza dei Dati', content: 'Implementiamo misure tecniche appropriate, inclusa la crittografia SSL e algoritmi di hashing, per proteggere i tuoi dati personali. Tuttavia, nessun metodo di trasmissione su Internet o metodo di archiviazione elettronica è sicuro al 100%.' },
+      { heading: '8. I Tuoi Diritti', content: 'Ai sensi del GDPR, hai il diritto di: accedere, aggiornare o eliminare le tue informazioni personali; rettificare eventuali dati inesatti; opporti al trattamento dei tuoi dati personali; richiedere la limitazione del trattamento; richiedere la portabilità dei dati; revocare il consenso in qualsiasi momento.' },
+      { heading: '9. Privacy dei Minori', content: 'Il nostro servizio non è rivolto a persone di età inferiore ai 18 anni. Non raccogliamo consapevolmente informazioni personali identificabili da minori. Se sei un genitore o tutore e sei consapevole che tuo figlio ci ha fornito dati personali, ti preghiamo di contattarci.' },
+      { heading: '10. Utenti Internazionali', content: 'Se accedi al nostro servizio da fuori il Regno Unito, tieni presente che le tue informazioni potrebbero essere trasferite, archiviate ed elaborate nel Regno Unito dove si trovano i nostri server.' },
+      { heading: '11. Modifiche a Questa Politica', content: 'Possiamo aggiornare periodicamente la nostra Informativa sulla Privacy. Ti informeremo di eventuali modifiche pubblicando la nuova Informativa sulla Privacy su questa pagina e aggiornando la data di "Ultimo aggiornamento".' },
+      { heading: '12. Contattaci', content: 'Se hai domande su questa Informativa sulla Privacy, ti preghiamo di contattarci all\'indirizzo info@risknil.com.' }
+    ]
   },
   sv: {
     title: 'Integritetspolicy',

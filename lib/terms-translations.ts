@@ -390,7 +390,7 @@ Nincs Felhasználói Beküldés: A Weboldal nem engedélyezi, nem tárolja és n
 Tiltott Tevékenységek: A Felhasználók nem kísérelhetik meg tartalom közzétételét, feltöltését vagy beillesztését a Weboldalra. Bármilyen kísérlet ennek a korlátozásnak a megkerülésére biztonsági megsértésnek és ezen Feltételek megsértésének minősül.` },
     { title: '6. Harmadik Fél Linkek és Hirdetések', content: 'A Felhasználó tudomásul veszi, hogy a Weboldalon található harmadik fél weboldalakkal vagy hirdetésekkel való bármilyen interakció teljes mértékben saját felelősségére történik. A Szolgáltató nem részese a Felhasználó és harmadik fél között létrejött megállapodásoknak, és nem vállal felelősséget az ilyen interakciókból eredő vitákért.' },
     { title: '7. Fiók Inaktivitás', content: 'A Szolgáltató fenntartja a jogot bármely Felhasználói fiók bezárására, amelyhez 180 egymást követő napon nem fértek hozzá. Ez a bezárás azonnali hatállyal és előzetes értesítés nélkül történhet.' },
-    { title: '8. Szellemi Tulajdon és Szerzői Jog', content: `Tulajdonjog: A Weboldalon található összes tartalom, szoftver és tulajdonosi algoritmus a Szolgáltató tulajdona. A Felhasználók számára szigor������an tilos a Weboldal bármely részének másolása, terjesztése, "szkrépelése" vagy reprodukálása előzetes írásbeli hozzájárulás nélkül.
+    { title: '8. Szellemi Tulajdon és Szerzői Jog', content: `Tulajdonjog: A Weboldalon található összes tartalom, szoftver és tulajdonosi algoritmus a Szolgáltató tulajdona. A Felhasználók számára szigor��������an tilos a Weboldal bármely részének másolása, terjesztése, "szkrépelése" vagy reprodukálása előzetes írásbeli hozzájárulás nélkül.
 
 Érvényesítés: A szellemi tulajdonjogok bármilyen megsértését a törvény teljes mértékében üldözzük.` },
     { title: '9. Jogi Megfelelés és Joghatóság', content: `Irányadó Jog: Ezeket a Feltételeket az Egyesült Királyság törvényei szabályozzák és értelmezik. Minden Fél aláveti magát az Egyesült Királyság bíróságainak kizárólagos joghatóságának.
@@ -461,10 +461,69 @@ const itTerms: TermsContent = {
   lastUpdated: 'Ultimo aggiornamento: 14 maggio 2026',
   backButton: 'Torna a RiskNil',
   legalNote: 'In caso di discrepanza tra le versioni linguistiche, prevarrà la versione inglese.',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. Termini di Utilizzo', '2. Disposizioni Generali e Ambito Globale', '3. Descrizione dei Servizi', '4. Pagamenti e Bonifici Bancari', '5. Contenuto Proprietario (Nessun Contenuto Generato dagli Utenti)', '6. Link di Terze Parti e Pubblicità', '7. Inattività dell\'Account', '8. Proprietà Intellettuale e Copyright', '9. Conformità Legale e Giurisdizione', '10. Esclusione di Responsabilità e Limitazione di Responsabilità', 'Informativa sulla Privacy', '11. Protezione dei Dati e GDPR', '12. Raccolta di Dati Personali', '13. I Tuoi Diritti come Interessato', '14. Utilizzo dei Dati e Marketing', '15. Divulgazione dei Dati', '16. Sicurezza e Conservazione', '17. Politica sui Cookie', '18. Versione e Contatto'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. Termini di Utilizzo', content: 'Questi Termini di Utilizzo (i "Termini") costituiscono un accordo legalmente vincolante tra il "Fornitore" (come definito nella Sezione 29) e qualsiasi individuo o entità (l\'"Utente") che accede al sito web risknil.com, alle sue applicazioni mobili o a qualsiasi funzionalità, contenuto o servizio associato (collettivamente, il "Sito"). Il Fornitore e l\'Utente sono collettivamente indicati come le "Parti".' },
+    { title: '2. Disposizioni Generali e Ambito Globale', content: `Applicabilità: Questi Termini regolano l'intera relazione tra il Fornitore e l'Utente. Accedendo al Sito, l'Utente conferma di aver letto, compreso e accettato questi Termini nella loro interezza.
+
+Modifiche: Il Fornitore si riserva il diritto di modificare, sospendere o integrare questi Termini in qualsiasi momento. L'uso continuato del Sito dopo le modifiche costituisce accettazione di tali modifiche.
+
+Uso Legale: Il Sito deve essere utilizzato solo per scopi leciti. Agli Utenti è vietato utilizzare il Sito per trasmettere o memorizzare materiale che violi qualsiasi legge, infranga la proprietà intellettuale di terzi o violi le normative sul gioco d'azzardo o sui cambi in qualsiasi giurisdizione.
+
+Sanzioni: In caso di uso improprio, il Fornitore si riserva il diritto di bloccare l'accesso, terminare gli account e avviare procedimenti legali a sua esclusiva discrezione.` },
+    { title: '3. Descrizione dei Servizi', content: 'Il Sito fornisce una piattaforma interattiva con informazioni sportive, risultati, suggerimenti per scommesse e dati analitici. Queste informazioni sono raccolte da fonti indipendenti di terze parti e da sforzi interni. Sebbene il Fornitore si impegni per l\'accuratezza, non garantisce l\'affidabilità dei risultati delle partite o delle quote delle scommesse. Il Fornitore non è responsabile per qualsiasi utilizzo che l\'Utente faccia delle informazioni contenute nel Sito.' },
+    { title: '4. Pagamenti e Bonifici Bancari', content: `Metodi di Pagamento: Il Sito accetta pagamenti per servizi premium tramite gateway di pagamento online sicuri e bonifici bancari diretti.
+
+Protocollo di Bonifico Bancario: Gli Utenti che optano per i bonifici bancari devono seguire le istruzioni specifiche fornite al momento del checkout. I servizi saranno attivati solo dopo che il Fornitore avrà confermato la ricezione dei fondi completi.
+
+Accuratezza delle Informazioni: L'Utente è responsabile di garantire che tutti i dati di pagamento e bancari forniti siano accurati. Il Fornitore non è responsabile per fondi persi a causa di informazioni bancarie errate fornite dall'Utente.
+
+Finalità del Pagamento: Salvo quanto richiesto dalla legge locale sui consumatori, tutti i pagamenti non sono rimborsabili una volta che l'accesso al servizio o al contenuto digitale è stato fornito.` },
+    { title: '5. Contenuto Proprietario (Nessun Contenuto Generato dagli Utenti)', content: `Proprietà Esclusiva: Tutto il contenuto visualizzato sul Sito è fornito esclusivamente dal Fornitore o dai suoi partner terzi autorizzati.
+
+Nessun Invio da parte degli Utenti: Il Sito non consente, ospita o visualizza Contenuti Generati dagli Utenti (CGU), inclusi ma non limitati a commenti, post sui forum o caricamenti di dati pubblici.
+
+Azioni Vietate: Gli Utenti non possono tentare di pubblicare, caricare o inserire contenuti nel Sito. Qualsiasi tentativo di aggirare questa restrizione sarà considerato una violazione della sicurezza e di questi Termini.` },
+    { title: '6. Link di Terze Parti e Pubblicità', content: 'L\'Utente riconosce che qualsiasi interazione con siti web di terze parti o annunci pubblicitari trovati sul Sito è interamente a proprio rischio. Il Fornitore non è parte di alcun accordo stipulato tra l\'Utente e una terza parte e non accetta responsabilità per controversie derivanti da tali interazioni.' },
+    { title: '7. Inattività dell\'Account', content: 'Il Fornitore si riserva il diritto di terminare qualsiasi account Utente che non sia stato accesso per 180 giorni consecutivi. Questa terminazione può avvenire con effetto immediato e senza preavviso.' },
+    { title: '8. Proprietà Intellettuale e Copyright', content: `Proprietà: Tutti i contenuti, software e algoritmi proprietari sul Sito sono di proprietà del Fornitore. Agli Utenti è severamente vietato copiare, distribuire, "scraping" o riprodurre qualsiasi parte del Sito senza previo consenso scritto.
+
+Applicazione: Qualsiasi violazione dei diritti di proprietà intellettuale sarà perseguita nella misura massima consentita dalla legge.` },
+    { title: '9. Conformità Legale e Giurisdizione', content: `Legge Applicabile: Questi Termini sono regolati e interpretati in conformità con le leggi del Regno Unito. Tutte le Parti si sottopongono alla giurisdizione esclusiva dei tribunali del Regno Unito.
+
+Esclusione: La Convenzione delle Nazioni Unite sui Contratti di Vendita Internazionale di Merci è espressamente esclusa.` },
+    { title: '10. Esclusione di Responsabilità e Limitazione di Responsabilità', content: `Nessuna Garanzia: Il Sito è fornito "così com'è". Il Fornitore non si assume alcuna responsabilità o garanzia (espressa o implicita) che il contenuto sia privo di errori.
+
+Non è un Servizio di Gioco d'Azzardo: Il Sito è uno strumento informativo e non un servizio di gioco d'azzardo o scommesse. Il Fornitore non partecipa a transazioni di gioco d'azzardo né detiene fondi dell'Utente per scopi di scommessa.
+
+Limitazione delle Perdite: Il Fornitore non è responsabile per qualsiasi perdita diretta o indiretta, inclusa la perdita di profitti o guadagni, derivante dall'uso del Sito.` },
+    { title: 'Informativa sulla Privacy', content: '' },
+    { title: '11. Protezione dei Dati e GDPR', content: 'Il Sito si impegna a proteggere la privacy dell\'Utente in conformità con gli standard internazionali, incluso il Regolamento Generale sulla Protezione dei Dati (GDPR). Il Titolare del Trattamento dei Dati è risknil.com.' },
+    { title: '12. Raccolta di Dati Personali', content: `Registrazione: I dati personali (ad es. email, nome) vengono raccolti solo quando un Utente si registra per servizi avanzati.
+
+Consenso: Utilizzando questi servizi, l'Utente acconsente alla raccolta dei propri dati. Il consenso può essere revocato in qualsiasi momento inviando un'email a info@risknil.com.` },
+    { title: '13. I Tuoi Diritti come Interessato', content: `Gli Utenti hanno i seguenti diritti in relazione ai propri dati:
+
+Accesso e Rettifica: Il diritto di visualizzare e correggere i dati personali.
+
+Cancellazione: Il diritto di far cancellare i dati se non più necessari.
+
+Limitazione e Opposizione: Il diritto di limitare il modo in cui i dati vengono elaborati o di opporsi al marketing.
+
+Portabilità: Il diritto di ricevere i dati in un formato leggibile da una macchina.` },
+    { title: '14. Utilizzo dei Dati e Marketing', content: 'I dati personali vengono utilizzati per comunicare con gli Utenti, elaborare bonifici bancari/pagamenti, fornire contenuti personalizzati e mantenere la sicurezza. Non vendiamo né scambiamo dati personali a terze parti per scopi di marketing.' },
+    { title: '15. Divulgazione dei Dati', content: 'I dati possono essere divulgati a terze parti solo per facilitare l\'elaborazione dei pagamenti (ad es. istituti bancari), in caso di vendita del Sito, o per adempiere a obblighi legali.' },
+    { title: '16. Sicurezza e Conservazione', content: `Misure di Sicurezza: Utilizziamo misure tecniche, inclusi SSL e algoritmi di hashing, per proteggere i dati.
+
+Conservazione: I dati vengono conservati solo per il tempo necessario. Se un account rimane inattivo per un (1) anno, tutti i dati personali associati verranno eliminati permanentemente.` },
+    { title: '17. Politica sui Cookie', content: 'Il Sito utilizza cookie per personalizzare i contenuti, analizzare il traffico e fornire funzionalità dei social media. Gli Utenti possono disabilitare i cookie nelle impostazioni del proprio browser.' },
+    { title: '18. Versione e Contatto', content: `Fornitore: Risknil.com.
+
+Email: info@risknil.com.
+
+Ultimo aggiornamento: 14 maggio 2026.
+
+In caso di discrepanza tra le versioni in diverse lingue, prevarrà la versione in inglese.` }
+  ]
 }
 
 const svTerms: TermsContent = {
