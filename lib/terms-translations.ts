@@ -388,9 +388,9 @@ Fizetés Véglegessége: Hacsak a helyi fogyasztóvédelmi törvény másként n
 Nincs Felhasználói Beküldés: A Weboldal nem engedélyezi, nem tárolja és nem jeleníti meg a Felhasználó által Generált Tartalmat (UGC), beleértve, de nem kizárólagosan a megjegyzéseket, fórumbejegyzéseket vagy nyilvános adatfeltöltéseket.
 
 Tiltott Tevékenységek: A Felhasználók nem kísérelhetik meg tartalom közzétételét, feltöltését vagy beillesztését a Weboldalra. Bármilyen kísérlet ennek a korlátozásnak a megkerülésére biztonsági megsértésnek és ezen Feltételek megsértésének minősül.` },
-    { title: '6. Harmadik Fél Linkek és Hirdetések', content: 'A Felhasználó tudomásul veszi, hogy a Weboldalon található harmadik fél weboldalakkal vagy hirdetésekkel való bármilyen interakció teljes mértékben saját felelősségére történik. A Szolgáltató nem részese a Felhasználó és harmadik fél között létrejött megállapodásoknak, és nem vállal felelősséget az ilyen interakciókból eredő vitákért.' },
+    { title: '6. Harmadik Fél Linkek és Hirdetések', content: 'A Felhasználó tudomásul veszi, hogy a Weboldalon található harmadik fél weboldalakkal vagy hirdetésekkel való bármilyen interakció teljes mértékben saját felelősségére történik. A Szolgáltató nem részese a Felhasználó és harmadik fél között létrejött megállapodásoknak, és nem vállal felelősséget az ilyen interakciókból eredő viták��rt.' },
     { title: '7. Fiók Inaktivitás', content: 'A Szolgáltató fenntartja a jogot bármely Felhasználói fiók bezárására, amelyhez 180 egymást követő napon nem fértek hozzá. Ez a bezárás azonnali hatállyal és előzetes értesítés nélkül történhet.' },
-    { title: '8. Szellemi Tulajdon és Szerzői Jog', content: `Tulajdonjog: A Weboldalon található összes tartalom, szoftver és tulajdonosi algoritmus a Szolgáltató tulajdona. A Felhasználók számára szigor������������an tilos a Weboldal bármely részének másolása, terjesztése, "szkrépelése" vagy reprodukálása előzetes írásbeli hozzájárulás nélkül.
+    { title: '8. Szellemi Tulajdon és Szerzői Jog', content: `Tulajdonjog: A Weboldalon található összes tartalom, szoftver és tulajdonosi algoritmus a Szolgáltató tulajdona. A Felhasználók számára szigor��������������an tilos a Weboldal bármely részének másolása, terjesztése, "szkrépelése" vagy reprodukálása előzetes írásbeli hozzájárulás nélkül.
 
 Érvényesítés: A szellemi tulajdonjogok bármilyen megsértését a törvény teljes mértékében üldözzük.` },
     { title: '9. Jogi Megfelelés és Joghatóság', content: `Irányadó Jog: Ezeket a Feltételeket az Egyesült Királyság törvényei szabályozzák és értelmezik. Minden Fél aláveti magát az Egyesült Királyság bíróságainak kizárólagos joghatóságának.
@@ -533,7 +533,7 @@ const svTerms: TermsContent = {
   legalNote: 'Vid eventuella avvikelser mellan språkversioner ska den engelska versionen gälla.',
   sections: [
     { title: '1. Användarvillkor', content: 'Dessa Användarvillkor ("Villkoren") utgör ett juridiskt bindande avtal mellan "Leverantören" (enligt definitionen i avsnitt 29) och varje individ eller enhet ("Användaren") som besöker webbplatsen risknil.com, dess mobilapplikationer eller tillhörande funktioner, innehåll eller tjänster (gemensamt "Webbplatsen"). Leverantören och Användaren kallas gemensamt för "Parterna".' },
-    { title: '2. Allmänna Bestämmelser och Globalt Tillämpningsområde', content: 'Tillämplighet: Dessa Villkor styr hela relationen mellan Leverantören och Användaren. Genom att använda Webbplatsen bekräftar Användaren att ha läst, förstått och accepterat dessa Villkor i sin helhet.\n\nÄndringar: Leverantören förbehåller sig rätten att ändra, upphäva eller komplettera dessa Villkor när som helst. Fortsatt användning av Webbplatsen efter ändringar utgör acceptans av sådana ändringar.\n\nLaglig Användning: Webbplatsen får endast användas för lagliga ändamål. Användare är förbjudna att använda Webbplatsen för att överföra eller lagra material som bryter mot någon lag.\n\nSanktioner: Vid missbruk förbehåller sig Leverantören rätten att blockera åtkomst, avsluta konton och inleda rättsliga förfaranden.' },
+    { title: '2. Allmänna Bestämmelser och Globalt Tillämpningsområde', content: 'Tillämplighet: Dessa Villkor styr hela relationen mellan Leverantören och Användaren. Genom att använda Webbplatsen bekräftar Användaren att ha läst, förstått och accepterat dessa Villkor i sin helhet.\n\nÄndringar: Leverantören förbehåller sig rätten att ändra, upphäva eller komplettera dessa Villkor när som helst. Fortsatt användning av Webbplatsen efter ändringar utgör acceptans av sådana ändringar.\n\nLaglig Användning: Webbplatsen får endast användas för lagliga ändamål. Användare är förbjudna att använda Webbplatsen för att överföra eller lagra material som bryter mot någon lag.\n\nSanktioner: Vid missbruk förbehåller sig Leverantören r��tten att blockera åtkomst, avsluta konton och inleda rättsliga förfaranden.' },
     { title: '3. Beskrivning av Tjänster', content: 'Webbplatsen tillhandahåller en interaktiv plattform med sportinformation, resultat, vadhållningstips och analytiska data. Denna information samlas in från oberoende tredjepartskällor och interna ansträngningar. Även om Leverantören strävar efter noggrannhet, garanteras inte tillförlitligheten av matchresultat eller spelodds.' },
     { title: '4. Betalningar och Banköverföringar', content: 'Betalningsmetoder: Webbplatsen accepterar betalningar för premiumtjänster via säkra online-betalningsgateways och direkta banköverföringar.\n\nBanköverföringsprotokoll: Användare som väljer banköverföring måste följa specifika instruktioner vid kassan. Tjänster aktiveras först efter att Leverantören har bekräftat mottagande av fullständiga medel.\n\nBetalningens Slutgiltighet: Om inte lokal konsumentlag kräver annat, är alla betalningar icke-återbetalningsbara när åtkomst till tjänsten har beviljats.' },
     { title: '5. Eget Innehåll (Inget Användargenererat Innehåll)', content: 'Exklusivt Ägande: Allt innehåll som visas på Webbplatsen tillhandahålls uteslutande av Leverantören eller dess auktoriserade tredjepartspartners.\n\nInga Användarinlämningar: Webbplatsen tillåter, värderar eller visar inte Användargenererat Innehåll.\n\nFörbjudna Åtgärder: Användare får inte försöka publicera, ladda upp eller infoga innehåll på Webbplatsen.' },
@@ -615,10 +615,27 @@ const elTerms: TermsContent = {
   lastUpdated: 'Τελευταία ενημέρωση: 14 Μαΐου 2026',
   backButton: 'Επιστροφή στο RiskNil',
   legalNote: 'Σε περίπτωση οποιασδήποτε απόκλισης μεταξύ γλωσσικών εκδόσεων, υπερισχύει η αγγλική έκδοση.',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. Όροι Χρήσης', '2. Γενικές Διατάξεις και Παγκόσμιο Πεδίο', '3. Περιγραφή Υπηρεσιών', '4. Πληρωμές και Τραπεζικές Μεταφορές', '5. Ιδιοκτησιακό Περιεχόμενο', '6. Σύνδεσμοι Τρίτων και Διαφήμιση', '7. Αδράνεια Λογαριασμού', '8. Πνευματική Ιδιοκτησία', '9. Νομική Συμμόρφωση', '10. Αποποίηση Ευθυνών', 'Πολιτική Απορρήτου', '11. Προστασία Δεδομένων', '12. Συλλογή Προσωπικών Δεδομένων', '13. Τα Δικαιώματά Σας', '14. Χρήση Δεδομένων', '15. Αποκάλυψη Δεδομένων', '16. Ασφάλεια και Διατήρηση', '17. Πολιτική Cookies', '18. Έκδοση και Επικοινωνία'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. Όροι Χρήσης', content: 'Αυτοί οι Όροι Χρήσης (οι "Όροι") αποτελούν νομικά δεσμευτική συμφωνία μεταξύ του "Παρόχου" και οποιουδήποτε ατόμου ή οντότητας (ο "Χρήστης") που έχει πρόσβαση στον ιστότοπο risknil.com, τις εφαρμογές κινητών ή τυχόν σχετικές λειτουργίες, περιεχόμενο ή υπηρεσίες (συλλογικά, ο "Ιστότοπος").' },
+    { title: '2. Γενικές Διατάξεις και Παγκόσμιο Πεδίο', content: 'Εφαρμοσιμότητα: Αυτοί οι Όροι διέπουν ολόκληρη τη σχέση μεταξύ του Παρόχου και του Χρήστη.\n\nΤροποποιήσεις: Ο Πάροχος διατηρεί το δικαίωμα να τροποποιήσει αυτούς τους Όρους ανά πάσα στιγμή.\n\nΝόμιμη Χρήση: Ο Ιστότοπος πρέπει να χρησιμοποιείται μόνο για νόμιμους σκοπούς.\n\nΚυρώσεις: Σε περίπτωση κατάχρησης, ο Πάροχος διατηρεί το δικαίωμα να αποκλείσει την πρόσβαση και να τερματίσει λογαριασμούς.' },
+    { title: '3. Περιγραφή Υπηρεσιών', content: 'Ο Ιστότοπος παρέχει μια διαδραστική πλατφόρμα με αθλητικές πληροφορίες, σκορ, συμβουλές στοιχημάτων και αναλυτικά δεδομένα. Αν και ο Πάροχος επιδιώκει ακρίβεια, δεν εγγυάται την αξιοπιστία των αποτελεσμάτων αγώνων ή των αποδόσεων.' },
+    { title: '4. Πληρωμές και Τραπεζικές Μεταφορές', content: 'Μέθοδοι Πληρωμής: Ο Ιστότοπος δέχεται πληρωμές μέσω ασφαλών διαδικτυακών πυλών και άμεσων τραπεζικών μεταφορών.\n\nΟριστικότητα Πληρωμής: Εκτός αν απαιτείται διαφορετικά από την τοπική νομοθεσία καταναλωτών, όλες οι πληρωμές δεν επιστρέφονται.' },
+    { title: '5. Ιδιοκτησιακό Περιεχόμενο', content: 'Αποκλειστική Ιδιοκτησία: Όλο το περιεχόμενο παρέχεται αποκλειστικά από τον Πάροχο.\n\nΚαμία Υποβολή Χρηστών: Ο Ιστότοπος δεν επιτρέπει περιεχόμενο που δημιουργείται από χρήστες.' },
+    { title: '6. Σύνδεσμοι Τρίτων και Διαφήμιση', content: 'Ο Χρήστης αναγνωρίζει ότι οποιαδήποτε αλληλεπίδραση με ιστότοπους τρίτων ή διαφημίσεις είναι εξ ολοκλήρου με δική του ευθύνη.' },
+    { title: '7. Αδράνεια Λογαριασμού', content: 'Ο Πάροχος διατηρεί το δικαίωμα να τερματίσει οποιονδήποτε λογαριασμό Χρήστη που δεν έχει χρησιμοποιηθεί για 180 συνεχόμενες ημέρες.' },
+    { title: '8. Πνευματική Ιδιοκτησία', content: 'Ιδιοκτησία: Όλο το περιεχόμενο και το λογισμικό ανήκουν στον Πάροχο. Οι Χρήστες απαγορεύεται αυστηρά να αντιγράφουν ή να αναπαράγουν οποιοδήποτε μέρος του Ιστοτόπου.' },
+    { title: '9. Νομική Συμμόρφωση', content: 'Εφαρμοστέο Δίκαιο: Αυτοί οι Όροι διέπονται από τους νόμους του Ηνωμένου Βασιλείου. Όλα τα Μέρη υπάγονται στην αποκλειστική δικαιοδοσία των δικαστηρίων του Ηνωμένου Βασιλείου.' },
+    { title: '10. Αποποίηση Ευθυνών', content: 'Καμία Εγγύηση: Ο Ιστότοπος παρέχεται "ως έχει".\n\nΌχι Υπηρεσία Τυχερών Παιχνιδιών: Ο Ιστότοπος είναι εργαλείο πληροφόρησης.\n\nΠεριορισμός Ζημιών: Ο Πάροχος δεν ευθύνεται για άμεσες ή έμμεσες ζημίες.' },
+    { title: 'Πολιτική Απορρήτου', content: '' },
+    { title: '11. Προστασία Δεδομένων', content: 'Ο Ιστότοπος δεσμεύεται να προστατεύει την ιδιωτικότητα του Χρήστη σύμφωνα με τον GDPR. Ο Υπεύθυνος Επεξεργασίας Δεδομένων είναι το risknil.com.' },
+    { title: '12. Συλλογή Προσωπικών Δεδομένων', content: 'Εγγραφή: Τα προσωπικά δεδομένα συλλέγονται μόνο κατά την εγγραφή.\n\nΣυγκατάθεση: Χρησιμοποιώντας τις υπηρεσίες, ο Χρήστης συναινεί στη συλλογή των δεδομένων του.' },
+    { title: '13. Τα Δικαιώματά Σας', content: 'Οι Χρήστες έχουν τα ακόλουθα δικαιώματα: Πρόσβαση και Διόρθωση, Διαγραφή, Περιορισμός και Αντίρρηση, Φορητότητα.' },
+    { title: '14. Χρήση Δεδομένων', content: 'Τα προσωπικά δεδομένα χρησιμοποιούνται για επικοινωνία και επεξεργασία πληρωμών. Δεν πουλάμε δεδομένα σε τρίτους.' },
+    { title: '15. Αποκάλυψη Δεδομένων', content: 'Τα δεδομένα μπορούν να αποκαλυφθούν σε τρίτους μόνο για επεξεργασία πληρωμών ή νομικές υποχρεώσεις.' },
+    { title: '16. Ασφάλεια και Διατήρηση', content: 'Μέτρα Ασφαλείας: Χρησιμοποιούμε SSL και αλγόριθμους κατακερματισμού.\n\nΔιατήρηση: Τα δεδομένα διατηρούνται μόνο όσο χρειάζεται.' },
+    { title: '17. Πολιτική Cookies', content: 'Ο Ιστότοπος χρησιμοποιεί cookies για εξατομίκευση περιεχομένου και ανάλυση επισκεψιμότητας. Οι Χρήστες μπορούν να απενεργοποιήσουν τα cookies.' },
+    { title: '18. Έκδοση και Επικοινωνία', content: 'Πάροχος: Risknil.com.\n\nEmail: info@risknil.com.\n\nΤελευταία ενημέρωση: 14 Μαΐου 2026.' }
+  ]
 }
 
 const plTerms: TermsContent = {
@@ -626,10 +643,27 @@ const plTerms: TermsContent = {
   lastUpdated: 'Ostatnia aktualizacja: 14 maja 2026',
   backButton: 'Powrót do RiskNil',
   legalNote: 'W przypadku jakichkolwiek rozbieżności między wersjami językowymi, obowiązuje wersja angielska.',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. Warunki Użytkowania', '2. Postanowienia Ogólne i Zakres Globalny', '3. Opis Usług', '4. Płatności i Przelewy Bankowe', '5. Treści Własnościowe', '6. Linki Stron Trzecich i Reklamy', '7. Nieaktywność Konta', '8. Własność Intelektualna i Prawa Autorskie', '9. Zgodność Prawna i Jurysdykcja', '10. Zastrzeżenia i Ograniczenie Odpowiedzialności', 'Polityka Prywatności', '11. Ochrona Danych i RODO', '12. Zbieranie Danych Osobowych', '13. Twoje Prawa jako Osoby', '14. Wykorzystanie Danych i Marketing', '15. Ujawnianie Danych', '16. Bezpieczeństwo i Przechowywanie', '17. Polityka Cookies', '18. Wersja i Kontakt'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. Warunki Użytkowania', content: 'Niniejsze Warunki Użytkowania ("Warunki") stanowią prawnie wiążącą umowę między "Dostawcą" a każdą osobą lub podmiotem ("Użytkownik") uzyskującym dostęp do strony internetowej risknil.com, jej aplikacji mobilnych lub powiązanych funkcji, treści lub usług (łącznie "Strona").' },
+    { title: '2. Postanowienia Ogólne i Zakres Globalny', content: 'Stosowanie: Niniejsze Warunki regulują całą relację między Dostawcą a Użytkownikiem.\n\nZmiany: Dostawca zastrzega sobie prawo do zmiany niniejszych Warunków w dowolnym momencie.\n\nLegalne Użytkowanie: Strona może być używana wyłącznie do legalnych celów.\n\nSankcje: W przypadku nadużycia Dostawca zastrzega sobie prawo do zablokowania dostępu i zamknięcia kont.' },
+    { title: '3. Opis Usług', content: 'Strona zapewnia interaktywną platformę z informacjami sportowymi, wynikami, poradami bukmacherskimi i danymi analitycznymi. Chociaż Dostawca dąży do dokładności, nie gwarantuje wiarygodności wyników meczów lub kursów.' },
+    { title: '4. Płatności i Przelewy Bankowe', content: 'Metody Płatności: Strona akceptuje płatności za usługi premium poprzez bezpieczne bramki płatności online i bezpośrednie przelewy bankowe.\n\nOstateczność Płatności: O ile lokalne prawo konsumenckie nie wymaga inaczej, wszystkie płatności są bezzwrotne.' },
+    { title: '5. Treści Własnościowe', content: 'Wyłączna Własność: Wszystkie treści są dostarczane wyłącznie przez Dostawcę.\n\nBrak Treści Użytkowników: Strona nie zezwala na treści generowane przez użytkowników.' },
+    { title: '6. Linki Stron Trzecich i Reklamy', content: 'Użytkownik przyjmuje do wiadomości, że wszelkie interakcje ze stronami internetowymi osób trzecich lub reklamami odbywają się na jego własne ryzyko.' },
+    { title: '7. Nieaktywność Konta', content: 'Dostawca zastrzega sobie prawo do zamknięcia każdego konta Użytkownika, które nie było używane przez 180 kolejnych dni.' },
+    { title: '8. Własność Intelektualna i Prawa Autorskie', content: 'Własność: Wszystkie treści i oprogramowanie na Stronie należą do Dostawcy. Użytkownikom surowo zabrania się kopiowania lub reprodukowania jakiejkolwiek części Strony.' },
+    { title: '9. Zgodność Prawna i Jurysdykcja', content: 'Prawo Właściwe: Niniejsze Warunki podlegają prawu Wielkiej Brytanii. Wszystkie Strony poddają się wyłącznej jurysdykcji sądów Wielkiej Brytanii.' },
+    { title: '10. Zastrzeżenia i Ograniczenie Odpowiedzialności', content: 'Brak Gwarancji: Strona jest dostarczana "tak jak jest".\n\nNie Jest Serwisem Hazardowym: Strona jest narzędziem informacyjnym.\n\nOgraniczenie Strat: Dostawca nie ponosi odpowiedzialności za bezpośrednie lub pośrednie straty.' },
+    { title: 'Polityka Prywatności', content: '' },
+    { title: '11. Ochrona Danych i RODO', content: 'Strona zobowiązuje się do ochrony prywatności Użytkownika zgodnie z RODO. Administratorem Danych jest risknil.com.' },
+    { title: '12. Zbieranie Danych Osobowych', content: 'Rejestracja: Dane osobowe są zbierane tylko podczas rejestracji.\n\nZgoda: Korzystając z usług, Użytkownik wyraża zgodę na zbieranie danych.' },
+    { title: '13. Twoje Prawa jako Osoby', content: 'Użytkownicy mają następujące prawa: Dostęp i Sprostowanie, Usunięcie, Ograniczenie i Sprzeciw, Przenoszalność.' },
+    { title: '14. Wykorzystanie Danych i Marketing', content: 'Dane osobowe są wykorzystywane do komunikacji i przetwarzania płatności. Nie sprzedajemy danych stronom trzecim.' },
+    { title: '15. Ujawnianie Danych', content: 'Dane mogą być ujawniane stronom trzecim wyłącznie w celu przetwarzania płatności lub wypełnienia obowiązków prawnych.' },
+    { title: '16. Bezpieczeństwo i Przechowywanie', content: 'Środki Bezpieczeństwa: Używamy SSL i algorytmów haszowania.\n\nPrzechowywanie: Dane są przechowywane tylko tak długo, jak to konieczne.' },
+    { title: '17. Polityka Cookies', content: 'Strona używa plików cookie do personalizacji treści i analizy ruchu. Użytkownicy mogą wyłączyć pliki cookie.' },
+    { title: '18. Wersja i Kontakt', content: 'Dostawca: Risknil.com.\n\nEmail: info@risknil.com.\n\nOstatnia aktualizacja: 14 maja 2026.' }
+  ]
 }
 
 const noTerms: TermsContent = {
@@ -637,10 +671,27 @@ const noTerms: TermsContent = {
   lastUpdated: 'Sist oppdatert: 14. mai 2026',
   backButton: 'Tilbake til RiskNil',
   legalNote: 'Ved eventuell uoverensstemmelse mellom språkversjoner, skal den engelske versjonen gjelde.',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. Bruksvilkår', '2. Generelle Bestemmelser og Globalt Omfang', '3. Beskrivelse av Tjenester', '4. Betalinger og Bankoverføringer', '5. Eget Innhold', '6. Tredjepartslenker og Reklame', '7. Kontoinaktivitet', '8. Immaterielle Rettigheter', '9. Juridisk Overholdelse', '10. Ansvarsfraskrivelse', 'Personvernpolicy', '11. Databeskyttelse og GDPR', '12. Innsamling av Personopplysninger', '13. Dine Rettigheter', '14. Bruk av Data og Markedsføring', '15. Utlevering av Data', '16. Sikkerhet og Lagring', '17. Informasjonskapselpolicy', '18. Versjon og Kontakt'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. Bruksvilkår', content: 'Disse Bruksvilkårene ("Vilkårene") utgjør en juridisk bindende avtale mellom "Leverandøren" og enhver person eller enhet ("Brukeren") som bruker nettstedet risknil.com, dets mobilapplikasjoner eller tilknyttede funksjoner, innhold eller tjenester (samlet "Nettstedet").' },
+    { title: '2. Generelle Bestemmelser og Globalt Omfang', content: 'Anvendelse: Disse Vilkårene regulerer hele forholdet mellom Leverandøren og Brukeren.\n\nEndringer: Leverandøren forbeholder seg retten til å endre disse Vilkårene når som helst.\n\nLovlig Bruk: Nettstedet skal kun brukes til lovlige formål.\n\nSanksjoner: Ved misbruk forbeholder Leverandøren seg retten til å blokkere tilgang og avslutte kontoer.' },
+    { title: '3. Beskrivelse av Tjenester', content: 'Nettstedet tilbyr en interaktiv plattform med sportsinformasjon, resultater, oddstips og analytiske data. Selv om Leverandøren streber etter nøyaktighet, garanteres ikke påliteligheten av kampresultater eller odds.' },
+    { title: '4. Betalinger og Bankoverføringer', content: 'Betalingsmetoder: Nettstedet aksepterer betalinger via sikre betalingsportaler og direkte bankoverføringer.\n\nBetalingens Endelighet: Med mindre lokal forbrukerlov krever annet, er alle betalinger ikke-refunderbare.' },
+    { title: '5. Eget Innhold', content: 'Eksklusivt Eierskap: Alt innhold leveres utelukkende av Leverandøren.\n\nIngen Brukerinnlegg: Nettstedet tillater ikke brukergenerert innhold.' },
+    { title: '6. Tredjepartslenker og Reklame', content: 'Brukeren erkjenner at all interaksjon med tredjepartsnettsteder eller annonser skjer helt på egen risiko.' },
+    { title: '7. Kontoinaktivitet', content: 'Leverandøren forbeholder seg retten til å avslutte enhver Brukerkonto som ikke har vært brukt i 180 påfølgende dager.' },
+    { title: '8. Immaterielle Rettigheter', content: 'Eierskap: Alt innhold og programvare på Nettstedet eies av Leverandøren. Brukere er strengt forbudt å kopiere eller reprodusere noen del av Nettstedet.' },
+    { title: '9. Juridisk Overholdelse', content: 'Gjeldende Lov: Disse Vilkårene er underlagt lovene i Storbritannia. Alle Parter underkaster seg den eksklusive jurisdiksjonen til domstolene i Storbritannia.' },
+    { title: '10. Ansvarsfraskrivelse', content: 'Ingen Garanti: Nettstedet leveres "som det er".\n\nIkke en Gamblingtjeneste: Nettstedet er et informasjonsverktøy.\n\nBegrensning av Tap: Leverandøren er ikke ansvarlig for direkte eller indirekte tap.' },
+    { title: 'Personvernpolicy', content: '' },
+    { title: '11. Databeskyttelse og GDPR', content: 'Nettstedet er forpliktet til å beskytte Brukerens personvern i samsvar med GDPR. Behandlingsansvarlig er risknil.com.' },
+    { title: '12. Innsamling av Personopplysninger', content: 'Registrering: Personopplysninger samles kun inn ved registrering.\n\nSamtykke: Ved å bruke tjenestene samtykker Brukeren til innsamling av sine data.' },
+    { title: '13. Dine Rettigheter', content: 'Brukere har følgende rettigheter: Tilgang og Retting, Sletting, Begrensning og Innsigelse, Portabilitet.' },
+    { title: '14. Bruk av Data og Markedsføring', content: 'Personopplysninger brukes til kommunikasjon og betalingsbehandling. Vi selger ikke data til tredjeparter.' },
+    { title: '15. Utlevering av Data', content: 'Data kan kun utleveres til tredjeparter for betalingsbehandling eller for å oppfylle juridiske forpliktelser.' },
+    { title: '16. Sikkerhet og Lagring', content: 'Sikkerhetstiltak: Vi bruker SSL og hashing-algoritmer.\n\nLagring: Data lagres kun så lenge det er nødvendig.' },
+    { title: '17. Informasjonskapselpolicy', content: 'Nettstedet bruker informasjonskapsler for å tilpasse innhold og analysere trafikk. Brukere kan deaktivere informasjonskapsler.' },
+    { title: '18. Versjon og Kontakt', content: 'Leverandør: Risknil.com.\n\nE-post: info@risknil.com.\n\nSist oppdatert: 14. mai 2026.' }
+  ]
 }
 
 const fiTerms: TermsContent = {
@@ -648,10 +699,27 @@ const fiTerms: TermsContent = {
   lastUpdated: 'Viimeksi päivitetty: 14. toukokuuta 2026',
   backButton: 'Takaisin RiskNiliin',
   legalNote: 'Kieliversioiden välisten eroavaisuuksien sattuessa englanninkielinen versio on määräävä.',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. Käyttöehdot', '2. Yleiset Määräykset ja Maailmanlaajuinen Soveltamisala', '3. Palvelujen Kuvaus', '4. Maksut ja Pankkisiirrot', '5. Omistusoikeudellinen Sisältö', '6. Kolmannen Osapuolen Linkit ja Mainonta', '7. Tilin Toimettomuus', '8. Immateriaalioikeudet ja Tekijänoikeudet', '9. Oikeudellinen Noudattaminen ja Toimivalta', '10. Vastuuvapauslauseke', 'Tietosuojakäytäntö', '11. Tietosuoja ja GDPR', '12. Henkilötietojen Kerääminen', '13. Oikeutesi Rekisteröitynä', '14. Tietojen Käyttö ja Markkinointi', '15. Tietojen Luovuttaminen', '16. Turvallisuus ja Säilytys', '17. Evästekäytäntö', '18. Versio ja Yhteystiedot'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. Käyttöehdot', content: 'Nämä Käyttöehdot ("Ehdot") muodostavat oikeudellisesti sitovan sopimuksen "Palveluntarjoajan" ja jokaisen henkilön tai yhteisön ("Käyttäjä") välillä, joka käyttää risknil.com-verkkosivustoa, sen mobiilisovelluksia tai niihin liittyviä toimintoja, sisältöä tai palveluja (yhdessä "Sivusto").' },
+    { title: '2. Yleiset Määräykset ja Maailmanlaajuinen Soveltamisala', content: 'Soveltaminen: Nämä Ehdot säätelevät koko Palveluntarjoajan ja Käyttäjän välistä suhdetta.\n\nMuutokset: Palveluntarjoaja pidättää oikeuden muuttaa näitä Ehtoja milloin tahansa.\n\nLaillinen Käyttö: Sivustoa saa käyttää vain laillisiin tarkoituksiin.\n\nSeuraamukset: Väärinkäytöstapauksissa Palveluntarjoaja pidättää oikeuden estää pääsyn ja sulkea tilejä.' },
+    { title: '3. Palvelujen Kuvaus', content: 'Sivusto tarjoaa interaktiivisen alustan urheilutiedoille, tuloksille, vedonlyöntivihjeille ja analyyttisille tiedoille. Vaikka Palveluntarjoaja pyrkii tarkkuuteen, ottelutuloksien tai kertoimien luotettavuutta ei taata.' },
+    { title: '4. Maksut ja Pankkisiirrot', content: 'Maksutavat: Sivusto hyväksyy maksut premium-palveluista turvallisten maksuyhdyskäytävien ja suorien pankkisiirtojen kautta.\n\nMaksun Lopullisuus: Ellei paikallinen kuluttajalainsäädäntö toisin vaadi, kaikki maksut ovat palautuskelvottomia.' },
+    { title: '5. Omistusoikeudellinen Sisältö', content: 'Yksinomainen Omistus: Kaikki sisältö toimitetaan yksinomaan Palveluntarjoajan toimesta.\n\nEi Käyttäjälähetyksiä: Sivusto ei salli käyttäjien tuottamaa sisältöä.' },
+    { title: '6. Kolmannen Osapuolen Linkit ja Mainonta', content: 'Käyttäjä tunnustaa, että kaikki vuorovaikutus kolmansien osapuolten verkkosivustojen tai mainosten kanssa tapahtuu täysin omalla vastuulla.' },
+    { title: '7. Tilin Toimettomuus', content: 'Palveluntarjoaja pidättää oikeuden sulkea minkä tahansa Käyttäjätilin, jota ei ole käytetty 180 peräkkäisenä päivänä.' },
+    { title: '8. Immateriaalioikeudet ja Tekijänoikeudet', content: 'Omistus: Kaikki Sivuston sisältö ja ohjelmistot ovat Palveluntarjoajan omaisuutta. Käyttäjiltä on ehdottomasti kielletty Sivuston minkään osan kopioiminen tai jäljentäminen.' },
+    { title: '9. Oikeudellinen Noudattaminen ja Toimivalta', content: 'Sovellettava Laki: Näitä Ehtoja säätelee Yhdistyneen kuningaskunnan laki. Kaikki osapuolet alistuvat Yhdistyneen kuningaskunnan tuomioistuinten yksinomaiseen toimivaltaan.' },
+    { title: '10. Vastuuvapauslauseke', content: 'Ei Takuuta: Sivusto tarjotaan "sellaisenaan".\n\nEi Uhkapeli palvelu: Sivusto on tietotyökalu.\n\nTappioiden Rajoitus: Palveluntarjoaja ei ole vastuussa suorista tai epäsuorista tappioista.' },
+    { title: 'Tietosuojakäytäntö', content: '' },
+    { title: '11. Tietosuoja ja GDPR', content: 'Sivusto on sitoutunut suojelemaan Käyttäjän yksityisyyttä GDPR:n mukaisesti. Rekisterinpitäjä on risknil.com.' },
+    { title: '12. Henkilötietojen Kerääminen', content: 'Rekisteröinti: Henkilötietoja kerätään vain rekisteröinnin yhteydessä.\n\nSuostumus: Palveluja käyttämällä Käyttäjä suostuu tietojensa keräämiseen.' },
+    { title: '13. Oikeutesi Rekisteröitynä', content: 'Käyttäjillä on seuraavat oikeudet: Pääsy ja Oikaisu, Poisto, Rajoitus ja Vastustus, Siirrettävyys.' },
+    { title: '14. Tietojen Käyttö ja Markkinointi', content: 'Henkilötietoja käytetään viestintään ja maksujen käsittelyyn. Emme myy tietoja kolmansille osapuolille.' },
+    { title: '15. Tietojen Luovuttaminen', content: 'Tietoja voidaan luovuttaa kolmansille osapuolille vain maksujen käsittelyä tai lakisääteisten velvoitteiden täyttämistä varten.' },
+    { title: '16. Turvallisuus ja Säilytys', content: 'Turvatoimet: Käytämme SSL:ää ja hajautusalgoritmeja.\n\nSäilytys: Tietoja säilytetään vain tarvittavan ajan.' },
+    { title: '17. Evästekäytäntö', content: 'Sivusto käyttää evästeitä sisällön personointiin ja liikenteen analysointiin. Käyttäjät voivat poistaa evästeet käytöstä.' },
+    { title: '18. Versio ja Yhteystiedot', content: 'Palveluntarjoaja: Risknil.com.\n\nSähköposti: info@risknil.com.\n\nViimeksi päivitetty: 14. toukokuuta 2026.' }
+  ]
 }
 
 const roTerms: TermsContent = {
@@ -659,10 +727,27 @@ const roTerms: TermsContent = {
   lastUpdated: 'Ultima actualizare: 14 mai 2026',
   backButton: 'Înapoi la RiskNil',
   legalNote: 'În cazul oricărei discrepanțe între versiunile lingvistice, versiunea în limba engleză va prevala.',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. Termeni de Utilizare', '2. Dispoziții Generale și Sfera Globală', '3. Descrierea Serviciilor', '4. Plăți și Transferuri Bancare', '5. Conținut Proprietar', '6. Linkuri Terțe și Publicitate', '7. Inactivitatea Contului', '8. Proprietate Intelectuală și Drepturi de Autor', '9. Conformitate Legală și Jurisdicție', '10. Declinarea Responsabilității', 'Politica de Confidențialitate', '11. Protecția Datelor și GDPR', '12. Colectarea Datelor Personale', '13. Drepturile Dumneavoastră', '14. Utilizarea Datelor și Marketing', '15. Divulgarea Datelor', '16. Securitate și Păstrare', '17. Politica Cookie', '18. Versiune și Contact'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. Termeni de Utilizare', content: 'Acești Termeni de Utilizare ("Termenii") constituie un acord obligatoriu din punct de vedere juridic între "Furnizor" și orice persoană sau entitate ("Utilizatorul") care accesează site-ul web risknil.com, aplicațiile mobile sau funcțiile, conținutul sau serviciile asociate (colectiv, "Site-ul").' },
+    { title: '2. Dispoziții Generale și Sfera Globală', content: 'Aplicabilitate: Acești Termeni reglementează întreaga relație dintre Furnizor și Utilizator.\n\nModificări: Furnizorul își rezervă dreptul de a modifica acești Termeni în orice moment.\n\nUtilizare Legală: Site-ul trebuie utilizat doar în scopuri legale.\n\nSancțiuni: În caz de abuz, Furnizorul își rezervă dreptul de a bloca accesul și de a închide conturile.' },
+    { title: '3. Descrierea Serviciilor', content: 'Site-ul oferă o platformă interactivă cu informații sportive, scoruri, sfaturi pentru pariuri și date analitice. Deși Furnizorul se străduiește pentru acuratețe, fiabilitatea rezultatelor meciurilor sau a cotelor nu este garantată.' },
+    { title: '4. Plăți și Transferuri Bancare', content: 'Metode de Plată: Site-ul acceptă plăți prin portaluri de plată online securizate și transferuri bancare directe.\n\nFinalitatea Plății: Cu excepția cazului în care legislația locală de protecție a consumatorilor prevede altfel, toate plățile sunt nerambursabile.' },
+    { title: '5. Conținut Proprietar', content: 'Proprietate Exclusivă: Tot conținutul este furnizat exclusiv de Furnizor.\n\nFără Contribuții ale Utilizatorilor: Site-ul nu permite conținut generat de utilizatori.' },
+    { title: '6. Linkuri Terțe și Publicitate', content: 'Utilizatorul recunoaște că orice interacțiune cu site-uri terțe sau reclame se face pe propria răspundere.' },
+    { title: '7. Inactivitatea Contului', content: 'Furnizorul își rezervă dreptul de a închide orice cont de Utilizator care nu a fost accesat timp de 180 de zile consecutive.' },
+    { title: '8. Proprietate Intelectuală și Drepturi de Autor', content: 'Proprietate: Tot conținutul și software-ul de pe Site sunt proprietatea Furnizorului. Utilizatorilor le este strict interzis să copieze sau să reproducă orice parte a Site-ului.' },
+    { title: '9. Conformitate Legală și Jurisdicție', content: 'Legea Aplicabilă: Acești Termeni sunt guvernați de legile Regatului Unit. Toate Părțile se supun jurisdicției exclusive a instanțelor din Regatul Unit.' },
+    { title: '10. Declinarea Responsabilității', content: 'Fără Garanție: Site-ul este furnizat "așa cum este".\n\nNu Este un Serviciu de Jocuri de Noroc: Site-ul este un instrument informațional.\n\nLimitarea Pierderilor: Furnizorul nu este responsabil pentru pierderi directe sau indirecte.' },
+    { title: 'Politica de Confidențialitate', content: '' },
+    { title: '11. Protecția Datelor și GDPR', content: 'Site-ul se angajează să protejeze confidențialitatea Utilizatorului în conformitate cu GDPR. Operatorul de Date este risknil.com.' },
+    { title: '12. Colectarea Datelor Personale', content: 'Înregistrare: Datele personale sunt colectate doar la înregistrare.\n\nConsimțământ: Prin utilizarea serviciilor, Utilizatorul consimte la colectarea datelor sale.' },
+    { title: '13. Drepturile Dumneavoastră', content: 'Utilizatorii au următoarele drepturi: Acces și Rectificare, Ștergere, Restricție și Opoziție, Portabilitate.' },
+    { title: '14. Utilizarea Datelor și Marketing', content: 'Datele personale sunt utilizate pentru comunicare și procesarea plăților. Nu vindem date către terțe părți.' },
+    { title: '15. Divulgarea Datelor', content: 'Datele pot fi divulgate terților doar pentru procesarea plăților sau pentru îndeplinirea obligațiilor legale.' },
+    { title: '16. Securitate și Păstrare', content: 'Măsuri de Securitate: Utilizăm SSL și algoritmi de hash.\n\nPăstrare: Datele sunt păstrate doar atât timp cât este necesar.' },
+    { title: '17. Politica Cookie', content: 'Site-ul folosește cookie-uri pentru personalizarea conținutului și analiza traficului. Utilizatorii pot dezactiva cookie-urile.' },
+    { title: '18. Versiune și Contact', content: 'Furnizor: Risknil.com.\n\nEmail: info@risknil.com.\n\nUltima actualizare: 14 mai 2026.' }
+  ]
 }
 
 const csTerms: TermsContent = {
@@ -670,10 +755,27 @@ const csTerms: TermsContent = {
   lastUpdated: 'Poslední aktualizace: 14. května 2026',
   backButton: 'Zpět na RiskNil',
   legalNote: 'V případě jakýchkoli nesrovnalostí mezi jazykovými verzemi má přednost anglická verze.',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. Podmínky Použití', '2. Obecná Ustanovení a Globální Rozsah', '3. Popis Služeb', '4. Platby a Bankovní Převody', '5. Vlastnický Obsah', '6. Odkazy Třetích Stran a Reklama', '7. Neaktivita Účtu', '8. Duševní Vlastnictví a Autorská Práva', '9. Právní Soulad a Jurisdikce', '10. Vyloučení a Omezení Odpovědnosti', 'Zásady Ochrany Osobních Údajů', '11. Ochrana Údajů a GDPR', '12. Shromažďování Osobních Údajů', '13. Vaše Práva', '14. Použití Údajů a Marketing', '15. Zveřejnění Údajů', '16. Bezpečnost a Uchovávání', '17. Zásady Cookies', '18. Verze a Kontakt'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. Podmínky Použití', content: 'Tyto Podmínky Použití ("Podmínky") představují právně závaznou dohodu mezi "Poskytovatelem" a jakoukoli osobou nebo subjektem ("Uživatel"), který přistupuje na webové stránky risknil.com, jejich mobilní aplikace nebo související funkce, obsah nebo služby (souhrnně "Stránky").' },
+    { title: '2. Obecná Ustanovení a Globální Rozsah', content: 'Použitelnost: Tyto Podmínky upravují celý vztah mezi Poskytovatelem a Uživatelem.\n\nZměny: Poskytovatel si vyhrazuje právo tyto Podmínky kdykoli změnit.\n\nLegální Použití: Stránky lze používat pouze k zákonným účelům.\n\nSankce: V případě zneužití si Poskytovatel vyhrazuje právo zablokovat přístup a zrušit účty.' },
+    { title: '3. Popis Služeb', content: 'Stránky poskytují interaktivní platformu se sportovními informacemi, výsledky, sázeními tipy a analytickými daty. Ačkoli Poskytovatel usiluje o přesnost, spolehlivost výsledků zápasů nebo kurzů není zaručena.' },
+    { title: '4. Platby a Bankovní Převody', content: 'Platební Metody: Stránky přijímají platby prostřednictvím zabezpečených platebních bran a přímých bankovních převodů.\n\nKonečnost Platby: Pokud místní spotřebitelské právo nevyžaduje jinak, všechny platby jsou nevratné.' },
+    { title: '5. Vlastnický Obsah', content: 'Výhradní Vlastnictví: Veškerý obsah poskytuje výhradně Poskytovatel.\n\nŽádné Uživatelské Příspěvky: Stránky neumožňují obsah vytvořený uživateli.' },
+    { title: '6. Odkazy Třetích Stran a Reklama', content: 'Uživatel bere na vědomí, že jakákoli interakce s webovými stránkami třetích stran nebo reklamami je zcela na jeho vlastní riziko.' },
+    { title: '7. Neaktivita Účtu', content: 'Poskytovatel si vyhrazuje právo zrušit jakýkoli Uživatelský účet, který nebyl použit po dobu 180 po sobě jdoucích dnů.' },
+    { title: '8. Duševní Vlastnictví a Autorská Práva', content: 'Vlastnictví: Veškerý obsah a software na Stránkách jsou vlastnictvím Poskytovatele. Uživatelům je přísně zakázáno kopírovat nebo reprodukovat jakoukoli část Stránek.' },
+    { title: '9. Právní Soulad a Jurisdikce', content: 'Rozhodné Právo: Tyto Podmínky se řídí právem Spojeného království. Všechny Strany se podřizují výlučné jurisdikci soudů Spojeného království.' },
+    { title: '10. Vyloučení a Omezení Odpovědnosti', content: 'Žádná Záruka: Stránky jsou poskytovány "tak jak jsou".\n\nNení Služba Hazardních Her: Stránky jsou informačním nástrojem.\n\nOmezení Ztrát: Poskytovatel nenese odpovědnost za přímé nebo nepřímé ztráty.' },
+    { title: 'Zásady Ochrany Osobních Údajů', content: '' },
+    { title: '11. Ochrana Údajů a GDPR', content: 'Stránky se zavazují chránit soukromí Uživatele v souladu s GDPR. Správcem Údajů je risknil.com.' },
+    { title: '12. Shromažďování Osobních Údajů', content: 'Registrace: Osobní údaje jsou shromažďovány pouze při registraci.\n\nSouhlas: Používáním služeb Uživatel souhlasí se shromažďováním svých údajů.' },
+    { title: '13. Vaše Práva', content: 'Uživatelé mají následující práva: Přístup a Oprava, Výmaz, Omezení a Námitka, Přenositelnost.' },
+    { title: '14. Použití Údajů a Marketing', content: 'Osobní údaje se používají ke komunikaci a zpracování plateb. Neprodáváme údaje třetím stranám.' },
+    { title: '15. Zveřejnění Údajů', content: 'Údaje mohou být zveřejněny třetím stranám pouze pro zpracování plateb nebo splnění zákonných povinností.' },
+    { title: '16. Bezpečnost a Uchovávání', content: 'Bezpečnostní Opatření: Používáme SSL a hashovací algoritmy.\n\nUchovávání: Údaje jsou uchovávány pouze po nezbytně nutnou dobu.' },
+    { title: '17. Zásady Cookies', content: 'Stránky používají cookies k personalizaci obsahu a analýze provozu. Uživatelé mohou cookies zakázat.' },
+    { title: '18. Verze a Kontakt', content: 'Poskytovatel: Risknil.com.\n\nEmail: info@risknil.com.\n\nPoslední aktualizace: 14. května 2026.' }
+  ]
 }
 
 const jaTerms: TermsContent = {
@@ -681,10 +783,27 @@ const jaTerms: TermsContent = {
   lastUpdated: '最終更新日：2026年5月14日',
   backButton: 'RiskNilに戻る',
   legalNote: '言語バージョン間に相違がある場合は、英語版が優先されます。',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. 利用規約', '2. 一般規定とグローバル範囲', '3. サービスの説明', '4. 支払いと銀行振込', '5. 独自コンテンツ', '6. 第三者リンクと広告', '7. アカウントの非アクティブ', '8. 知的財産権と著作権', '9. 法的遵守と管轄権', '10. 免責事項と責任制限', 'プライバシーポリシー', '11. データ保護とGDPR', '12. 個人データの収集', '13. データ主体としてのあなたの権利', '14. データ使用とマーケティング', '15. データの開示', '16. セキュリティと保持', '17. Cookieポリシー', '18. バージョンと連絡先'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. 利用規約', content: 'この利用規約（「規約」）は、「プロバイダー」とrisknil.comウェブサイト、そのモバイルアプリケーション、または関連する機能、コンテンツ、またはサービス（総称して「サイト」）にアクセスする個人または団体（「ユーザー」）との間の法的拘束力のある契約を構成します。' },
+    { title: '2. 一般規定とグローバル範囲', content: '適用性：この規約は、プロバイダーとユーザー間の全ての関係を規定します。\n\n変更：プロバイダーは、いつでもこの規約を変更する権利を留保します。\n\n合法的使用：サイトは、合法的な目的でのみ使用する必要があります。\n\n制裁：不正使用の場合、プロバイダーはアクセスをブロックしアカウントを終了する権利を留保します。' },
+    { title: '3. サービスの説明', content: 'サイトは、スポーツ情報、スコア、ベッティングのヒント、および分析データを備えたインタラクティブなプラットフォームを提供します。プロバイダーは正確性を追求しますが、試合結果やオッズの信頼性は保証されません。' },
+    { title: '4. 支払いと銀行振込', content: '支払い方法：サイトは、安全なオンライン決済ゲートウェイと直接銀行振込を通じてプレミアムサービスの支払いを受け付けます。\n\n支払いの最終性：地域の消費者法で別段の定めがない限り、すべての支払いは返金不可です。' },
+    { title: '5. 独自コンテンツ', content: '独占的所有権：すべてのコンテンツはプロバイダーによってのみ提供されます。\n\nユーザー投稿なし：サイトはユーザー生成コンテンツを許可しません。' },
+    { title: '6. 第三者リンクと広告', content: 'ユーザーは、サイト上の第三者ウェブサイトまたは広告とのやり取りが完全に自己責任であることを認めます。' },
+    { title: '7. アカウントの非アクティブ', content: 'プロバイダーは、180日連続でアクセスされていないユーザーアカウントを終了する権利を留保します。' },
+    { title: '8. 知的財産権と著作権', content: '所有権：サイト上のすべてのコンテンツとソフトウェアはプロバイダーの所有物です。ユーザーは、サイトのいかなる部分もコピーまたは複製することを固く禁じられています。' },
+    { title: '9. 法的遵守と管轄権', content: '準拠法：この規約は英国の法律に準拠し、解釈されます。すべての当事者は、英国の裁判所の専属管轄権に服します。' },
+    { title: '10. 免責事項と責任制限', content: '保証なし：サイトは「現状のまま」提供されます。\n\nギャンブルサービスではない：サイトは情報ツールです。\n\n損失の制限：プロバイダーは直接的または間接的な損失に対して責任を負いません。' },
+    { title: 'プライバシーポリシー', content: '' },
+    { title: '11. データ保護とGDPR', content: 'サイトはGDPRに従ってユーザーのプライバシーを保護することを約束します。データ管理者はrisknil.comです。' },
+    { title: '12. 個人データの収集', content: '登録：個人データは登録時にのみ収集されます。\n\n同意：サービスを使用することにより、ユーザーはデータの収集に同意します。' },
+    { title: '13. データ主体としてのあなたの権利', content: 'ユーザーには次の権利があります：アクセスと訂正、削除、制限と異議、ポータビリティ。' },
+    { title: '14. データ使用とマーケティング', content: '個人データは、通信と支払い処理に使用されます。第三者にデータを販売することはありません。' },
+    { title: '15. データの開示', content: 'データは、支払い処理または法的義務を果たすためにのみ第三者に開示される場合があります。' },
+    { title: '16. セキュリティと保持', content: 'セキュリティ対策：SSLとハッシュアルゴリズムを使用しています。\n\n保持：データは必要な期間のみ保持されます。' },
+    { title: '17. Cookieポリシー', content: 'サイトは、コンテンツのパーソナライズとトラフィック分析のためにCookieを使用します。ユーザーはCookieを無効にすることができます。' },
+    { title: '18. バージョンと連絡先', content: 'プロバイダー：Risknil.com。\n\nメール：info@risknil.com。\n\n最終更新日：2026年5月14日。' }
+  ]
 }
 
 const koTerms: TermsContent = {
@@ -692,10 +811,27 @@ const koTerms: TermsContent = {
   lastUpdated: '최종 업데이트: 2026년 5월 14일',
   backButton: 'RiskNil로 돌아가기',
   legalNote: '언어 버전 간에 불일치가 있는 경우 영어 버전이 우선합니다.',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. 이용약관', '2. 일반 조항 및 글로벌 범위', '3. 서비스 설명', '4. 결제 및 은행 송금', '5. 독점 콘텐츠', '6. 제3자 링크 및 광고', '7. 계정 비활성', '8. 지적 재산권 및 저작권', '9. 법적 준수 및 관할권', '10. 면책 조항 및 책임 제한', '개인정보 보호정책', '11. 데이터 보호 및 GDPR', '12. 개인 데이터 수집', '13. 데이터 주체로서의 귀하의 권리', '14. 데이터 사용 및 마케팅', '15. 데이터 공개', '16. 보안 및 보존', '17. 쿠키 정책', '18. 버전 및 연락처'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. 이용약관', content: '본 이용약관("약관")은 "제공자"와 risknil.com 웹사이트, 모바일 애플리케이션 또는 관련 기능, 콘텐츠 또는 서비스(총칭하여 "사이트")에 접근하는 개인 또는 단체("사용자") 간의 법적 구속력이 있는 계약을 구성합니다.' },
+    { title: '2. 일반 조항 및 글로벌 범위', content: '적용: 본 약관은 제공자와 사용자 간의 전체 관계를 규율합니다.\n\n변경: 제공자는 언제든지 본 약관을 변경할 권리를 보유합니다.\n\n합법적 사용: 사이트는 합법적인 목적으로만 사용해야 합니다.\n\n제재: 남용 시 제공자는 접근을 차단하고 계정을 종료할 권리를 보유합니다.' },
+    { title: '3. 서비스 설명', content: '사이트는 스포츠 정보, 점수, 베팅 팁 및 분석 데이터가 포함된 대화형 플랫폼을 제공합니다. 제공자가 정확성을 위해 노력하지만 경기 결과나 배당률의 신뢰성은 보장되지 않습니다.' },
+    { title: '4. 결제 및 은행 송금', content: '결제 방법: 사이트는 안전한 온라인 결제 게이트웨이와 직접 은행 송금을 통해 프리미엄 서비스 결제를 허용합니다.\n\n결제의 최종성: 현지 소비자법에서 달리 요구하지 않는 한 모든 결제는 환불되지 않습니다.' },
+    { title: '5. 독점 콘텐츠', content: '독점 소유권: 모든 콘텐츠는 제공자에 의해서만 제공됩니다.\n\n사용자 제출 없음: 사이트는 사용자 생성 콘텐츠를 허용하지 않습니다.' },
+    { title: '6. 제3자 링크 및 광고', content: '사용자는 사이트에서 발견된 제3자 웹사이트나 광고와의 모든 상호작용이 전적으로 자신의 책임임을 인정합니다.' },
+    { title: '7. 계정 비활성', content: '제공자는 180일 연속 접속하지 않은 사용자 계정을 종료할 권리를 보유합니다.' },
+    { title: '8. 지적 재산권 및 저작권', content: '소유권: 사이트의 모든 콘텐츠와 소프트웨어는 제공자의 소유입니다. 사용자는 사이트의 어떤 부분도 복사하거나 복제하는 것이 엄격히 금지됩니다.' },
+    { title: '9. 법적 준수 및 관할권', content: '준거법: 본 약관은 영국 법률에 의해 규율됩니다. 모든 당사자는 영국 법원의 전속 관할권에 따릅니다.' },
+    { title: '10. 면책 조항 및 책임 제한', content: '보증 없음: 사이트는 "있는 그대로" 제공됩니다.\n\n도박 서비스가 아님: 사이트는 정보 도구입니다.\n\n손실 제한: 제공자는 직접 또는 간접 손실에 대해 책임지지 않습니다.' },
+    { title: '개인정보 보호정책', content: '' },
+    { title: '11. 데이터 보호 및 GDPR', content: '사이트는 GDPR에 따라 사용자의 개인정보를 보호하기 위해 노력합니다. 데이터 관리자는 risknil.com입니다.' },
+    { title: '12. 개인 데이터 수집', content: '등록: 개인 데이터는 등록 시에만 수집됩니다.\n\n동의: 서비스를 사용함으로써 사용자는 데이터 수집에 동의합니다.' },
+    { title: '13. 데이터 주체로서의 귀하의 권리', content: '사용자는 다음 권리를 가집니다: 접근 및 정정, 삭제, 제한 및 이의 제기, 이동성.' },
+    { title: '14. 데이터 사용 및 마케팅', content: '개인 데이터는 통신 및 결제 처리에 사용됩니다. 제3자에게 데이터를 판매하지 않습니다.' },
+    { title: '15. 데이터 공개', content: '데이터는 결제 처리 또는 법적 의무 이행을 위해서만 제3자에게 공개될 수 있습니다.' },
+    { title: '16. 보안 및 보존', content: '보안 조치: SSL 및 해싱 알고리즘을 사용합니다.\n\n보존: 데이터는 필요한 기간 동안만 보존됩니다.' },
+    { title: '17. 쿠키 정책', content: '사이트는 콘텐츠 개인화 및 트래픽 분석을 위해 쿠키를 사용합니다. 사용자는 쿠키를 비활성화할 수 있습니다.' },
+    { title: '18. 버전 및 연락처', content: '제공자: Risknil.com.\n\n이메일: info@risknil.com.\n\n최종 업데이트: 2026년 5월 14일.' }
+  ]
 }
 
 const hiTerms: TermsContent = {
@@ -703,10 +839,27 @@ const hiTerms: TermsContent = {
   lastUpdated: 'अंतिम अपडेट: 14 मई 2026',
   backButton: 'RiskNil पर वापस जाएं',
   legalNote: 'भाषा संस्करणों के बीच किसी भी विसंगति की स्थिति में, अंग्रेजी संस्करण मान्य होगा।',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. उपयोग की शर्तें', '2. सामान्य प्रावधान और वैश्विक दायरा', '3. सेवाओं का विवरण', '4. भुगतान और बैंक हस्तांतरण', '5. स्वामित्व सामग्री', '6. तृतीय-पक्ष लिंक और विज्ञापन', '7. खाता निष्क्रियता', '8. बौद्धिक संपदा और कॉपीराइट', '9. कानूनी अनुपालन और क्षेत्राधिकार', '10. अस्वीकरण और दायित्व सीमा', 'गोपनीयता नीति', '11. डेटा सुरक्षा और GDPR', '12. व्यक्तिगत डेटा संग्रह', '13. डेटा विषय के रूप में आपके अधिकार', '14. डेटा उपयोग और विपणन', '15. डेटा प्रकटीकरण', '16. सुरक्षा और प्रतिधारण', '17. कुकी नीति', '18. संस्करण और संपर्क'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. उपयोग की शर्तें', content: 'ये उपयोग की शर्तें ("शर्तें") "प्रदाता" और किसी भी व्यक्ति या संस्था ("उपयोगकर्ता") के बीच एक कानूनी रूप से बाध्यकारी समझौता है जो risknil.com वेबसाइट, इसके मोबाइल एप्लिकेशन, या किसी भी संबंधित सुविधाओं, सामग्री या सेवाओं (सामूहिक रूप से, "साइट") तक पहुंचता है।' },
+    { title: '2. सामान्य प्रावधान और वैश्विक दायरा', content: 'लागूता: ये शर्तें प्रदाता और उपयोगकर्ता के बीच संपूर्ण संबंध को नियंत्रित करती हैं।\n\nसंशोधन: प्रदाता किसी भी समय इन शर्तों को संशोधित करने का अधिकार सुरक्षित रखता है।\n\nवैध उपयोग: साइट का उपयोग केवल वैध उद्देश्यों के लिए किया जाना चाहिए।\n\nप्रतिबंध: दुरुपयोग के मामले में, प्रदाता पहुंच को अवरुद्ध करने और खाते बंद करने का अधिकार रखता है।' },
+    { title: '3. सेवाओं का विवरण', content: 'साइट खेल जानकारी, स्कोर, सट्टेबाजी टिप्स और विश्लेषणात्मक डेटा के साथ एक इंटरैक्टिव प्लेटफॉर्म प्रदान करती है। हालांकि प्रदाता सटीकता के लिए प्रयास करता है, मैच परिणामों या ऑड्स की विश्वसनीयता की गारंटी नहीं है।' },
+    { title: '4. भुगतान और बैंक हस्तांतरण', content: 'भुगतान के तरीके: साइट सुरक्षित ऑनलाइन भुगतान गेटवे और सीधे बैंक हस्तांतरण के माध्यम से प्रीमियम सेवाओं के लिए भुगतान स्वीकार करती है।\n\nभुगतान की अंतिमता: जब तक स्थानीय उपभोक्ता कानून द्वारा अन्यथा आवश्यक न हो, सभी भुगतान गैर-वापसी योग्य हैं।' },
+    { title: '5. स्वामित्व सामग्री', content: 'विशेष स्वामित्व: सभी सामग्री विशेष रूप से प्रदाता द्वारा प्रदान की जाती है।\n\nकोई उपयोगकर्ता सबमिशन नहीं: साइट उपयोगकर्ता-जनित सामग्री की अनुमति नहीं देती है।' },
+    { title: '6. तृतीय-पक्ष लिंक और विज्ञापन', content: 'उपयोगकर्ता स्वीकार करता है कि साइट पर पाई गई तृतीय-पक्ष वेबसाइटों या विज्ञापनों के साथ कोई भी बातचीत पूरी तरह से उनके अपने जोखिम पर है।' },
+    { title: '7. खाता निष्क्रियता', content: 'प्रदाता किसी भी उपयोगकर्ता खाते को समाप्त करने का अधिकार सुरक्षित रखता है जो 180 लगातार दिनों तक एक्सेस नहीं किया गया है।' },
+    { title: '8. बौद्धिक संपदा और कॉपीराइट', content: 'स्वामित्व: साइट पर सभी सामग्री और सॉफ्टवेयर प्रदाता की संपत्ति है। उपयोगकर्ताओं को साइट के किसी भी हिस्से को कॉपी या पुन: पेश करने से सख्ती से प्रतिबंधित किया गया है।' },
+    { title: '9. कानूनी अनुपालन और क्षेत्राधिकार', content: 'लागू कानून: ये शर्तें यूनाइटेड किंगडम के कानूनों द्वारा शासित होती हैं। सभी पक्ष यूनाइटेड किंगडम की अदालतों के विशेष क्षेत्राधिकार के अधीन हैं।' },
+    { title: '10. अस्वीकरण और दायित्व सीमा', content: 'कोई वारंटी नहीं: साइट "जैसी है" प्रदान की जाती है।\n\nजुआ सेवा नहीं: साइट एक सूचना उपकरण है।\n\nहानि की सीमा: प्रदाता प्रत्यक्ष या अप्रत्यक्ष हानियों के लिए जिम्मेदार नहीं है।' },
+    { title: 'गोपनीयता नीति', content: '' },
+    { title: '11. डेटा सुरक्षा और GDPR', content: 'साइट GDPR के अनुसार उपयोगकर्ता की गोपनीयता की रक्षा करने के लिए प्रतिबद्ध है। डेटा नियंत्रक risknil.com है।' },
+    { title: '12. व्यक्तिगत डेटा संग्रह', content: 'पंजीकरण: व्यक्तिगत डेटा केवल पंजीकरण के समय एकत्र किया जाता है।\n\nसहमति: सेवाओं का उपयोग करके, उपयोगकर्ता अपने डेटा के संग्रह के लिए सहमति देता है।' },
+    { title: '13. डेटा विषय के रूप में आपके अधिकार', content: 'उपयोगकर्ताओं के निम्नलिखित अधिकार हैं: पहुंच और सुधार, विलोपन, प्रतिबंध और आपत्ति, पोर्टेबिलिटी।' },
+    { title: '14. डेटा उपयोग और विपणन', content: 'व्यक्तिगत डेटा का उपयोग संचार और भुगतान प्रसंस्करण के लिए किया जाता है। हम तीसरे पक्षों को डेटा नहीं बेचते हैं।' },
+    { title: '15. डेटा प्रकटीकरण', content: 'डेटा केवल भुगतान प्रसंस्करण या कानूनी दायित्वों को पूरा करने के लिए तीसरे पक्षों को प्रकट किया जा सकता है।' },
+    { title: '16. सुरक्षा और प्रतिधारण', content: 'सुरक्षा उपाय: हम SSL और हैशिंग एल्गोरिदम का उपयोग करते हैं।\n\nप्रतिधारण: डेटा केवल आवश्यक अवधि के लिए रखा जाता है।' },
+    { title: '17. कुकी नीति', content: 'साइट सामग्री को वैयक्तिकृत करने और ट्रैफ़िक का विश्लेषण करने के लिए कुकीज़ का उपयोग करती है। उपयोगकर्ता कुकीज़ को अक्षम कर सकते हैं।' },
+    { title: '18. संस्करण और संपर्क', content: 'प्रदाता: Risknil.com।\n\nईमेल: info@risknil.com।\n\nअंतिम अपडेट: 14 मई 2026।' }
+  ]
 }
 
 const arTerms: TermsContent = {
@@ -714,10 +867,27 @@ const arTerms: TermsContent = {
   lastUpdated: 'آخر تحديث: 14 مايو 2026',
   backButton: 'العودة إلى RiskNil',
   legalNote: 'في حالة وجود أي تعارض بين الإصدارات اللغوية، تسود النسخة الإنجليزية.',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. شروط الاستخدام', '2. الأحكام العامة والنطاق العالمي', '3. وصف الخدمات', '4. المدفوعات والتحويلات البنكية', '5. المحتوى الملكي', '6. روابط الطرف الثالث والإعلانات', '7. عدم نشاط الحساب', '8. الملكية الفكرية وحقوق النشر', '9. الامتثال القانوني والولاية القضائية', '10. إخلاء المسؤولية وتحديد المسؤولية', 'سياسة الخصوصية', '11. حماية البيانات واللائحة العامة لحماية البيانات', '12. جمع البيانات الشخصية', '13. حقوقك كصاحب بيانات', '14. استخدام البيانات والتسويق', '15. الإفصاح عن البيانات', '16. الأمان والاحتفاظ', '17. سياسة ملفات تعريف الارتباط', '18. الإصدار والاتصال'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. شروط الاستخدام', content: 'تشكل شروط الاستخدام هذه ("الشروط") اتفاقية ملزمة قانونيًا بين "المزود" وأي فرد أو كيان ("المستخدم") يصل إلى موقع risknil.com أو تطبيقاته المحمولة أو أي ميزات أو محتوى أو خدمات مرتبطة (يُشار إليها مجتمعة بـ "الموقع").' },
+    { title: '2. الأحكام العامة والنطاق العالمي', content: 'التطبيق: تحكم هذه الشروط العلاقة الكاملة بين المزود والمستخدم.\n\nالتعديلات: يحتفظ المزود بالحق في تعديل هذه الشروط في أي وقت.\n\nالاستخدام القانوني: يجب استخدام الموقع فقط لأغراض قانونية.\n\nالعقوبات: في حالة سوء الاستخدام، يحتفظ المزود بالحق في حظر الوصول وإنهاء الحسابات.' },
+    { title: '3. وصف الخدمات', content: 'يوفر الموقع منصة تفاعلية مع معلومات رياضية ونتائج ونصائح للمراهنات وبيانات تحليلية. على الرغم من أن المزود يسعى لتحقيق الدقة، إلا أن موثوقية نتائج المباريات أو الاحتمالات غير مضمونة.' },
+    { title: '4. المدفوعات والتحويلات البنكية', content: 'طرق الدفع: يقبل الموقع المدفوعات للخدمات المميزة عبر بوابات الدفع الآمنة عبر الإنترنت والتحويلات البنكية المباشرة.\n\nنهائية الدفع: ما لم يتطلب قانون حماية المستهلك المحلي خلاف ذلك، جميع المدفوعات غير قابلة للاسترداد.' },
+    { title: '5. المحتوى الملكي', content: 'الملكية الحصرية: يتم توفير جميع المحتوى حصريًا من قبل المزود.\n\nلا توجد مساهمات من المستخدمين: لا يسمح الموقع بالمحتوى الذي ينشئه المستخدم.' },
+    { title: '6. روابط الطرف الثالث والإعلانات', content: 'يقر المستخدم بأن أي تفاعل مع مواقع الطرف الثالث أو الإعلانات الموجودة على الموقع يكون على مسؤوليته الخاصة بالكامل.' },
+    { title: '7. عدم نشاط الحساب', content: 'يحتفظ المزود بالحق في إنهاء أي حساب مستخدم لم يتم الوصول إليه لمدة 180 يومًا متتاليًا.' },
+    { title: '8. الملكية الفكرية وحقوق النشر', content: 'الملكية: جميع المحتوى والبرامج على الموقع مملوكة للمزود. يُحظر على المستخدمين بشدة نسخ أو إعادة إنتاج أي جزء من الموقع.' },
+    { title: '9. الامتثال القانوني والولاية القضائية', content: 'القانون الحاكم: تخضع هذه الشروط لقوانين المملكة المتحدة. تخضع جميع الأطراف للاختصاص القضائي الحصري لمحاكم المملكة المتحدة.' },
+    { title: '10. إخلاء المسؤولية وتحديد المسؤولية', content: 'لا ضمان: يتم توفير الموقع "كما هو".\n\nليست خدمة مقامرة: الموقع أداة معلوماتية.\n\nتحديد الخسائر: المزود غير مسؤول عن الخسائر المباشرة أو غير المباشرة.' },
+    { title: 'سياسة الخصوصية', content: '' },
+    { title: '11. حماية البيانات واللائحة العامة لحماية البيانات', content: 'يلتزم الموقع بحماية خصوصية المستخدم وفقًا للائحة العامة لحماية البيانات. مراقب البيانات هو risknil.com.' },
+    { title: '12. جمع البيانات الشخصية', content: 'التسجيل: يتم جمع البيانات الشخصية فقط عند التسجيل.\n\nالموافقة: باستخدام الخدمات، يوافق المستخدم على جمع بياناته.' },
+    { title: '13. حقوقك كصاحب بيانات', content: 'للمستخدمين الحقوق التالية: الوصول والتصحيح، الحذف، التقييد والاعتراض، قابلية النقل.' },
+    { title: '14. استخدام البيانات والتسويق', content: 'تُستخدم البيانات الشخصية للتواصل ومعالجة المدفوعات. لا نبيع البيانات لأطراف ثالثة.' },
+    { title: '15. الإفصاح عن البيانات', content: 'يمكن الإفصاح عن البيانات لأطراف ثالثة فقط لمعالجة المدفوعات أو الوفاء بالالتزامات القانونية.' },
+    { title: '16. الأمان والاحتفاظ', content: 'تدابير الأمان: نستخدم SSL وخوارزميات التجزئة.\n\nالاحتفاظ: يتم الاحتفاظ بالبيانات فقط للمدة اللازمة.' },
+    { title: '17. سياسة ملفات تعريف الارتباط', content: 'يستخدم الموقع ملفات تعريف الارتباط لتخصيص المحتوى وتحليل حركة المرور. يمكن للمستخدمين تعطيل ملفات تعريف الارتباط.' },
+    { title: '18. الإصدار والاتصال', content: 'المزود: Risknil.com.\n\nالبريد الإلكتروني: info@risknil.com.\n\nآخر تحديث: 14 مايو 2026.' }
+  ]
 }
 
 const tlTerms: TermsContent = {
@@ -725,10 +895,27 @@ const tlTerms: TermsContent = {
   lastUpdated: 'Huling Na-update: Mayo 14, 2026',
   backButton: 'Bumalik sa RiskNil',
   legalNote: 'Sa kaganapan ng anumang pagkakaiba sa pagitan ng mga bersyon ng wika, ang bersyon sa Ingles ang mangingibabaw.',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. Mga Tuntunin ng Paggamit', '2. Pangkalahatang Probisyon', '3. Paglalarawan ng mga Serbisyo', '4. Mga Pagbabayad', '5. Pagmamay-ari na Nilalaman', '6. Mga Link ng Third-Party', '7. Hindi Aktibong Account', '8. Intellectual Property', '9. Legal na Pagsunod', '10. Disclaimer', 'Patakaran sa Privacy', '11. Proteksyon ng Data', '12. Pangongolekta ng Data', '13. Ang Iyong mga Karapatan', '14. Paggamit ng Data', '15. Pagsisiwalat ng Data', '16. Seguridad at Pagpapanatili', '17. Patakaran sa Cookie', '18. Bersyon at Makipag-ugnayan'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. Mga Tuntunin ng Paggamit', content: 'Ang mga Tuntunin ng Paggamit na ito ("Mga Tuntunin") ay bumubuo ng isang legal na nagbubuklod na kasunduan sa pagitan ng "Tagapagbigay" at sinumang indibidwal o entidad ("User") na nag-a-access sa website na risknil.com, mga mobile application nito, o anumang kaugnay na mga feature, nilalaman, o serbisyo (sama-sama, ang "Site").' },
+    { title: '2. Pangkalahatang Probisyon', content: 'Aplikabilidad: Ang mga Tuntuning ito ang namamahala sa buong relasyon sa pagitan ng Tagapagbigay at User.\n\nMga Pagbabago: Inilalaan ng Tagapagbigay ang karapatang baguhin ang mga Tuntuning ito anumang oras.\n\nLegal na Paggamit: Ang Site ay dapat gamitin lamang para sa mga legal na layunin.\n\nMga Parusa: Sa kaso ng maling paggamit, inilalaan ng Tagapagbigay ang karapatang i-block ang access at tapusin ang mga account.' },
+    { title: '3. Paglalarawan ng mga Serbisyo', content: 'Ang Site ay nagbibigay ng isang interactive na platform na may impormasyon sa sports, mga score, mga tip sa pagtaya, at analytical data. Bagaman nagsusumikap ang Tagapagbigay para sa katumpakan, ang pagiging maaasahan ng mga resulta ng laro o odds ay hindi garantisado.' },
+    { title: '4. Mga Pagbabayad', content: 'Mga Paraan ng Pagbabayad: Ang Site ay tumatanggap ng mga pagbabayad para sa mga premium na serbisyo sa pamamagitan ng mga secure na online payment gateway at direktang bank transfer.\n\nPinal na Pagbabayad: Maliban kung kinakailangan ng lokal na batas ng consumer, lahat ng pagbabayad ay hindi maibabalik.' },
+    { title: '5. Pagmamay-ari na Nilalaman', content: 'Eksklusibong Pagmamay-ari: Lahat ng nilalaman ay ibinibigay lamang ng Tagapagbigay.\n\nWalang User Submissions: Hindi pinapayagan ng Site ang user-generated content.' },
+    { title: '6. Mga Link ng Third-Party', content: 'Kinikilala ng User na anumang pakikipag-ugnayan sa mga third-party na website o advertisement na matatagpuan sa Site ay ganap na nasa kanilang sariling panganib.' },
+    { title: '7. Hindi Aktibong Account', content: 'Inilalaan ng Tagapagbigay ang karapatang tapusin ang anumang User account na hindi na-access sa loob ng 180 magkakasunod na araw.' },
+    { title: '8. Intellectual Property', content: 'Pagmamay-ari: Lahat ng nilalaman at software sa Site ay pagmamay-ari ng Tagapagbigay. Mahigpit na ipinagbabawal sa mga User na kopyahin o i-reproduce ang anumang bahagi ng Site.' },
+    { title: '9. Legal na Pagsunod', content: 'Naaangkop na Batas: Ang mga Tuntuning ito ay pinamamahalaan ng mga batas ng United Kingdom. Lahat ng Partido ay sumasailalim sa eksklusibong hurisdiksyon ng mga korte ng United Kingdom.' },
+    { title: '10. Disclaimer', content: 'Walang Warranty: Ang Site ay ibinibigay "as is".\n\nHindi Gambling Service: Ang Site ay isang tool ng impormasyon.\n\nLimitasyon ng Pagkalugi: Ang Tagapagbigay ay hindi mananagot para sa direkta o hindi direktang pagkalugi.' },
+    { title: 'Patakaran sa Privacy', content: '' },
+    { title: '11. Proteksyon ng Data', content: 'Ang Site ay nakatuon sa pagprotekta ng privacy ng User alinsunod sa GDPR. Ang Data Controller ay risknil.com.' },
+    { title: '12. Pangongolekta ng Data', content: 'Pagpaparehistro: Ang personal na data ay kinokolekta lamang sa pagpaparehistro.\n\nPahintulot: Sa paggamit ng mga serbisyo, sumasang-ayon ang User sa pagkolekta ng kanilang data.' },
+    { title: '13. Ang Iyong mga Karapatan', content: 'Ang mga User ay may mga sumusunod na karapatan: Access at Pagwawasto, Pagtanggal, Paghihigpit at Pagtutol, Portability.' },
+    { title: '14. Paggamit ng Data', content: 'Ang personal na data ay ginagamit para sa komunikasyon at pagproseso ng pagbabayad. Hindi namin ibinebenta ang data sa mga third party.' },
+    { title: '15. Pagsisiwalat ng Data', content: 'Ang data ay maaaring isiwalat sa mga third party lamang para sa pagproseso ng pagbabayad o upang tuparin ang mga legal na obligasyon.' },
+    { title: '16. Seguridad at Pagpapanatili', content: 'Mga Hakbang sa Seguridad: Gumagamit kami ng SSL at hashing algorithm.\n\nPagpapanatili: Ang data ay pinapanatili lamang hangga\'t kinakailangan.' },
+    { title: '17. Patakaran sa Cookie', content: 'Ang Site ay gumagamit ng cookies upang i-personalize ang nilalaman at suriin ang trapiko. Maaaring i-disable ng mga User ang cookies.' },
+    { title: '18. Bersyon at Makipag-ugnayan', content: 'Tagapagbigay: Risknil.com.\n\nEmail: info@risknil.com.\n\nHuling Na-update: Mayo 14, 2026.' }
+  ]
 }
 
 const swTerms: TermsContent = {
@@ -736,10 +923,27 @@ const swTerms: TermsContent = {
   lastUpdated: 'Imesasishwa Mwisho: Mei 14, 2026',
   backButton: 'Rudi kwa RiskNil',
   legalNote: 'Ikiwa kuna tofauti yoyote kati ya matoleo ya lugha, toleo la Kiingereza litakuwa na nguvu.',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. Masharti ya Matumizi', '2. Masharti ya Jumla', '3. Maelezo ya Huduma', '4. Malipo na Uhamisho wa Benki', '5. Maudhui ya Umiliki', '6. Viungo vya Wahusika wa Tatu', '7. Kutofanya Kazi kwa Akaunti', '8. Mali ya Kiakili', '9. Kufuata Sheria', '10. Kanusho', 'Sera ya Faragha', '11. Ulinzi wa Data', '12. Ukusanyaji wa Data', '13. Haki Zako', '14. Matumizi ya Data', '15. Ufunuo wa Data', '16. Usalama na Uhifadhi', '17. Sera ya Kuki', '18. Toleo na Mawasiliano'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. Masharti ya Matumizi', content: 'Masharti haya ya Matumizi ("Masharti") yanaunda makubaliano ya kisheria yanayofunga kati ya "Mtoa Huduma" na mtu yeyote au taasisi ("Mtumiaji") anayefikia tovuti ya risknil.com, programu zake za simu, au vipengele vyovyote vinavyohusiana, maudhui, au huduma (kwa pamoja, "Tovuti").' },
+    { title: '2. Masharti ya Jumla', content: 'Utumiaji: Masharti haya yanaongoza uhusiano wote kati ya Mtoa Huduma na Mtumiaji.\n\nMarekebisho: Mtoa Huduma ana haki ya kurekebisha Masharti haya wakati wowote.\n\nMatumizi Halali: Tovuti inapaswa kutumika tu kwa madhumuni halali.\n\nAdhabu: Katika kesi ya matumizi mabaya, Mtoa Huduma ana haki ya kuzuia ufikiaji na kusitisha akaunti.' },
+    { title: '3. Maelezo ya Huduma', content: 'Tovuti inatoa jukwaa shirikishi lenye habari za michezo, alama, vidokezo vya kubeti, na data ya uchambuzi. Ingawa Mtoa Huduma anajitahidi kwa usahihi, kuaminika kwa matokeo ya mechi au uwiano hakuhakikishiwi.' },
+    { title: '4. Malipo na Uhamisho wa Benki', content: 'Njia za Malipo: Tovuti inakubali malipo kwa huduma za premium kupitia njia salama za malipo mtandaoni na uhamisho wa benki moja kwa moja.\n\nUhakika wa Malipo: Isipokuwa sheria ya mlaji wa ndani inahitaji vinginevyo, malipo yote hayarudishwi.' },
+    { title: '5. Maudhui ya Umiliki', content: 'Umiliki wa Kipekee: Maudhui yote yanatolewa na Mtoa Huduma peke yake.\n\nHakuna Mawasilisho ya Watumiaji: Tovuti hairuhusu maudhui yanayotengenezwa na watumiaji.' },
+    { title: '6. Viungo vya Wahusika wa Tatu', content: 'Mtumiaji anakubali kwamba mwingiliano wowote na tovuti za wahusika wa tatu au matangazo yanayopatikana kwenye Tovuti ni hatari yake mwenyewe.' },
+    { title: '7. Kutofanya Kazi kwa Akaunti', content: 'Mtoa Huduma ana haki ya kusitisha akaunti yoyote ya Mtumiaji ambayo haijafikiwa kwa siku 180 mfululizo.' },
+    { title: '8. Mali ya Kiakili', content: 'Umiliki: Maudhui yote na programu kwenye Tovuti ni mali ya Mtoa Huduma. Watumiaji wamekatazwa kabisa kunakili au kuzalisha sehemu yoyote ya Tovuti.' },
+    { title: '9. Kufuata Sheria', content: 'Sheria Inayotumika: Masharti haya yanasimamiwa na sheria za Uingereza. Wahusika wote wanakubaliana na mamlaka ya kipekee ya mahakama za Uingereza.' },
+    { title: '10. Kanusho', content: 'Hakuna Dhamana: Tovuti inatolewa "kama ilivyo".\n\nSi Huduma ya Kamari: Tovuti ni zana ya habari.\n\nUkomo wa Hasara: Mtoa Huduma hawajibiki kwa hasara za moja kwa moja au zisizo za moja kwa moja.' },
+    { title: 'Sera ya Faragha', content: '' },
+    { title: '11. Ulinzi wa Data', content: 'Tovuti imejitolea kulinda faragha ya Mtumiaji kulingana na GDPR. Mthibiti wa Data ni risknil.com.' },
+    { title: '12. Ukusanyaji wa Data', content: 'Usajili: Data ya kibinafsi hukusanywa tu wakati wa usajili.\n\nIdhini: Kwa kutumia huduma, Mtumiaji anakubali ukusanyaji wa data yake.' },
+    { title: '13. Haki Zako', content: 'Watumiaji wana haki zifuatazo: Ufikiaji na Marekebisho, Kufuta, Kizuizi na Upinzani, Uhamaji.' },
+    { title: '14. Matumizi ya Data', content: 'Data ya kibinafsi hutumiwa kwa mawasiliano na usindikaji wa malipo. Hatuuzi data kwa wahusika wa tatu.' },
+    { title: '15. Ufunuo wa Data', content: 'Data inaweza kufichuliwa kwa wahusika wa tatu tu kwa usindikaji wa malipo au kutimiza wajibu wa kisheria.' },
+    { title: '16. Usalama na Uhifadhi', content: 'Hatua za Usalama: Tunatumia SSL na algorithms za hashing.\n\nUhifadhi: Data huhifadhiwa tu kwa muda unaohitajika.' },
+    { title: '17. Sera ya Kuki', content: 'Tovuti inatumia kuki kubinafsisha maudhui na kuchambua trafiki. Watumiaji wanaweza kuzima kuki.' },
+    { title: '18. Toleo na Mawasiliano', content: 'Mtoa Huduma: Risknil.com.\n\nBarua pepe: info@risknil.com.\n\nImesasishwa Mwisho: Mei 14, 2026.' }
+  ]
 }
 
 const afTerms: TermsContent = {
@@ -747,10 +951,27 @@ const afTerms: TermsContent = {
   lastUpdated: 'Laas opgedateer: 14 Mei 2026',
   backButton: 'Terug na RiskNil',
   legalNote: 'In die geval van enige teenstrydighede tussen taalweergawes, sal die Engelse weergawe geld.',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. Gebruiksvoorwaardes', '2. Algemene Bepalings', '3. Beskrywing van Dienste', '4. Betalings en Bankoordragte', '5. Eie Inhoud', '6. Derdeparty Skakels', '7. Rekening Onaktiwiteit', '8. Intellektuele Eiendom', '9. Wetlike Nakoming', '10. Vrywaring', 'Privaatheidsbeleid', '11. Databeskerming', '12. Insameling van Data', '13. Jou Regte', '14. Gebruik van Data', '15. Openbaarmaking van Data', '16. Sekuriteit en Bewaring', '17. Koekiebeleid', '18. Weergawe en Kontak'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. Gebruiksvoorwaardes', content: 'Hierdie Gebruiksvoorwaardes ("Voorwaardes") vorm \'n wettig bindende ooreenkoms tussen die "Verskaffer" en enige individu of entiteit ("Gebruiker") wat toegang tot die webwerf risknil.com, sy mobiele toepassings, of enige verwante kenmerke, inhoud, of dienste (gesamentlik, die "Webwerf") verkry.' },
+    { title: '2. Algemene Bepalings', content: 'Toepaslikheid: Hierdie Voorwaardes beheer die hele verhouding tussen die Verskaffer en Gebruiker.\n\nWysigings: Die Verskaffer behou die reg voor om hierdie Voorwaardes te eniger tyd te wysig.\n\nWettige Gebruik: Die Webwerf moet slegs vir wettige doeleindes gebruik word.\n\nSanksies: In geval van misbruik, behou die Verskaffer die reg voor om toegang te blokkeer en rekeninge te beëindig.' },
+    { title: '3. Beskrywing van Dienste', content: 'Die Webwerf bied \'n interaktiewe platform met sportinligting, tellings, weddenskapwenke, en analitiese data. Alhoewel die Verskaffer na akkuraatheid streef, word die betroubaarheid van wedstryduitslae of kanse nie gewaarborg nie.' },
+    { title: '4. Betalings en Bankoordragte', content: 'Betaalmetodes: Die Webwerf aanvaar betalings vir premium dienste deur veilige aanlyn betaalportale en direkte bankoordragte.\n\nFinaliteit van Betaling: Tensy plaaslike verbruikerswetgewing anders vereis, is alle betalings nie-terugbetaalbaar.' },
+    { title: '5. Eie Inhoud', content: 'Eksklusiewe Eienaarskap: Alle inhoud word uitsluitlik deur die Verskaffer verskaf.\n\nGeen Gebruikersindiening: Die Webwerf laat nie gebruiker-gegenereerde inhoud toe nie.' },
+    { title: '6. Derdeparty Skakels', content: 'Die Gebruiker erken dat enige interaksie met derdeparty-webwerwe of advertensies wat op die Webwerf gevind word, geheel en al op hul eie risiko is.' },
+    { title: '7. Rekening Onaktiwiteit', content: 'Die Verskaffer behou die reg voor om enige Gebruikersrekening wat vir 180 opeenvolgende dae nie toegang verkry het nie, te beëindig.' },
+    { title: '8. Intellektuele Eiendom', content: 'Eienaarskap: Alle inhoud en sagteware op die Webwerf is die eiendom van die Verskaffer. Gebruikers word streng verbied om enige deel van die Webwerf te kopieer of te reproduseer.' },
+    { title: '9. Wetlike Nakoming', content: 'Toepaslike Reg: Hierdie Voorwaardes word beheer deur die wette van die Verenigde Koninkryk. Alle Partye onderwerp hulself aan die eksklusiewe jurisdiksie van die howe van die Verenigde Koninkryk.' },
+    { title: '10. Vrywaring', content: 'Geen Waarborg: Die Webwerf word "soos dit is" verskaf.\n\nNie \'n Dobbelaarsdiens: Die Webwerf is \'n inligtingsinstrument.\n\nBeperking van Verlies: Die Verskaffer is nie aanspreeklik vir direkte of indirekte verliese nie.' },
+    { title: 'Privaatheidsbeleid', content: '' },
+    { title: '11. Databeskerming', content: 'Die Webwerf is verbind tot die beskerming van die Gebruiker se privaatheid in ooreenstemming met GDPR. Die Databeheerder is risknil.com.' },
+    { title: '12. Insameling van Data', content: 'Registrasie: Persoonlike data word slegs tydens registrasie ingesamel.\n\nToestemming: Deur die dienste te gebruik, stem die Gebruiker in tot die insameling van hul data.' },
+    { title: '13. Jou Regte', content: 'Gebruikers het die volgende regte: Toegang en Regstelling, Uitwissing, Beperking en Beswaar, Oordraagbaarheid.' },
+    { title: '14. Gebruik van Data', content: 'Persoonlike data word gebruik vir kommunikasie en betalingsverwerking. Ons verkoop nie data aan derde partye nie.' },
+    { title: '15. Openbaarmaking van Data', content: 'Data mag slegs aan derde partye bekend gemaak word vir betalingsverwerking of om wetlike verpligtinge na te kom.' },
+    { title: '16. Sekuriteit en Bewaring', content: 'Sekuriteitsmaatreëls: Ons gebruik SSL en hashing-algoritmes.\n\nBewaring: Data word slegs so lank as nodig bewaar.' },
+    { title: '17. Koekiebeleid', content: 'Die Webwerf gebruik koekies om inhoud te personaliseer en verkeer te analiseer. Gebruikers kan koekies deaktiveer.' },
+    { title: '18. Weergawe en Kontak', content: 'Verskaffer: Risknil.com.\n\nE-pos: info@risknil.com.\n\nLaas opgedateer: 14 Mei 2026.' }
+  ]
 }
 
 const zuTerms: TermsContent = {
@@ -758,10 +979,27 @@ const zuTerms: TermsContent = {
   lastUpdated: 'Igcine ukubuyekezwa: Meyi 14, 2026',
   backButton: 'Buyela ku-RiskNil',
   legalNote: 'Uma kukhona ukungqubuzana phakathi kwezinguqulo zezilimi, inguqulo yesiNgisi iyoba namandla.',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. Imigomo Yokusebenzisa', '2. Izimiso Ezijwayelekile', '3. Incazelo Yamasevisi', '4. Izinkokhelo', '5. Okuqukethwe Okungokwakho', '6. Izixhumanisi Zabantu Besithathu', '7. Ukungasebenzi Kwe-akhawunti', '8. Impahla Yengqondo', '9. Ukuthobela Umthetho', '10. Ukuphika', 'Inqubomgomo Yobumfihlo', '11. Ukuvikelwa Kwedatha', '12. Ukuqoqwa Kwedatha', '13. Amalungelo Akho', '14. Ukusetshenziswa Kwedatha', '15. Ukudalulwa Kwedatha', '16. Ukuphepha Nokugcinwa', '17. Inqubomgomo Yamakhukhisi', '18. Inguqulo Nokuxhumana'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. Imigomo Yokusebenzisa', content: 'Le Migomo Yokusebenzisa ("Imigomo") yakha isivumelwano esibophayo ngokomthetho phakathi "koMhlinzeki" nanoma yimuphi umuntu noma inhlangano ("Umsebenzisi") efikelela kuwebhusayithi ye-risknil.com, izinhlelo zayo zeselula, noma noma yiziphi izici ezihlobene, okuqukethwe, noma amasevisi (ngokuhlanganyelwe, "Isayithi").' },
+    { title: '2. Izimiso Ezijwayelekile', content: 'Ukusebenza: Le Migomo ilawula wonke ubudlelwano phakathi koMhlinzeki noMsebenzisi.\n\nIzinguquko: UMhlinzeki ugcina ilungelo lokuguqula le Migomo nganoma yisiphi isikhathi.\n\nUkusetshenziswa Okusemthethweni: Isayithi kumele isetshenziswe kuphela ngezinhloso ezisemthethweni.\n\nIzijeziso: Uma kwenzeka ukusetshenziswa kabi, uMhlinzeki ugcina ilungelo lokuvimba ukufinyelela nokuvala ama-akhawunti.' },
+    { title: '3. Incazelo Yamasevisi', content: 'Isayithi ihlinzeka ngepulatifomu exhumene enolwazi lwezemidlalo, amaphuzu, amathiphu okubheja, nedatha yokuhlaziya. Nakuba uMhlinzeki ezama ukunemba, ukwethembeka kwemiphumela yemidlalo noma ama-odds akuqinisekisiwe.' },
+    { title: '4. Izinkokhelo', content: 'Izindlela Zokukhokha: Isayithi yamukela izinkokhelo zamasevisi e-premium ngezindlela zokukhokha eziphephile ku-inthanethi nokudluliswa kwamabhange ngqo.\n\nUkugcina Kokukhokha: Ngaphandle uma umthetho wendawo womthengi udinga okunye, zonke izinkokhelo azibuyiseki.' },
+    { title: '5. Okuqukethwe Okungokwakho', content: 'Ubunikazi Obuphelele: Konke okuqukethwe kuhlinzekwa nguMhlinzeki kuphela.\n\nAkukho Ukuthumela Kwabasebenzisi: Isayithi ayivumeli okuqukethwe okwenziwe abasebenzisi.' },
+    { title: '6. Izixhumanisi Zabantu Besithathu', content: 'Umsebenzisi uyavuma ukuthi noma yikuphi ukuxhumana namawebhusayithi abantu besithathu noma izikhangiso ezitholakala kuSayithi kungobungozi bakhe uqobo.' },
+    { title: '7. Ukungasebenzi Kwe-akhawunti', content: 'UMhlinzeki ugcina ilungelo lokuvala noma iyiphi i-akhawunti yoMsebenzisi engafinyelelwanga izinsuku ezingu-180 ezilandelanayo.' },
+    { title: '8. Impahla Yengqondo', content: 'Ubunikazi: Konke okuqukethwe nesofthiwe kuSayithi kungokukaMhlinzeki. Abasebenzisi bavinjelwe ngokuqinile ukuba bakopishe noma bakhiqize kabusha noma iyiphi ingxenye yeSayithi.' },
+    { title: '9. Ukuthobela Umthetho', content: 'Umthetho Osebenzayo: Le Migomo ilawulwa yimithetho yase-United Kingdom. Zonke iZinhlangano zithobela amandla amakhosi ase-United Kingdom kuphela.' },
+    { title: '10. Ukuphika', content: 'Akukho Isiqinisekiso: Isayithi ihlinzekwa "njengoba injalo".\n\nAkuyona Isevisi Yokugembula: Isayithi ithuluzi lolwazi.\n\nUkuvinjelwa Kokulahlekelwa: UMhlinzeki akajutshwa ngokulahleka okuqondile noma okungaqondile.' },
+    { title: 'Inqubomgomo Yobumfihlo', content: '' },
+    { title: '11. Ukuvikelwa Kwedatha', content: 'Isayithi izinikele ekuvikeleni ubumfihlo boMsebenzisi ngokuvumelana ne-GDPR. UMlawuli Wedatha ngu-risknil.com.' },
+    { title: '12. Ukuqoqwa Kwedatha', content: 'Ukubhalisa: Idatha yomuntu siqu iqoqwa kuphela ngesikhathi sokubhalisa.\n\nImvume: Ngokusebenzisa amasevisi, uMsebenzisi uvuma ukuqoqwa kwedatha yakhe.' },
+    { title: '13. Amalungelo Akho', content: 'Abasebenzisi banamalungelo alandelayo: Ukufinyelela Nokulungisa, Ukususa, Ukuvimbela Nokuphikisa, Ukudluliswa.' },
+    { title: '14. Ukusetshenziswa Kwedatha', content: 'Idatha yomuntu siqu isetshenziselwa ukuxhumana nokuqhuba izinkokhelo. Asidayisi idatha kubantu besithathu.' },
+    { title: '15. Ukudalulwa Kwedatha', content: 'Idatha ingadalulwa kubantu besithathu kuphela ukuze kuqhutshwe izinkokhelo noma ukufeza izibopho zomthetho.' },
+    { title: '16. Ukuphepha Nokugcinwa', content: 'Izinyathelo Zokuphepha: Sisebenzisa i-SSL nama-algorithms okuhlunga.\n\nUkugcinwa: Idatha igcinwa kuphela isikhathi esidingekayo.' },
+    { title: '17. Inqubomgomo Yamakhukhisi', content: 'Isayithi isebenzisa amakhukhisi ukwenza okuqukethwe kube ngokwakho nokuhlaziya ithrafikhi. Abasebenzisi bangakhubaza amakhukhisi.' },
+    { title: '18. Inguqulo Nokuxhumana', content: 'UMhlinzeki: Risknil.com.\n\nI-imeyili: info@risknil.com.\n\nIgcine ukubuyekezwa: Meyi 14, 2026.' }
+  ]
 }
 
 const xhTerms: TermsContent = {
