@@ -711,45 +711,207 @@ export const privacyTranslations: Record<string, PrivacyTranslation> = {
   },
   sv: {
     title: 'Integritetspolicy',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. Introduktion', '2. Data Vi Samlar In', '3. Hur Vi Använder Din Data', '4. Cookies och Spårning', '5. Datalagring', '6. Tredjepartstjänster', '7. Datasäkerhet', '8. Dina Rättigheter', '9. Barns Integritet', '10. Internationella Användare', '11. Ändringar av Denna Policy', '12. Kontakta Oss'][i] || s.heading,
-      content: s.content
-    }))
+    sections: [
+      { heading: '1. Introduktion', content: 'Denna integritetspolicy förklarar hur risknil.com ("vi", "vår" eller "oss") samlar in, använder och skyddar personlig information när du använder vår webbplats och relaterade tjänster.' },
+      { heading: '2. Data Vi Samlar In', content: 'Vi samlar in information som du tillhandahåller direkt, såsom när du skapar ett konto, prenumererar på vårt nyhetsbrev eller kontaktar oss. Detta kan inkludera ditt namn, e-postadress och betalningsinformation. Vi samlar även automatiskt in viss information när du besöker vår webbplats, inklusive din IP-adress, webbläsartyp, visade sidor och tid på webbplatsen.' },
+      { heading: '3. Hur Vi Använder Din Data', content: 'Vi använder insamlad information för att: tillhandahålla och underhålla våra tjänster; behandla transaktioner och skicka relaterade meddelanden; skicka teknisk information, uppdateringar och supportmeddelanden; svara på dina kommentarer och frågor; analysera användning för att förbättra vår webbplats och tjänster.' },
+      { heading: '4. Cookies och Spårning', content: 'Vi använder cookies och liknande spårningstekniker för att samla in och spåra information och förbättra vår tjänst. Du kan instruera din webbläsare att vägra alla cookies eller indikera när en cookie skickas. Om du inte accepterar cookies kanske du inte kan använda vissa delar av vår tjänst.' },
+      { heading: '5. Datalagring', content: 'Vi behåller dina personuppgifter endast så länge som nödvändigt för de syften som anges i denna integritetspolicy. Om ett konto förblir inaktivt i ett (1) år kommer alla associerade personuppgifter att raderas permanent.' },
+      { heading: '6. Tredjepartstjänster', content: 'Vi kan anlita tredjepartsföretag och individer för att underlätta vår tjänst, tillhandahålla tjänsten för vår räkning, utföra tjänsterelaterade tjänster eller hjälpa oss att analysera hur vår tjänst används. Dessa tredjeparter har tillgång till dina personuppgifter endast för att utföra dessa uppgifter för vår räkning och är skyldiga att inte avslöja eller använda dem för andra ändamål.' },
+      { heading: '7. Datasäkerhet', content: 'Vi implementerar lämpliga tekniska åtgärder, inklusive SSL-kryptering och hashningsalgoritmer, för att skydda dina personuppgifter. Ingen metod för överföring över internet eller elektronisk lagringsmetod är dock 100% säker.' },
+      { heading: '8. Dina Rättigheter', content: 'Enligt GDPR har du rätt att: komma åt, uppdatera eller radera din personliga information; rätta felaktiga uppgifter; invända mot behandling av dina personuppgifter; begära begränsning av behandling; begära dataportabilitet; återkalla samtycke när som helst.' },
+      { heading: '9. Barns Integritet', content: 'Vår tjänst riktar sig inte till personer under 18 år. Vi samlar inte medvetet in personligt identifierbar information från minderåriga. Om du är förälder eller vårdnadshavare och är medveten om att ditt barn har gett oss personuppgifter, vänligen kontakta oss.' },
+      { heading: '10. Internationella Användare', content: 'Om du använder vår tjänst utanför Storbritannien, var medveten om att din information kan överföras till, lagras och behandlas i Storbritannien där våra servrar finns.' },
+      { heading: '11. Ändringar av Denna Policy', content: 'Vi kan uppdatera vår integritetspolicy från tid till annan. Vi kommer att meddela dig om eventuella ändringar genom att publicera den nya integritetspolicyn på denna sida och uppdatera datumet för "Senast uppdaterad".' },
+      { heading: '12. Kontakta Oss', content: 'Om du har frågor om denna integritetspolicy, vänligen kontakta oss på info@risknil.com.' }
+    ]
   },
   da: {
     title: 'Privatlivspolitik',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. Introduktion', '2. Data Vi Indsamler', '3. Hvordan Vi Bruger Dine Data', '4. Cookies og Sporing', '5. Dataopbevaring', '6. Tredjepartstjenester', '7. Datasikkerhed', '8. Dine Rettigheder', '9. Børns Privatliv', '10. Internationale Brugere', '11. Ændringer af Denne Politik', '12. Kontakt Os'][i] || s.heading,
-      content: s.content
-    }))
+    sections: [
+      { heading: '1. Introduktion', content: 'Denne privatlivspolitik forklarer, hvordan risknil.com ("vi", "vores" eller "os") indsamler, bruger og beskytter personlige oplysninger, når du bruger vores hjemmeside og relaterede tjenester.' },
+      { heading: '2. Data Vi Indsamler', content: 'Vi indsamler oplysninger, som du giver direkte, såsom når du opretter en konto, abonnerer på vores nyhedsbrev eller kontakter os. Dette kan omfatte dit navn, e-mailadresse og betalingsoplysninger. Vi indsamler også automatisk visse oplysninger, når du besøger vores hjemmeside, herunder din IP-adresse, browsertype, sider, der er set, og tid brugt på hjemmesiden.' },
+      { heading: '3. Hvordan Vi Bruger Dine Data', content: 'Vi bruger indsamlede oplysninger til at: levere og vedligeholde vores tjenester; behandle transaktioner og sende relaterede meddelelser; sende dig teknisk information, opdateringer og supportmeddelelser; besvare dine kommentarer og spørgsmål; analysere brug for at forbedre vores hjemmeside og tjenester.' },
+      { heading: '4. Cookies og Sporing', content: 'Vi bruger cookies og lignende sporingsteknologier til at indsamle og spore oplysninger og forbedre vores service. Du kan instruere din browser til at afvise alle cookies eller angive, hvornår en cookie sendes. Hvis du ikke accepterer cookies, kan du muligvis ikke bruge visse dele af vores service.' },
+      { heading: '5. Dataopbevaring', content: 'Vi opbevarer kun dine personlige data så længe det er nødvendigt for de formål, der er angivet i denne privatlivspolitik. Hvis en konto forbliver inaktiv i et (1) år, vil alle tilknyttede personlige data blive permanent slettet.' },
+      { heading: '6. Tredjepartstjenester', content: 'Vi kan bruge tredjepartsvirksomheder og enkeltpersoner til at lette vores service, levere servicen på vores vegne, udføre servicerelaterede tjenester eller hjælpe os med at analysere, hvordan vores service bruges. Disse tredjeparter har kun adgang til dine personlige data for at udføre disse opgaver på vores vegne og er forpligtet til ikke at videregive eller bruge dem til andre formål.' },
+      { heading: '7. Datasikkerhed', content: 'Vi implementerer passende tekniske foranstaltninger, herunder SSL-kryptering og hashing-algoritmer, for at beskytte dine personlige data. Ingen metode til transmission over internettet eller metode til elektronisk lagring er dog 100% sikker.' },
+      { heading: '8. Dine Rettigheder', content: 'I henhold til GDPR har du ret til at: få adgang til, opdatere eller slette dine personlige oplysninger; rette eventuelle unøjagtige data; gøre indsigelse mod behandlingen af dine personlige data; anmode om begrænsning af behandling; anmode om dataportabilitet; tilbagekalde samtykke til enhver tid.' },
+      { heading: '9. Børns Privatliv', content: 'Vores service er ikke rettet mod personer under 18 år. Vi indsamler ikke bevidst personligt identificerbare oplysninger fra mindreårige. Hvis du er forælder eller værge og er klar over, at dit barn har givet os personlige data, bedes du kontakte os.' },
+      { heading: '10. Internationale Brugere', content: 'Hvis du tilgår vores service uden for Storbritannien, skal du være opmærksom på, at dine oplysninger kan overføres til, opbevares og behandles i Storbritannien, hvor vores servere er placeret.' },
+      { heading: '11. Ændringer af Denne Politik', content: 'Vi kan opdatere vores privatlivspolitik fra tid til anden. Vi vil informere dig om eventuelle ændringer ved at offentliggøre den nye privatlivspolitik på denne side og opdatere datoen for "Sidst opdateret".' },
+      { heading: '12. Kontakt Os', content: 'Hvis du har spørgsmål om denne privatlivspolitik, bedes du kontakte os på info@risknil.com.' }
+    ]
   },
   nl: {
     title: 'Privacybeleid',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. Inleiding', '2. Gegevens Die We Verzamelen', '3. Hoe We Uw Gegevens Gebruiken', '4. Cookies en Tracking', '5. Gegevensbewaring', '6. Diensten van Derden', '7. Gegevensbeveiliging', '8. Uw Rechten', '9. Privacy van Kinderen', '10. Internationale Gebruikers', '11. Wijzigingen in Dit Beleid', '12. Neem Contact Op'][i] || s.heading,
-      content: s.content
-    }))
+    sections: [
+      { heading: '1. Inleiding', content: 'Dit Privacybeleid legt uit hoe risknil.com ("wij", "onze" of "ons") persoonlijke informatie verzamelt, gebruikt en beschermt wanneer u onze website en gerelateerde diensten gebruikt.' },
+      { heading: '2. Gegevens Die We Verzamelen', content: 'Wij verzamelen informatie die u rechtstreeks aan ons verstrekt, zoals wanneer u een account aanmaakt, u aanmeldt voor onze nieuwsbrief of contact met ons opneemt. Dit kan uw naam, e-mailadres en betalingsgegevens omvatten. We verzamelen ook automatisch bepaalde informatie wanneer u onze website bezoekt, waaronder uw IP-adres, browsertype, bekeken pagina\'s en tijd op de website.' },
+      { heading: '3. Hoe We Uw Gegevens Gebruiken', content: 'Wij gebruiken verzamelde informatie om: onze diensten te leveren en te onderhouden; transacties te verwerken en gerelateerde meldingen te verzenden; u technische informatie, updates en ondersteuningsberichten te sturen; te reageren op uw opmerkingen en vragen; gebruik te analyseren om onze website en diensten te verbeteren.' },
+      { heading: '4. Cookies en Tracking', content: 'Wij gebruiken cookies en vergelijkbare trackingtechnologieën om informatie te verzamelen en te volgen en onze service te verbeteren. U kunt uw browser instrueren om alle cookies te weigeren of aan te geven wanneer een cookie wordt verzonden. Als u echter geen cookies accepteert, kunt u mogelijk sommige delen van onze service niet gebruiken.' },
+      { heading: '5. Gegevensbewaring', content: 'Wij bewaren uw persoonlijke gegevens alleen zo lang als nodig voor de doeleinden uiteengezet in dit Privacybeleid. Als een account een (1) jaar inactief blijft, worden alle bijbehorende persoonlijke gegevens permanent verwijderd.' },
+      { heading: '6. Diensten van Derden', content: 'We kunnen externe bedrijven en individuen inschakelen om onze service te faciliteren, de service namens ons te leveren, servicegerelateerde diensten uit te voeren of ons te helpen analyseren hoe onze service wordt gebruikt. Deze derden hebben alleen toegang tot uw persoonlijke gegevens om deze taken namens ons uit te voeren en zijn verplicht deze niet openbaar te maken of te gebruiken voor andere doeleinden.' },
+      { heading: '7. Gegevensbeveiliging', content: 'Wij implementeren passende technische maatregelen, waaronder SSL-versleuteling en hash-algoritmen, om uw persoonlijke gegevens te beschermen. Geen enkele methode van verzending via internet of elektronische opslagmethode is echter 100% veilig.' },
+      { heading: '8. Uw Rechten', content: 'Onder de AVG heeft u het recht om: toegang te krijgen tot, bij te werken of te verwijderen uw persoonlijke informatie; onnauwkeurige gegevens te corrigeren; bezwaar te maken tegen de verwerking van uw persoonlijke gegevens; beperking van verwerking te verzoeken; gegevensoverdraagbaarheid te verzoeken; toestemming op elk moment in te trekken.' },
+      { heading: '9. Privacy van Kinderen', content: 'Onze service is niet gericht op personen jonger dan 18 jaar. We verzamelen niet bewust persoonlijk identificeerbare informatie van minderjarigen. Als u een ouder of voogd bent en weet dat uw kind ons persoonlijke gegevens heeft verstrekt, neem dan contact met ons op.' },
+      { heading: '10. Internationale Gebruikers', content: 'Als u onze service bezoekt van buiten het Verenigd Koninkrijk, wees u er dan van bewust dat uw informatie kan worden overgedragen naar, opgeslagen en verwerkt in het Verenigd Koninkrijk waar onze servers zich bevinden.' },
+      { heading: '11. Wijzigingen in Dit Beleid', content: 'We kunnen ons Privacybeleid van tijd tot tijd bijwerken. We zullen u op de hoogte stellen van eventuele wijzigingen door het nieuwe Privacybeleid op deze pagina te plaatsen en de datum "Laatst bijgewerkt" bij te werken.' },
+      { heading: '12. Neem Contact Op', content: 'Als u vragen heeft over dit Privacybeleid, neem dan contact met ons op via info@risknil.com.' }
+    ]
   },
   el: {
     title: 'Πολιτική Απορρήτου',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. Εισαγωγή', '2. Δεδομένα που Συλλέγουμε', '3. Πώς Χρησιμοποιούμε τα Δεδομένα Σας', '4. Cookies και Παρακολούθηση', '5. Διατήρηση Δεδομένων', '6. Υπηρεσίες Τρίτων', '7. Ασφάλεια Δεδομένων', '8. Τα Δικαιώματά Σας', '9. Απόρρητο Παιδιών', '10. Διεθνείς Χρήστες', '11. Αλλαγές σε Αυτή την Πολιτική', '12. Επικοινωνήστε Μαζί Μας'][i] || s.heading,
-      content: s.content
-    }))
+    sections: [
+      { heading: '1. Εισαγωγή', content: 'Αυτή η Πολιτική Απορρήτου εξηγεί πώς το risknil.com ("εμείς", "μας" ή "εμάς") συλλέγει, χρησιμοποιεί και προστατεύει προσωπικές πληροφορίες όταν χρησιμοποιείτε τον ιστότοπό μας και τις σχετικές υπηρεσίες.' },
+      { heading: '2. Δεδομένα που Συλλέγουμε', content: 'Συλλέγουμε πληροφορίες που μας παρέχετε άμεσα, όπως όταν δημιουργείτε λογαριασμό, εγγράφεστε στο ενημερωτικό μας δελτίο ή επικοινωνείτε μαζί μας. Αυτό μπορεί να περιλαμβάνει το όνομά σας, τη διεύθυνση email και πληροφορίες πληρωμής. Επίσης συλλέγουμε αυτόματα ορισμένες πληροφορίες όταν επισκέπτεστε τον ιστότοπό μας.' },
+      { heading: '3. Πώς Χρησιμοποιούμε τα Δεδομένα Σας', content: 'Χρησιμοποιούμε τις συλλεγόμενες πληροφορίες για να: παρέχουμε και διατηρούμε τις υπηρεσίες μας· επεξεργαζόμαστε συναλλαγές και στέλνουμε σχετικές ειδοποιήσεις· σας στέλνουμε τεχνικές πληροφορίες, ενημερώσεις και μηνύματα υποστήριξης· απαντάμε στα σχόλια και τις ερωτήσεις σας· αναλύουμε τη χρήση για να βελτιώσουμε τον ιστότοπο και τις υπηρεσίες μας.' },
+      { heading: '4. Cookies και Παρακολούθηση', content: 'Χρησιμοποιούμε cookies και παρόμοιες τεχνολογίες παρακολούθησης για να συλλέγουμε και να παρακολουθούμε πληροφορίες και να βελτιώνουμε την υπηρεσία μας. Μπορείτε να ρυθμίσετε τον browser σας να απορρίπτει όλα τα cookies ή να υποδεικνύει όταν αποστέλλεται ένα cookie.' },
+      { heading: '5. Διατήρηση Δεδομένων', content: 'Διατηρούμε τα προσωπικά σας δεδομένα μόνο για όσο χρόνο είναι απαραίτητο για τους σκοπούς που αναφέρονται σε αυτή την Πολιτική Απορρήτου. Εάν ένας λογαριασμός παραμείνει ανενεργός για ένα (1) έτος, όλα τα σχετικά προσωπικά δεδομένα θα διαγραφούν οριστικά.' },
+      { heading: '6. Υπηρεσίες Τρίτων', content: 'Μπορεί να απασχολήσουμε τρίτες εταιρείες και άτομα για να διευκολύνουν την υπηρεσία μας, να παρέχουν την υπηρεσία για λογαριασμό μας ή να μας βοηθήσουν να αναλύσουμε πώς χρησιμοποιείται η υπηρεσία μας.' },
+      { heading: '7. Ασφάλεια Δεδομένων', content: 'Εφαρμόζουμε κατάλληλα τεχνικά μέτρα, συμπεριλαμβανομένης της κρυπτογράφησης SSL και αλγορίθμων κατακερματισμού, για την προστασία των προσωπικών σας δεδομένων. Ωστόσο, καμία μέθοδος μετάδοσης μέσω διαδικτύου δεν είναι 100% ασφαλής.' },
+      { heading: '8. Τα Δικαιώματά Σας', content: 'Βάσει του GDPR, έχετε το δικαίωμα να: έχετε πρόσβαση, να ενημερώσετε ή να διαγράψετε τις προσωπικές σας πληροφορίες· να διορθώσετε τυχόν ανακριβή δεδομένα· να αντιταχθείτε στην επεξεργασία των προσωπικών σας δεδομένων· να ζητήσετε περιορισμό της επεξεργασίας· να ζητήσετε φορητότητα δεδομένων· να ανακαλέσετε τη συγκατάθεση ανά πάσα στιγμή.' },
+      { heading: '9. Απόρρητο Παιδιών', content: 'Η υπηρεσία μας δεν απευθύνεται σε άτομα κάτω των 18 ετών. Δεν συλλέγουμε εν γνώσει μας προσωπικά αναγνωρίσιμες πληροφορίες από ανηλίκους.' },
+      { heading: '10. Διεθνείς Χρήστες', content: 'Εάν έχετε πρόσβαση στην υπηρεσία μας από το εξωτερικό του Ηνωμένου Βασιλείου, να γνωρίζετε ότι οι πληροφορίες σας ενδέχεται να μεταφερθούν, να αποθηκευτούν και να επεξεργαστούν στο Ηνωμένο Βασίλειο όπου βρίσκονται οι διακομιστές μας.' },
+      { heading: '11. Αλλαγές σε Αυτή την Πολιτική', content: 'Μπορεί να ενημερώσουμε την Πολιτική Απορρήτου μας κατά καιρούς. Θα σας ειδοποιήσουμε για τυχόν αλλαγές δημοσιεύοντας τη νέα Πολιτική Απορρήτου σε αυτή τη σελίδα.' },
+      { heading: '12. Επικοινωνήστε Μαζί Μας', content: 'Εάν έχετε ερωτήσεις σχετικά με αυτή την Πολιτική Απορρήτου, επικοινωνήστε μαζί μας στο info@risknil.com.' }
+    ]
   },
   pl: {
     title: 'Polityka Prywatności',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. Wprowadzenie', '2. Dane, Które Zbieramy', '3. Jak Wykorzystujemy Twoje Dane', '4. Pliki Cookie i Śledzenie', '5. Przechowywanie Danych', '6. Usługi Stron Trzecich', '7. Bezpieczeństwo Danych', '8. Twoje Prawa', '9. Prywatność Dzieci', '10. Użytkownicy Międzynarodowi', '11. Zmiany w Tej Polityce', '12. Skontaktuj się z Nami'][i] || s.heading,
-      content: s.content
-    }))
+    sections: [
+      { heading: '1. Wprowadzenie', content: 'Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób risknil.com ("my", "nasz" lub "nas") gromadzi, wykorzystuje i chroni dane osobowe podczas korzystania z naszej strony internetowej i powiązanych usług.' },
+      { heading: '2. Dane, Które Zbieramy', content: 'Zbieramy informacje, które przekazujesz nam bezpośrednio, takie jak podczas tworzenia konta, subskrypcji naszego newslettera lub kontaktowania się z nami. Może to obejmować Twoje imię, adres e-mail i informacje o płatności. Automatycznie zbieramy również pewne informacje podczas odwiedzania naszej strony internetowej, w tym adres IP, typ przeglądarki, przeglądane strony i czas spędzony na stronie.' },
+      { heading: '3. Jak Wykorzystujemy Twoje Dane', content: 'Wykorzystujemy zebrane informacje do: świadczenia i utrzymywania naszych usług; przetwarzania transakcji i wysyłania powiązanych powiadomień; wysyłania informacji technicznych, aktualizacji i wiadomości wsparcia; odpowiadania na Twoje komentarze i pytania; analizowania użytkowania w celu ulepszenia naszej strony i usług.' },
+      { heading: '4. Pliki Cookie i Śledzenie', content: 'Używamy plików cookie i podobnych technologii śledzenia do zbierania i śledzenia informacji oraz ulepszania naszej usługi. Możesz poinstruować swoją przeglądarkę, aby odrzucała wszystkie pliki cookie lub wskazywała, kiedy plik cookie jest wysyłany.' },
+      { heading: '5. Przechowywanie Danych', content: 'Przechowujemy Twoje dane osobowe tylko tak długo, jak jest to konieczne do celów określonych w niniejszej Polityce Prywatności. Jeśli konto pozostaje nieaktywne przez jeden (1) rok, wszystkie powiązane dane osobowe zostaną trwale usunięte.' },
+      { heading: '6. Usługi Stron Trzecich', content: 'Możemy zatrudniać firmy zewnętrzne i osoby prywatne w celu ułatwienia naszej usługi, świadczenia usługi w naszym imieniu, wykonywania usług związanych z usługą lub pomocy w analizowaniu sposobu korzystania z naszej usługi.' },
+      { heading: '7. Bezpieczeństwo Danych', content: 'Wdrażamy odpowiednie środki techniczne, w tym szyfrowanie SSL i algorytmy haszujące, aby chronić Twoje dane osobowe. Jednak żadna metoda transmisji przez Internet ani elektroniczna metoda przechowywania nie jest w 100% bezpieczna.' },
+      { heading: '8. Twoje Prawa', content: 'Zgodnie z RODO masz prawo do: dostępu, aktualizacji lub usunięcia swoich danych osobowych; sprostowania wszelkich niedokładnych danych; sprzeciwu wobec przetwarzania danych osobowych; żądania ograniczenia przetwarzania; żądania przenoszenia danych; wycofania zgody w dowolnym momencie.' },
+      { heading: '9. Prywatność Dzieci', content: 'Nasza usługa nie jest skierowana do osób poniżej 18 roku życia. Nie gromadzimy świadomie danych osobowych od nieletnich.' },
+      { heading: '10. Użytkownicy Międzynarodowi', content: 'Jeśli uzyskujesz dostęp do naszej usługi spoza Wielkiej Brytanii, pamiętaj, że Twoje informacje mogą być przesyłane, przechowywane i przetwarzane w Wielkiej Brytanii, gdzie znajdują się nasze serwery.' },
+      { heading: '11. Zmiany w Tej Polityce', content: 'Możemy od czasu do czasu aktualizować naszą Politykę Prywatności. Poinformujemy Cię o wszelkich zmianach, publikując nową Politykę Prywatności na tej stronie.' },
+      { heading: '12. Skontaktuj się z Nami', content: 'Jeśli masz pytania dotyczące niniejszej Polityki Prywatności, skontaktuj się z nami pod adresem info@risknil.com.' }
+    ]
   },
   no: {
     title: 'Personvernpolicy',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. Introduksjon', '2. Data Vi Samler Inn', '3. Hvordan Vi Bruker Dine Data', '4. Informasjonskapsler og Sporing', '5. Dataoppbevaring', '6. Tredjepartstjenester', '7. Datasikkerhet', '8. Dine Rettigheter', '9. Barns Personvern', '10. Internasjonale Brukere', '11. Endringer i Denne Policyen', '12. Kontakt Oss'][i] || s.heading,
-      content: s.content
-    }))
+    sections: [
+      { heading: '1. Introduksjon', content: 'Denne personvernpolicyen forklarer hvordan risknil.com ("vi", "vår" eller "oss") samler inn, bruker og beskytter personlig informasjon når du bruker vår nettside og relaterte tjenester.' },
+      { heading: '2. Data Vi Samler Inn', content: 'Vi samler inn informasjon du gir oss direkte, for eksempel når du oppretter en konto, abonnerer på vårt nyhetsbrev eller kontakter oss. Dette kan inkludere navn, e-postadresse og betalingsinformasjon. Vi samler også automatisk inn viss informasjon når du besøker nettsiden vår, inkludert IP-adresse, nettlesertype, sider som vises og tid brukt på nettstedet.' },
+      { heading: '3. Hvordan Vi Bruker Dine Data', content: 'Vi bruker innsamlet informasjon for å: levere og vedlikeholde våre tjenester; behandle transaksjoner og sende relaterte varsler; sende deg teknisk informasjon, oppdateringer og støttemeldinger; svare på dine kommentarer og spørsmål; analysere bruk for å forbedre vår nettside og tjenester.' },
+      { heading: '4. Informasjonskapsler og Sporing', content: 'Vi bruker informasjonskapsler og lignende sporingsteknologier for å samle inn og spore informasjon og forbedre vår tjeneste. Du kan instruere nettleseren din til å avvise alle informasjonskapsler eller indikere når en informasjonskapsel sendes.' },
+      { heading: '5. Datalagring', content: 'Vi beholder dine personopplysninger bare så lenge det er nødvendig for formålene angitt i denne personvernpolicyen. Hvis en konto forblir inaktiv i ett (1) år, vil alle tilknyttede personopplysninger bli permanent slettet.' },
+      { heading: '6. Tredjepartstjenester', content: 'Vi kan bruke tredjepartsselskaper og enkeltpersoner for å lette vår tjeneste, levere tjenesten på våre vegne, utføre tjenesterelaterte tjenester eller hjelpe oss med å analysere hvordan vår tjeneste brukes.' },
+      { heading: '7. Datasikkerhet', content: 'Vi implementerer passende tekniske tiltak, inkludert SSL-kryptering og hashing-algoritmer, for å beskytte dine personopplysninger. Ingen metode for overføring over internett eller elektronisk lagringsmetode er imidlertid 100% sikker.' },
+      { heading: '8. Dine Rettigheter', content: 'I henhold til GDPR har du rett til å: få tilgang til, oppdatere eller slette din personlige informasjon; rette eventuelle unøyaktige data; protestere mot behandling av dine personopplysninger; be om begrensning av behandling; be om dataportabilitet; trekke tilbake samtykke når som helst.' },
+      { heading: '9. Barns Personvern', content: 'Vår tjeneste er ikke rettet mot personer under 18 år. Vi samler ikke bevisst inn personlig identifiserbar informasjon fra mindreårige.' },
+      { heading: '10. Internasjonale Brukere', content: 'Hvis du bruker vår tjeneste utenfor Storbritannia, vær oppmerksom på at din informasjon kan overføres til, lagres og behandles i Storbritannia hvor våre servere befinner seg.' },
+      { heading: '11. Endringer i Denne Policyen', content: 'Vi kan oppdatere vår personvernpolicy fra tid til annen. Vi vil varsle deg om eventuelle endringer ved å legge ut den nye personvernpolicyen på denne siden.' },
+      { heading: '12. Kontakt Oss', content: 'Hvis du har spørsmål om denne personvernpolicyen, vennligst kontakt oss på info@risknil.com.' }
+]
+  },
+  fi: {
+    title: 'Tietosuojakäytäntö',
+    sections: [
+      { heading: '1. Johdanto', content: 'Tämä tietosuojakäytäntö selittää, miten risknil.com ("me", "meidän" tai "meitä") kerää, käyttää ja suojaa henkilötietoja, kun käytät verkkosivustoamme ja siihen liittyviä palveluita.' },
+      { heading: '2. Keräämämme Tiedot', content: 'Keräämme tietoja, jotka annat meille suoraan, esimerkiksi kun luot tilin, tilaat uutiskirjeemme tai otat meihin yhteyttä. Tämä voi sisältää nimesi, sähköpostiosoitteesi ja maksutietosi. Keräämme myös automaattisesti tiettyjä tietoja, kun vierailet verkkosivustollamme.' },
+      { heading: '3. Miten Käytämme Tietojasi', content: 'Käytämme kerättyjä tietoja: palveluidemme tarjoamiseen ja ylläpitämiseen; tapahtumien käsittelyyn ja liittyvien ilmoitusten lähettämiseen; teknisten tietojen, päivitysten ja tukiviestien lähettämiseen; kommentteihin ja kysymyksiin vastaamiseen; käytön analysointiin verkkosivustomme ja palveluidemme parantamiseksi.' },
+      { heading: '4. Evästeet ja Seuranta', content: 'Käytämme evästeitä ja vastaavia seurantateknologioita tietojen keräämiseen ja seurantaan sekä palvelumme parantamiseen. Voit ohjeistaa selaintasi hylkäämään kaikki evästeet tai ilmoittamaan, kun eväste lähetetään.' },
+      { heading: '5. Tietojen Säilytys', content: 'Säilytämme henkilötietojasi vain niin kauan kuin on tarpeen tässä tietosuojakäytännössä kuvattuihin tarkoituksiin. Jos tili pysyy käyttämättömänä yhden (1) vuoden ajan, kaikki siihen liittyvät henkilötiedot poistetaan pysyvästi.' },
+      { heading: '6. Kolmannen Osapuolen Palvelut', content: 'Voimme käyttää kolmannen osapuolen yrityksiä ja henkilöitä helpottamaan palveluamme, tarjoamaan palvelua puolestamme, suorittamaan palveluun liittyviä palveluita tai auttamaan meitä analysoimaan palvelumme käyttöä.' },
+      { heading: '7. Tietoturva', content: 'Toteutamme asianmukaisia teknisiä toimenpiteitä, mukaan lukien SSL-salaus ja hajautusalgoritmit, henkilötietojesi suojaamiseksi. Mikään Internet-siirtomenetelmä tai sähköinen tallennusmenetelmä ei kuitenkaan ole 100% turvallinen.' },
+      { heading: '8. Oikeutesi', content: 'GDPR:n mukaan sinulla on oikeus: käyttää, päivittää tai poistaa henkilötietosi; oikaista epätarkat tiedot; vastustaa henkilötietojesi käsittelyä; pyytää käsittelyn rajoittamista; pyytää tietojen siirrettävyyttä; peruuttaa suostumus milloin tahansa.' },
+      { heading: '9. Lasten Yksityisyys', content: 'Palvelumme ei ole suunnattu alle 18-vuotiaille. Emme tietoisesti kerää henkilökohtaisesti tunnistettavia tietoja alaikäisiltä.' },
+      { heading: '10. Kansainväliset Käyttäjät', content: 'Jos käytät palveluamme Yhdistyneen kuningaskunnan ulkopuolelta, huomaa, että tietosi voidaan siirtää, tallentaa ja käsitellä Yhdistyneessä kuningaskunnassa, jossa palvelimemme sijaitsevat.' },
+      { heading: '11. Muutokset Tähän Käytäntöön', content: 'Voimme päivittää tietosuojakäytäntöämme aika ajoin. Ilmoitamme sinulle kaikista muutoksista julkaisemalla uuden tietosuojakäytännön tällä sivulla.' },
+      { heading: '12. Ota Yhteyttä', content: 'Jos sinulla on kysyttävää tästä tietosuojakäytännöstä, ota meihin yhteyttä osoitteessa info@risknil.com.' }
+    ]
+  },
+  ro: {
+    title: 'Politica de Confidențialitate',
+    sections: [
+      { heading: '1. Introducere', content: 'Această Politică de Confidențialitate explică modul în care risknil.com ("noi", "nostru" sau "ne") colectează, utilizează și protejează informațiile personale atunci când utilizați site-ul nostru web și serviciile conexe.' },
+      { heading: '2. Datele pe Care le Colectăm', content: 'Colectăm informații pe care ni le furnizați direct, cum ar fi atunci când creați un cont, vă abonați la newsletter-ul nostru sau ne contactați. Aceasta poate include numele, adresa de email și informațiile de plată. De asemenea, colectăm automat anumite informații când vizitați site-ul nostru.' },
+      { heading: '3. Cum Folosim Datele Tale', content: 'Utilizăm informațiile colectate pentru a: furniza și menține serviciile noastre; procesa tranzacții și trimite notificări conexe; vă trimite informații tehnice, actualizări și mesaje de suport; răspunde la comentariile și întrebările dumneavoastră; analiza utilizarea pentru a îmbunătăți site-ul și serviciile noastre.' },
+      { heading: '4. Cookie-uri și Urmărire', content: 'Utilizăm cookie-uri și tehnologii de urmărire similare pentru a colecta și urmări informații și pentru a îmbunătăți serviciul nostru. Puteți instrui browserul să refuze toate cookie-urile sau să indice când este trimis un cookie.' },
+      { heading: '5. Păstrarea Datelor', content: 'Păstrăm datele dumneavoastră personale doar atât timp cât este necesar pentru scopurile stabilite în această Politică de Confidențialitate. Dacă un cont rămâne inactiv timp de un (1) an, toate datele personale asociate vor fi șterse permanent.' },
+      { heading: '6. Servicii Terțe', content: 'Putem angaja companii și persoane terțe pentru a facilita serviciul nostru, pentru a furniza serviciul în numele nostru sau pentru a ne ajuta să analizăm modul în care este utilizat serviciul nostru.' },
+      { heading: '7. Securitatea Datelor', content: 'Implementăm măsuri tehnice adecvate, inclusiv criptare SSL și algoritmi de hashing, pentru a vă proteja datele personale. Cu toate acestea, nicio metodă de transmitere pe internet nu este 100% sigură.' },
+      { heading: '8. Drepturile Tale', content: 'În conformitate cu GDPR, aveți dreptul de a: accesa, actualiza sau șterge informațiile dumneavoastră personale; rectifica orice date inexacte; vă opune prelucrării datelor dumneavoastră personale; solicita restricționarea prelucrării; solicita portabilitatea datelor; retrage consimțământul în orice moment.' },
+      { heading: '9. Confidențialitatea Copiilor', content: 'Serviciul nostru nu se adresează persoanelor sub 18 ani. Nu colectăm în mod conștient informații personale identificabile de la minori.' },
+      { heading: '10. Utilizatori Internaționali', content: 'Dacă accesați serviciul nostru din afara Regatului Unit, vă rugăm să fiți conștienți că informațiile dumneavoastră pot fi transferate, stocate și procesate în Regatul Unit unde sunt amplasate serverele noastre.' },
+      { heading: '11. Modificări ale Acestei Politici', content: 'Putem actualiza periodic Politica noastră de Confidențialitate. Vă vom notifica cu privire la orice modificări prin publicarea noii Politici de Confidențialitate pe această pagină.' },
+      { heading: '12. Contactează-ne', content: 'Dacă aveți întrebări despre această Politică de Confidențialitate, vă rugăm să ne contactați la info@risknil.com.' }
+    ]
+  },
+  cs: {
+    title: 'Zásady Ochrany Osobních Údajů',
+    sections: [
+      { heading: '1. Úvod', content: 'Tyto Zásady ochrany osobních údajů vysvětlují, jak risknil.com ("my", "naše" nebo "nás") shromažďuje, používá a chrání osobní údaje při používání našich webových stránek a souvisejících služeb.' },
+      { heading: '2. Data, Která Shromažďujeme', content: 'Shromažďujeme informace, které nám poskytnete přímo, například když si vytvoříte účet, přihlásíte se k odběru našeho newsletteru nebo nás kontaktujete. To může zahrnovat vaše jméno, e-mailovou adresu a platební údaje. Také automaticky shromažďujeme určité informace při návštěvě našich webových stránek.' },
+      { heading: '3. Jak Používáme Vaše Data', content: 'Shromážděné informace používáme k: poskytování a údržbě našich služeb; zpracování transakcí a zasílání souvisejících oznámení; zasílání technických informací, aktualizací a podpůrných zpráv; odpovídání na vaše komentáře a dotazy; analýze používání za účelem zlepšení našich webových stránek a služeb.' },
+      { heading: '4. Cookies a Sledování', content: 'Používáme cookies a podobné sledovací technologie ke shromažďování a sledování informací a ke zlepšení naší služby. Můžete nastavit svůj prohlížeč, aby odmítal všechny cookies nebo aby vás upozornil, když je cookie odesláno.' },
+      { heading: '5. Uchovávání Dat', content: 'Vaše osobní údaje uchováváme pouze po dobu nezbytnou pro účely uvedené v těchto Zásadách ochrany osobních údajů. Pokud účet zůstane neaktivní po dobu jednoho (1) roku, všechny související osobní údaje budou trvale smazány.' },
+      { heading: '6. Služby Třetích Stran', content: 'Můžeme zaměstnat třetí strany a jednotlivce, aby usnadnili naši službu, poskytovali službu naším jménem nebo nám pomohli analyzovat, jak je naše služba používána.' },
+      { heading: '7. Zabezpečení Dat', content: 'Implementujeme vhodná technická opatření, včetně SSL šifrování a hashovacích algoritmů, k ochraně vašich osobních údajů. Nicméně žádná metoda přenosu přes internet není 100% bezpečná.' },
+      { heading: '8. Vaše Práva', content: 'Podle GDPR máte právo: přistupovat k, aktualizovat nebo mazat své osobní údaje; opravit jakékoli nepřesné údaje; vznést námitku proti zpracování vašich osobních údajů; požádat o omezení zpracování; požádat o přenositelnost údajů; odvolat souhlas kdykoli.' },
+      { heading: '9. Ochrana Soukromí Dětí', content: 'Naše služba není určena osobám mladším 18 let. Vědomě neshromažďujeme osobně identifikovatelné údaje od nezletilých.' },
+      { heading: '10. Mezinárodní Uživatelé', content: 'Pokud přistupujete k naší službě ze zahraničí mimo Spojené království, mějte na paměti, že vaše informace mohou být přeneseny, uloženy a zpracovány ve Spojeném království, kde se nacházejí naše servery.' },
+      { heading: '11. Změny Těchto Zásad', content: 'Tyto Zásady ochrany osobních údajů můžeme čas od času aktualizovat. O jakýchkoli změnách vás budeme informovat zveřejněním nových Zásad ochrany osobních údajů na této stránce.' },
+      { heading: '12. Kontaktujte Nás', content: 'Pokud máte otázky týkající se těchto Zásad ochrany osobních údajů, kontaktujte nás na info@risknil.com.' }
+    ]
+  },
+  ja: {
+    title: 'プライバシーポリシー',
+    sections: [
+      { heading: '1. はじめに', content: '本プライバシーポリシーは、risknil.com（「当社」、「私たち」または「私たちの」）が、当社のウェブサイトおよび関連サービスを使用する際に、個人情報をどのように収集、使用、保護するかを説明します。' },
+      { heading: '2. 収集するデータ', content: '当社は、アカウントの作成、ニュースレターの購読、お問い合わせの際など、お客様から直接提供される情報を収集します。これには、お名前、メールアドレス、支払い情報が含まれる場合があります。また、当社のウェブサイトを訪問する際に、IPアドレス、ブラウザタイプ、閲覧ページ、サイト滞在時間などの特定の情報も自動的に収集します。' },
+      { heading: '3. データの使用方法', content: '当社は収集した情報を以下の目的で使用します：サービスの提供と維持、取引の処理と関連通知の送信、技術情報・更新・サポートメッセージの送信、コメントや質問への回答、ウェブサイトとサービスの改善のための使用状況分析。' },
+      { heading: '4. Cookieとトラッキング', content: '当社は、情報の収集と追跡、およびサービスの改善のために、Cookieおよび類似の追跡技術を使用します。ブラウザの設定ですべてのCookieを拒否するか、Cookieが送信されたときに通知するよう設定することができます。' },
+      { heading: '5. データの保持', content: '当社は、本プライバシーポリシーに記載された目的に必要な期間のみ、お客様の個人データを保持します。アカウントが1年間非アクティブのままである場合、関連するすべての個人データは永久に削除されます。' },
+      { heading: '6. 第三者サービス', content: '当社は、サービスの促進、当社に代わってのサービス提供、またはサービスの使用状況の分析を支援するために、第三者企業や個人を雇用する場合があります。' },
+      { heading: '7. データセキュリティ', content: '当社は、SSL暗号化やハッシュアルゴリズムなど、適切な技術的措置を実施して、お客様の個人データを保護します。ただし、インターネットを介した送信方法は100%安全ではありません。' },
+      { heading: '8. あなたの権利', content: 'GDPRに基づき、お客様には以下の権利があります：個人情報へのアクセス、更新、削除、不正確なデータの修正、個人データの処理への異議申し立て、処理の制限の要求、データポータビリティの要求、いつでも同意を撤回する権利。' },
+      { heading: '9. 子供のプライバシー', content: '当社のサービスは18歳未満の方を対象としていません。当社は未成年者から故意に個人を特定できる情報を収集することはありません。' },
+      { heading: '10. 国際ユーザー', content: '英国外から当社のサービスにアクセスする場合、お客様の情報は当社のサーバーが所在する英国に転送、保存、処理される可能性があることをご了承ください。' },
+      { heading: '11. このポリシーの変更', content: '当社は、本プライバシーポリシーを随時更新する場合があります。変更があった場合は、このページに新しいプライバシーポリシーを掲載し、「最終更新日」を更新することでお知らせします。' },
+      { heading: '12. お問い合わせ', content: '本プライバシーポリシーについてご質問がある場合は、info@risknil.comまでお問い合わせください。' }
+    ]
+  },
+  ko: {
+    title: '개인정보 보호정책',
+    sections: [
+      { heading: '1. 소개', content: '본 개인정보 보호정책은 risknil.com("당사", "우리" 또는 "저희")이 귀하가 당사의 웹사이트 및 관련 서비스를 사용할 때 개인 정보를 수집, 사용 및 보호하는 방법을 설명합니다.' },
+      { heading: '2. 수집하는 데이터', content: '당사는 귀하가 계정을 생성하거나, 뉴스레터를 구독하거나, 당사에 연락할 때 등 귀하가 직접 제공하는 정보를 수집합니다. 여기에는 이름, 이메일 주소 및 결제 정보가 포함될 수 있습니다. 또한 당사 웹사이트 방문 시 IP 주소, 브라우저 유형, 조회한 페이지 및 사이트 체류 시간을 포함한 특정 정보를 자동으로 수집합니다.' },
+      { heading: '3. 데이터 사용 방법', content: '당사는 수집된 정보를 다음 목적으로 사용합니다: 서비스 제공 및 유지, 거래 처리 및 관련 알림 전송, 기술 정보, 업데이트 및 지원 메시지 전송, 귀하의 의견 및 질문에 대한 응답, 웹사이트 및 서비스 개선을 위한 사용 분석.' },
+      { heading: '4. 쿠키 및 추적', content: '당사는 정보를 수집 및 추적하고 서비스를 개선하기 위해 쿠키 및 유사한 추적 기술을 사용합니다. 귀하는 브라우저 설정에서 모든 쿠키를 거부하거나 쿠키가 전송될 때 알림을 받도록 설정할 수 있습니다.' },
+      { heading: '5. 데이터 보존', content: '당사는 본 개인정보 보호정책에 명시된 목적에 필요한 기간 동안만 귀하의 개인 데이터를 보유합니다. 계정이 1년 동안 비활성 상태로 유지되면 관련된 모든 개인 데이터가 영구적으로 삭제됩니다.' },
+      { heading: '6. 제3자 서비스', content: '당사는 서비스를 용이하게 하거나, 당사를 대신하여 서비스를 제공하거나, 서비스 사용 방법을 분석하는 데 도움을 주기 위해 제3자 회사 및 개인을 고용할 수 있습니다.' },
+      { heading: '7. 데이터 보안', content: '당사는 SSL 암호화 및 해싱 알고리즘을 포함한 적절한 기술적 조치를 구현하여 귀하의 개인 데이터를 보호합니다. 그러나 인터넷을 통한 전송 방법은 100% 안전하지 않습니다.' },
+      { heading: '8. 귀하의 권리', content: 'GDPR에 따라 귀하는 다음과 같은 권리가 있습니다: 개인 정보에 대한 접근, 업데이트 또는 삭제, 부정확한 데이터 수정, 개인 데이터 처리에 대한 이의 제기, 처리 제한 요청, 데이터 이동성 요청, 언제든지 동의 철회.' },
+      { heading: '9. 아동 개인정보 보호', content: '당사의 서비스는 18세 미만을 대상으로 하지 않습니다. 당사는 미성년자로부터 개인 식별 정보를 고의로 수집하지 않습니다.' },
+      { heading: '10. 국제 사용자', content: '영국 외부에서 당사 서비스에 접속하는 경우 귀하의 정보가 당사 서버가 위치한 영국으로 전송, 저장 및 처리될 수 있음을 유의하시기 바랍니다.' },
+      { heading: '11. 본 정책의 변경', content: '당사는 때때로 개인정보 보호정책을 업데이트할 수 있습니다. 변경 사항이 있을 경우 이 페이지에 새로운 개인정보 보호정책을 게시하여 알려드립니다.' },
+      { heading: '12. 문의하기', content: '본 개인정보 보호정책에 대해 질문이 있으시면 info@risknil.com으로 연락해 주십시오.' }
+    ]
+  },
+  hi: {
+    title: 'गोपनीयता नीति',
+    sections: [
+      { heading: '1. परिचय', content: 'यह गोपनीयता नीति बताती है कि risknil.com ("हम", "हमारा" या "हमें") जब आप हमारी वेबसाइट और संबंधित सेवाओं का उपयोग करते हैं तो व्यक्तिगत जानकारी कैसे एकत्र, उपयोग और सुरक्षित करता है।' },
+      { heading: '2. हम कौन सा डेटा एकत्र करते हैं', content: 'हम वह जानकारी एकत्र करते हैं जो आप सीधे हमें प्रदान करते हैं, जैसे कि जब आप खाता बनाते हैं, हमारे न्यूज़लेटर की सदस्यता लेते हैं, या हमसे संपर्क करते हैं। इसमें आपका नाम, ईमेल पता और भुगतान जानकारी शामिल हो सकती है।' },
+      { heading: '3. हम आपके डेटा का उपयोग कैसे करते हैं', content: 'हम एकत्रित जानकारी का उपयोग करते हैं: अपनी सेवाएं प्रदान करने और बनाए रखने के लिए; लेनदेन संसाधित करने और संबंधित सूचनाएं भेजने के लिए; तकनीकी जानकारी, अपडेट और समर्थन संदेश भेजने के लिए; आपकी टिप्पणियों और प्रश्नों का जवाब देने के लिए; उपयोग का विश्लेषण करने के लिए।' },
+      { heading: '4. कुकीज़ और ट्रैकिंग', content: 'हम जानकारी एकत्र करने और ट्रैक करने और अपनी सेवा को बेहतर बनाने के लिए कुकीज़ और इसी तरह की ट्रैकिंग तकनीकों का उपयोग करते हैं। आप अपने ब्राउज़र को सभी कुकीज़ को अस्वीकार करने के लिए निर्देशित कर सकते हैं।' },
+      { heading: '5. डेटा प्रतिधारण', content: 'हम आपके व्यक्तिगत डेटा को केवल इस गोपनीयता नीति में निर्धारित उद्देश्यों के लिए आवश्यक समय तक रखते हैं। यदि कोई खाता एक (1) वर्ष तक निष्क्रिय रहता है, तो सभी संबंधित व्यक्तिगत डेटा स्थायी रूप से हटा दिया जाएगा।' },
+      { heading: '6. तृतीय-पक्ष सेवाएं', content: 'हम अपनी सेवा को सुविधाजनक बनाने, हमारी ओर से सेवा प्रदान करने, या हमारी सेवा का उपयोग कैसे किया जाता है इसका विश्लेषण करने में हमारी मदद करने के लिए तृतीय-पक्ष कंपनियों और व्यक्तियों को नियुक्त कर सकते हैं।' },
+      { heading: '7. डेटा सुरक्षा', content: 'हम आपके व्यक्तिगत डेटा की सुरक्षा के लिए SSL एन्क्रिप्शन और हैशिंग एल्गोरिदम सहित उचित तकनीकी उपाय लागू करते हैं। हालांकि, इंटरनेट पर प्रसारण का कोई भी तरीका 100% सुरक्षित नहीं है।' },
+      { heading: '8. आपके अधिकार', content: 'GDPR के तहत, आपको निम्नलिखित अधिकार हैं: अपनी व्यक्तिगत जानकारी तक पहुंच, अपडेट या हटाना; गलत डेटा को सही करना; अपने व्यक्तिगत डेटा के प्रसंस्करण पर आपत्ति; प्रसंस्करण के प्रतिबंध का अनुरोध; डेटा पोर्टेबिलिटी का अनुरोध; किसी भी समय सहमति वापस लेना।' },
+      { heading: '9. बच्चों की गोपनीयता', content: 'हमारी सेवा 18 वर्ष से कम उम्र के व्यक्तियों के लिए नहीं है। हम जानबूझकर नाबालिगों से व्यक्तिगत रूप से पहचान योग्य जानकारी एकत्र नहीं करते हैं।' },
+      { heading: '10. अंतर्राष्ट्रीय उपयोगकर्ता', content: 'यदि आप यूनाइटेड किंगडम के बाहर से हमारी सेवा का उपयोग करते हैं, तो कृपया ध्यान रखें कि आपकी जानकारी यूनाइटेड किंगडम में स्थानांतरित, संग्रहीत और संसाधित की जा सकती है जहां हमारे सर्वर स्थित हैं।' },
+      { heading: '11. इस नीति में परिवर्तन', content: 'हम समय-समय पर अपनी गोपनीयता नीति को अपडेट कर सकते हैं। हम इस पृष्ठ पर नई गोपनीयता नीति पोस्ट करके किसी भी परिवर्तन की सूचना देंगे।' },
+      { heading: '12. हमसे संपर्क करें', content: 'यदि इस गोपनीयता नीति के बारे में आपके कोई प्रश्न हैं, तो कृपया info@risknil.com पर हमसे संपर्क करें।' }
+    ]
   },
   fi: {
     title: 'Tietosuojakäytäntö',
@@ -786,54 +948,107 @@ export const privacyTranslations: Record<string, PrivacyTranslation> = {
       content: s.content
     }))
   },
-  hi: {
-    title: 'गोपनीयता नीति',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. परिचय', '2. हम कौन सा डेटा एकत्र करते हैं', '3. हम आपके डेटा का उपयोग कैसे करते हैं', '4. कुकीज़ और ट्रैकिंग', '5. डेटा प्रतिधारण', '6. तृतीय-पक्ष सेवाएं', '7. डेटा सुरक्षा', '8. आपके अधिकार', '9. बच्चों की गोपनीयता', '10. अंतर्राष्ट्रीय उपयोगकर्ता', '11. इस नीति में परिवर्तन', '12. हमसे संपर्क करें'][i] || s.heading,
-      content: s.content
-    }))
-  },
   ar: {
     title: 'سياسة الخصوصية',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. المقدمة', '2. البيانات التي نجمعها', '3. كيف نستخدم بياناتك', '4. ملفات تعريف الارتباط والتتبع', '5. الاحتفاظ بالبيانات', '6. خدمات الطرف الثالث', '7. أمان البيانات', '8. حقوقك', '9. خصوصية الأطفال', '10. المستخدمون الدوليون', '11. التغييرات على هذه السياسة', '12. اتصل بنا'][i] || s.heading,
-      content: s.content
-    }))
+    sections: [
+      { heading: '1. المقدمة', content: 'توضح سياسة الخصوصية هذه كيف يقوم risknil.com ("نحن" أو "لنا" أو "خاصتنا") بجمع واستخدام وحماية المعلومات الشخصية عند استخدامك لموقعنا الإلكتروني والخدمات ذات الصلة.' },
+      { heading: '2. البيانات التي نجمعها', content: 'نجمع المعلومات التي تقدمها لنا مباشرة، مثل عند إنشاء حساب أو الاشتراك في نشرتنا الإخبارية أو التواصل معنا. قد يشمل ذلك اسمك وعنوان بريدك الإلكتروني ومعلومات الدفع. نجمع أيضًا تلقائيًا معلومات معينة عند زيارتك لموقعنا.' },
+      { heading: '3. كيف نستخدم بياناتك', content: 'نستخدم المعلومات المجمعة من أجل: توفير وصيانة خدماتنا؛ معالجة المعاملات وإرسال الإشعارات ذات الصلة؛ إرسال المعلومات التقنية والتحديثات ورسائل الدعم؛ الرد على تعليقاتك وأسئلتك؛ تحليل الاستخدام لتحسين موقعنا وخدماتنا.' },
+      { heading: '4. ملفات تعريف الارتباط والتتبع', content: 'نستخدم ملفات تعريف الارتباط وتقنيات التتبع المماثلة لجمع وتتبع المعلومات وتحسين خدمتنا. يمكنك توجيه متصفحك لرفض جميع ملفات تعريف الارتباط أو الإشارة عند إرسال ملف تعريف ارتباط.' },
+      { heading: '5. الاحتفاظ بالبيانات', content: 'نحتفظ ببياناتك الشخصية فقط طالما كان ذلك ضروريًا للأغراض المنصوص عليها في سياسة الخصوصية هذه. إذا ظل الحساب غير نشط لمدة سنة واحدة، فسيتم حذف جميع البيانات الشخصية المرتبطة بشكل دائم.' },
+      { heading: '6. خدمات الطرف الثالث', content: 'قد نوظف شركات وأفراد من طرف ثالث لتسهيل خدمتنا أو تقديم الخدمة نيابة عنا أو مساعدتنا في تحليل كيفية استخدام خدمتنا.' },
+      { heading: '7. أمان البيانات', content: 'نطبق التدابير التقنية المناسبة، بما في ذلك تشفير SSL وخوارزميات التجزئة، لحماية بياناتك الشخصية. ومع ذلك، لا توجد طريقة نقل عبر الإنترنت آمنة بنسبة 100%.' },
+      { heading: '8. حقوقك', content: 'بموجب اللائحة العامة لحماية البيانات، لديك الحق في: الوصول إلى معلوماتك الشخصية أو تحديثها أو حذفها؛ تصحيح أي بيانات غير دقيقة؛ الاعتراض على معالجة بياناتك الشخصية؛ طلب تقييد المعالجة؛ طلب قابلية نقل البيانات؛ سحب الموافقة في أي وقت.' },
+      { heading: '9. خصوصية الأطفال', content: 'خدمتنا ليست موجهة للأشخاص الذين تقل أعمارهم عن 18 عامًا. نحن لا نجمع عن قصد معلومات تعريف شخصية من القاصرين.' },
+      { heading: '10. المستخدمون الدوليون', content: 'إذا كنت تصل إلى خدمتنا من خارج المملكة المتحدة، يرجى العلم أن معلوماتك قد يتم نقلها وتخزينها ومعالجتها في المملكة المتحدة حيث توجد خوادمنا.' },
+      { heading: '11. التغييرات على هذه السياسة', content: 'قد نقوم بتحديث سياسة الخصوصية الخاصة بنا من وقت لآخر. سنخطرك بأي تغييرات عن طريق نشر سياسة الخصوصية الجديدة على هذه الصفحة.' },
+      { heading: '12. اتصل بنا', content: 'إذا كانت لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا على info@risknil.com.' }
+    ]
   },
   tl: {
     title: 'Patakaran sa Pagkapribado',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. Panimula', '2. Data na Kinokolekta Namin', '3. Paano Namin Ginagamit ang Iyong Data', '4. Cookies at Pagsubaybay', '5. Pagpapanatili ng Data', '6. Mga Serbisyo ng Third-Party', '7. Seguridad ng Data', '8. Ang Iyong mga Karapatan', '9. Privacy ng mga Bata', '10. Mga International na User', '11. Mga Pagbabago sa Patakarang Ito', '12. Makipag-ugnayan sa Amin'][i] || s.heading,
-      content: s.content
-    }))
+    sections: [
+      { heading: '1. Panimula', content: 'Ipinapaliwanag ng Patakaran sa Pagkapribado na ito kung paano kinokolekta, ginagamit, at pinoprotektahan ng risknil.com ("kami", "amin" o "namin") ang personal na impormasyon kapag ginagamit mo ang aming website at mga kaugnay na serbisyo.' },
+      { heading: '2. Data na Kinokolekta Namin', content: 'Kinokolekta namin ang impormasyong direktang ibinibigay mo sa amin, tulad ng kapag gumawa ka ng account, nag-subscribe sa aming newsletter, o nakipag-ugnayan sa amin. Maaaring kasama dito ang iyong pangalan, email address, at impormasyon sa pagbabayad.' },
+      { heading: '3. Paano Namin Ginagamit ang Iyong Data', content: 'Ginagamit namin ang nakolektang impormasyon upang: magbigay at mapanatili ang aming mga serbisyo; iproseso ang mga transaksyon at magpadala ng mga kaugnay na notipikasyon; magpadala sa iyo ng teknikal na impormasyon, update, at mga mensahe ng suporta; tumugon sa iyong mga komento at tanong; suriin ang paggamit upang mapabuti ang aming website at mga serbisyo.' },
+      { heading: '4. Cookies at Pagsubaybay', content: 'Gumagamit kami ng cookies at mga katulad na teknolohiya sa pagsubaybay upang mangolekta at subaybayan ang impormasyon at pagbutihin ang aming serbisyo. Maaari mong ituro ang iyong browser na tanggihan ang lahat ng cookies o magpahiwatig kapag ipinadala ang isang cookie.' },
+      { heading: '5. Pagpapanatili ng Data', content: 'Pinapanatili lamang namin ang iyong personal na data hangga\'t kinakailangan para sa mga layuning itinakda sa Patakaran sa Pagkapribado na ito. Kung ang isang account ay mananatiling hindi aktibo sa loob ng isang (1) taon, ang lahat ng kaugnay na personal na data ay permanenteng tatanggalin.' },
+      { heading: '6. Mga Serbisyo ng Third-Party', content: 'Maaari kaming gumamit ng mga third-party na kumpanya at indibidwal upang mapadali ang aming serbisyo, magbigay ng serbisyo sa ngalan namin, o tulungan kami na suriin kung paano ginagamit ang aming serbisyo.' },
+      { heading: '7. Seguridad ng Data', content: 'Nagpapatupad kami ng naaangkop na mga teknikal na hakbang, kabilang ang SSL encryption at hashing algorithm, upang protektahan ang iyong personal na data. Gayunpaman, walang paraan ng pagpapadala sa internet na 100% ligtas.' },
+      { heading: '8. Ang Iyong mga Karapatan', content: 'Sa ilalim ng GDPR, may karapatan kang: ma-access, i-update o tanggalin ang iyong personal na impormasyon; itama ang anumang hindi tumpak na data; tumutol sa pagpoproseso ng iyong personal na data; humiling ng paghihigpit sa pagpoproseso; humiling ng data portability; bawiin ang pahintulot anumang oras.' },
+      { heading: '9. Privacy ng mga Bata', content: 'Ang aming serbisyo ay hindi nakalaan para sa mga taong wala pang 18 taong gulang. Hindi kami sinasadyang nangongolekta ng personal na makikilalang impormasyon mula sa mga menor de edad.' },
+      { heading: '10. Mga International na User', content: 'Kung ina-access mo ang aming serbisyo mula sa labas ng United Kingdom, mangyaring tandaan na ang iyong impormasyon ay maaaring ilipat, iimbak, at iproseso sa United Kingdom kung saan matatagpuan ang aming mga server.' },
+      { heading: '11. Mga Pagbabago sa Patakarang Ito', content: 'Maaari naming i-update ang aming Patakaran sa Pagkapribado paminsan-minsan. Aabisuhan ka namin ng anumang pagbabago sa pamamagitan ng pag-post ng bagong Patakaran sa Pagkapribado sa pahinang ito.' },
+      { heading: '12. Makipag-ugnayan sa Amin', content: 'Kung mayroon kang mga tanong tungkol sa Patakaran sa Pagkapribado na ito, mangyaring makipag-ugnayan sa amin sa info@risknil.com.' }
+    ]
   },
   sw: {
     title: 'Sera ya Faragha',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. Utangulizi', '2. Data Tunayokusanya', '3. Jinsi Tunavyotumia Data Yako', '4. Vidakuzi na Ufuatiliaji', '5. Uhifadhi wa Data', '6. Huduma za Wahusika wa Tatu', '7. Usalama wa Data', '8. Haki Zako', '9. Faragha ya Watoto', '10. Watumiaji wa Kimataifa', '11. Mabadiliko ya Sera Hii', '12. Wasiliana Nasi'][i] || s.heading,
-      content: s.content
-    }))
+    sections: [
+      { heading: '1. Utangulizi', content: 'Sera hii ya Faragha inaeleza jinsi risknil.com ("sisi", "yetu" au "tulivyokuwa") inavyokusanya, kutumia na kulinda habari za kibinafsi unapotumia tovuti yetu na huduma zinazohusiana.' },
+      { heading: '2. Data Tunayokusanya', content: 'Tunakusanya habari unazotupa moja kwa moja, kama vile unapounda akaunti, kujiandikisha kwa jarida letu, au kuwasiliana nasi. Hii inaweza kujumuisha jina lako, anwani ya barua pepe na maelezo ya malipo.' },
+      { heading: '3. Jinsi Tunavyotumia Data Yako', content: 'Tunatumia habari zilizokusanywa ili: kutoa na kudumisha huduma zetu; kuchakata miamala na kutuma arifa zinazohusiana; kukutumia habari za kiufundi, masasisho na ujumbe wa msaada; kujibu maoni na maswali yako; kuchambua matumizi ili kuboresha tovuti na huduma zetu.' },
+      { heading: '4. Vidakuzi na Ufuatiliaji', content: 'Tunatumia vidakuzi na teknolojia sawa za ufuatiliaji kukusanya na kufuatilia habari na kuboresha huduma yetu. Unaweza kuelekeza kivinjari chako kukataa vidakuzi vyote au kuonyesha wakati kidakuzi kinapotumwa.' },
+      { heading: '5. Uhifadhi wa Data', content: 'Tunahifadhi data yako ya kibinafsi tu kwa muda unaohitajika kwa madhumuni yaliyoainishwa katika Sera hii ya Faragha. Ikiwa akaunti itabaki bila kutumika kwa mwaka mmoja (1), data yote ya kibinafsi inayohusiana itafutwa kabisa.' },
+      { heading: '6. Huduma za Wahusika wa Tatu', content: 'Tunaweza kuajiri kampuni na watu wa wahusika wa tatu ili kuwezesha huduma yetu, kutoa huduma kwa niaba yetu, au kutusaidia kuchambua jinsi huduma yetu inavyotumika.' },
+      { heading: '7. Usalama wa Data', content: 'Tunatekeleza hatua za kiufundi zinazofaa, ikiwa ni pamoja na uingizaji wa SSL na algorithms za hashing, kulinda data yako ya kibinafsi. Hata hivyo, hakuna njia ya usambazaji kupitia mtandao ambayo ni salama kwa 100%.' },
+      { heading: '8. Haki Zako', content: 'Chini ya GDPR, una haki ya: kufikia, kusasisha au kufuta habari zako za kibinafsi; kusahihisha data yoyote isiyo sahihi; kupinga uchakataji wa data yako ya kibinafsi; kuomba kuzuiliwa kwa uchakataji; kuomba uhamaji wa data; kuondoa idhini wakati wowote.' },
+      { heading: '9. Faragha ya Watoto', content: 'Huduma yetu haikusudiwi kwa watu walio chini ya umri wa miaka 18. Hatukusanyi kwa makusudi habari zinazoweza kutambulika za kibinafsi kutoka kwa watoto.' },
+      { heading: '10. Watumiaji wa Kimataifa', content: 'Ikiwa unafikia huduma yetu kutoka nje ya Uingereza, tafadhali fahamu kuwa habari zako zinaweza kuhamishwa, kuhifadhiwa na kusindikwa nchini Uingereza ambapo seva zetu ziko.' },
+      { heading: '11. Mabadiliko ya Sera Hii', content: 'Tunaweza kusasisha Sera yetu ya Faragha mara kwa mara. Tutakujulisha kuhusu mabadiliko yoyote kwa kuchapisha Sera mpya ya Faragha kwenye ukurasa huu.' },
+      { heading: '12. Wasiliana Nasi', content: 'Ikiwa una maswali yoyote kuhusu Sera hii ya Faragha, tafadhali wasiliana nasi kwa info@risknil.com.' }
+    ]
   },
   af: {
     title: 'Privaatheidsbeleid',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. Inleiding', '2. Data Wat Ons Versamel', '3. Hoe Ons Jou Data Gebruik', '4. Koekies en Opsporing', '5. Data Bewaring', '6. Derdeparty Dienste', '7. Data Sekuriteit', '8. Jou Regte', '9. Kinders se Privaatheid', '10. Internasionale Gebruikers', '11. Veranderinge aan Hierdie Beleid', '12. Kontak Ons'][i] || s.heading,
-      content: s.content
-    }))
+    sections: [
+      { heading: '1. Inleiding', content: 'Hierdie Privaatheidsbeleid verduidelik hoe risknil.com ("ons", "ons" of "ons") persoonlike inligting insamel, gebruik en beskerm wanneer jy ons webwerf en verwante dienste gebruik.' },
+      { heading: '2. Data Wat Ons Versamel', content: 'Ons versamel inligting wat jy direk aan ons verskaf, soos wanneer jy \'n rekening skep, op ons nuusbrief inteken, of ons kontak. Dit kan jou naam, e-posadres en betalingsinligting insluit.' },
+      { heading: '3. Hoe Ons Jou Data Gebruik', content: 'Ons gebruik versamelde inligting om: ons dienste te verskaf en te onderhou; transaksies te verwerk en verwante kennisgewings te stuur; tegniese inligting, opdaterings en ondersteuningsboodskappe aan jou te stuur; op jou kommentaar en vrae te reageer; gebruik te analiseer om ons webwerf en dienste te verbeter.' },
+      { heading: '4. Koekies en Opsporing', content: 'Ons gebruik koekies en soortgelyke opsporingstegnologieë om inligting te versamel en op te spoor en ons diens te verbeter. Jy kan jou blaaier opdrag gee om alle koekies te weier of aan te dui wanneer \'n koekie gestuur word.' },
+      { heading: '5. Data Bewaring', content: 'Ons hou jou persoonlike data slegs so lank as wat nodig is vir die doeleindes uiteengesit in hierdie Privaatheidsbeleid. As \'n rekening vir een (1) jaar onaktief bly, sal alle geassosieeerde persoonlike data permanent uitgevee word.' },
+      { heading: '6. Derdeparty Dienste', content: 'Ons kan derdeparty-maatskappye en individue in diens neem om ons diens te fasiliteer, die diens namens ons te verskaf, of ons te help om te analiseer hoe ons diens gebruik word.' },
+      { heading: '7. Data Sekuriteit', content: 'Ons implementeer toepaslike tegniese maatreëls, insluitend SSL-enkripsie en hashing-algoritmes, om jou persoonlike data te beskerm. Geen metode van oordrag oor die internet is egter 100% veilig nie.' },
+      { heading: '8. Jou Regte', content: 'Onder die GDPR het jy die reg om: toegang tot, opdatering of uitvee van jou persoonlike inligting; enige onakkurate data reg te stel; beswaar te maak teen die verwerking van jou persoonlike data; beperking van verwerking te versoek; data-oordraagbaarheid te versoek; toestemming te eniger tyd in te trek.' },
+      { heading: '9. Kinders se Privaatheid', content: 'Ons diens is nie gerig op persone onder die ouderdom van 18 nie. Ons versamel nie bewustelik persoonlik identifiseerbare inligting van minderjariges nie.' },
+      { heading: '10. Internasionale Gebruikers', content: 'As jy ons diens van buite die Verenigde Koninkryk af toegang verkry, wees asseblief bewus dat jou inligting na die Verenigde Koninkryk oorgedra, gestoor en verwerk kan word waar ons bedieners geleë is.' },
+      { heading: '11. Veranderinge aan Hierdie Beleid', content: 'Ons kan ons Privaatheidsbeleid van tyd tot tyd opdateer. Ons sal jou van enige veranderinge in kennis stel deur die nuwe Privaatheidsbeleid op hierdie bladsy te plaas.' },
+      { heading: '12. Kontak Ons', content: 'As jy enige vrae oor hierdie Privaatheidsbeleid het, kontak ons asseblief by info@risknil.com.' }
+    ]
   },
   zu: {
     title: 'Inqubomgomo Yobumfihlo',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. Isingeniso', '2. Idatha Esiyiqoqayo', '3. Indlela Esisebenzisa Ngayo Idatha Yakho', '4. Amakhukhisi Nokulandelela', '5. Ukugcinwa Kwedatha', '6. Amasevisi Abantu Besithathu', '7. Ukuphepha Kwedatha', '8. Amalungelo Akho', '9. Ubumfihlo Bezingane', '10. Abasebenzisi Bomhlaba Wonke', '11. Izinguquko Kule Nqubomgomo', '12. Xhumana Nathi'][i] || s.heading,
-      content: s.content
-    }))
+    sections: [
+      { heading: '1. Isingeniso', content: 'Le Nqubomgomo Yobumfihlo ichaza ukuthi i-risknil.com ("thina", "yethu" noma "sethu") iqoqa, isebenzisa futhi ivikela kanjani imininingwane yomuntu siqu uma usebenzisa iwebhusayithi yethu namasevisi ahlobene.' },
+      { heading: '2. Idatha Esiyiqoqayo', content: 'Siqoqa imininingwane oyinikeza thina ngqo, njengalapho udala i-akhawunti, ubhalisa incwadi yezindaba yethu, noma uxhumana nathi. Lokhu kungahlanganisa igama lakho, ikheli lakho le-imeyili nemininingwane yokukhokha.' },
+      { heading: '3. Indlela Esisebenzisa Ngayo Idatha Yakho', content: 'Sisebenzisa imininingwane eqoqiwe ukuze: sihlinzeke futhi sigcine amasevisi ethu; sicubungule izinkokhelo futhi sithumele izaziso ezihlobene; sikuthumele imininingwane yezobuchwepheshe, izibuyekezo nemiyalezo yokusekela; siphendule amazwana nemibuzo yakho; sihlaziye ukusetshenziswa ukuze sithuthukise iwebhusayithi namasevisi ethu.' },
+      { heading: '4. Amakhukhisi Nokulandelela', content: 'Sisebenzisa amakhukhisi nobuchwepheshe obufanayo bokulandelela ukuqoqa nokulandelela imininingwane nokuthuthukisa isevisi yethu. Ungayalela isiphequluli sakho ukuthi senqabe wonke amakhukhisi noma sikhombise lapho kuthunyelwa ikhukhisi.' },
+      { heading: '5. Ukugcinwa Kwedatha', content: 'Sigcina idatha yakho yomuntu siqu kuphela isikhathi esidingekayo ngezinhloso ezibekwe kule Nqubomgomo Yobumfihlo. Uma i-akhawunti ihlala ingasebenzi unyaka owodwa (1), yonke idatha yomuntu siqu ehlobene izosuswa unomphela.' },
+      { heading: '6. Amasevisi Abantu Besithathu', content: 'Singaqasha izinkampani nabantu abangesona isithathu ukusiza isevisi yethu, ukunikeza isevisi egameni lethu, noma ukusisiza ukuhlaziya indlela isevisi yethu esetshenziswa ngayo.' },
+      { heading: '7. Ukuphepha Kwedatha', content: 'Sisebenzisa izinyathelo ezifanele zobuchwepheshe, okuhlanganisa i-SSL encryption nama-algorithms wokuhasha, ukuvikela idatha yakho yomuntu siqu. Nokho, ayikho indlela yokudlulisa nge-inthanethi ephephile ngo-100%.' },
+      { heading: '8. Amalungelo Akho', content: 'Ngaphansi kwe-GDPR, unelungelo lokuthi: ufinyelele, ubuyekeze noma ususe imininingwane yakho yomuntu siqu; ulungise noma iyiphi idatha engalungile; uphikise ukucubungulwa kwedatha yakho yomuntu siqu; ucele ukuvinjelwa kokucubungula; ucele ukudluliselwa kwedatha; uhoxise imvume nganoma yisiphi isikhathi.' },
+      { heading: '9. Ubumfihlo Bezingane', content: 'Isevisi yethu ayihloselwe abantu abangaphansi kweminyaka engu-18. Asiqoqi ngamabomu imininingwane ekhomba umuntu siqu evela ezinganeni.' },
+      { heading: '10. Abasebenzisi Bomhlaba Wonke', content: 'Uma ufinyelela isevisi yethu ngaphandle kwe-United Kingdom, sicela wazi ukuthi imininingwane yakho ingadluliselwa, igcinwe futhi icutshungulwe e-United Kingdom lapho kukhona amaseva ethu.' },
+      { heading: '11. Izinguquko Kule Nqubomgomo', content: 'Singabuyekeza Inqubomgomo Yethu Yobumfihlo ngezikhathi ezithile. Sizokwazisa nganoma yiziphi izinguquko ngokuthumela Inqubomgomo Entsha Yobumfihlo kuleli khasi.' },
+      { heading: '12. Xhumana Nathi', content: 'Uma unemibuzo mayelana nale Nqubomgomo Yobumfihlo, sicela uxhumane nathi ku-info@risknil.com.' }
+    ]
   },
   xh: {
     title: 'Umgaqo-nkqubo Wobumfihlo',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. Intshayelelo', '2. Idatha Esiyiqokelelayo', '3. Indlela Esisebenzisa Ngayo Idatha Yakho', '4. Iikhukhisi Nokulandelela', '5. Ukugcinwa Kwedatha', '6. Iinkonzo Zabantu Besithathu', '7. Ukhuseleko Lwedatha', '8. Amalungelo Akho', '9. Ubumfihlo Babantwana', '10. Abasebenzisi Bamazwe Ngamazwe', '11. Utshintsho Kulo Mgaqo-nkqubo', '12. Qhagamshelana Nathi'][i] || s.heading,
-      content: s.content
-    }))
+    sections: [
+      { heading: '1. Intshayelelo', content: 'Lo Mgaqo-nkqubo Wobumfihlo ucacisa ukuba i-risknil.com ("thina", "yethu" okanye "thina") iqokelela, isebenzisa kwaye ikhusele njani ulwazi lomntu xa usebenzisa iwebhusayithi yethu kunye neenkonzo ezinxulumeneyo.' },
+      { heading: '2. Idatha Esiyiqokelelayo', content: 'Siqokelela ulwazi olunikezela ngqo kuthi, njengaxa udala i-akhawunti, ubhalisa kwincwadi yeethu yeendaba, okanye unxibelelana nathi. Oku kunokubandakanya igama lakho, idilesi ye-imeyile kunye nolwazi lokuhlawula.' },
+      { heading: '3. Indlela Esisebenzisa Ngayo Idatha Yakho', content: 'Sisebenzisa ulwazi oluqokelelweyo ukuze: sibonelele kwaye sigcine iinkonzo zethu; sicubungule iintlawulo kwaye sithumele izaziso ezinxulumeneyo; sikuthumele ulwazi lobuchwepheshe, uhlaziyo kunye nemiyalezo yokuxhasa; siphendule amagqabaza nemibuzo yakho; sihlalutye ukusetyenziswa ukuphucula iwebhusayithi neenkonzo zethu.' },
+      { heading: '4. Iikhukhisi Nokulandelela', content: 'Sisebenzisa iikhukhisi kunye nobuchwepheshe obufanayo bokulandelela ukuqokelela nokulandelela ulwazi kunye nokuphucula inkonzo yethu. Ungayalela isikhangeli sakho ukuba sale zonke iikhukhisi okanye sibonise xa kuthunyelwa ikhukhisi.' },
+      { heading: '5. Ukugcinwa Kwedatha', content: 'Sigcina idatha yakho yobuqu kuphela ixesha elifunekayo ngeenjongo ezibekwe kulo Mgaqo-nkqubo Wobumfihlo. Ukuba i-akhawunti ihlala ingasebenzi unyaka omnye (1), lonke idatha yobuqu enxulumeneyo iya kucinywa ngokusisigxina.' },
+      { heading: '6. Iinkonzo Zabantu Besithathu', content: 'Sinokuqesha iinkampani nabantu abangesiso isithathu ukunceda inkonzo yethu, ukuze sinikeze inkonzo egameni lethu, okanye sisincede ukuhlalutya indlela esetyenziswa ngayo inkonzo yethu.' },
+      { heading: '7. Ukhuseleko Lwedatha', content: 'Sisebenzisa amanyathelo afanelekileyo ezobuchwepheshe, kubandakanya i-SSL encryption kunye ne-algorithms zokuhasha, ukukhusela idatha yakho yobuqu. Nangona kunjalo, akukho ndlela yokuthunyelwa nge-intanethi ekhuselekile nge-100%.' },
+      { heading: '8. Amalungelo Akho', content: 'Phantsi kwe-GDPR, unelungelo lokuthi: ufikelele, uhlaziye okanye ucime ulwazi lwakho lobuqu; ulungise nayiphi na idatha engachanekanga; uphikise ukusetyenzwa kwedatha yakho yobuqu; ucele ukuthintela ukusetyenzwa; ucele ukudluliswa kwedatha; urhoxise imvume nangaliphi na ixesha.' },
+      { heading: '9. Ubumfihlo Babantwana', content: 'Inkonzo yethu ayijolise kubantu abangaphantsi kweminyaka eyi-18. Asiqokeleli ngabom ulwazi oluchonga umntu lubuqu kubantwana.' },
+      { heading: '10. Abasebenzisi Bamazwe Ngamazwe', content: 'Ukuba ufikelela inkonzo yethu ngaphandle kwe-United Kingdom, nceda wazi ukuba ulwazi lwakho lunokudluliselwa, lugcinwe kwaye lucutshungulwe e-United Kingdom apho iiserver zethu zikhoyo.' },
+      { heading: '11. Utshintsho Kulo Mgaqo-nkqubo', content: 'Sinokuhlaziya uMgaqo-nkqubo Wethu Wobumfihlo rhoqo ngokuhamba kwexesha. Siya kukwazisa ngayo nayiphi na inguqu ngokuposa uMgaqo-nkqubo Omtsha Wobumfihlo kule phepha.' },
+      { heading: '12. Qhagamshelana Nathi', content: 'Ukuba unemibuzo malunga nalo Mgaqo-nkqubo Wobumfihlo, nceda uqhagamshelane nathi ku-info@risknil.com.' }
+    ]
   }
 }
 

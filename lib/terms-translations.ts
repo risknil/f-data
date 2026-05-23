@@ -439,10 +439,27 @@ const zhCNTerms: TermsContent = {
   lastUpdated: '最后更新：2026年5月14日',
   backButton: '返回 RiskNil',
   legalNote: '如语言版本之间存在任何差异，以英文版本为准。',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. 使用条款', '2. 一般规定和全球范围', '3. 服务说明', '4. 付款和银行转账', '5. 专有内容（无用户生成内容）', '6. 第三方链接和广告', '7. 账户不活动', '8. 知识产权和版权', '9. 法律合规和管辖权', '10. 免责声明和责任限制', '隐私政策', '11. 数据保护和GDPR', '12. 个人数据收集', '13. 您作为数据主体的权利', '14. 数据使用和营销', '15. 数据披露', '16. 安全和保留', '17. Cookie政策', '18. 版本和联系方式'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. 使用条款', content: '本使用条款（"条款"）构成"提供者"与访问risknil.com网站、其移动应用程序或任何相关功能、内容或服务（统称"网站"）的任何个人或实体（"用户"）之间具有法律约束力的协议。' },
+    { title: '2. 一般规定和全球范围', content: '适用性：本条款管辖提供者与用户之间的全部关系。\n\n修改：提供者保留随时修改本条款的权利。\n\n合法使用：网站仅可用于合法目的。\n\n制裁：如发生滥用，提供者保留阻止访问和终止账户的权利。' },
+    { title: '3. 服务说明', content: '网站提供包含体育信息、比分、投注提示和分析数据的互动平台。虽然提供者力求准确，但不保证比赛结果或赔率的可靠性。' },
+    { title: '4. 付款和银行转账', content: '付款方式：网站通过安全的在线支付网关和直接银行转账接受高级服务付款。\n\n付款最终性：除非当地消费者法另有要求，否则所有付款不可退还。' },
+    { title: '5. 专有内容（无用户生成内容）', content: '独家所有权：所有内容均由提供者独家提供。\n\n禁止用户提交：网站不允许用户生成的内容。' },
+    { title: '6. 第三方链接和广告', content: '用户承认，与网站上发现的第三方网站或广告的任何互动完全由用户自行承担风险。' },
+    { title: '7. 账户不活动', content: '提供者保留关闭连续180天未访问的任何用户账户的权利。' },
+    { title: '8. 知识产权和版权', content: '所有权：网站上的所有内容和软件均为提供者的财产。严禁用户复制或复制网站的任何部分。' },
+    { title: '9. 法律合规和管辖权', content: '管辖法律：本条款受英国法律管辖。所有各方服从英国法院的专属管辖权。' },
+    { title: '10. 免责声明和责任限制', content: '无保证：网站按"原样"提供。\n\n非赌博服务：网站是信息工具。\n\n损失限制：提供者不对直接或间接损失负责。' },
+    { title: '隐私政策', content: '' },
+    { title: '11. 数据保护和GDPR', content: '网站致力于根据GDPR保护用户隐私。数据控制者是risknil.com。' },
+    { title: '12. 个人数据收集', content: '注册：个人数据仅在注册时收集。\n\n同意：使用服务即表示用户同意收集其数据。' },
+    { title: '13. 您作为数据主体的权利', content: '用户拥有以下权利：访问和更正、删除、限制和反对、可移植性。' },
+    { title: '14. 数据使用和营销', content: '个人数据用于通信和支付处理。我们不向第三方出售数据。' },
+    { title: '15. 数据披露', content: '数据仅可为处理付款或履行法律义务而向第三方披露。' },
+    { title: '16. 安全和保留', content: '安全措施：我们使用SSL和哈希算法。\n\n保留：数据仅保留必要的时间。' },
+    { title: '17. Cookie政策', content: '网站使用Cookie来个性化内容和分析流量。用户可以禁用Cookie。' },
+    { title: '18. 版本和联系方式', content: '提供者：Risknil.com。\n\n电子邮件：info@risknil.com。\n\n最后更新：2026年5月14日。' }
+  ]
 }
 
 const zhTWTerms: TermsContent = {
@@ -450,10 +467,27 @@ const zhTWTerms: TermsContent = {
   lastUpdated: '最後更新：2026年5月14日',
   backButton: '返回 RiskNil',
   legalNote: '如語言版本之間存在任何差異，以英文版本為準。',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. 使用條款', '2. 一般規定和全球範圍', '3. 服務說明', '4. 付款和銀行轉賬', '5. 專有內容（無用戶生成內容）', '6. 第三方連結和廣告', '7. 帳戶不活動', '8. 知識產權和版權', '9. 法律合規和管轄權', '10. 免責聲明和責任限制', '隱私政策', '11. 數據保護和GDPR', '12. 個人數據收集', '13. 您作為數據主體的權利', '14. 數據使用和營銷', '15. 數據披露', '16. 安全和保留', '17. Cookie政策', '18. 版本和聯繫方式'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. 使用條款', content: '本使用條款（「條款」）構成「提供者」與訪問risknil.com網站、其行動應用程式或任何相關功能、內容或服務（統稱「網站」）的任何個人或實體（「用戶」）之間具有法律約束力的協議。' },
+    { title: '2. 一般規定和全球範圍', content: '適用性：本條款管轄提供者與用戶之間的全部關係。\n\n修改：提供者保留隨時修改本條款的權利。\n\n合法使用：網站僅可用於合法目的。\n\n制裁：如發生濫用，提供者保留阻止訪問和終止帳戶的權利。' },
+    { title: '3. 服務說明', content: '網站提供包含體育資訊、比分、投注提示和分析數據的互動平台。雖然提供者力求準確，但不保證比賽結果或賠率的可靠性。' },
+    { title: '4. 付款和銀行轉賬', content: '付款方式：網站通過安全的線上支付閘道和直接銀行轉賬接受高級服務付款。\n\n付款最終性：除非當地消費者法另有要求，否則所有付款不可退還。' },
+    { title: '5. 專有內容（無用戶生成內容）', content: '獨家所有權：所有內容均由提供者獨家提供。\n\n禁止用戶提交：網站不允許用戶生成的內容。' },
+    { title: '6. 第三方連結和廣告', content: '用戶承認，與網站上發現的第三方網站或廣告的任何互動完全由用戶自行承擔風險。' },
+    { title: '7. 帳戶不活動', content: '提供者保留關閉連續180天未訪問的任何用戶帳戶的權利。' },
+    { title: '8. 知識產權和版權', content: '所有權：網站上的所有內容和軟體均為提供者的財產。嚴禁用戶複製或複製網站的任何部分。' },
+    { title: '9. 法律合規和管轄權', content: '管轄法律：本條款受英國法律管轄。所有各方服從英國法院的專屬管轄權。' },
+    { title: '10. 免責聲明和責任限制', content: '無保證：網站按「原樣」提供。\n\n非賭博服務：網站是資訊工具。\n\n損失限制：提供者不對直接或間接損失負責。' },
+    { title: '隱私政策', content: '' },
+    { title: '11. 數據保護和GDPR', content: '網站致力於根據GDPR保護用戶隱私。數據控制者是risknil.com。' },
+    { title: '12. 個人數據收集', content: '註冊：個人數據僅在註冊時收集。\n\n同意：使用服務即表示用戶同意收集其數據。' },
+    { title: '13. 您作為數據主體的權利', content: '用戶擁有以下權利：訪問和更正、刪除、限制和反對、可移植性。' },
+    { title: '14. 數據使用和營銷', content: '個人數據用於通信和支付處理。我們不向第三方出售數據。' },
+    { title: '15. 數據披露', content: '數據僅可為處理付款或履行法律義務而向第三方披露。' },
+    { title: '16. 安全和保留', content: '安全措施：我們使用SSL和雜湊演算法。\n\n保留：數據僅保留必要的時間。' },
+    { title: '17. Cookie政策', content: '網站使用Cookie來個人化內容和分析流量。用戶可以停用Cookie。' },
+    { title: '18. 版本和聯繫方式', content: '提供者：Risknil.com。\n\n電子郵件：info@risknil.com。\n\n最後更新：2026年5月14日。' }
+  ]
 }
 
 const itTerms: TermsContent = {
@@ -631,7 +665,7 @@ const elTerms: TermsContent = {
     { title: '12. Συλλογή Προσωπικών Δεδομένων', content: 'Εγγραφή: Τα προσωπικά δεδομένα συλλέγονται μόνο κατά την εγγραφή.\n\nΣυγκατάθεση: Χρησιμοποιώντας τις υπηρεσίες, ο Χρήστης συναινεί στη συλλογή των δεδομένων του.' },
     { title: '13. Τα Δικαιώματά Σας', content: 'Οι Χρήστες έχουν τα ακόλουθα δικαιώματα: Πρόσβαση και Διόρθωση, Διαγραφή, Περιορισμός και Αντίρρηση, Φορητότητα.' },
     { title: '14. Χρήση Δεδομένων', content: 'Τα προσωπικά δεδομένα χρησιμοποιούνται για επικοινωνία και επεξεργασία πληρωμών. Δεν πουλάμε δεδομένα σε τρίτους.' },
-    { title: '15. Αποκάλυψη Δεδομένων', content: 'Τα δεδομένα μπορούν να αποκαλυφθούν σε τρίτους μόνο για επεξεργασία πληρωμών ή νομικές υποχρεώσεις.' },
+    { title: '15. Αποκάλυψη Δεδομένων', content: '��α δεδομένα μπορούν να αποκαλυφθούν σε τρίτους μόνο για επεξεργασία πληρωμών ή νομικές υποχρεώσεις.' },
     { title: '16. Ασφάλεια και Διατήρηση', content: 'Μέτρα Ασφαλείας: Χρησιμοποιούμε SSL και αλγόριθμους κατακερματισμού.\n\nΔιατήρηση: Τα δεδομένα διατηρούνται μόνο όσο χρειάζεται.' },
     { title: '17. Πολιτική Cookies', content: 'Ο Ιστότοπος χρησιμοποιεί cookies για εξατομίκευση περιεχομένου και ανάλυση επισκεψιμότητας. Οι Χρήστες μπορούν να απενεργοποιήσουν τα cookies.' },
     { title: '18. Έκδοση και Επικοινωνία', content: 'Πάροχος: Risknil.com.\n\nEmail: info@risknil.com.\n\nΤελευταία ενημέρωση: 14 Μαΐου 2026.' }
@@ -784,7 +818,7 @@ const jaTerms: TermsContent = {
   backButton: 'RiskNilに戻る',
   legalNote: '言語バージョン間に相違がある場合は、英語版が優先されます。',
   sections: [
-    { title: '1. 利用規約', content: 'この利用規約（「規約」）は、「プロバイダー」とrisknil.comウェブサイト、そのモバイルアプリケーション、または関連する機能、コンテンツ、またはサービス（総称して「サイト」）にアクセスする個人または団体（「ユーザー」）との間の法的拘束力のある契約を構成します。' },
+    { title: '1. 利用規約', content: 'この利用規約（「規約」）は、「プロバイダー」とrisknil.comウェブサイト、そのモバイルアプリケーション、または関連��る機能、コンテンツ、またはサービス（総称して「サイト」）にアクセスする個人または団体（「ユーザー」）との間の法的拘束力のある契約を構成します。' },
     { title: '2. 一般規定とグローバル範囲', content: '適用性：この規約は、プロバイダーとユーザー間の全ての関係を規定します。\n\n変更：プロバイダーは、いつでもこの規約を変更する権利を留保します。\n\n合法的使用：サイトは、合法的な目的でのみ使用する必要があります。\n\n制裁：不正使用の場合、プロバイダーはアクセスをブロックしアカウントを終了する権利を留保します。' },
     { title: '3. サービスの説明', content: 'サイトは、スポーツ情報、スコア、ベッティングのヒント、および分析データを備えたインタラクティブなプラットフォームを提供します。プロバイダーは正確性を追求しますが、試合結果やオッズの信頼性は保証されません。' },
     { title: '4. 支払いと銀行振込', content: '支払い方法：サイトは、安全なオンライン決済ゲートウェイと直接銀行振込を通じてプレミアムサービスの支払いを受け付けます。\n\n支払いの最終性：地域の消費者法で別段の定めがない限り、すべての支払いは返金不可です。' },
@@ -801,7 +835,7 @@ const jaTerms: TermsContent = {
     { title: '14. データ使用とマーケティング', content: '個人データは、通信と支払い処理に使用されます。第三者にデータを販売することはありません。' },
     { title: '15. データの開示', content: 'データは、支払い処理または法的義務を果たすためにのみ第三者に開示される場合があります。' },
     { title: '16. セキュリティと保持', content: 'セキュリティ対策：SSLとハッシュアルゴリズムを使用しています。\n\n保持：データは必要な期間のみ保持されます。' },
-    { title: '17. Cookieポリシー', content: 'サイトは、コンテンツのパーソナライズとトラフィック分析のためにCookieを使用します。ユーザーはCookieを無効にすることができます。' },
+    { title: '17. Cookieポリシー', content: 'サイトは、コンテンツのパーソナライズとトラフィック分析のためにCookieを使用します。ユーザー���Cookieを無効にすることができます。' },
     { title: '18. バージョンと連絡先', content: 'プロバイダー：Risknil.com。\n\nメール：info@risknil.com。\n\n最終更新日：2026年5月14日。' }
   ]
 }
@@ -853,7 +887,7 @@ const hiTerms: TermsContent = {
     { title: 'गोपनीयता नीति', content: '' },
     { title: '11. डेटा सुरक्षा और GDPR', content: 'साइट GDPR के अनुसार उपयोगकर्ता की गोपनीयता की रक्षा करने के लिए प्रतिबद्ध है। डेटा नियंत्रक risknil.com है।' },
     { title: '12. व्यक्तिगत डेटा संग्रह', content: 'पंजीकरण: व्यक्तिगत डेटा केवल पंजीकरण के समय एकत्र किया जाता है।\n\nसहमति: सेवाओं का उपयोग करके, उपयोगकर्ता अपने डेटा के संग्रह के लिए सहमति देता है।' },
-    { title: '13. डेटा विषय के रूप में आपके अधिकार', content: 'उपयोगकर्ताओं के निम्नलिखित अधिकार हैं: पहुंच और सुधार, विलोपन, प्रतिबंध और आपत्ति, पोर्टेबिलिटी।' },
+    { title: '13. डेटा विषय के रूप में आपके अधिकार', content: 'उपयोगकर्ताओं के निम्नलिखित अधिकार हैं: प���ुंच और सुधार, विलोपन, प्रतिबंध और आपत्ति, पोर्टेबिलिटी।' },
     { title: '14. डेटा उपयोग और विपणन', content: 'व्यक्तिगत डेटा का उपयोग संचार और भुगतान प्रसंस्करण के लिए किया जाता है। हम तीसरे पक्षों को डेटा नहीं बेचते हैं।' },
     { title: '15. डेटा प्रकटीकरण', content: 'डेटा केवल भुगतान प्रसंस्करण या कानूनी दायित्वों को पूरा करने के लिए तीसरे पक्षों को प्रकट किया जा सकता है।' },
     { title: '16. सुरक्षा और प्रतिधारण', content: 'सुरक्षा उपाय: हम SSL और हैशिंग एल्गोरिदम का उपयोग करते हैं।\n\nप्रतिधारण: डेटा केवल आवश्यक अवधि के लिए रखा जाता है।' },
@@ -1007,10 +1041,27 @@ const xhTerms: TermsContent = {
   lastUpdated: 'Ihlaziywe okokugqibela: Meyi 14, 2026',
   backButton: 'Buyela ku-RiskNil',
   legalNote: 'Ukuba kukho naluphi na umahluko phakathi kweenguqulelo zeelwimi, inguqulelo yesiNgesi iya kuphumelela.',
-  sections: enTerms.sections.map((s, i) => ({
-    title: ['1. Imiqathango Yokusetyenziswa', '2. Amalungiselelo Jikelele', '3. Inkcazelo Yeenkonzo', '4. Iintlawulo', '5. Umxholo Wobunikazi', '6. Amakhonkco Abantu Besithathu', '7. Ukungasebenzi Kwe-akhawunti', '8. Impahla Yengqondo', '9. Ukuthobela Umthetho', '10. Ukuphika', 'Umgaqo-nkqubo Wobumfihlo', '11. Ukukhuselwa Kwedatha', '12. Ukuqokelelwa Kwedatha', '13. Amalungelo Akho', '14. Ukusetyenziswa Kwedatha', '15. Ukutyhilwa Kwedatha', '16. Ukhuseleko Nokugcinwa', '17. Umgaqo-nkqubo Weekhukhi', '18. Inguqulelo Noqhagamshelwano'][i] || s.title,
-    content: s.content
-  }))
+  sections: [
+    { title: '1. Imiqathango Yokusetyenziswa', content: 'Le Miqathango Yokusetyenziswa ("Imiqathango") yenza isivumelwano esibophelelayo ngokomthetho phakathi "koMboneleli" naye nawuphi na umntu okanye iqumrhu ("Umsebenzisi") ofikelela kwiwebhusayithi ye-risknil.com, izicelo zayo zeselula, okanye naziphi na iimpawu ezinxulumeneyo, umxholo, okanye iinkonzo (ngokudibanisiweyo, "Isayithi").' },
+    { title: '2. Amalungiselelo Jikelele', content: 'Ukusebenza: Le Miqathango ilawula lonke ulwalamano phakathi koMboneleli noMsebenzisi.\n\nUtshintsho: UMboneleli ugcina ilungelo lokutshintsha le Miqathango nangaliphi na ixesha.\n\nUkusetyenziswa Okusemthethweni: Isayithi kufuneka isetyenziswe kuphela ngeenjongo ezisemthethweni.\n\nIzohlwayo: Xa kukho ukusetyenziswa kakubi, uMboneleli ugcina ilungelo lokuthintela ukufikelela nokuphelisa ii-akhawunti.' },
+    { title: '3. Inkcazelo Yeenkonzo', content: 'Isayithi ibonelela ngeqonga elidibanisayo elinolwazi lwemidlalo, amanqaku, amacebiso okubheja, kunye nedatha yokuhlalutya. Nangona uMboneleli ezama ukunemba, ukuthembakala kweziphumo zemidlalo okanye i-odds akuqinisekiswanga.' },
+    { title: '4. Iintlawulo', content: 'Iindlela Zokuhlawula: Isayithi yamkela iintlawulo zeenkonzo ze-premium ngeendlela zokuhlawula ezikhuselekileyo kwi-intanethi kunye nokudluliswa kwamabhanka ngokuthe ngqo.\n\nUkugqibela Kwentlawulo: Ngaphandle kokuba umthetho wabathengi wendawo ufuna ngenye indlela, zonke iintlawulo azibuyiselwa.' },
+    { title: '5. Umxholo Wobunikazi', content: 'Ubunikazi Obodwa: Wonke umxholo unikwa nguMboneleli kuphela.\n\nAkukho Zingeniso Zabasebenzisi: Isayithi ayivumeli umxholo owenziwe ngabasebenzisi.' },
+    { title: '6. Amakhonkco Abantu Besithathu', content: 'Umsebenzisi uyavuma ukuba nayiphi na intsebenziswano neewebhusayithi zesithathu okanye iintengiso ezifunyenweyo kwiSayithi zingobungozi bakhe ngokupheleleyo.' },
+    { title: '7. Ukungasebenzi Kwe-akhawunti', content: 'UMboneleli ugcina ilungelo lokuphelisa nayiphi na i-akhawunti yoMsebenzisi engafinyelelwanga iintsuku eziyi-180 ezilandelelanayo.' },
+    { title: '8. Impahla Yengqondo', content: 'Ubunikazi: Wonke umxholo kunye nesoftware kwiSayithi zezikaMboneleli. Abasebenzisi bathintelwe ngokungqongqo ukuba bakope okanye bakhuphe kwakhona nayiphi na inxalenye yeSayithi.' },
+    { title: '9. Ukuthobela Umthetho', content: 'Umthetho Osebenzayo: Le Miqathango ilawulwa yimithetho yase-United Kingdom. Zonke iiPati zinikezela kulawulo lwanye lweenkundla zase-United Kingdom.' },
+    { title: '10. Ukuphika', content: 'Akukho Siingqinisiso: ISayithi inikelwa "njengoko injalo".\n\nAyiyoNkonzo Yokugembula: ISayithi sisixhobo solwazi.\n\nUkuthintela Ilahleko: UMboneleli akanatyala ngelahleko ethe ngqo okanye engathanga ngqo.' },
+    { title: 'Umgaqo-nkqubo Wobumfihlo', content: '' },
+    { title: '11. Ukukhuselwa Kwedatha', content: 'Isayithi izinikele ekukhuseleni ubumfihlo boMsebenzisi ngokuvumelana ne-GDPR. UMlawuli Wedatha ngu-risknil.com.' },
+    { title: '12. Ukuqokelelwa Kwedatha', content: 'Ukubhalisa: Idatha yobuqu iqokelelwa kuphela ngexesha lokubhalisa.\n\nImvume: Ngokusebenzisa iinkonzo, uMsebenzisi uvuma ukuqokelelwa kwedatha yakhe.' },
+    { title: '13. Amalungelo Akho', content: 'Abasebenzisi banamalungelo alandelayo: Ukufikelela Nokulungisa, Ukucima, Ukuthintela Nokuphikisa, Ukudluliswa.' },
+    { title: '14. Ukusetyenziswa Kwedatha', content: 'Idatha yobuqu isetyenziswa ukunxibelelana kunye nokuqhuba iintlawulo. Asithengisi idatha kumaqela esithathu.' },
+    { title: '15. Ukutyhilwa Kwedatha', content: 'Idatha inokutyhilwa kumaqela esithathu kuphela ukuqhuba iintlawulo okanye ukuzalisekisa iimbopheleleko zomthetho.' },
+    { title: '16. Ukhuseleko Nokugcinwa', content: 'Amanyathelo Okhuseleko: Sisebenzisa i-SSL kunye ne-algorithms zokuhasha.\n\nUkugcinwa: Idatha igcinwa kuphela ixesha elifunekayo.' },
+    { title: '17. Umgaqo-nkqubo Weekhukhi', content: 'Isayithi isebenzisa iikhukhi ukwenza umxholo wena kunye nokuhlalutya ithrafikhi. Abasebenzisi banokucima iikhukhi.' },
+    { title: '18. Inguqulelo Noqhagamshelwano', content: 'UMboneleli: Risknil.com.\n\nI-imeyile: info@risknil.com.\n\nIhlaziywe okokugqibela: Meyi 14, 2026.' }
+  ]
 }
 
 export function getTermsContent(lang: string): TermsContent {
