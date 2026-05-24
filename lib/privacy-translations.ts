@@ -1,12 +1,14 @@
 export interface PrivacySection {
-  title: string
-  content: string[]
+  title?: string
+  heading?: string
+  content: string | string[]
 }
 
 export interface PrivacyTranslation {
-  pageTitle: string
-  lastUpdated: string
-  backToHome: string
+  pageTitle?: string
+  title?: string
+  lastUpdated?: string
+  backToHome?: string
   sections: PrivacySection[]
 }
 
@@ -680,17 +682,37 @@ export const privacyTranslations: Record<string, PrivacyTranslation> = {
   // All other languages with translated titles but English content
   'zh-CN': {
     title: '隐私政策',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. 简介', '2. 我们收集的数据', '3. 我们如何使用您的数据', '4. Cookie和跟踪', '5. 数据保留', '6. 第三方服务', '7. 数据安全', '8. 您的权利', '9. 儿童隐私', '10. 国际用户', '11. 本政策的变更', '12. 联系我们'][i] || s.heading,
-      content: s.content
-    }))
+    sections: [
+      { heading: '1. 简介', content: '本隐私政策说明了risknil.com（"我们"、"我们的"或"我方"）在您使用我们的网站和相关服务时如何收集、使用和保护个人信息。' },
+      { heading: '2. 我们收集的数据', content: '我们收集您直接提供给我们的信息，例如当您创建帐户、订阅我们的新闻通讯或与我们联系时。这可能包括您的姓名、电子邮件地址和付款信息。当您访问我们的网站时，我们还会自动收集某些信息，包括您的IP地址、浏览器类型、浏览的页面和在网站上的停留时间。' },
+      { heading: '3. 我们如何使用您的数据', content: '我们使用收集的信息来：提供和维护我们的服务；处理交易并发送相关通知；向您发送技术信息、更新和支持消息；回复您的评论和问题；分析使用情况以改进我们的网站和服务。' },
+      { heading: '4. Cookie和跟踪', content: '我们使用Cookie和类似的跟踪技术来收集和跟踪信息并改进我们的服务。您可以指示浏览器拒绝所有Cookie或在发送Cookie时发出提示。但是，如果您不接受Cookie，您可能无法使用我们服务的某些部分。' },
+      { heading: '5. 数据保留', content: '我们仅在本隐私政策所述目的所需的时间内保留您的个人数据。如果账户连续一（1）年处于非活动状态，所有相关的个人数据将被永久删除。' },
+      { heading: '6. 第三方服务', content: '我们可能会聘请第三方公司和个人来促进我们的服务、代表我们提供服务、执行与服务相关的服务或帮助我们分析我们的服务使用情况。这些第三方仅可访问您的个人数据以代表我们执行这些任务，并有义务不将其披露或用于任何其他目的。' },
+      { heading: '7. 数据安全', content: '我们实施适当的技术措施，包括SSL加密和哈希算法，以保护您的个人数据。但是，通过互联网传输的任何方法或电子存储方法都不是100%安全的。' },
+      { heading: '8. 您的权利', content: '根据GDPR，您有权：访问、更新或删除您的个人信息；更正任何不准确的数据；反对处理您的个人数据；要求限制处理；要求数据可移植性；随时撤回同意。' },
+      { heading: '9. 儿童隐私', content: '我们的服务不面向18岁以下的人。我们不会故意收集未成年人的个人身份信息。如果您是父母或监护人，并且知道您的孩子向我们提供了个人数据，请与我们联系。' },
+      { heading: '10. 国际用户', content: '如果您从英国以外访问我们的服务，请注意您的信息可能会被转移到我们服务器所在的英国并在那里存储和处理。' },
+      { heading: '11. 本政策的变更', content: '我们可能会不时更新我们的隐私政策。我们将通过在此页面上发布新的隐私政策来通知您任何更改，并更新"最后更新"日期。' },
+      { heading: '12. 联系我们', content: '如果您对本隐私政策有任何疑问，请通过info@risknil.com与我们联系。' }
+    ]
   },
   'zh-TW': {
     title: '隱私政策',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. 簡介', '2. 我們收集的數據', '3. 我們如何使用您的數據', '4. Cookie和跟蹤', '5. 數據保留', '6. 第三方服務', '7. 數據安全', '8. 您的權利', '9. 兒童隱私', '10. 國際用戶', '11. 本政策的變更', '12. 聯繫我們'][i] || s.heading,
-      content: s.content
-    }))
+    sections: [
+      { heading: '1. 簡介', content: '本隱私政策說明了risknil.com（「我們」、「我們的」或「我方」）在您使用我們的網站和相關服務時如何收集、使用和保護個人資訊。' },
+      { heading: '2. 我們收集的數據', content: '我們收集您直接提供給我們的資訊，例如當您建立帳戶、訂閱我們的電子報或與我們聯繫時。這可能包括您的姓名、電子郵件地址和付款資訊。當您造訪我們的網站時，我們還會自動收集某些資訊，包括您的IP位址、瀏覽器類型、瀏覽的頁面和在網站上的停留時間。' },
+      { heading: '3. 我們如何使用您的數據', content: '我們使用收集的資訊來：提供和維護我們的服務；處理交易並發送相關通知；向您發送技術資訊、更新和支援訊息；回覆您的評論和問題；分析使用情況以改進我們的網站和服務。' },
+      { heading: '4. Cookie和跟蹤', content: '我們使用Cookie和類似的追蹤技術來收集和追蹤資訊並改進我們的服務。您可以指示瀏覽器拒絕所有Cookie或在發送Cookie時發出提示。但是，如果您不接受Cookie，您可能無法使用我們服務的某些部分。' },
+      { heading: '5. 數據保留', content: '我們僅在本隱私政策所述目的所需的時間內保留您的個人數據。如果帳戶連續一（1）年處於非活動狀態，所有相關的個人數據將被永久刪除。' },
+      { heading: '6. 第三方服務', content: '我們可能會聘請第三方公司和個人來促進我們的服務、代表我們提供服務、執行與服務相關的服務或幫助我們分析我們的服務使用情況。這些第三方僅可存取您的個人數據以代表我們執行這些任務，並有義務不將其披露或用於任何其他目的。' },
+      { heading: '7. 數據安全', content: '我們實施適當的技術措施，包括SSL加密和雜湊演算法，以保護您的個人數據。但是，通過網際網路傳輸的任何方法或電子儲存方法都不是100%安全的。' },
+      { heading: '8. 您的權利', content: '根據GDPR，您有權：存取、更新或刪除您的個人資訊；更正任何不準確的數據；反對處理您的個人數據；要求限制處理；要求數據可攜性；隨時撤回同意。' },
+      { heading: '9. 兒童隱私', content: '我們的服務不面向18歲以下的人。我們不會故意收集未成年人的個人身份資訊。如果您是父母或監護人，並且知道您的孩子向我們提供了個人數據，請與我們聯繫。' },
+      { heading: '10. 國際用戶', content: '如果您從英國以外存取我們的服務，請注意您的資訊可能會被轉移到我們伺服器所在的英國並在那裡儲存和處理。' },
+      { heading: '11. 本政策的變更', content: '我們可能會不時更新我們的隱私政策。我們將通過在此頁面上發布新的隱私政策來通知您任何變更，並更新「最後更新」日期。' },
+      { heading: '12. 聯繫我們', content: '如果您對本隱私政策有任何疑問，請通過info@risknil.com與我們聯繫。' }
+    ]
   },
   it: {
     title: 'Informativa sulla Privacy',
@@ -768,7 +790,7 @@ export const privacyTranslations: Record<string, PrivacyTranslation> = {
       { heading: '3. Πώς Χρησιμοποιούμε τα Δεδομένα Σας', content: 'Χρησιμοποιούμε τις συλλεγόμενες πληροφορίες για να: παρέχουμε και διατηρούμε τις υπηρεσίες μας· επεξεργαζόμαστε συναλλαγές και στέλνουμε σχετικές ειδοποιήσεις· σας στέλνουμε τεχνικές πληροφορίες, ενημερώσεις και μηνύματα υποστήριξης· απαντάμε στα σχόλια και τις ερωτήσεις σας· αναλύουμε τη χρήση για να βελτιώσουμε τον ιστότοπο και τις υπηρεσίες μας.' },
       { heading: '4. Cookies και Παρακολούθηση', content: 'Χρησιμοποιούμε cookies και παρόμοιες τεχνολογίες παρακολούθησης για να συλλέγουμε και να παρακολουθούμε πληροφορίες και να βελτιώνουμε την υπηρεσία μας. Μπορείτε να ρυθμίσετε τον browser σας να απορρίπτει όλα τα cookies ή να υποδεικνύει όταν αποστέλλεται ένα cookie.' },
       { heading: '5. Διατήρηση Δεδομένων', content: 'Διατηρούμε τα προσωπικά σας δεδομένα μόνο για όσο χρόνο είναι απαραίτητο για τους σκοπούς που αναφέρονται σε αυτή την Πολιτική Απορρήτου. Εάν ένας λογαριασμός παραμείνει ανενεργός για ένα (1) έτος, όλα τα σχετικά προσωπικά δεδομένα θα διαγραφούν οριστικά.' },
-      { heading: '6. Υπηρεσίες Τρίτων', content: 'Μπορεί να απασχολήσουμε τρίτες εταιρείες και άτομα για να διευκολύνουν την υπηρεσία μας, να παρέχουν την υπηρεσία για λογαριασμό μας ή να μας βοηθήσουν να αναλύσουμε πώς χρησιμοποιείται η υπηρεσία μας.' },
+      { heading: '6. Υπηρεσίες Τρίτων', content: 'Μπορεί να απασχολήσουμε τρίτες εταιρείες και άτομα για να διευκολύνουν την υπηρεσία μας, να παρέχουν την υπηρεσία για λογαριασμό μας �� να μας βοηθήσουν να αναλύσουμε πώς χρησιμοποιείται η υπηρεσία μας.' },
       { heading: '7. Ασφάλεια Δεδομένων', content: 'Εφαρμόζουμε κατάλληλα τεχνικά μέτρα, συμπεριλαμβανομένης της κρυπτογράφησης SSL και αλγορίθμων κατακερματισμού, για την προστασία των προσωπικών σας δεδομένων. Ωστόσο, καμία μέθοδος μετάδοσης μέσω διαδικτύου δεν είναι 100% ασφαλής.' },
       { heading: '8. Τα Δικαιώματά Σας', content: 'Βάσει του GDPR, έχετε το δικαίωμα να: έχετε πρόσβαση, να ενημερώσετε ή να διαγράψετε τις προσωπικές σας πληροφορίες· να διορθώσετε τυχόν ανακριβή δεδομένα· να αντιταχθείτε στην επεξεργασία των προσωπικών σας δεδομένων· να ζητήσετε περιορισμό της επεξεργασίας· να ζητήσετε φορητότητα δεδομένων· να ανακαλέσετε τη συγκατάθεση ανά πάσα στιγμή.' },
       { heading: '9. Απόρρητο Παιδιών', content: 'Η υπηρεσία μας δεν απευθύνεται σε άτομα κάτω των 18 ετών. Δεν συλλέγουμε εν γνώσει μας προσωπικά αναγνωρίσιμες πληροφορίες από ανηλίκους.' },
@@ -852,7 +874,7 @@ export const privacyTranslations: Record<string, PrivacyTranslation> = {
       { heading: '2. Data, Která Shromažďujeme', content: 'Shromažďujeme informace, které nám poskytnete přímo, například když si vytvoříte účet, přihlásíte se k odběru našeho newsletteru nebo nás kontaktujete. To může zahrnovat vaše jméno, e-mailovou adresu a platební údaje. Také automaticky shromažďujeme určité informace při návštěvě našich webových stránek.' },
       { heading: '3. Jak Používáme Vaše Data', content: 'Shromážděné informace používáme k: poskytování a údržbě našich služeb; zpracování transakcí a zasílání souvisejících oznámení; zasílání technických informací, aktualizací a podpůrných zpráv; odpovídání na vaše komentáře a dotazy; analýze používání za účelem zlepšení našich webových stránek a služeb.' },
       { heading: '4. Cookies a Sledování', content: 'Používáme cookies a podobné sledovací technologie ke shromažďování a sledování informací a ke zlepšení naší služby. Můžete nastavit svůj prohlížeč, aby odmítal všechny cookies nebo aby vás upozornil, když je cookie odesláno.' },
-      { heading: '5. Uchovávání Dat', content: 'Vaše osobní údaje uchováváme pouze po dobu nezbytnou pro účely uvedené v těchto Zásadách ochrany osobních údajů. Pokud účet zůstane neaktivní po dobu jednoho (1) roku, všechny související osobní údaje budou trvale smazány.' },
+      { heading: '5. Uchovávání Dat', content: 'Vaše osobní údaje uchováváme pouze po dobu nezbytnou pro účely uvedené v těchto Zásadách ochrany osobních údajů. Pokud účet zůstane neaktivní po dobu jednoho (1) roku, všechny souvisejíc�� osobní údaje budou trvale smazány.' },
       { heading: '6. Služby Třetích Stran', content: 'Můžeme zaměstnat třetí strany a jednotlivce, aby usnadnili naši službu, poskytovali službu naším jménem nebo nám pomohli analyzovat, jak je naše služba používána.' },
       { heading: '7. Zabezpečení Dat', content: 'Implementujeme vhodná technická opatření, včetně SSL šifrování a hashovacích algoritmů, k ochraně vašich osobních údajů. Nicméně žádná metoda přenosu přes internet není 100% bezpečná.' },
       { heading: '8. Vaše Práva', content: 'Podle GDPR máte právo: přistupovat k, aktualizovat nebo mazat své osobní údaje; opravit jakékoli nepřesné údaje; vznést námitku proti zpracování vašich osobních údajů; požádat o omezení zpracování; požádat o přenositelnost údajů; odvolat souhlas kdykoli.' },
@@ -874,7 +896,7 @@ export const privacyTranslations: Record<string, PrivacyTranslation> = {
       { heading: '7. データセキュリティ', content: '当社は、SSL暗号化やハッシュアルゴリズムなど、適切な技術的措置を実施して、お客様の個人データを保護します。ただし、インターネットを介した送信方法は100%安全ではありません。' },
       { heading: '8. あなたの権利', content: 'GDPRに基づき、お客様には以下の権利があります：個人情報へのアクセス、更新、削除、不正確なデータの修正、個人データの処理への異議申し立て、処理の制限の要求、データポータビリティの要求、いつでも同意を撤回する権利。' },
       { heading: '9. 子供のプライバシー', content: '当社のサービスは18歳未満の方を対象としていません。当社は未成年者から故意に個人を特定できる情報を収集することはありません。' },
-      { heading: '10. 国際ユーザー', content: '英国外から当社のサービスにアクセスする場合、お客様の情報は当社のサーバーが所在する英国に転送、保存、処理される可能性があることをご了承ください。' },
+      { heading: '10. 国���ユーザー', content: '英国外から当社のサービスにアクセスする場合、お客様の情報は当社のサーバーが所在する英国に転送、保存、処理される可能性があることをご了承ください。' },
       { heading: '11. このポリシーの変更', content: '当社は、本プライバシーポリシーを随時更新する場合があります。変更があった場合は、このページに新しいプライバシーポリシーを掲載し、「最終更新日」を更新することでお知らせします。' },
       { heading: '12. お問い合わせ', content: '本プライバシーポリシーについてご質問がある場合は、info@risknil.comまでお問い合わせください。' }
     ]
@@ -913,41 +935,6 @@ export const privacyTranslations: Record<string, PrivacyTranslation> = {
       { heading: '12. हमसे संपर्क करें', content: 'यदि इस गोपनीयता नीति के बारे में आपके कोई प्रश्न हैं, तो कृपया info@risknil.com पर हमसे संपर्क करें।' }
     ]
   },
-  fi: {
-    title: 'Tietosuojakäytäntö',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. Johdanto', '2. Keräämämme Tiedot', '3. Miten Käytämme Tietojasi', '4. Evästeet ja Seuranta', '5. Tietojen Säilytys', '6. Kolmannen Osapuolen Palvelut', '7. Tietoturva', '8. Oikeutesi', '9. Lasten Yksityisyys', '10. Kansainväliset Käyttäjät', '11. Muutokset Tähän Käytäntöön', '12. Ota Yhteyttä'][i] || s.heading,
-      content: s.content
-    }))
-  },
-  ro: {
-    title: 'Politica de Confidențialitate',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. Introducere', '2. Datele pe Care le Colectăm', '3. Cum Folosim Datele Tale', '4. Cookie-uri și Urmărire', '5. Păstrarea Datelor', '6. Servicii Terțe', '7. Securitatea Datelor', '8. Drepturile Tale', '9. Confidențialitatea Copiilor', '10. Utilizatori Internaționali', '11. Modificări ale Acestei Politici', '12. Contactează-ne'][i] || s.heading,
-      content: s.content
-    }))
-  },
-  cs: {
-    title: 'Zásady Ochrany Osobních Údajů',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. Úvod', '2. Data, Která Shromažďujeme', '3. Jak Používáme Vaše Data', '4. Cookies a Sledování', '5. Uchovávání Dat', '6. Služby Třetích Stran', '7. Zabezpečení Dat', '8. Vaše Práva', '9. Ochrana Soukromí Dětí', '10. Mezinárodní Uživatelé', '11. Změny Těchto Zásad', '12. Kontaktujte Nás'][i] || s.heading,
-      content: s.content
-    }))
-  },
-  ja: {
-    title: 'プライバシーポリシー',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. はじめに', '2. 収集するデータ', '3. データの使用方法', '4. Cookieとトラッキング', '5. データの保持', '6. 第三者サービス', '7. データセキュリティ', '8. あなたの権利', '9. 子供のプライバシー', '10. 国際ユーザー', '11. このポリシーの変更', '12. お問い合わせ'][i] || s.heading,
-      content: s.content
-    }))
-  },
-  ko: {
-    title: '개인정보 보호정책',
-    sections: enPrivacy.sections.map((s, i) => ({
-      heading: ['1. 소개', '2. 수집하는 데이터', '3. 데이터 사용 방법', '4. 쿠키 및 추적', '5. 데이터 보존', '6. 제3자 서비스', '7. 데이터 보안', '8. 귀하의 권리', '9. 아동 개인정보 보호', '10. 국제 사용자', '11. 본 정책의 변경', '12. 문의하기'][i] || s.heading,
-      content: s.content
-    }))
-  },
   ar: {
     title: 'سياسة الخصوصية',
     sections: [
@@ -956,7 +943,7 @@ export const privacyTranslations: Record<string, PrivacyTranslation> = {
       { heading: '3. كيف نستخدم بياناتك', content: 'نستخدم المعلومات المجمعة من أجل: توفير وصيانة خدماتنا؛ معالجة المعاملات وإرسال الإشعارات ذات الصلة؛ إرسال المعلومات التقنية والتحديثات ورسائل الدعم؛ الرد على تعليقاتك وأسئلتك؛ تحليل الاستخدام لتحسين موقعنا وخدماتنا.' },
       { heading: '4. ملفات تعريف الارتباط والتتبع', content: 'نستخدم ملفات تعريف الارتباط وتقنيات التتبع المماثلة لجمع وتتبع المعلومات وتحسين خدمتنا. يمكنك توجيه متصفحك لرفض جميع ملفات تعريف الارتباط أو الإشارة عند إرسال ملف تعريف ارتباط.' },
       { heading: '5. الاحتفاظ بالبيانات', content: 'نحتفظ ببياناتك الشخصية فقط طالما كان ذلك ضروريًا للأغراض المنصوص عليها في سياسة الخصوصية هذه. إذا ظل الحساب غير نشط لمدة سنة واحدة، فسيتم حذف جميع البيانات الشخصية المرتبطة بشكل دائم.' },
-      { heading: '6. خدمات الطرف الثالث', content: 'قد نوظف شركات وأفراد من طرف ثالث لتسهيل خدمتنا أو تقديم الخدمة نيابة عنا أو مساعدتنا في تحليل كيفية استخدام خدمتنا.' },
+      { heading: '6. خدمات الطرف الثالث', content: 'قد نوظف شركات وأفراد من طرف ثالث لتسهيل خدمتنا أو تقديم الخدمة نيابة عن�� أو مساعدتنا في تحليل كيفية استخدام خدمتنا.' },
       { heading: '7. أمان البيانات', content: 'نطبق التدابير التقنية المناسبة، بما في ذلك تشفير SSL وخوارزميات التجزئة، لحماية بياناتك الشخصية. ومع ذلك، لا توجد طريقة نقل عبر الإنترنت آمنة بنسبة 100%.' },
       { heading: '8. حقوقك', content: 'بموجب اللائحة العامة لحماية البيانات، لديك الحق في: الوصول إلى معلوماتك الشخصية أو تحديثها أو حذفها؛ تصحيح أي بيانات غير دقيقة؛ الاعتراض على معالجة بياناتك الشخصية؛ طلب تقييد المعالجة؛ طلب قابلية نقل البيانات؛ سحب الموافقة في أي وقت.' },
       { heading: '9. خصوصية الأطفال', content: 'خدمتنا ليست موجهة للأشخاص الذين تقل أعمارهم عن 18 عامًا. نحن لا نجمع عن قصد معلومات تعريف شخصية من القاصرين.' },
