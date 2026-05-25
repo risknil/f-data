@@ -17,7 +17,7 @@ const enTerms: TermsContent = {
   backButton: 'Back to RiskNil',
   legalNote: 'In the event of any discrepancy between language versions, the English version shall prevail.',
   sections: [
-    { title: '1. Terms of Use', content: 'These Terms of Use (the "Terms") constitute a legally binding agreement between the "Provider" (as defined in Section 29) and any individual or entity (the "User") who accesses the website risknil.com, its mobile applications, or any associated features, content, or services (collectively, the "Website"). The Provider and the User are collectively referred to as the "Parties."' },
+    { title: '1. Terms of Use', content: 'These Terms of Use (the "Terms") constitute a legally binding agreement between the "Provider" and any individual or entity (the "User") who accesses the website risknil.com, its mobile applications, or any associated features, content, or services (collectively, the "Website"). The Provider and the User are collectively referred to as the "Parties."' },
     { title: '2. General Provisions and Global Scope', content: `Applicability: These Terms govern the entire relationship between the Provider and the User. By accessing the Website, the User confirms they have read, understood, and agreed to these Terms in their entirety.
 
 Amendments: The Provider reserves the right to modify, suspend, or supplement these Terms at any time. Continued use of the Website following changes constitutes acceptance of those changes.
@@ -87,7 +87,7 @@ const esTerms: TermsContent = {
   backButton: 'Volver a RiskNil',
   legalNote: 'En caso de discrepancia entre las versiones en diferentes idiomas, prevalecerá la versión en inglés.',
   sections: [
-    { title: '1. Términos de Uso', content: 'Estos Términos de Uso (los "Términos") constituyen un acuerdo legalmente vinculante entre el "Proveedor" (según se define en la Sección 29) y cualquier individuo o entidad (el "Usuario") que acceda al sitio web risknil.com, sus aplicaciones móviles o cualquier función, contenido o servicio asociado (colectivamente, el "Sitio Web"). El Proveedor y el Usuario se denominan colectivamente las "Partes".' },
+    { title: '1. Términos de Uso', content: 'Estos Términos de Uso (los "Términos") constituyen un acuerdo legalmente vinculante entre el "Proveedor" y cualquier individuo o entidad (el "Usuario") que acceda al sitio web risknil.com, sus aplicaciones móviles o cualquier función, contenido o servicio asociado (colectivamente, el "Sitio Web"). El Proveedor y el Usuario se denominan colectivamente las "Partes".' },
     { title: '2. Disposiciones Generales y Alcance Global', content: `Aplicabilidad: Estos Términos rigen toda la relación entre el Proveedor y el Usuario. Al acceder al Sitio Web, el Usuario confirma que ha leído, entendido y aceptado estos Términos en su totalidad.
 
 Modificaciones: El Proveedor se reserva el derecho de modificar, suspender o complementar estos Términos en cualquier momento. El uso continuado del Sitio Web después de los cambios constituye la aceptación de dichos cambios.
@@ -157,7 +157,7 @@ const ptTerms: TermsContent = {
   backButton: 'Voltar ao RiskNil',
   legalNote: 'Em caso de discrepância entre versões em diferentes idiomas, a versão em inglês prevalecerá.',
   sections: [
-    { title: '1. Termos de Uso', content: 'Estes Termos de Uso (os "Termos") constituem um acordo legalmente vinculativo entre o "Provedor" (conforme definido na Seção 29) e qualquer indivíduo ou entidade (o "Usuário") que acesse o site risknil.com, seus aplicativos móveis ou quaisquer recursos, conteúdos ou serviços associados (coletivamente, o "Site"). O Provedor e o Usuário são coletivamente referidos como as "Partes".' },
+    { title: '1. Termos de Uso', content: 'Estes Termos de Uso (os "Termos") constituem um acordo legalmente vinculativo entre o "Provedor" e qualquer indivíduo ou entidade (o "Usuário") que acesse o site risknil.com, seus aplicativos móveis ou quaisquer recursos, conteúdos ou serviços associados (coletivamente, o "Site"). O Provedor e o Usuário são coletivamente referidos como as "Partes".' },
     { title: '2. Disposições Gerais e Escopo Global', content: `Aplicabilidade: Estes Termos regem toda a relação entre o Provedor e o Usuário. Ao acessar o Site, o Usuário confirma que leu, entendeu e concordou com estes Termos em sua totalidade.
 
 Alterações: O Provedor reserva-se o direito de modificar, suspender ou complementar estes Termos a qualquer momento. O uso continuado do Site após as alterações constitui aceitação dessas alterações.
@@ -227,7 +227,7 @@ const deTerms: TermsContent = {
   backButton: 'Zurück zu RiskNil',
   legalNote: 'Im Falle von Unstimmigkeiten zwischen den Sprachversionen hat die englische Version Vorrang.',
   sections: [
-    { title: '1. Nutzungsbedingungen', content: 'Diese Nutzungsbedingungen (die "Bedingungen") stellen eine rechtlich bindende Vereinbarung zwischen dem "Anbieter" (wie in Abschnitt 29 definiert) und jeder Person oder Einheit (der "Nutzer") dar, die auf die Website risknil.com, ihre mobilen Anwendungen oder zugehörige Funktionen, Inhalte oder Dienste (zusammen die "Website") zugreift. Der Anbieter und der Nutzer werden gemeinsam als die "Parteien" bezeichnet.' },
+    { title: '1. Nutzungsbedingungen', content: 'Diese Nutzungsbedingungen (die "Bedingungen") stellen eine rechtlich bindende Vereinbarung zwischen dem "Anbieter" und jeder Person oder Einheit (der "Nutzer") dar, die auf die Website risknil.com, ihre mobilen Anwendungen oder zugehörige Funktionen, Inhalte oder Dienste (zusammen die "Website") zugreift. Der Anbieter und der Nutzer werden gemeinsam als die "Parteien" bezeichnet.' },
     { title: '2. Allgemeine Bestimmungen und Globaler Geltungsbereich', content: `Anwendbarkeit: Diese Bedingungen regeln die gesamte Beziehung zwischen dem Anbieter und dem Nutzer. Durch den Zugriff auf die Website bestätigt der Nutzer, dass er diese Bedingungen vollständig gelesen, verstanden und akzeptiert hat.
 
 Änderungen: Der Anbieter behält sich das Recht vor, diese Bedingungen jederzeit zu ändern, auszusetzen oder zu ergänzen. Die fortgesetzte Nutzung der Website nach Änderungen gilt als Annahme dieser Änderungen.
@@ -297,7 +297,7 @@ const frTerms: TermsContent = {
   backButton: 'Retour à RiskNil',
   legalNote: 'En cas de divergence entre les versions linguistiques, la version anglaise prévaudra.',
   sections: [
-    { title: '1. Conditions d\'Utilisation', content: 'Ces Conditions d\'Utilisation (les "Conditions") constituent un accord juridiquement contraignant entre le "Fournisseur" (tel que défini à la Section 29) et tout individu ou entité (l\'"Utilisateur") qui accède au site web risknil.com, ses applications mobiles, ou toute fonctionnalité, contenu ou service associé (collectivement, le "Site Web"). Le Fournisseur et l\'Utilisateur sont collectivement désignés comme les "Parties".' },
+    { title: '1. Conditions d\'Utilisation', content: 'Ces Conditions d\'Utilisation (les "Conditions") constituent un accord juridiquement contraignant entre le "Fournisseur" et tout individu ou entité (l\'"Utilisateur") qui accède au site web risknil.com, ses applications mobiles, ou toute fonctionnalité, contenu ou service associé (collectivement, le "Site Web"). Le Fournisseur et l\'Utilisateur sont collectivement désignés comme les "Parties".' },
     { title: '2. Dispositions Générales et Portée Mondiale', content: `Applicabilité : Ces Conditions régissent l'ensemble de la relation entre le Fournisseur et l'Utilisateur. En accédant au Site Web, l'Utilisateur confirme avoir lu, compris et accepté ces Conditions dans leur intégralité.
 
 Modifications : Le Fournisseur se réserve le droit de modifier, suspendre ou compléter ces Conditions à tout moment. L'utilisation continue du Site Web après des modifications constitue l'acceptation de ces modifications.
@@ -388,7 +388,7 @@ Fizetés Véglegessége: Hacsak a helyi fogyasztóvédelmi törvény másként n
 Nincs Felhasználói Beküldés: A Weboldal nem engedélyezi, nem tárolja és nem jeleníti meg a Felhasználó által Generált Tartalmat (UGC), beleértve, de nem kizárólagosan a megjegyzéseket, fórumbejegyzéseket vagy nyilvános adatfeltöltéseket.
 
 Tiltott Tevékenységek: A Felhasználók nem kísérelhetik meg tartalom közzétételét, feltöltését vagy beillesztését a Weboldalra. Bármilyen kísérlet ennek a korlátozásnak a megkerülésére biztonsági megsértésnek és ezen Feltételek megsértésének minősül.` },
-    { title: '6. Harmadik Fél Linkek és Hirdetések', content: 'A Felhasználó tudomásul veszi, hogy a Weboldalon található harmadik fél weboldalakkal vagy hirdetésekkel való bármilyen interakció teljes mértékben saját felelősségére történik. A Szolgáltató nem részese a Felhasználó és harmadik fél között létrejött megállapodásoknak, és nem vállal felelősséget az ilyen interakciókból eredő viták��rt.' },
+    { title: '6. Harmadik Fél Linkek és Hirdetések', content: 'A Felhasználó tudomásul veszi, hogy a Weboldalon található harmadik fél weboldalakkal vagy hirdetésekkel való bármilyen interakció teljes mértékben saját felelősségére történik. A Szolgáltató nem részese a Felhasználó és harmadik fél között létrejött megállapodásoknak, és nem vállal felelősséget az ilyen interakciókból eredő viták����rt.' },
     { title: '7. Fiók Inaktivitás', content: 'A Szolgáltató fenntartja a jogot bármely Felhasználói fiók bezárására, amelyhez 180 egymást követő napon nem fértek hozzá. Ez a bezárás azonnali hatállyal és előzetes értesítés nélkül történhet.' },
     { title: '8. Szellemi Tulajdon és Szerzői Jog', content: `Tulajdonjog: A Weboldalon található összes tartalom, szoftver és tulajdonosi algoritmus a Szolgáltató tulajdona. A Felhasználók számára szigor��������������an tilos a Weboldal bármely részének másolása, terjesztése, "szkrépelése" vagy reprodukálása előzetes írásbeli hozzájárulás nélkül.
 
@@ -456,7 +456,7 @@ const zhCNTerms: TermsContent = {
     { title: '13. 您作为数据主体的权利', content: '用户拥有以下权利：访问和更正、删除、限制和反对、可移植性。' },
     { title: '14. 数据使用和营销', content: '个人数据用于通信和支付处理。我们不向第三方出售数据。' },
     { title: '15. 数据披露', content: '数据仅可为处理付款或履行法律义务而向第三方披露。' },
-    { title: '16. 安全和保留', content: '安全措施：我们使用SSL和哈希算法。\n\n保留：数据仅保留必要的时间。' },
+    { title: '16. 安全和保留', content: '安全措施：我们使用SSL和哈希算法。\n\n保��：数据仅保留必要的时间。' },
     { title: '17. Cookie政策', content: '网站使用Cookie来个性化内容和分析流量。用户可以禁用Cookie。' },
     { title: '18. 版本和联系方式', content: '提供者：Risknil.com。\n\n电子邮件：info@risknil.com。\n\n最后更新：2026年5月14日。' }
   ]
@@ -496,7 +496,7 @@ const itTerms: TermsContent = {
   backButton: 'Torna a RiskNil',
   legalNote: 'In caso di discrepanza tra le versioni linguistiche, prevarrà la versione inglese.',
   sections: [
-    { title: '1. Termini di Utilizzo', content: 'Questi Termini di Utilizzo (i "Termini") costituiscono un accordo legalmente vincolante tra il "Fornitore" (come definito nella Sezione 29) e qualsiasi individuo o entità (l\'"Utente") che accede al sito web risknil.com, alle sue applicazioni mobili o a qualsiasi funzionalità, contenuto o servizio associato (collettivamente, il "Sito"). Il Fornitore e l\'Utente sono collettivamente indicati come le "Parti".' },
+    { title: '1. Termini di Utilizzo', content: 'Questi Termini di Utilizzo (i "Termini") costituiscono un accordo legalmente vincolante tra il "Fornitore" e qualsiasi individuo o entità (l\'"Utente") che accede al sito web risknil.com, alle sue applicazioni mobili o a qualsiasi funzionalità, contenuto o servizio associato (collettivamente, il "Sito"). Il Fornitore e l\'Utente sono collettivamente indicati come le "Parti".' },
     { title: '2. Disposizioni Generali e Ambito Globale', content: `Applicabilità: Questi Termini regolano l'intera relazione tra il Fornitore e l'Utente. Accedendo al Sito, l'Utente conferma di aver letto, compreso e accettato questi Termini nella loro interezza.
 
 Modifiche: Il Fornitore si riserva il diritto di modificare, sospendere o integrare questi Termini in qualsiasi momento. L'uso continuato del Sito dopo le modifiche costituisce accettazione di tali modifiche.
@@ -566,7 +566,7 @@ const svTerms: TermsContent = {
   backButton: 'Tillbaka till RiskNil',
   legalNote: 'Vid eventuella avvikelser mellan språkversioner ska den engelska versionen gälla.',
   sections: [
-    { title: '1. Användarvillkor', content: 'Dessa Användarvillkor ("Villkoren") utgör ett juridiskt bindande avtal mellan "Leverantören" (enligt definitionen i avsnitt 29) och varje individ eller enhet ("Användaren") som besöker webbplatsen risknil.com, dess mobilapplikationer eller tillhörande funktioner, innehåll eller tjänster (gemensamt "Webbplatsen"). Leverantören och Användaren kallas gemensamt för "Parterna".' },
+    { title: '1. Användarvillkor', content: 'Dessa Användarvillkor ("Villkoren") utgör ett juridiskt bindande avtal mellan "Leverantören" och varje individ eller enhet ("Användaren") som besöker webbplatsen risknil.com, dess mobilapplikationer eller tillhörande funktioner, innehåll eller tjänster (gemensamt "Webbplatsen"). Leverantören och Användaren kallas gemensamt för "Parterna".' },
     { title: '2. Allmänna Bestämmelser och Globalt Tillämpningsområde', content: 'Tillämplighet: Dessa Villkor styr hela relationen mellan Leverantören och Användaren. Genom att använda Webbplatsen bekräftar Användaren att ha läst, förstått och accepterat dessa Villkor i sin helhet.\n\nÄndringar: Leverantören förbehåller sig rätten att ändra, upphäva eller komplettera dessa Villkor när som helst. Fortsatt användning av Webbplatsen efter ändringar utgör acceptans av sådana ändringar.\n\nLaglig Användning: Webbplatsen får endast användas för lagliga ändamål. Användare är förbjudna att använda Webbplatsen för att överföra eller lagra material som bryter mot någon lag.\n\nSanktioner: Vid missbruk förbehåller sig Leverantören r��tten att blockera åtkomst, avsluta konton och inleda rättsliga förfaranden.' },
     { title: '3. Beskrivning av Tjänster', content: 'Webbplatsen tillhandahåller en interaktiv plattform med sportinformation, resultat, vadhållningstips och analytiska data. Denna information samlas in från oberoende tredjepartskällor och interna ansträngningar. Även om Leverantören strävar efter noggrannhet, garanteras inte tillförlitligheten av matchresultat eller spelodds.' },
     { title: '4. Betalningar och Banköverföringar', content: 'Betalningsmetoder: Webbplatsen accepterar betalningar för premiumtjänster via säkra online-betalningsgateways och direkta banköverföringar.\n\nBanköverföringsprotokoll: Användare som väljer banköverföring måste följa specifika instruktioner vid kassan. Tjänster aktiveras först efter att Leverantören har bekräftat mottagande av fullständiga medel.\n\nBetalningens Slutgiltighet: Om inte lokal konsumentlag kräver annat, är alla betalningar icke-återbetalningsbara när åtkomst till tjänsten har beviljats.' },
@@ -622,7 +622,7 @@ const nlTerms: TermsContent = {
   backButton: 'Terug naar RiskNil',
   legalNote: 'Bij eventuele discrepanties tussen taalversies prevaleert de Engelse versie.',
   sections: [
-    { title: '1. Gebruiksvoorwaarden', content: 'Deze Gebruiksvoorwaarden (de "Voorwaarden") vormen een juridisch bindende overeenkomst tussen de "Aanbieder" (zoals gedefinieerd in Sectie 29) en elke persoon of entiteit (de "Gebruiker") die toegang heeft tot de website risknil.com, de mobiele applicaties of bijbehorende functies, inhoud of diensten (gezamenlijk de "Website"). De Aanbieder en de Gebruiker worden gezamenlijk aangeduid als de "Partijen".' },
+    { title: '1. Gebruiksvoorwaarden', content: 'Deze Gebruiksvoorwaarden (de "Voorwaarden") vormen een juridisch bindende overeenkomst tussen de "Aanbieder" en elke persoon of entiteit (de "Gebruiker") die toegang heeft tot de website risknil.com, de mobiele applicaties of bijbehorende functies, inhoud of diensten (gezamenlijk de "Website"). De Aanbieder en de Gebruiker worden gezamenlijk aangeduid als de "Partijen".' },
     { title: '2. Algemene Bepalingen en Mondiale Reikwijdte', content: 'Toepasselijkheid: Deze Voorwaarden regelen de volledige relatie tussen de Aanbieder en de Gebruiker. Door toegang te krijgen tot de Website bevestigt de Gebruiker dat hij deze Voorwaarden volledig heeft gelezen, begrepen en ermee heeft ingestemd.\n\nWijzigingen: De Aanbieder behoudt zich het recht voor om deze Voorwaarden op elk moment te wijzigen, op te schorten of aan te vullen. Voortgezet gebruik van de Website na wijzigingen houdt aanvaarding van die wijzigingen in.\n\nWettig Gebruik: De Website mag alleen voor wettige doeleinden worden gebruikt.\n\nSancties: Bij misbruik behoudt de Aanbieder zich het recht voor om toegang te blokkeren, accounts te beëindigen en juridische procedures te starten.' },
     { title: '3. Beschrijving van Diensten', content: 'De Website biedt een interactief platform met sportinformatie, scores, weddenschapstips en analytische gegevens. Deze informatie wordt verzameld uit onafhankelijke bronnen van derden en interne inspanningen. Hoewel de Aanbieder naar nauwkeurigheid streeft, garandeert hij niet de betrouwbaarheid van wedstrijdresultaten of weddenschapsquotes.' },
     { title: '4. Betalingen en Bankoverschrijvingen', content: 'Betaalmethoden: De Website accepteert betalingen voor premiumdiensten via beveiligde online betaalgateways en directe bankoverschrijvingen.\n\nBankoverschrijvingsprotocol: Gebruikers die kiezen voor bankoverschrijving moeten de specifieke instructies bij het afrekenen volgen. Diensten worden pas geactiveerd nadat de Aanbieder de ontvangst van de volledige betaling heeft bevestigd.\n\nDefinitieve Betaling: Tenzij anders vereist door lokale consumentenwetgeving, zijn alle betalingen niet-restitueerbaar zodra toegang tot de dienst is verleend.' },
@@ -655,7 +655,7 @@ const elTerms: TermsContent = {
     { title: '3. Περιγραφή Υπηρεσιών', content: 'Ο Ιστότοπος παρέχει μια διαδραστική πλατφόρμα με αθλητικές πληροφορίες, σκορ, συμβουλές στοιχημάτων και αναλυτικά δεδομένα. Αν και ο Πάροχος επιδιώκει ακρίβεια, δεν εγγυάται την αξιοπιστία των αποτελεσμάτων αγώνων ή των αποδόσεων.' },
     { title: '4. Πληρωμές και Τραπεζικές Μεταφορές', content: 'Μέθοδοι Πληρωμής: Ο Ιστότοπος δέχεται πληρωμές μέσω ασφαλών διαδικτυακών πυλών και άμεσων τραπεζικών μεταφορών.\n\nΟριστικότητα Πληρωμής: Εκτός αν απαιτείται διαφορετικά από την τοπική νομοθεσία καταναλωτών, όλες οι πληρωμές δεν επιστρέφονται.' },
     { title: '5. Ιδιοκτησιακό Περιεχόμενο', content: 'Αποκλειστική Ιδιοκτησία: Όλο το περιεχόμενο παρέχεται αποκλειστικά από τον Πάροχο.\n\nΚαμία Υποβολή Χρηστών: Ο Ιστότοπος δεν επιτρέπει περιεχόμενο που δημιουργείται από χρήστες.' },
-    { title: '6. Σύνδεσμοι Τρίτων και Διαφήμιση', content: 'Ο Χρήστης αναγνωρίζει ότι οποιαδήποτε αλληλεπίδραση με ιστότοπους τρίτων ή διαφημίσεις είναι εξ ολοκλήρου με δική του ευθύνη.' },
+    { title: '6. Σύνδεσμοι Τρίτων και Δ��αφήμιση', content: 'Ο Χρήστης αναγνωρίζει ότι οποιαδήποτε αλληλεπίδραση με ιστότοπους τρίτων ή διαφημίσεις είναι εξ ολοκλήρου με δική του ευθύνη.' },
     { title: '7. Αδράνεια Λογαριασμού', content: 'Ο Πάροχος διατηρεί το δικαίωμα να τερματίσει οποιονδήποτε λογαριασμό Χρήστη που δεν έχει χρησιμοποιηθεί για 180 συνεχόμενες ημέρες.' },
     { title: '8. Πνευματική Ιδιοκτησία', content: 'Ιδιοκτησία: Όλο το περιεχόμενο και το λογισμικό ανήκουν στον Πάροχο. Οι Χρήστες απαγορεύεται αυστηρά να αντιγράφουν ή να αναπαράγουν οποιοδήποτε μέρος του Ιστοτόπου.' },
     { title: '9. Νομική Συμμόρφωση', content: 'Εφαρμοστέο Δίκαιο: Αυτοί οι Όροι διέπονται από τους νόμους του Ηνωμένου Βασιλείου. Όλα τα Μέρη υπάγονται στην αποκλειστική δικαιοδοσία των δικαστηρίων του Ηνωμένου Βασιλείου.' },
