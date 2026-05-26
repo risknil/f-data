@@ -205,7 +205,7 @@ Apagamento: O direito de ter os dados excluídos se não forem mais necessários
 Restrição e Objeção: O direito de limitar como os dados são processados ou se opor ao marketing.
 
 Portabilidade: O direito de receber os dados em um formato legível por máquina.` },
-    { title: '14. Uso de Dados e Marketing', content: 'Os dados pessoais são usados para se comunicar com os Usuários, processar transferências bancárias/pagamentos, fornecer conteúdo personalizado e manter a segurança. Não vendemos nem negociamos dados pessoais a terceiros para fins de marketing.' },
+    { title: '14. Uso de Dados e Marketing', content: 'Os dados pessoais são usados para se comunicar com os Usu��rios, processar transferências bancárias/pagamentos, fornecer conteúdo personalizado e manter a segurança. Não vendemos nem negociamos dados pessoais a terceiros para fins de marketing.' },
     { title: '15. Divulgação de Dados', content: 'Os dados podem ser divulgados a terceiros apenas para facilitar o processamento de pagamentos (por exemplo, instituições bancárias), no caso de venda do Site, ou para cumprir obrigações legais.' },
     { title: '16. Segurança e Retenção', content: `Medidas de Segurança: Usamos medidas técnicas, incluindo SSL e algoritmos de hash, para proteger os dados.
 
@@ -367,7 +367,7 @@ const huTerms: TermsContent = {
   backButton: 'Vissza a RiskNil-hez',
   legalNote: 'A nyelvi verziók közötti eltérés esetén az angol verzió az irányadó.',
   sections: [
-    { title: '1. Felhasználási Feltételek', content: 'Jelen Felhasználási Feltételek (a "Feltételek") jogilag kötelező érvényű megállapodást képeznek a "Szolgáltató" (a 29. szakaszban meghatározottak szerint) és bármely személy vagy szervezet (a "Felhasználó") között, aki hozzáfér a risknil.com weboldalhoz, annak mobil alkalmazásaihoz vagy bármely kapcsolódó funkcióhoz, tartalomhoz vagy szolgáltatáshoz (együttesen a "Weboldal"). A Szolgáltatót és a Felhasználót együttesen "Felek"-nek nevezzük.' },
+    { title: '1. Felhasználási Feltételek', content: 'Jelen Felhasználási Feltételek (a "Feltételek") jogilag kötelező érvényű megállapodást képeznek a "Szolgáltató" és bármely személy vagy szervezet (a "Felhasználó") között, aki hozzáfér a risknil.com weboldalhoz, annak mobil alkalmazásaihoz vagy bármely kapcsolódó funkcióhoz, tartalomhoz vagy szolgáltatáshoz (együttesen a "Weboldal"). A Szolgáltatót és a Felhasználót együttesen "Felek"-nek nevezzük.' },
     { title: '2. Általános Rendelkezések és Globális Hatály', content: `Alkalmazhatóság: Jelen Feltételek szabályozzák a Szolgáltató és a Felhasználó közötti teljes kapcsolatot. A Weboldal elérésével a Felhasználó megerősíti, hogy elolvasta, megértette és teljes egészében elfogadta ezeket a Feltételeket.
 
 Módosítások: A Szolgáltató fenntartja a jogot, hogy ezeket a Feltételeket bármikor módosítsa, felfüggessze vagy kiegészítse. A Weboldal változtatások utáni folyamatos használata e változtatások elfogadását jelenti.
@@ -457,7 +457,7 @@ const zhCNTerms: TermsContent = {
     { title: '14. 数据使用和营销', content: '个人数据用于通信和支付处理。我们不向第三方出售数据。' },
     { title: '15. 数据披露', content: '数据仅可为处理付款或履行法律义务而向第三方披露。' },
     { title: '16. 安全和保留', content: '安全措施：我们使用SSL和哈希算法。\n\n保��：数据仅保留必要的时间。' },
-    { title: '17. Cookie政策', content: '网站使用Cookie来个性化内容和分析流量。用户可以禁用Cookie。' },
+    { title: '17. Cookie政策', content: '网站使用Cookie来个性化内容和分析流量。用户可以禁���Cookie。' },
     { title: '18. 版本和联系方式', content: '提供者：Risknil.com。\n\n电子邮件：info@risknil.com。\n\n最后更新：2026年5月14日。' }
   ]
 }
@@ -655,7 +655,7 @@ const elTerms: TermsContent = {
     { title: '3. Περιγραφή Υπηρεσιών', content: 'Ο Ιστότοπος παρέχει μια διαδραστική πλατφόρμα με αθλητικές πληροφορίες, σκορ, συμβουλές στοιχημάτων και αναλυτικά δεδομένα. Αν και ο Πάροχος επιδιώκει ακρίβεια, δεν εγγυάται την αξιοπιστία των αποτελεσμάτων αγώνων ή των αποδόσεων.' },
     { title: '4. Πληρωμές και Τραπεζικές Μεταφορές', content: 'Μέθοδοι Πληρωμής: Ο Ιστότοπος δέχεται πληρωμές μέσω ασφαλών διαδικτυακών πυλών και άμεσων τραπεζικών μεταφορών.\n\nΟριστικότητα Πληρωμής: Εκτός αν απαιτείται διαφορετικά από την τοπική νομοθεσία καταναλωτών, όλες οι πληρωμές δεν επιστρέφονται.' },
     { title: '5. Ιδιοκτησιακό Περιεχόμενο', content: 'Αποκλειστική Ιδιοκτησία: Όλο το περιεχόμενο παρέχεται αποκλειστικά από τον Πάροχο.\n\nΚαμία Υποβολή Χρηστών: Ο Ιστότοπος δεν επιτρέπει περιεχόμενο που δημιουργείται από χρήστες.' },
-    { title: '6. Σύνδεσμοι Τρίτων και Δ��αφήμιση', content: 'Ο Χρήστης αναγνωρίζει ότι οποιαδήποτε αλληλεπίδραση με ιστότοπους τρίτων ή διαφημίσεις είναι εξ ολοκλήρου με δική του ευθύνη.' },
+    { title: '6. Σύνδεσμοι Τρίτων και Δ��αφήμιση', content: 'Ο Χρήστης αναγνωρίζει ότι οποιαδήποτε αλληλεπίδραση με ιστότοπους τρίτων ή διαφημίσεις είναι εξ ολοκλήρου με δική του ευθύ��η.' },
     { title: '7. Αδράνεια Λογαριασμού', content: 'Ο Πάροχος διατηρεί το δικαίωμα να τερματίσει οποιονδήποτε λογαριασμό Χρήστη που δεν έχει χρησιμοποιηθεί για 180 συνεχόμενες ημέρες.' },
     { title: '8. Πνευματική Ιδιοκτησία', content: 'Ιδιοκτησία: Όλο το περιεχόμενο και το λογισμικό ανήκουν στον Πάροχο. Οι Χρήστες απαγορεύεται αυστηρά να αντιγράφουν ή να αναπαράγουν οποιοδήποτε μέρος του Ιστοτόπου.' },
     { title: '9. Νομική Συμμόρφωση', content: 'Εφαρμοστέο Δίκαιο: Αυτοί οι Όροι διέπονται από τους νόμους του Ηνωμένου Βασιλείου. Όλα τα Μέρη υπάγονται στην αποκλειστική δικαιοδοσία των δικαστηρίων του Ηνωμένου Βασιλείου.' },
@@ -682,7 +682,7 @@ const plTerms: TermsContent = {
     { title: '2. Postanowienia Ogólne i Zakres Globalny', content: 'Stosowanie: Niniejsze Warunki regulują całą relację między Dostawcą a Użytkownikiem.\n\nZmiany: Dostawca zastrzega sobie prawo do zmiany niniejszych Warunków w dowolnym momencie.\n\nLegalne Użytkowanie: Strona może być używana wyłącznie do legalnych celów.\n\nSankcje: W przypadku nadużycia Dostawca zastrzega sobie prawo do zablokowania dostępu i zamknięcia kont.' },
     { title: '3. Opis Usług', content: 'Strona zapewnia interaktywną platformę z informacjami sportowymi, wynikami, poradami bukmacherskimi i danymi analitycznymi. Chociaż Dostawca dąży do dokładności, nie gwarantuje wiarygodności wyników meczów lub kursów.' },
     { title: '4. Płatności i Przelewy Bankowe', content: 'Metody Płatności: Strona akceptuje płatności za usługi premium poprzez bezpieczne bramki płatności online i bezpośrednie przelewy bankowe.\n\nOstateczność Płatności: O ile lokalne prawo konsumenckie nie wymaga inaczej, wszystkie płatności są bezzwrotne.' },
-    { title: '5. Treści Własnościowe', content: 'Wyłączna Własność: Wszystkie treści są dostarczane wyłącznie przez Dostawcę.\n\nBrak Treści Użytkowników: Strona nie zezwala na treści generowane przez użytkowników.' },
+    { title: '5. Treści Własnościowe', content: 'Wyłączna Własność: Wszystkie treści są dostarczane wyłącznie przez Dostawcę.\n\nBrak Treści Użytkowników: Strona nie zezwala na tre��ci generowane przez użytkowników.' },
     { title: '6. Linki Stron Trzecich i Reklamy', content: 'Użytkownik przyjmuje do wiadomości, że wszelkie interakcje ze stronami internetowymi osób trzecich lub reklamami odbywają się na jego własne ryzyko.' },
     { title: '7. Nieaktywność Konta', content: 'Dostawca zastrzega sobie prawo do zamknięcia każdego konta Użytkownika, które nie było używane przez 180 kolejnych dni.' },
     { title: '8. Własność Intelektualna i Prawa Autorskie', content: 'Własność: Wszystkie treści i oprogramowanie na Stronie należą do Dostawcy. Użytkownikom surowo zabrania się kopiowania lub reprodukowania jakiejkolwiek części Strony.' },
@@ -827,7 +827,7 @@ const jaTerms: TermsContent = {
     { title: '7. アカウントの非アクティブ', content: 'プロバイダーは、180日連続でアクセスされていないユーザーアカウントを終了する権利を留保します。' },
     { title: '8. 知的財産権と著作権', content: '所有権：サイト上のすべてのコンテンツとソフトウェアはプロバイダーの所有物です。ユーザーは、サイトのいかなる部分もコピーまたは複製することを固く禁じられています。' },
     { title: '9. 法的遵守と管轄権', content: '準拠法：この規約は英国の法律に準拠し、解釈されます。すべての当事者は、英国の裁判所の専属管轄権に服します。' },
-    { title: '10. 免責事項と責任制限', content: '保証なし：サイトは「現状のまま」提供されます。\n\nギャンブルサービスではない：サイトは情報ツールです。\n\n損失の制限：プロバイダーは直接的または間接的な損失に対して責任を負いません。' },
+    { title: '10. 免責事項と責任制限', content: '保証なし：サイトは「現状のまま」提供されます。\n\nギャンブルサービスではない：サイトは情報ツールです。\n\n損失の制限：プロバイダーは直接的��たは間接的な損失に対して責任を負いません。' },
     { title: 'プライバシーポリシー', content: '' },
     { title: '11. データ保護とGDPR', content: 'サイトはGDPRに従ってユーザーのプライバシーを保護することを約束します。データ管理者はrisknil.comです。' },
     { title: '12. 個人データの収集', content: '登録：個人データは登録時にのみ収集されます。\n\n同意：サービスを使用することにより、ユーザーはデータの収集に同意します。' },
@@ -875,8 +875,8 @@ const hiTerms: TermsContent = {
   legalNote: 'भाषा संस्करणों के बीच किसी भी विसंगति की स्थिति में, अंग्रेजी संस्करण मान्य होगा।',
   sections: [
     { title: '1. उपयोग की शर्तें', content: 'ये उपयोग की शर्तें ("शर्तें") "प्रदाता" और किसी भी व्यक्ति या संस्था ("उपयोगकर्ता") के बीच एक कानूनी रूप से बाध्यकारी समझौता है जो risknil.com वेबसाइट, इसके मोबाइल एप्लिकेशन, या किसी भी संबंधित सुविधाओं, सामग्री या सेवाओं (सामूहिक रूप से, "साइट") तक पहुंचता है।' },
-    { title: '2. सामान्य प्रावधान और वैश्विक दायरा', content: 'लागूता: ये शर्तें प्रदाता और उपयोगकर्ता के बीच संपूर्ण संबंध को नियंत्रित करती हैं।\n\nसंशोधन: प्रदाता किसी भी समय इन शर्तों को संशोधित करने का अधिकार सुरक्षित रखता है।\n\nवैध उपयोग: साइट का उपयोग केवल वैध उद्देश्यों के लिए किया जाना चाहिए।\n\nप्रतिबंध: दुरुपयोग के मामले में, प्रदाता पहुंच को अवरुद्ध करने और खाते बंद करने का अधिकार रखता है।' },
-    { title: '3. सेवाओं का विवरण', content: 'साइट खेल जानकारी, स्कोर, सट्टेबाजी टिप्स और विश्लेषणात्मक डेटा के साथ एक इंटरैक्टिव प्लेटफॉर्म प्रदान करती है। हालांकि प्रदाता सटीकता के लिए प्रयास करता है, मैच परिणामों या ऑड्स की विश्वसनीयता की गारंटी नहीं है।' },
+    { title: '2. सामान्य प्रावधान और वैश्विक दायरा', content: 'लागूता: ये शर्तें प्रदाता और उपयोगकर्ता के बीच संपूर्ण संबंध को नियंत्रित करती हैं।\n\nसंशोधन: प्रदाता किसी भी समय इन शर्तों को संशोधित करने ���ा अधिकार सुरक्षित रखता है।\n\nवैध उपयोग: साइट का उपयोग केवल वैध उद्देश्यों के लिए किया जाना चाहिए।\n\nप्रतिबंध: दुरुपयोग के मामले में, प्रदाता पहुंच को अवरुद्ध करने और खाते बंद करने का अधिकार रखता है।' },
+    { title: '3. सेवाओं का विवरण', content: 'साइट खेल जानकारी, स्कोर, सट्टेबाजी टिप्स और विश्लेषणात्मक डेटा के साथ एक ��ंटरैक्टिव प्लेटफॉर्म प्रदान करती है। हालांकि प्रदाता सटीकता के लिए प्रयास करता है, मैच परिणामों या ऑड्स की विश्वसनीयता की गारंटी नहीं है।' },
     { title: '4. भुगतान और बैंक हस्तांतरण', content: 'भुगतान के तरीके: साइट सुरक्षित ऑनलाइन भुगतान गेटवे और सीधे बैंक हस्तांतरण के माध्यम से प्रीमियम सेवाओं के लिए भुगतान स्वीकार करती है।\n\nभुगतान की अंतिमता: जब तक स्थानीय उपभोक्ता कानून द्वारा अन्यथा आवश्यक न हो, सभी भुगतान गैर-वापसी योग्य हैं।' },
     { title: '5. स्वामित्व सामग्री', content: 'विशेष स्वामित्व: सभी सामग्री विशेष रूप से प्रदाता द्वारा प्रदान की जाती है।\n\nकोई उपयोगकर्ता सबमिशन नहीं: साइट उपयोगकर्ता-जनित सामग्री की अनुमति नहीं देती है।' },
     { title: '6. तृतीय-पक्ष लिंक और विज्ञापन', content: 'उपयोगकर्ता स्वीकार करता है कि साइट पर पाई गई तृतीय-पक्ष वेबसाइटों या विज्ञापनों के साथ कोई भी बातचीत पूरी तरह से उनके अपने जोखिम पर है।' },
@@ -900,7 +900,7 @@ const arTerms: TermsContent = {
   title: 'الشروط العامة للاستخدام لموقع Risknil.com',
   lastUpdated: 'آخر تحديث: 14 مايو 2026',
   backButton: 'العودة إلى RiskNil',
-  legalNote: 'في حالة وجود أي تعارض بين الإصدارات اللغوية، تسود النسخة الإنجليزية.',
+  legalNote: 'في حالة وجود أي تعا��ض بين الإصدارات اللغوية، تسود النسخة الإنجليزية.',
   sections: [
     { title: '1. شروط الاستخدام', content: 'تشكل شروط الاستخدام هذه ("الشروط") اتفاقية ملزمة قانونيًا بين "المزود" وأي فرد أو كيان ("المستخدم") يصل إلى موقع risknil.com أو تطبيقاته المحمولة أو أي ميزات أو محتوى أو خدمات مرتبطة (يُشار إليها مجتمعة بـ "الموقع").' },
     { title: '2. الأحكام العامة والنطاق العالمي', content: 'التطبيق: تحكم هذه الشروط العلاقة الكاملة بين المزود والمستخدم.\n\nالتعديلات: يحتفظ المزود بالحق في تعديل هذه الشروط في أي وقت.\n\nالاستخدام القانوني: يجب استخدام الموقع فقط لأغراض قانونية.\n\nالعقوبات: في حالة سوء الاستخدام، يحتفظ المزود بالحق في حظر الوصول وإنهاء الحسابات.' },
