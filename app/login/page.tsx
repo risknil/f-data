@@ -59,7 +59,7 @@ export default function LoginPage() {
     <div className="flex min-h-screen flex-col bg-background">
       <div className="px-6 py-4">
         <Button variant="ghost" size="sm" asChild className="gap-2 text-muted-foreground">
-          <a href="/"><ArrowLeft className="h-4 w-4" /> Back to RiskNil</a>
+          <a href="/"><ArrowLeft className="h-4 w-4" /> {t.backToRiskNil}</a>
         </Button>
       </div>
 
@@ -69,22 +69,22 @@ export default function LoginPage() {
             <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary">
               <span className="font-heading text-2xl font-bold text-primary-foreground">R</span>
             </div>
-            <h1 className="font-heading text-2xl font-bold tracking-tight text-foreground">Sign in to RiskNil</h1>
+            <h1 className="font-heading text-2xl font-bold tracking-tight text-foreground">{t.signInToRiskNil}</h1>
           </div>
 
           <div className="space-y-3">
             <Button variant="outline" type="button" className="relative w-full justify-center gap-3 py-5 text-sm font-medium">
-              <GoogleIcon />Continue with Google
+              <GoogleIcon />{t.continueWithGoogle}
             </Button>
             <Button variant="outline" type="button" className="relative w-full justify-center gap-3 py-5 text-sm font-medium">
-              <AppleIcon />Continue with Apple
+              <AppleIcon />{t.continueWithApple}
             </Button>
           </div>
 
           <div className="relative my-6">
             <div className="absolute inset-0 flex items-center"><div className="w-full border-t border-border" /></div>
             <div className="relative flex justify-center text-xs">
-              <span className="bg-background px-3 text-muted-foreground">or sign in with email</span>
+              <span className="bg-background px-3 text-muted-foreground">{t.orSignInWithEmail}</span>
             </div>
           </div>
 
@@ -95,11 +95,11 @@ export default function LoginPage() {
               </div>
             )}
             <div className="space-y-1.5">
-              <Label htmlFor="email">Email address</Label>
+              <Label htmlFor="email">{t.emailAddress}</Label>
               <Input 
                 id="email" 
                 type="email" 
-                placeholder="you@example.com" 
+                placeholder={t.emailPlaceholder}
                 autoComplete="email" 
                 required 
                 className="py-5"
@@ -109,9 +109,9 @@ export default function LoginPage() {
             </div>
             <div className="space-y-1.5">
               <div className="flex items-center justify-between">
-                <Label htmlFor="password">Password</Label>
+                <Label htmlFor="password">{t.password}</Label>
                 <a href="/forgot-password" className="text-xs text-muted-foreground transition-colors hover:text-foreground">
-                  Forgot password?
+                  {t.forgotPassword}
                 </a>
               </div>
               <Input 
@@ -126,19 +126,19 @@ export default function LoginPage() {
               />
             </div>
             <Button type="submit" className="w-full py-5 text-sm font-semibold" disabled={isLoading}>
-              {isLoading ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Signing in...</> : 'Sign in'}
+              {isLoading ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> {t.signingIn}</> : t.signIn}
             </Button>
           </form>
 
           <p className="mt-6 text-center text-sm text-muted-foreground">
-            Don&apos;t have an account?{' '}
-            <a href="/signup" className="font-semibold text-primary transition-colors hover:underline">Sign up free</a>
+            {t.noAccount}{' '}
+            <a href="/signup" className="font-semibold text-primary transition-colors hover:underline">{t.signUpFree}</a>
           </p>
 
           <p className="mt-8 text-center text-xs text-muted-foreground">
-            By continuing, you agree to our{' '}
-            <a href="/terms" className="underline hover:text-foreground">Terms</a>{' '}and{' '}
-            <a href="/privacy" className="underline hover:text-foreground">Privacy Policy</a>.
+            {t.byContinuing}{' '}
+            <a href="/terms" className="underline hover:text-foreground">{t.terms}</a>{' '}{t.and}{' '}
+            <a href="/privacy" className="underline hover:text-foreground">{t.privacyPolicy}</a>.
           </p>
         </div>
       </div>
