@@ -10,6 +10,7 @@ import { useLanguage } from '@/lib/language-context'
 import { trainingModules } from '@/lib/training-content'
 import { getTrainingTranslation } from '@/lib/training-translations'
 import { getTranslatedModule } from '@/lib/translations/index'
+import { AdBanner } from '@/components/ad-banner'
 
 export default function TrainingPage() {
   const { user, isLoading, logout } = useAuth()
@@ -68,62 +69,92 @@ export default function TrainingPage() {
         </div>
       </div>
 
-      {/* Main Content */}
-      <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
-        {/* Hero Section */}
-        <div className="mb-12 text-center">
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-medium text-primary ring-1 ring-primary/20">
-            <GraduationCap className="h-4 w-4" />
-            {t.pageTitle}
+      {/* Top leaderboard ad */}
+      <div className="mx-auto max-w-7xl px-4 pt-6 sm:px-6 lg:px-8">
+        <AdBanner position="leaderboard" />
+      </div>
+
+      {/* Main Content with Side Ads */}
+      <div className="flex justify-center">
+        {/* Left skyscraper ad */}
+        <aside className="hidden xl:flex sticky top-4 h-fit pt-8 pl-4">
+          <AdBanner position="skyscraper" />
+        </aside>
+
+        <div className="flex-1 max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+          {/* Hero Section */}
+          <div className="mb-12 text-center">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-medium text-primary ring-1 ring-primary/20">
+              <GraduationCap className="h-4 w-4" />
+              {t.pageTitle}
+            </div>
+            <h1 className="font-heading text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
+              {t.pageTitle}
+            </h1>
+            <p className="mt-4 text-lg text-muted-foreground">
+              {t.pageSubtitle}
+            </p>
           </div>
-          <h1 className="font-heading text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-            {t.pageTitle}
-          </h1>
-          <p className="mt-4 text-lg text-muted-foreground">
-            {t.pageSubtitle}
-          </p>
-        </div>
 
-        {/* Modules List */}
-        <div className="space-y-4">
-          <h2 className="font-heading text-xl font-bold text-foreground">{t.modulesTitle}</h2>
-          
-          {trainingModules.map((module) => {
-            // Use translated content if available, otherwise fall back to English
-            const translatedModule = getTranslatedModule(language, module.id)
-            const displayTitle = translatedModule?.title || module.title
-            const displaySubtitle = translatedModule?.subtitle || module.subtitle
-            const displayDuration = translatedModule?.duration || module.duration
+          {/* Modules List */}
+          <div className="space-y-4">
+            <h2 className="font-heading text-xl font-bold text-foreground">{t.modulesTitle}</h2>
             
-            return (
-              <Card key={module.id} className="group cursor-pointer transition-colors hover:border-primary/40">
-                <a href={`/training/${module.slug}`}>
-                  <CardContent className="flex items-center gap-4 py-5">
-                    <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-secondary text-foreground">
-                      <BookOpen className="h-5 w-5" />
+            {trainingModules.map((module, index) => {
+              // Use translated content if available, otherwise fall back to English
+              const translatedModule = getTranslatedModule(language, module.id)
+              const displayTitle = translatedModule?.title || module.title
+              const displaySubtitle = translatedModule?.subtitle || module.subtitle
+              const displayDuration = translatedModule?.duration || module.duration
+              
+              return (
+                <div key={module.id}>
+                  <Card className="group cursor-pointer transition-colors hover:border-primary/40">
+                    <a href={`/training/${module.slug}`}>
+                      <CardContent className="flex items-center gap-4 py-5">
+                        <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-secondary text-foreground">
+                          <BookOpen className="h-5 w-5" />
+                        </div>
+                        <div className="flex-1">
+                          <h3 className="font-heading text-lg font-bold text-foreground group-hover:text-primary">
+                            Module {module.id}: {displayTitle.replace(/^\d+\.\s*/, '')}
+                          </h3>
+                          <p className="mt-1 text-sm text-muted-foreground">{displaySubtitle}</p>
+                          <p className="mt-2 text-xs text-muted-foreground">{displayDuration}</p>
+                        </div>
+                        <ChevronRight className="h-5 w-5 text-muted-foreground transition-transform group-hover:translate-x-1 group-hover:text-primary" />
+                      </CardContent>
+                    </a>
+                  </Card>
+                  {/* Ad after every 3rd module */}
+                  {(index + 1) % 3 === 0 && index < trainingModules.length - 1 && (
+                    <div className="my-6">
+                      <AdBanner position="inline" />
                     </div>
-                    <div className="flex-1">
-                      <h3 className="font-heading text-lg font-bold text-foreground group-hover:text-primary">
-                        Module {module.id}: {displayTitle.replace(/^\d+\.\s*/, '')}
-                      </h3>
-                      <p className="mt-1 text-sm text-muted-foreground">{displaySubtitle}</p>
-                      <p className="mt-2 text-xs text-muted-foreground">{displayDuration}</p>
-                    </div>
-                    <ChevronRight className="h-5 w-5 text-muted-foreground transition-transform group-hover:translate-x-1 group-hover:text-primary" />
-                  </CardContent>
-                </a>
-              </Card>
-            )
-          })}
+                  )}
+                </div>
+              )
+            })}
+          </div>
+
+          {/* Bottom ad */}
+          <div className="mt-8">
+            <AdBanner position="inline" />
+          </div>
+
+          {/* Footer Note */}
+          <div className="mt-12 rounded-lg bg-secondary/50 p-6 text-center">
+            <p className="text-sm text-muted-foreground">
+              This training pack is exclusive to registered RiskNil members. 
+              The goal is to teach you how to understand betting markets, price risk properly, and avoid the common habits that destroy bankrolls and credibility.
+            </p>
+          </div>
         </div>
 
-        {/* Footer Note */}
-        <div className="mt-12 rounded-lg bg-secondary/50 p-6 text-center">
-          <p className="text-sm text-muted-foreground">
-            This training pack is exclusive to registered RiskNil members. 
-            The goal is to teach you how to understand betting markets, price risk properly, and avoid the common habits that destroy bankrolls and credibility.
-          </p>
-        </div>
+        {/* Right skyscraper ad */}
+        <aside className="hidden xl:flex sticky top-4 h-fit pt-8 pr-4">
+          <AdBanner position="skyscraper" />
+        </aside>
       </div>
     </div>
   )

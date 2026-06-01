@@ -10,6 +10,7 @@ import { useLanguage } from '@/lib/language-context'
 import { trainingModules } from '@/lib/training-content'
 import { getTrainingTranslation } from '@/lib/training-translations'
 import { getTranslatedModule } from '@/lib/translations/index'
+import { AdBanner } from '@/components/ad-banner'
 
 export default function ModulePage() {
   const { user, isLoading, logout } = useAuth()
@@ -211,144 +212,172 @@ export default function ModulePage() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        {/* Module Header */}
-        <div className="mb-8">
-          <p className="text-sm font-medium text-primary mb-2">Module {module.id}</p>
-          <h1 className="font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            {displayTitle.replace(/^\d+\.\s*/, '')}
-          </h1>
-          <p className="mt-2 text-lg text-muted-foreground">{displaySubtitle}</p>
-          <p className="mt-2 text-sm text-muted-foreground">{displayDuration}</p>
-        </div>
+      {/* Top leaderboard ad */}
+      <div className="mx-auto max-w-7xl px-4 pt-6 sm:px-6 lg:px-8">
+        <AdBanner position="leaderboard" />
+      </div>
 
-        {/* Module Layout */}
-        <div className="flex gap-8">
-            {/* Sidebar Navigation */}
-            {displaySections.length > 1 && (
-              <aside className="hidden lg:block w-64 flex-shrink-0">
-                <div className="sticky top-24">
-                  <h3 className="text-sm font-semibold text-foreground mb-4">Sections</h3>
-                  <nav className="space-y-1">
-                    {displaySections.map((section, i) => (
-                      <button
-                        key={i}
-                        onClick={() => setActiveSection(i)}
-                        className={`block w-full text-left px-3 py-2 rounded-md text-sm transition-colors ${
-                          activeSection === i
-                            ? 'bg-primary/10 text-primary font-medium'
-                            : 'text-muted-foreground hover:bg-secondary hover:text-foreground'
-                        }`}
-                      >
-                        {section.title}
-                      </button>
-                    ))}
-                  </nav>
-                </div>
-              </aside>
-            )}
+      {/* Main content with side ads */}
+      <div className="flex justify-center">
+        {/* Left skyscraper ad */}
+        <aside className="hidden xl:flex sticky top-20 h-fit pt-8 pl-4">
+          <AdBanner position="skyscraper" />
+        </aside>
 
-            {/* Content */}
-            <div className="flex-1 min-w-0">
-              {/* Mobile Section Selector */}
+        <div className="flex-1 max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+          {/* Module Header */}
+          <div className="mb-8">
+            <p className="text-sm font-medium text-primary mb-2">Module {module.id}</p>
+            <h1 className="font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+              {displayTitle.replace(/^\d+\.\s*/, '')}
+            </h1>
+            <p className="mt-2 text-lg text-muted-foreground">{displaySubtitle}</p>
+            <p className="mt-2 text-sm text-muted-foreground">{displayDuration}</p>
+          </div>
+
+          {/* Module Layout */}
+          <div className="flex gap-8">
+              {/* Sidebar Navigation */}
               {displaySections.length > 1 && (
-                <div className="lg:hidden mb-6">
-                  <select
-                    value={activeSection}
-                    onChange={(e) => setActiveSection(Number(e.target.value))}
-                    className="w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/20"
-                  >
-                    {displaySections.map((section, i) => (
-                      <option key={i} value={i}>{section.title}</option>
-                    ))}
-                  </select>
-                </div>
+                <aside className="hidden lg:block w-64 flex-shrink-0">
+                  <div className="sticky top-24">
+                    <h3 className="text-sm font-semibold text-foreground mb-4">Sections</h3>
+                    <nav className="space-y-1">
+                      {displaySections.map((section, i) => (
+                        <button
+                          key={i}
+                          onClick={() => setActiveSection(i)}
+                          className={`block w-full text-left px-3 py-2 rounded-md text-sm transition-colors ${
+                            activeSection === i
+                              ? 'bg-primary/10 text-primary font-medium'
+                              : 'text-muted-foreground hover:bg-secondary hover:text-foreground'
+                          }`}
+                        >
+                          {section.title}
+                        </button>
+                      ))}
+                    </nav>
+                  </div>
+                </aside>
               )}
 
-              {displaySections[activeSection] && (
-                <Card>
-                  <CardContent className="py-8">
-                    <div className="flex items-center gap-3 mb-6">
-                      <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
-                        <BookOpen className="h-5 w-5 text-primary" />
+              {/* Content */}
+              <div className="flex-1 min-w-0">
+                {/* Mobile Section Selector */}
+                {displaySections.length > 1 && (
+                  <div className="lg:hidden mb-6">
+                    <select
+                      value={activeSection}
+                      onChange={(e) => setActiveSection(Number(e.target.value))}
+                      className="w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/20"
+                    >
+                      {displaySections.map((section, i) => (
+                        <option key={i} value={i}>{section.title}</option>
+                      ))}
+                    </select>
+                  </div>
+                )}
+
+                {displaySections[activeSection] && (
+                  <Card>
+                    <CardContent className="py-8">
+                      <div className="flex items-center gap-3 mb-6">
+                        <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
+                          <BookOpen className="h-5 w-5 text-primary" />
+                        </div>
+                        <h2 className="font-heading text-xl font-bold text-foreground">
+                          {currentSectionTitle}
+                        </h2>
                       </div>
-                      <h2 className="font-heading text-xl font-bold text-foreground">
-                        {currentSectionTitle}
-                      </h2>
-                    </div>
-                    <div className="prose prose-sm max-w-none">
-                      {renderContent(currentSectionContent)}
-                    </div>
-                  </CardContent>
-                </Card>
+                      <div className="prose prose-sm max-w-none">
+                        {renderContent(currentSectionContent)}
+                      </div>
+                    </CardContent>
+                  </Card>
+                )}
+
+                {/* Ad after section content */}
+                <div className="mt-6">
+                  <AdBanner position="inline" />
+                </div>
+
+                {/* Section Navigation */}
+                {displaySections.length > 1 && (
+                  <div className="mt-6 flex items-center justify-between">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => setActiveSection(prev => Math.max(0, prev - 1))}
+                      disabled={activeSection === 0}
+                      className="gap-2"
+                    >
+                      <ChevronLeft className="h-4 w-4" /> Previous
+                    </Button>
+                    <span className="text-sm text-muted-foreground">
+                      {activeSection + 1} / {displaySections.length}
+                    </span>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => setActiveSection(prev => Math.min(displaySections.length - 1, prev + 1))}
+                      disabled={activeSection === displaySections.length - 1}
+                      className="gap-2"
+                    >
+                      Next <ChevronRight className="h-4 w-4" />
+                    </Button>
+                </div>
               )}
+            </div>
+          </div>
 
-              {/* Section Navigation */}
-              {displaySections.length > 1 && (
-                <div className="mt-6 flex items-center justify-between">
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    onClick={() => setActiveSection(prev => Math.max(0, prev - 1))}
-                    disabled={activeSection === 0}
-                    className="gap-2"
-                  >
-                    <ChevronLeft className="h-4 w-4" /> Previous
-                  </Button>
-                  <span className="text-sm text-muted-foreground">
-                    {activeSection + 1} / {displaySections.length}
-                  </span>
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    onClick={() => setActiveSection(prev => Math.min(displaySections.length - 1, prev + 1))}
-                    disabled={activeSection === displaySections.length - 1}
-                    className="gap-2"
-                  >
-                    Next <ChevronRight className="h-4 w-4" />
-                  </Button>
-              </div>
-            )}
+          {/* Module Navigation */}
+          <div className="mt-12 pt-8 border-t border-border">
+            <div className="flex items-center justify-between">
+              {prevModule ? (
+                <a 
+                  href={`/training/${prevModule.slug}`}
+                  className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+                >
+                  <ChevronLeft className="h-4 w-4" />
+                  <span>Module {prevModule.id}</span>
+                </a>
+              ) : (
+                <div />
+              )}
+              {nextModule ? (
+                <a 
+                  href={`/training/${nextModule.slug}`}
+                  className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+                >
+                  <span>Module {nextModule.id}</span>
+                  <ChevronRight className="h-4 w-4" />
+                </a>
+              ) : (
+                <div />
+              )}
+            </div>
+          </div>
+
+          {/* Bottom ad */}
+          <div className="mt-8">
+            <AdBanner position="inline" />
+          </div>
+
+          {/* Return to Training Button */}
+          <div className="mt-8 text-center">
+            <Button asChild size="lg" variant="outline" className="gap-2">
+              <a href="/training">
+                <ArrowLeft className="h-4 w-4" />
+                {t.returnToModules}
+              </a>
+            </Button>
           </div>
         </div>
 
-        {/* Module Navigation */}
-        <div className="mt-12 pt-8 border-t border-border">
-          <div className="flex items-center justify-between">
-            {prevModule ? (
-              <a 
-                href={`/training/${prevModule.slug}`}
-                className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
-              >
-                <ChevronLeft className="h-4 w-4" />
-                <span>Module {prevModule.id}</span>
-              </a>
-            ) : (
-              <div />
-            )}
-            {nextModule ? (
-              <a 
-                href={`/training/${nextModule.slug}`}
-                className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
-              >
-                <span>Module {nextModule.id}</span>
-                <ChevronRight className="h-4 w-4" />
-              </a>
-            ) : (
-              <div />
-            )}
-          </div>
-        </div>
-
-        {/* Return to Training Button */}
-        <div className="mt-8 text-center">
-          <Button asChild size="lg" variant="outline" className="gap-2">
-            <a href="/training">
-              <ArrowLeft className="h-4 w-4" />
-              {t.returnToModules}
-            </a>
-          </Button>
-        </div>
+        {/* Right skyscraper ad */}
+        <aside className="hidden xl:flex sticky top-20 h-fit pt-8 pr-4">
+          <AdBanner position="skyscraper" />
+        </aside>
       </div>
     </div>
   )
