@@ -152,6 +152,9 @@ export function Navbar({ sports }: NavbarProps) {
             )}
 
             <div className="pt-4 space-y-2">
+              <div className="flex justify-center pb-2">
+                <LanguageSelector />
+              </div>
               <a href="/login" onClick={() => setMobileMenuOpen(false)} className="block w-full rounded-md border border-border px-3 py-2 text-center text-sm font-medium text-foreground hover:bg-secondary">
                 {t.navbar.logIn}
               </a>
