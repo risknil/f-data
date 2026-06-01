@@ -82,43 +82,6 @@ export default function ExpertPicksPage() {
             <AdBanner position="inline" />
           </div>
 
-          {/* More Info Section */}
-          <section className="py-16 sm:py-20">
-            <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-              <div className="grid gap-8 md:grid-cols-2">
-                <div className="rounded-xl bg-secondary/30 p-6">
-                  <h3 className="font-heading text-lg font-bold text-foreground">Verified Experts</h3>
-                  <p className="mt-2 text-sm text-muted-foreground">
-                    Every tipster is verified with a proven track record of profitable picks over time.
-                  </p>
-                </div>
-                <div className="rounded-xl bg-secondary/30 p-6">
-                  <h3 className="font-heading text-lg font-bold text-foreground">All Sports</h3>
-                  <p className="mt-2 text-sm text-muted-foreground">
-                    From football to tennis, horse racing to basketball - we cover every major sport.
-                  </p>
-                </div>
-                <div className="rounded-xl bg-secondary/30 p-6">
-                  <h3 className="font-heading text-lg font-bold text-foreground">Daily Updates</h3>
-                  <p className="mt-2 text-sm text-muted-foreground">
-                    Fresh picks every day. Never miss an opportunity with our real-time updates.
-                  </p>
-                </div>
-                <div className="rounded-xl bg-secondary/30 p-6">
-                  <h3 className="font-heading text-lg font-bold text-foreground">Transparent Results</h3>
-                  <p className="mt-2 text-sm text-muted-foreground">
-                    Full history of all picks with results. See exactly how our experts perform.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Inline ad */}
-          <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-            <AdBanner position="inline" />
-          </div>
-
           {/* Testimonial/Trust Section */}
           <section className="py-16 sm:py-20 bg-primary/5">
             <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
