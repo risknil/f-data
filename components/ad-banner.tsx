@@ -8,7 +8,7 @@ export function AdBanner({ position = 'leaderboard' }: { position?: 'leaderboard
     sidebar: 'h-64 w-full',
     inline: 'h-32 w-full',
     skyscraper: 'w-[160px] h-[600px]',
-    'mobile-banner': 'h-20 w-full',
+    'mobile-banner': 'h-28 w-full',
   }
 
   const dimensions = {
@@ -16,7 +16,7 @@ export function AdBanner({ position = 'leaderboard' }: { position?: 'leaderboard
     sidebar: '300 × 250',
     inline: '468 × 60',
     skyscraper: '160 × 600',
-    'mobile-banner': '320 × 50',
+    'mobile-banner': '320 × 110',
   }
 
   return (
@@ -59,7 +59,7 @@ export function DismissibleMobileAd({ autoDismissSeconds = 5 }: { autoDismissSec
   return (
     <div className="animate-in slide-in-from-top duration-300 mx-auto w-full px-4 py-3 sm:hidden">
       <div
-        className="relative h-24 w-full flex items-center justify-center rounded-xl border border-dashed border-border bg-card/50"
+        className="relative h-28 w-full flex items-center justify-center rounded-xl border border-dashed border-border bg-card/50"
         role="complementary"
         aria-label="Advertisement"
       >
@@ -80,7 +80,7 @@ export function DismissibleMobileAd({ autoDismissSeconds = 5 }: { autoDismissSec
             Advertisement
           </span>
           <span className="mt-1 block text-xs text-muted-foreground/40">
-            320 × 100
+            320 × 110
           </span>
         </div>
       </div>
