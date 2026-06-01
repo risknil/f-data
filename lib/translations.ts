@@ -8,6 +8,7 @@ export interface Translations {
     sports: string
     howItWorks: string
     expertPicks: string
+    training: string
     signUp: string
     logIn: string
   }
@@ -92,7 +93,7 @@ export interface Translations {
 }
 
 const en: Translations = {
-  navbar: { sports: 'Sports', howItWorks: 'How It Works', expertPicks: 'Expert Picks', signUp: 'Sign Up Free', logIn: 'Log In' },
+  navbar: { sports: 'Sports', howItWorks: 'How It Works', expertPicks: 'Expert Picks', training: 'Professional Betting Training', signUp: 'Sign Up Free', logIn: 'Log In' },
   hero: { title: 'Expert Betting Tips For Free', subtitle: 'Get the Best Betting Tips from Experts — For Free', description: 'Why spend hours browsing unreliable tipster sites or paying for questionable picks? We aggregate tips from 100s of expert sources and deliver only the highest-quality picks — completely free.', startButton: 'Start Getting Free Tips', learnButton: 'See How It Works' },
   howItWorks: { title: 'How It Works', description: 'Get expert betting tips in three simple steps', step1Title: '100s of Expert Sources', step1Desc: 'We curate tips from verified tipsters and expert sources', step2Title: 'Quality Filtered', step2Desc: 'Only the highest quality predictions make it through', step3Title: 'Completely Free', step3Desc: 'Access all tips without paying a single penny', stats: { tipsters: 'Expert Tipsters', sources: 'Expert Sources Filtered', free: 'Free for You' } },
   browse: { title: 'Browse By Sport', browseButton: 'View Tips' },
@@ -104,7 +105,7 @@ const en: Translations = {
 }
 
 const es: Translations = {
-  navbar: { sports: 'Deportes', howItWorks: 'Cómo Funciona', expertPicks: 'Picks de Expertos', signUp: 'Registrarse Gratis', logIn: 'Iniciar Sesión' },
+  navbar: { sports: 'Deportes', howItWorks: 'Cómo Funciona', expertPicks: 'Picks de Expertos', training: 'Entrenamiento Profesional de Apuestas', signUp: 'Registrarse Gratis', logIn: 'Iniciar Sesión' },
   hero: { title: 'Consejos de Apuestas Gratis', subtitle: 'Obtén los Mejores Consejos de Apuestas de Expertos — Gratis', description: '¿Por qué pasar horas en sitios de tipsters poco confiables o pagar por picks cuestionables? Reunimos consejos de cientos de fuentes expertas y entregamos solo los picks de mayor calidad — completamente gratis.', startButton: 'Comienza a Recibir Tips Gratis', learnButton: 'Ver Cómo Funciona' },
   howItWorks: { title: 'Cómo Funciona', description: 'Obtén consejos de apuestas de expertos en tres simples pasos', step1Title: 'Cientos de Fuentes Expertas', step1Desc: 'Seleccionamos consejos de tipsters verificados y fuentes expertas', step2Title: 'Filtrado por Calidad', step2Desc: 'Solo las predicciones de mayor calidad pasan el filtro', step3Title: 'Completamente Gratis', step3Desc: 'Accede a todos los consejos sin pagar un centavo', stats: { tipsters: 'Tipsters Expertos', sources: 'Fuentes Expertas Filtradas', free: 'Gratis para Ti' } },
   browse: { title: 'Explorar por Deporte', browseButton: 'Ver Consejos' },
@@ -116,7 +117,7 @@ const es: Translations = {
 }
 
 const pt: Translations = {
-  navbar: { sports: 'Esportes', howItWorks: 'Como Funciona', expertPicks: 'Dicas de Especialistas', signUp: 'Cadastrar Grátis', logIn: 'Entrar' },
+  navbar: { sports: 'Esportes', howItWorks: 'Como Funciona', expertPicks: 'Dicas de Especialistas', training: 'Treinamento Profissional de Apostas', signUp: 'Cadastrar Grátis', logIn: 'Entrar' },
   hero: { title: 'Dicas de Apostas Grátis de Especialistas', subtitle: 'Obtenha as Melhores Dicas de Apostas de Especialistas — Grátis', description: 'Por que gastar horas em sites de tipsters não confiáveis ou pagar por dicas duvidosas? Agregamos dicas de centenas de fontes especializadas e entregamos apenas as dicas de maior qualidade — completamente grátis.', startButton: 'Comece a Receber Dicas Grátis', learnButton: 'Veja Como Funciona' },
   howItWorks: { title: 'Como Funciona', description: 'Obtenha dicas de apostas de especialistas em três passos simples', step1Title: 'Centenas de Fontes Especializadas', step1Desc: 'Selecionamos dicas de tipsters verificados e fontes especializadas', step2Title: 'Filtrado por Qualidade', step2Desc: 'Apenas as previsões de maior qualidade passam pelo filtro', step3Title: 'Completamente Grátis', step3Desc: 'Acesse todas as dicas sem pagar nada', stats: { tipsters: 'Tipsters Especializados', sources: 'Fontes Especializadas Filtradas', free: 'Grátis para Você' } },
   browse: { title: 'Navegar por Esporte', browseButton: 'Ver Dicas' },
@@ -128,7 +129,7 @@ const pt: Translations = {
 }
 
 const zhCN: Translations = {
-  navbar: { sports: '体育', howItWorks: '如何运作', expertPicks: '专家选择', signUp: '免费注册', logIn: '登录' },
+  navbar: { sports: '体育', howItWorks: '如何运作', expertPicks: '专家选择', training: '专业投注培训', signUp: '免费注册', logIn: '登录' },
   hero: { title: '免费专家投注技巧', subtitle: '从专家那里获得最佳投注技巧 — 完全免费', description: '为什么要花几个小时浏览不可靠的投注网站或为可疑的选择付费？我们从数百个专家��源汇总技巧，只提供最高质量的选择 — 完全免费。', startButton: '开始获取免费技巧', learnButton: '了解如何运作' },
   howItWorks: { title: '如何运作', description: '通过三个简单步骤获取专家投注技巧', step1Title: '数百个专家来源', step1Desc: '我们从经过验证的投注专家和专家来源精选技巧', step2Title: '质量过滤', step2Desc: '只有最高质量的预测才能通过', step3Title: '完全免费', step3Desc: '无需付费即可访问所有技巧', stats: { tipsters: '专家投注师', sources: '过滤的专家来源', free: '为您免费' } },
   browse: { title: '按体育浏览', browseButton: '查看技巧' },
@@ -140,11 +141,11 @@ const zhCN: Translations = {
 }
 
 const zhTW: Translations = {
-  navbar: { sports: '體育', howItWorks: '如何運作', expertPicks: '專家選擇', signUp: '免費註冊', logIn: '登入' },
+  navbar: { sports: '體育', howItWorks: '如何運作', expertPicks: '專家選擇', training: '專業投注培訓', signUp: '免費註冊', logIn: '登入' },
   hero: { title: '免費專家投注技巧', subtitle: '從專家那裡獲得最佳投注技巧 — 完全免費', description: '為什麼要花幾個小時瀏覽不可靠的投注網站或為可疑的選擇付費？我們從數百個專家來源匯總技巧，只提供最高質量的選擇 — 完全免費。', startButton: '開始獲取免費技巧', learnButton: '了解如何運作' },
   howItWorks: { title: '如何運作', description: '通過三個簡單步驟獲取專家投注技巧', step1Title: '數百個專家來源', step1Desc: '我們從經過驗證的投注專家和專家來源精選技巧', step2Title: '質量過濾', step2Desc: '只有最高質量的預測才能通過', step3Title: '完全免費', step3Desc: '無需付費即可訪問所有技巧', stats: { tipsters: '專家投注師', sources: '過濾的專家來源', free: '為您免費' } },
   browse: { title: '按體育瀏覽', browseButton: '查看技巧' },
-  expertPicks: { badge: '高級專家選擇', title: '我們在投注什麼', description: '想知道我們的專家團隊在投注什麼嗎？只需$1即可獲得我們高級累積投注選擇的獨家訪問權限。', noTips: '目前沒有高級選擇。請稍後再來！', selectionsLabel: '選擇', oddsLabel: '組合賠率', combinedOdds: '組合賠率', unlockButton: '解鎖 $1', unlockTitle: '我們的{sheetName}累積投注技巧', revealNote: '一旦揭示，將保持可見直到下一個選擇', howItWorksTitle: '如何運作：', howItWorksDesc: '只需每個累積投注$1，解鎖我們專家的多選投注。每個累積投注組合多個選擇以獲得更大的潛在回報。' },
+  expertPicks: { badge: '高級專家選擇', title: '我們在投注什麼', description: '想知道我們的專家團隊在投注什麼嗎？只需$1即可獲得我��高級累積投注選擇的獨家訪問權限。', noTips: '目前沒有高級選擇。請稍後再來！', selectionsLabel: '選擇', oddsLabel: '組合賠率', combinedOdds: '組合賠率', unlockButton: '解鎖 $1', unlockTitle: '我們的{sheetName}累積投注技巧', revealNote: '一旦揭示，將保持可見直到下一個選擇', howItWorksTitle: '如何運作：', howItWorksDesc: '只需每個累積投注$1，解鎖我們專家的多選投注。每個累積投注組合多個選擇以獲得更大的潛在回報。' },
   sportTips: { event: '賽事', market: '市場', pick: '選擇', odds: '賠率', noTips: '感謝您的耐心！我們正在收集這項運動的最佳投注技巧。請稍後再來。' },
   footer: { company: '公司', sports: '體育', account: '帳戶', howItWorks: '如何運作', terms: '服務條款', privacy: '隱私政策', signUp: '免費註冊', logIn: '登入', forgot: '忘記密碼', tagline: '獲取體育博彩技巧的最聰明方式。從數百位專家精選，對所有人免費。', disclaimer: '請負責任地博彩。博彩涉及風險。18+。' },
   auth: { signUpTitle: '創建您的免費帳戶', logInTitle: '登入RiskNil', forgotTitle: '重置您的密碼', email: '電郵', password: '密碼', confirmPassword: '確認密碼', createAccount: '創建帳戶', signIn: '登入', resetPassword: '重置密碼', backToLogin: '返回登入' },
@@ -152,7 +153,7 @@ const zhTW: Translations = {
 }
 
 const it: Translations = {
-  navbar: { sports: 'Sport', howItWorks: 'Come Funziona', expertPicks: 'Pronostici Esperti', signUp: 'Registrati Gratis', logIn: 'Accedi' },
+  navbar: { sports: 'Sport', howItWorks: 'Come Funziona', expertPicks: 'Pronostici Esperti', training: 'Formazione Professionale Scommesse', signUp: 'Registrati Gratis', logIn: 'Accedi' },
   hero: { title: 'Pronostici Gratuiti dagli Esperti', subtitle: 'Ottieni i Migliori Pronostici dagli Esperti — Gratis', description: 'Perché passare ore su siti di pronosticatori inaffidabili o pagare per scelte discutibili? Aggreghiamo consigli da centinaia di fonti esperte e forniamo solo i pronostici di massima qualità — completamente gratis.', startButton: 'Inizia a Ricevere Pronostici Gratis', learnButton: 'Scopri Come Funziona' },
   howItWorks: { title: 'Come Funziona', description: 'Ottieni pronostici esperti in tre semplici passaggi', step1Title: 'Centinaia di Fonti Esperte', step1Desc: 'Selezioniamo pronostici da tipster verificati e fonti esperte', step2Title: 'Filtrati per Qualità', step2Desc: 'Solo le previsioni di massima qualità passano il filtro', step3Title: 'Completamente Gratis', step3Desc: 'Accedi a tutti i pronostici senza pagare nulla', stats: { tipsters: 'Tipster Esperti', sources: 'Fonti Esperte Filtrate', free: 'Gratis per Te' } },
   browse: { title: 'Sfoglia per Sport', browseButton: 'Vedi Pronostici' },
@@ -164,7 +165,7 @@ const it: Translations = {
 }
 
 const fr: Translations = {
-  navbar: { sports: 'Sports', howItWorks: 'Comment ça marche', expertPicks: 'Pronostics Experts', signUp: 'Inscription Gratuite', logIn: 'Connexion' },
+  navbar: { sports: 'Sports', howItWorks: 'Comment ça marche', expertPicks: 'Pronostics Experts', training: 'Formation Professionnelle Paris', signUp: 'Inscription Gratuite', logIn: 'Connexion' },
   hero: { title: 'Pronostics Gratuits d\'Experts', subtitle: 'Obtenez les Meilleurs Pronostics d\'Experts — Gratuitement', description: 'Pourquoi passer des heures sur des sites de pronostiqueurs peu fiables ou payer pour des choix douteux? Nous agrégeons les conseils de centaines de sources expertes et ne livrons que les pronostics de la plus haute qualité — complètement gratuit.', startButton: 'Commencer à Recevoir des Pronostics Gratuits', learnButton: 'Voir Comment ça Marche' },
   howItWorks: { title: 'Comment ça Marche', description: 'Obtenez des pronostics d\'experts en trois étapes simples', step1Title: 'Des Centaines de Sources Expertes', step1Desc: 'Nous sélectionnons des pronostics de tipsters vérifiés et sources expertes', step2Title: 'Filtré par Qualité', step2Desc: 'Seules les prédictions de la plus haute qualité passent le filtre', step3Title: 'Complètement Gratuit', step3Desc: 'Accédez à tous les pronostics sans payer un centime', stats: { tipsters: 'Tipsters Experts', sources: 'Sources Expertes Filtrées', free: 'Gratuit pour Vous' } },
   browse: { title: 'Parcourir par Sport', browseButton: 'Voir les Pronostics' },
@@ -176,7 +177,7 @@ const fr: Translations = {
 }
 
 const de: Translations = {
-  navbar: { sports: 'Sport', howItWorks: 'So funktioniert\'s', expertPicks: 'Experten-Tipps', signUp: 'Kostenlos Anmelden', logIn: 'Anmelden' },
+  navbar: { sports: 'Sport', howItWorks: 'So funktioniert\'s', expertPicks: 'Experten-Tipps', training: 'Professionelles Wetttraining', signUp: 'Kostenlos Anmelden', logIn: 'Anmelden' },
   hero: { title: 'Kostenlose Experten-Wetttipps', subtitle: 'Holen Sie sich die besten Wetttipps von Experten — Kostenlos', description: 'Warum Stunden auf unzuverlässigen Tipster-Seiten verbringen oder für fragwürdige Tipps bezahlen? Wir sammeln Tipps von Hunderten von Expertenquellen und liefern nur die hochwertigsten Tipps — völlig kostenlos.', startButton: 'Kostenlose Tipps erhalten', learnButton: 'So funktioniert\'s' },
   howItWorks: { title: 'So funktioniert\'s', description: 'Erhalten Sie Experten-Wetttipps in drei einfachen Schritten', step1Title: 'Hunderte Expertenquellen', step1Desc: 'Wir kuratieren Tipps von verifizierten Tipstern und Expertenquellen', step2Title: 'Qualitätsgefiltert', step2Desc: 'Nur die hochwertigsten Vorhersagen kommen durch', step3Title: 'Völlig kostenlos', step3Desc: 'Zugang zu allen Tipps ohne einen Cent zu bezahlen', stats: { tipsters: 'Experten-Tipster', sources: 'Gefilterte Expertenquellen', free: 'Kostenlos für Sie' } },
   browse: { title: 'Nach Sportart durchsuchen', browseButton: 'Tipps ansehen' },
@@ -188,7 +189,7 @@ const de: Translations = {
 }
 
 const hu: Translations = {
-  navbar: { sports: 'Sportok', howItWorks: 'Hogyan működik', expertPicks: 'Szakértői tippek', signUp: 'Ingyenes regisztráció', logIn: 'Bejelentkezés' },
+  navbar: { sports: 'Sportok', howItWorks: 'Hogyan működik', expertPicks: 'Szakértői tippek', training: 'Professzionális Fogadási Képzés', signUp: 'Ingyenes regisztráció', logIn: 'Bejelentkezés' },
   hero: { title: 'Ingyenes fogadási tippek szakértőktől', subtitle: 'Kapja meg a legjobb fogadási tippeket szakértőktől — Teljesen ingyen', description: 'Miért töltene órákat megbízhatatlan tippelő oldalakon, vagy fizetne kétes tippekért? Több száz szakértői forrásból gyűjtünk össze tippeket, és csak a legmagasabb minőségű tippeket adjuk — teljesen ingyen.', startButton: 'Kezdje el az ingyenes tippek fogadását', learnButton: 'Nézze meg hogyan működik' },
   howItWorks: { title: 'Hogyan működik', description: 'Kapjon szakértői tippeket három egyszerű lépésben', step1Title: 'Több száz szakértői forrás', step1Desc: 'Ellenőrzött tippelőktől és szakértői forrásoktól válogatunk tippeket', step2Title: 'Minőségszűrt', step2Desc: 'Csak a legmagasabb minőségű előrejelzések jutnak át', step3Title: 'Teljesen ingyenes', step3Desc: 'Hozzáférés az összes tipphez fizetés nélkül', stats: { tipsters: 'Szakértő tippelők', sources: 'Szűrt szakértői források', free: 'Ingyenes Önnek' } },
   browse: { title: 'Böngészés sport szerint', browseButton: 'Tippek megtekintése' },
@@ -200,7 +201,7 @@ const hu: Translations = {
 }
 
 const sv: Translations = {
-  navbar: { sports: 'Sport', howItWorks: 'Hur det fungerar', expertPicks: 'Experttips', signUp: 'Registrera gratis', logIn: 'Logga in' },
+  navbar: { sports: 'Sport', howItWorks: 'Hur det fungerar', expertPicks: 'Experttips', training: 'Professionell Bettingutbildning', signUp: 'Registrera gratis', logIn: 'Logga in' },
   hero: { title: 'Gratis experttips för vadslagning', subtitle: 'Få de bästa vadslagnings-tipsen från experter — Gratis', description: 'Varför spendera timmar på opålitliga tipssajter eller betala för tvivelaktiga tips? Vi samlar tips från hundratals expertkällor och levererar endast de högsta kvalitetstipsen — helt gratis.', startButton: 'Börja få gratis tips', learnButton: 'Se hur det fungerar' },
   howItWorks: { title: 'Hur det fungerar', description: 'Få experttips i tre enkla steg', step1Title: 'Hundratals expertkällor', step1Desc: 'Vi väljer tips från verifierade tipsare och expertkällor', step2Title: 'Kvalitetsfiltrerat', step2Desc: 'Endast de högsta kvalitetsprognoserna går igenom', step3Title: 'Helt gratis', step3Desc: 'Tillgång till alla tips utan att betala ett öre', stats: { tipsters: 'Experttipsare', sources: 'Filtrerade expertkällor', free: 'Gratis för dig' } },
   browse: { title: 'Bläddra efter sport', browseButton: 'Visa tips' },
@@ -212,7 +213,7 @@ const sv: Translations = {
 }
 
 const da: Translations = {
-  navbar: { sports: 'Sport', howItWorks: 'Sådan fungerer det', expertPicks: 'Eksperttips', signUp: 'Tilmeld dig gratis', logIn: 'Log ind' },
+  navbar: { sports: 'Sport', howItWorks: 'Sådan fungerer det', expertPicks: 'Eksperttips', training: 'Professionel Betting Træning', signUp: 'Tilmeld dig gratis', logIn: 'Log ind' },
   hero: { title: 'Gratis eksperttips til væddemål', subtitle: 'Få de bedste væddemålstips fra eksperter — Gratis', description: 'Hvorfor bruge timer på upålidelige tipsider eller betale for tvivlsomme tips? Vi samler tips fra hundredvis af ekspertkilder og leverer kun de højeste kvalitetstips — helt gratis.', startButton: 'Begynd at få gratis tips', learnButton: 'Se hvordan det fungerer' },
   howItWorks: { title: 'Sådan fungerer det', description: 'Få eksperttips i tre enkle trin', step1Title: 'Hundredvis af ekspertkilder', step1Desc: 'Vi udvælger tips fra verificerede tipsere og ekspertkilder', step2Title: 'Kvalitetsfiltreret', step2Desc: 'Kun de højeste kvalitetsprognoser kommer igennem', step3Title: 'Helt gratis', step3Desc: 'Adgang til alle tips uden at betale en krone', stats: { tipsters: 'Eksperttipsere', sources: 'Filtrerede ekspertkilder', free: 'Gratis for dig' } },
   browse: { title: 'Gennemse efter sport', browseButton: 'Se tips' },
@@ -224,7 +225,7 @@ const da: Translations = {
 }
 
 const nl: Translations = {
-  navbar: { sports: 'Sport', howItWorks: 'Hoe het werkt', expertPicks: 'Experttips', signUp: 'Gratis aanmelden', logIn: 'Inloggen' },
+  navbar: { sports: 'Sport', howItWorks: 'Hoe het werkt', expertPicks: 'Experttips', training: 'Professionele Wedden Training', signUp: 'Gratis aanmelden', logIn: 'Inloggen' },
   hero: { title: 'Gratis wedtips van experts', subtitle: 'Krijg de beste wedtips van experts — Gratis', description: 'Waarom uren doorbrengen op onbetrouwbare tipgeversites of betalen voor twijfelachtige tips? Wij verzamelen tips van honderden expertbronnen en leveren alleen de hoogste kwaliteit tips — volledig gratis.', startButton: 'Begin met gratis tips ontvangen', learnButton: 'Bekijk hoe het werkt' },
   howItWorks: { title: 'Hoe het werkt', description: 'Krijg expert wedtips in drie eenvoudige stappen', step1Title: 'Honderden expertbronnen', step1Desc: 'Wij selecteren tips van geverifieerde tipgevers en expertbronnen', step2Title: 'Kwaliteitsgefilterd', step2Desc: 'Alleen de hoogste kwaliteitsvoorspellingen komen erdoor', step3Title: 'Volledig gratis', step3Desc: 'Toegang tot alle tips zonder een cent te betalen', stats: { tipsters: 'Experttipgevers', sources: 'Gefilterde expertbronnen', free: 'Gratis voor jou' } },
   browse: { title: 'Bladeren op sport', browseButton: 'Bekijk tips' },
@@ -236,7 +237,7 @@ const nl: Translations = {
 }
 
 const el: Translations = {
-  navbar: { sports: 'Αθλήματα', howItWorks: 'Πώς λειτουργεί', expertPicks: 'Επιλογές ειδικών', signUp: 'Δωρεάν εγγραφή', logIn: 'Σύνδεση' },
+  navbar: { sports: 'Αθλήματα', howItWorks: 'Πώς λειτουργεί', expertPicks: 'Επιλογές ειδικών', training: 'Επαγγελματική Εκπαίδευση Στοιχημάτων', signUp: 'Δωρεάν εγγραφή', logIn: 'Σύνδεση' },
   hero: { title: 'Δωρεάν συμβουλές στοιχημάτων από ειδικούς', subtitle: 'Λάβετε τις καλύτερες συμβουλές στοιχημάτων από ειδικούς — Δωρεάν', description: 'Γιατί να ξοδεύετε ώρες σε αναξιόπιστους ιστότοπους ή να πληρώνετε για αμφίβολες συμβουλές; Συγκεντρώνουμε συμβουλές από εκατοντάδες ειδικές πηγές και παρέχουμε μόνο τις υψηλότερης ποιότητας συμβουλές — εντελώς δωρεάν.', startButton: 'Ξεκινήστε να λαμβάνετε δωρεάν συμβουλές', learnButton: 'Δείτε πώς λειτουργεί' },
   howItWorks: { title: 'Πώς λειτουργεί', description: 'Λάβετε συμβουλές ειδικών σε τρία απλά βήματα', step1Title: 'Εκατοντάδες ειδικές πηγές', step1Desc: 'Επιλέγουμε συμβουλές από επαληθευμένους τιπστέρ και ειδικές πηγές', step2Title: 'Φιλτραρισμένη ποιότητα', step2Desc: 'Μόνο οι υψηλότερης ποιότητας προβλέψεις περνούν', step3Title: 'Εντελώς δωρεάν', step3Desc: 'Πρόσβαση σε όλες τις συμβουλές χωρίς να πληρώσετε τίποτα', stats: { tipsters: 'Ειδικοί τιπστέρ', sources: 'Φιλτραρισμένες ειδικές πηγές', free: 'Δωρεάν για εσάς' } },
   browse: { title: 'Περιήγηση ανά άθλημα', browseButton: 'Δείτε συμβουλές' },
@@ -248,7 +249,7 @@ const el: Translations = {
 }
 
 const pl: Translations = {
-  navbar: { sports: 'Sport', howItWorks: 'Jak to działa', expertPicks: 'Typy ekspertów', signUp: 'Darmowa rejestracja', logIn: 'Zaloguj się' },
+  navbar: { sports: 'Sport', howItWorks: 'Jak to działa', expertPicks: 'Typy ekspertów', training: 'Profesjonalne Szkolenie Bukmacherskie', signUp: 'Darmowa rejestracja', logIn: 'Zaloguj się' },
   hero: { title: 'Darmowe typy bukmacherskie od ekspertów', subtitle: 'Otrzymuj najlepsze typy bukmacherskie od ekspertów — Za darmo', description: 'Po co spędzać godziny na niewiarygodnych stronach z typami lub płacić za wątpliwe typy? Zbieramy typy z setek eksperckich źródeł i dostarczamy tylko najwyższej jakości typy — całkowicie za darmo.', startButton: 'Zacznij otrzymywać darmowe typy', learnButton: 'Zobacz jak to działa' },
   howItWorks: { title: 'Jak to działa', description: 'Otrzymuj eksperckie typy w trzech prostych krokach', step1Title: 'Setki eksperckich źródeł', step1Desc: 'Wybieramy typy od zweryfikowanych typerów i eksperckich źródeł', step2Title: 'Filtrowane pod kątem jakości', step2Desc: 'Tylko najwyższej jakości prognozy przechodzą przez filtr', step3Title: 'Całkowicie za darmo', step3Desc: 'Dostęp do wszystkich typów bez płacenia', stats: { tipsters: 'Eksperci typerzy', sources: 'Przefiltrowane eksperckie źródła', free: 'Za darmo dla Ciebie' } },
   browse: { title: 'Przeglądaj według sportu', browseButton: 'Zobacz typy' },
@@ -260,7 +261,7 @@ const pl: Translations = {
 }
 
 const no: Translations = {
-  navbar: { sports: 'Sport', howItWorks: 'Slik fungerer det', expertPicks: 'Eksperttips', signUp: 'Registrer gratis', logIn: 'Logg inn' },
+  navbar: { sports: 'Sport', howItWorks: 'Slik fungerer det', expertPicks: 'Eksperttips', training: 'Profesjonell Bettingopplæring', signUp: 'Registrer gratis', logIn: 'Logg inn' },
   hero: { title: 'Gratis eksperttips for betting', subtitle: 'Få de beste bettingtipsene fra eksperter — Gratis', description: 'Hvorfor bruke timer på upålitelige tipsnettsteder eller betale for tvilsomme tips? Vi samler tips fra hundrevis av ekspertkilder og leverer kun de høyeste kvalitetstipsene — helt gratis.', startButton: 'Begynn å få gratis tips', learnButton: 'Se hvordan det fungerer' },
   howItWorks: { title: 'Slik fungerer det', description: 'Få eksperttips i tre enkle trinn', step1Title: 'Hundrevis av ekspertkilder', step1Desc: 'Vi velger tips fra verifiserte tipsere og ekspertkilder', step2Title: 'Kvalitetsfiltrert', step2Desc: 'Kun de høyeste kvalitetsprognosene kommer gjennom', step3Title: 'Helt gratis', step3Desc: 'Tilgang til alle tips uten å betale en krone', stats: { tipsters: 'Eksperttipsere', sources: 'Filtrerte ekspertkilder', free: 'Gratis for deg' } },
   browse: { title: 'Bla gjennom etter sport', browseButton: 'Se tips' },
@@ -272,7 +273,7 @@ const no: Translations = {
 }
 
 const fi: Translations = {
-  navbar: { sports: 'Urheilu', howItWorks: 'Näin se toimii', expertPicks: 'Asiantuntijavalinnat', signUp: 'Rekisteröidy ilmaiseksi', logIn: 'Kirjaudu sisään' },
+  navbar: { sports: 'Urheilu', howItWorks: 'Näin se toimii', expertPicks: 'Asiantuntijavalinnat', training: 'Ammattimainen Vedonlyöntikoulutus', signUp: 'Rekisteröidy ilmaiseksi', logIn: 'Kirjaudu sisään' },
   hero: { title: 'Ilmaiset asiantuntijavihjeet vedonlyöntiin', subtitle: 'Saa parhaat vedonlyöntivihjeet asiantuntijoilta — Ilmaiseksi', description: 'Miksi viettää tunteja epäluotettavilla vihjaussivustoilla tai maksaa kyseenalaisista vihjeistä? Keräämme vihjeitä sadoilta asiantuntijalähteiltä ja toimitamme vain korkeimman laadun vihjeet — täysin ilmaiseksi.', startButton: 'Aloita ilmaisten vihjeiden saaminen', learnButton: 'Katso miten se toimii' },
   howItWorks: { title: 'Näin se toimii', description: 'Saa asiantuntijavihjeitä kolmessa yksinkertaisessa vaiheessa', step1Title: 'Satoja asiantuntijalähteitä', step1Desc: 'Valitsemme vihjeitä varmennetuilta vihjaajilta ja asiantuntijalähteiltä', step2Title: 'Laatusuodatettu', step2Desc: 'Vain korkeimman laadun ennusteet pääsevät läpi', step3Title: 'Täysin ilmaista', step3Desc: 'Pääsy kaikkiin vihjeisiin maksamatta mitään', stats: { tipsters: 'Asiantuntijavihjaajat', sources: 'Suodatetut asiantuntijalähteet', free: 'Ilmaista sinulle' } },
   browse: { title: 'Selaa urheilun mukaan', browseButton: 'Näytä vihjeet' },
@@ -284,7 +285,7 @@ const fi: Translations = {
 }
 
 const ro: Translations = {
-  navbar: { sports: 'Sporturi', howItWorks: 'Cum funcționează', expertPicks: 'Sfaturi experți', signUp: 'Înregistrare gratuită', logIn: 'Autentificare' },
+  navbar: { sports: 'Sporturi', howItWorks: 'Cum funcționează', expertPicks: 'Sfaturi experți', training: 'Instruire Profesională Pariuri', signUp: 'Înregistrare gratuită', logIn: 'Autentificare' },
   hero: { title: 'Sfaturi gratuite de pariuri de la experți', subtitle: 'Obțineți cele mai bune sfaturi de pariuri de la experți — Gratuit', description: 'De ce să petreceți ore pe site-uri de sfaturi nesigure sau să plătiți pentru sfaturi îndoielnice? Colectăm sfaturi de la sute de surse de experți și livrăm doar cele mai înalte sfaturi de calitate — complet gratuit.', startButton: 'Începeți să primiți sfaturi gratuite', learnButton: 'Vedeți cum funcționează' },
   howItWorks: { title: 'Cum funcționează', description: 'Obțineți sfaturi de la experți în trei pași simpli', step1Title: 'Sute de surse de experți', step1Desc: 'Selectăm sfaturi de la tipșteri verificați și surse de experți', step2Title: 'Filtrat pentru calitate', step2Desc: 'Doar predicțiile de cea mai înaltă calitate trec', step3Title: 'Complet gratuit', step3Desc: 'Acces la toate sfaturile fără a plăti nimic', stats: { tipsters: 'Tipșteri experți', sources: 'Surse de experți filtrate', free: 'Gratuit pentru tine' } },
   browse: { title: 'Răsfoiți după sport', browseButton: 'Vezi sfaturi' },
@@ -296,7 +297,7 @@ const ro: Translations = {
 }
 
 const cs: Translations = {
-  navbar: { sports: 'Sport', howItWorks: 'Jak to funguje', expertPicks: 'Tipy expertů', signUp: 'Registrace zdarma', logIn: 'Přihlásit se' },
+  navbar: { sports: 'Sport', howItWorks: 'Jak to funguje', expertPicks: 'Tipy expertů', training: 'Profesionální Sázkové Školení', signUp: 'Registrace zdarma', logIn: 'Přihlásit se' },
   hero: { title: 'Bezplatné sázkové tipy od expertů', subtitle: 'Získejte nejlepší sázkové tipy od expertů — Zdarma', description: 'Proč trávit hodiny na nespolehlivých tipovacích stránkách nebo platit za pochybné tipy? Shromažďujeme tipy ze stovek expertních zdrojů a poskytujeme pouze ty nejkvalitnější tipy — zcela zdarma.', startButton: 'Začněte dostávat bezplatné tipy', learnButton: 'Podívejte se jak to funguje' },
   howItWorks: { title: 'Jak to funguje', description: 'Získejte expertní tipy ve třech jednoduchých krocích', step1Title: 'Stovky expertních zdrojů', step1Desc: 'Vybíráme tipy od ověřených tipérů a expertních zdrojů', step2Title: 'Filtrováno pro kvalitu', step2Desc: 'Projdou pouze nejkvalitnější předpovědi', step3Title: 'Zcela zdarma', step3Desc: 'Přístup ke všem tipům bez placení', stats: { tipsters: 'Expertní tipéři', sources: 'Filtrované expertní zdroje', free: 'Zdarma pro vás' } },
   browse: { title: 'Procházet podle sportu', browseButton: 'Zobrazit tipy' },
@@ -308,7 +309,7 @@ const cs: Translations = {
 }
 
 const sw: Translations = {
-  navbar: { sports: 'Michezo', howItWorks: 'Inavyofanya kazi', expertPicks: 'Vidokezo vya wataalamu', signUp: 'Jiandikishe bure', logIn: 'Ingia' },
+  navbar: { sports: 'Michezo', howItWorks: 'Inavyofanya kazi', expertPicks: 'Vidokezo vya wataalamu', training: 'Mafunzo ya Kitaalamu ya Kubeti', signUp: 'Jiandikishe bure', logIn: 'Ingia' },
   hero: { title: 'Vidokezo vya kubet bure kutoka kwa wataalamu', subtitle: 'Pata vidokezo bora vya kubet kutoka kwa wataalamu — Bure', description: 'Kwa nini kutumia masaa kwenye tovuti zisizotegemewa au kulipa vidokezo vya mashaka? Tunakusanya vidokezo kutoka mamia ya vyanzo vya wataalamu na kutoa vidokezo vya ubora wa juu tu — bure kabisa.', startButton: 'Anza kupata vidokezo bure', learnButton: 'Tazama inavyofanya kazi' },
   howItWorks: { title: 'Inavyofanya kazi', description: 'Pata vidokezo vya wataalamu kwa hatua tatu rahisi', step1Title: 'Mamia ya vyanzo vya wataalamu', step1Desc: 'Tunachagua vidokezo kutoka kwa watoa vidokezo walioidhinishwa na vyanzo vya wataalamu', step2Title: 'Kuchujwa kwa ubora', step2Desc: 'Utabiri wa ubora wa juu tu ndio unapita', step3Title: 'Bure kabisa', step3Desc: 'Fikia vidokezo vyote bila kulipa', stats: { tipsters: 'Watoa vidokezo wataalamu', sources: 'Vyanzo vya wataalamu vilivyochujwa', free: 'Bure kwako' } },
   browse: { title: 'Vinjari kwa mchezo', browseButton: 'Tazama vidokezo' },
@@ -320,7 +321,7 @@ const sw: Translations = {
 }
 
 const af: Translations = {
-  navbar: { sports: 'Sport', howItWorks: 'Hoe dit werk', expertPicks: 'Kenner wenke', signUp: 'Registreer gratis', logIn: 'Meld aan' },
+  navbar: { sports: 'Sport', howItWorks: 'Hoe dit werk', expertPicks: 'Kenner wenke', training: 'Professionele Wedderyopleiding', signUp: 'Registreer gratis', logIn: 'Meld aan' },
   hero: { title: 'Gratis weddery wenke van kenners', subtitle: 'Kry die beste weddery wenke van kenners — Gratis', description: 'Waarom ure spandeer op onbetroubare wenke-webwerwe of betaal vir twyfelagtige wenke? Ons versamel wenke van honderde kennerbronne en lewer slegs die hoogste kwaliteit wenke — heeltemal gratis.', startButton: 'Begin om gratis wenke te kry', learnButton: 'Sien hoe dit werk' },
   howItWorks: { title: 'Hoe dit werk', description: 'Kry kenner wenke in drie eenvoudige stappe', step1Title: 'Honderde kennerbronne', step1Desc: 'Ons kies wenke van geverifieerde tipsters en kennerbronne', step2Title: 'Kwaliteit gefiltreer', step2Desc: 'Slegs die hoogste kwaliteit voorspellings kom deur', step3Title: 'Heeltemal gratis', step3Desc: 'Toegang tot alle wenke sonder om te betaal', stats: { tipsters: 'Kenner tipsters', sources: 'Gefiltreerde kennerbronne', free: 'Gratis vir jou' } },
   browse: { title: 'Blaai volgens sport', browseButton: 'Sien wenke' },
@@ -332,7 +333,7 @@ const af: Translations = {
 }
 
 const zu: Translations = {
-  navbar: { sports: 'Ezemidlalo', howItWorks: 'Isebenza kanjani', expertPicks: 'Amathiphu ochwepheshe', signUp: 'Bhalisa mahhala', logIn: 'Ngena' },
+  navbar: { sports: 'Ezemidlalo', howItWorks: 'Isebenza kanjani', expertPicks: 'Amathiphu ochwepheshe', training: 'Ukuqeqeshwa Kwababheja Abaqeqeshiwe', signUp: 'Bhalisa mahhala', logIn: 'Ngena' },
   hero: { title: 'Amathiphu okubheja amahhala achwepheshe', subtitle: 'Thola amathiphu angcono kakhulu okubheja kuchwepheshe — Mahhala', description: 'Kungani uchitha amahora kumawebhusayithi angathembekile noma ukhokhe amathiphu angabazeki? Siqoqa amathiphu kumakhulu emithombo yochwepheshe futhi sikhipha amathiphu asezingeni eliphezulu kuphela — mahhala ngokuphelele.', startButton: 'Qala ukuthola amathiphu amahhala', learnButton: 'Bona isebenza kanjani' },
   howItWorks: { title: 'Isebenza kanjani', description: 'Thola amathiphu ochwepheshe ngezinyathelo ezintathu ezilula', step1Title: 'Amakhulu emithombo yochwepheshe', step1Desc: 'Sikhetha amathiphu kubantu abafanele nabakhiqizi bochwepheshe', step2Title: 'Ikhwalithi ihluziwe', step2Desc: 'Ukubikezela kwekhwalithi ephezulu kuphela okudlulayo', step3Title: 'Mahhala ngokuphelele', step3Desc: 'Finyelela kuwo wonke amathiphu ngaphandle kokukhokha', stats: { tipsters: 'Abaqondisi bochwepheshe', sources: 'Imithombo yochwepheshe ehluziwe', free: 'Mahhala kuwe' } },
   browse: { title: 'Phequlula ngokwezemidlalo', browseButton: 'Bona amathiphu' },
@@ -344,7 +345,7 @@ const zu: Translations = {
 }
 
 const xh: Translations = {
-  navbar: { sports: 'Ezemidlalo', howItWorks: 'Isebenza njani', expertPicks: 'Amacebiso oongcali', signUp: 'Bhalisa simahla', logIn: 'Ngena' },
+  navbar: { sports: 'Ezemidlalo', howItWorks: 'Isebenza njani', expertPicks: 'Amacebiso oongcali', training: 'Uqeqesho Lobugcisa Bokubheja', signUp: 'Bhalisa simahla', logIn: 'Ngena' },
   hero: { title: 'Amacebiso okubheja asimahla angcali', subtitle: 'Fumana amacebiso angcono kakhulu okubheja kubantu abangcali — Simahla', description: 'Kutheni uchitha iiyure kwiwebhusayithi ezingathembekanga okanye uhlawula amacebiso angaqinisekanga? Siqokelela amacebiso kumakhulu emithombo yabantu abangcali kwaye sinikezela kuphela amacebiso asezingeni eliphezulu — simahla ngokupheleleyo.', startButton: 'Qala ukufumana amacebiso asimahla', learnButton: 'Bona isebenza njani' },
   howItWorks: { title: 'Isebenza njani', description: 'Fumana amacebiso aangcali ngamanyathelo amathathu alula', step1Title: 'Amakhulu emithombo yangcali', step1Desc: 'Sikhetha amacebiso kubaniki beengcebiso abaqinisekisiweyo nemithombo yangcali', step2Title: 'Ifilithiwe ngomgangatho', step2Desc: 'Kuphela iziqikelelo zomgangatho ophezulu ezidlulayo', step3Title: 'Simahla ngokupheleleyo', step3Desc: 'Fumana onke amacebiso ngaphandle kokuhlawula', stats: { tipsters: 'Oochwephesha beengcebiso', sources: 'Imithombo yangcali efilithiweyo', free: 'Simahla kuwe' } },
   browse: { title: 'Khangela ngezemidlalo', browseButton: 'Bona amacebiso' },
@@ -356,7 +357,7 @@ const xh: Translations = {
 }
 
 const ja: Translations = {
-  navbar: { sports: 'スポーツ', howItWorks: '使い方', expertPicks: 'エキスパートピック', signUp: '無料登録', logIn: 'ログイン' },
+  navbar: { sports: 'スポーツ', howItWorks: '使い方', expertPicks: 'エキスパートピック', training: 'プロベッティングトレーニング', signUp: '無料登録', logIn: 'ログイン' },
   hero: { title: '無料のエキスパートベッティングヒント', subtitle: 'エキスパートから最高のベッティングヒントを入手 — 無料', description: '信頼できないティプスターサイトで時間を無駄にしたり、怪しいヒントにお金を払う必要はありません。何百ものエキスパートソースからヒントを集め、最高品質のヒントのみを提供します — 完全無料。', startButton: '無料ヒントを始める', learnButton: '使い方を見る' },
   howItWorks: { title: '使い方', description: '3つの簡単なステップでエキスパートヒントを入手', step1Title: '何百ものエキスパートソース', step1Desc: '検証済みティプスターとエキスパートソースからヒントを厳選', step2Title: '品質フィルター済み', step2Desc: '最高品質の予測のみが通過', step3Title: '完全無料', step3Desc: '支払いなしで全てのヒントにアクセス', stats: { tipsters: 'エキスパートティプスター', sources: 'フィルター済みエキスパートソース', free: 'あなたに無料' } },
   browse: { title: 'スポーツ別に閲覧', browseButton: 'ヒントを見る' },
@@ -368,19 +369,19 @@ const ja: Translations = {
 }
 
 const ko: Translations = {
-  navbar: { sports: '스포츠', howItWorks: '작동 방식', expertPicks: '전문가 픽', signUp: '무료 가입', logIn: '로그인' },
+  navbar: { sports: '스포츠', howItWorks: '작동 방식', expertPicks: '전문가 픽', training: '프로 베팅 트레이닝', signUp: '무료 가입', logIn: '로그인' },
   hero: { title: '무료 전문가 베팅 팁', subtitle: '전문가로부터 최고의 베팅 팁을 받으세요 — 무료', description: '신뢰할 수 없는 팁스터 사이트에서 시간을 낭비하거나 의심스러운 팁에 돈을 쓸 필요가 없습니다. 수백 개의 전문가 소스에서 팁을 수집하여 최고 품질의 팁만 제공합니다 — 완전 무료.', startButton: '무료 팁 받기 시작', learnButton: '작동 방식 보기' },
   howItWorks: { title: '작동 방식', description: '세 가지 간단한 단계로 전문가 팁 받기', step1Title: '수백 개의 전문가 소스', step1Desc: '검증된 팁스터와 전문가 소스에서 팁을 선별', step2Title: '품질 필터링', step2Desc: '최고 품질의 예측만 통과', step3Title: '완전 무료', step3Desc: '결제 없이 모든 팁에 액세스', stats: { tipsters: '전문가 팁스터', sources: '필터링된 전문가 소스', free: '무료' } },
   browse: { title: '스포츠별 검색', browseButton: '팁 보기' },
   expertPicks: { badge: '프리미엄 전문가 픽', title: '우리가 베팅하는 것', description: '전문가 팀이 무엇에 베팅하는지 알고 싶으세요? 단 $1로 프리미엄 어큐뮬레이터 팁에 독점 액세스하세요.', noTips: '현재 프리미엄 팁이 없습니다. 곧 다시 확인하세요!', selectionsLabel: '선택', oddsLabel: '결합 배당률', combinedOdds: '결합 배당률', unlockButton: '$1로 잠금 해제', unlockTitle: '우리의 {sheetName} 어큐뮬레이터 팁', revealNote: '공개되면 다음 팁까지 표시됩니다', howItWorksTitle: '작동 방식:', howItWorksDesc: '어큐뮬레이터당 단 $1로 전문가의 다중 선택 베팅을 잠금 해제하세요. 각 어큐뮬레이터는 더 큰 잠재적 수익을 위해 여러 팁을 결합합니다.' },
   sportTips: { event: '이벤트', market: '마켓', pick: '픽', odds: '배당률', noTips: '기다려 주셔서 감사합니다! 이 스포츠에 대한 최고의 팁을 수집하고 있습니다. 곧 다시 확인하세요.' },
   footer: { company: '회사', sports: '스포츠', account: '계정', howItWorks: '작동 방식', terms: '서비스 약관', privacy: '개인정보 보호정책', signUp: '무료 가입', logIn: '로그인', forgot: '비밀번호 찾기', tagline: '스포츠 베팅 팁을 얻는 가장 스마트한 방법. 수백 명의 전문가가 선별, 모든 사람에게 무료.', disclaimer: '책임감 있게 도박하세요. 베팅에는 위험이 따릅니다. 18세 이상.' },
-  auth: { signUpTitle: '무료 계정 만들기', logInTitle: 'RiskNil에 로그인', forgotTitle: '비밀번호 재설정', email: '이메일', password: '비밀번호', confirmPassword: '비밀번호 확인', createAccount: '계정 만들기', signIn: '로그인', resetPassword: '비밀번호 재설정', backToLogin: '로그인으로 돌아가기' },
+  auth: { signUpTitle: '무료 계정 만들기', logInTitle: 'RiskNil에 로그인', forgotTitle: '비밀번호 재설정', email: '이메일', password: '비밀번호', confirmPassword: '비밀번호 확인', createAccount: '계정 만들기', signIn: '로그인', resetPassword: '비밀번호 재설정', backToLogin: '로그인��로 돌아가기' },
   cta: { title: '더 스마트하게 베팅할 준비가 되셨나요?', description: '이미 RiskNil을 사용하는 수천 명의 플레이어와 함께하세요. 영원히 무료입니다.', createAccount: '무료 계정 만들기', seeHow: '작동 방식 보기' },
 }
 
 const hi: Translations = {
-  navbar: { sports: 'खेल', howItWorks: 'यह कैसे काम करता है', expertPicks: 'विशेषज्ञ चयन', signUp: 'मुफ्त साइन अप', logIn: 'लॉग इन' },
+  navbar: { sports: 'खेल', howItWorks: 'यह कैसे काम करता है', expertPicks: 'विशेषज्ञ चयन', training: 'पेशेवर सट्टेबाजी प्रशिक्षण', signUp: 'मुफ्त साइन अप', logIn: 'लॉग इन' },
   hero: { title: 'विशेषज्ञों से मुफ्त बेटिंग टिप्स', subtitle: 'विशेषज्ञों से सर्वश्रेष्ठ बेटिंग टिप्स प्राप्त करें — मुफ्त', description: 'अविश्वसनीय टिपस्टर साइटों पर घंटों क्यों बिताएं या संदिग्ध टिप्स के लिए भुगतान करें? हम सैकड़ों विशेषज्ञ स्रोतों से टिप्स एकत्र करते हैं और केवल उच्चतम गुणवत्ता वाली टिप्स प्रदान करते हैं — पूरी तरह से मुफ्त।', startButton: 'मुफ्त टिप्स प्राप्त करना शुरू करें', learnButton: 'देखें यह कैसे काम करता है' },
   howItWorks: { title: 'यह कैसे काम करता है', description: 'तीन सरल चरणों में विश��षज्ञ टिप्स प्राप्त करें', step1Title: 'सैकड़ों विशेषज्ञ स्रोत', step1Desc: 'हम सत्यापित टिपस्टर और विशेषज्ञ स्रोतों से टिप्स चुनते हैं', step2Title: 'गुणवत्ता फ़िल्टर्ड', step2Desc: 'केवल उच्चतम गुणवत्ता वाली भविष्यवाणियां गुजरती हैं', step3Title: 'पूरी तरह से मुफ्त', step3Desc: 'बिना भुगतान के सभी टिप्स तक पहुंचें', stats: { tipsters: 'विशेषज्ञ टिपस्टर', sources: 'फ़िल्टर्ड विशेषज्ञ स्रोत', free: 'आपके लिए मुफ्त' } },
   browse: { title: 'खेल द्वारा ब्राउज़ करें', browseButton: 'टिप्स देखें' },
@@ -392,7 +393,7 @@ const hi: Translations = {
 }
 
 const tl: Translations = {
-  navbar: { sports: 'Palakasan', howItWorks: 'Paano ito gumagana', expertPicks: 'Mga pili ng eksperto', signUp: 'Mag-sign up nang libre', logIn: 'Mag-log in' },
+  navbar: { sports: 'Palakasan', howItWorks: 'Paano ito gumagana', expertPicks: 'Mga pili ng eksperto', training: 'Propesyonal na Pagsasanay sa Pagtaya', signUp: 'Mag-sign up nang libre', logIn: 'Mag-log in' },
   hero: { title: 'Libreng mga tip sa pagtaya mula sa mga eksperto', subtitle: 'Kumuha ng pinakamahusay na mga tip sa pagtaya mula sa mga eksperto — Libre', description: 'Bakit mag-aaksaya ng oras sa hindi mapagkakatiwalaang mga site ng tipster o magbayad para sa mga kaduda-dudang tip? Nagtitipon kami ng mga tip mula sa daan-daang mga mapagkukunan ng eksperto at nagbibigay lamang ng pinakamataas na kalidad na mga tip — ganap na libre.', startButton: 'Magsimulang kumuha ng libreng mga tip', learnButton: 'Tingnan kung paano ito gumagana' },
   howItWorks: { title: 'Paano ito gumagana', description: 'Kumuha ng mga tip ng eksperto sa tatlong simpleng hakbang', step1Title: 'Daan-daang mapagkukunan ng eksperto', step1Desc: 'Pumipili kami ng mga tip mula sa mga na-verify na tipster at mga mapagkukunan ng eksperto', step2Title: 'Na-filter para sa kalidad', step2Desc: 'Tanging ang pinakamataas na kalidad na mga hula lamang ang dumadaan', step3Title: 'Ganap na libre', step3Desc: 'I-access ang lahat ng mga tip nang hindi nagbabayad', stats: { tipsters: 'Mga eksperto tipster', sources: 'Mga na-filter na mapagkukunan ng eksperto', free: 'Libre para sa iyo' } },
   browse: { title: 'Mag-browse ayon sa palakasan', browseButton: 'Tingnan ang mga tip' },
@@ -404,7 +405,7 @@ const tl: Translations = {
 }
 
 const ar: Translations = {
-  navbar: { sports: 'الرياضة', howItWorks: 'كيف يعمل', expertPicks: 'اختيارات الخبراء', signUp: 'سجل مجاناً', logIn: 'تسجيل الدخول' },
+  navbar: { sports: 'الرياضة', howItWorks: 'كيف يعمل', expertPicks: 'اختيارات الخبراء', training: 'تدريب المراهنات الاحترافية', signUp: 'سجل مجاناً', logIn: 'تسجيل الدخول' },
   hero: { title: 'نصائح مراهنات مجانية من الخبراء', subtitle: 'احصل على أفضل نصائح المراهنات من الخبراء — مجاناً', description: 'لماذا تضيع ساعات في مواقع النصائح غير الموثوقة أو تدفع مقابل نصائح مشكوك فيها؟ نجمع النصائح من مئات مصادر الخبراء ونقدم فقط أعلى جودة — مجاناً تماماً.', startButton: 'ابدأ بالحصول على نصائح مجانية', learnButton: 'شاهد كيف يعمل' },
   howItWorks: { title: 'كيف يعمل', description: 'احصل على نصائح الخبراء في ثلاث خطوات بسيطة', step1Title: 'مئات مصادر الخبراء', step1Desc: 'نختار النصائح من مقدمي النصائح المعتمدين ومصادر الخبراء', step2Title: 'مفلترة للجودة', step2Desc: 'فقط التوقعات الأعلى جودة تمر', step3Title: 'مجاني تماماً', step3Desc: 'الوصول لجميع النصائح دون دفع', stats: { tipsters: 'خبراء النصائح', sources: 'مصادر خبراء مفلترة', free: 'مجاني لك' } },
   browse: { title: 'تصفح حسب الرياضة', browseButton: 'عرض النصائح' },

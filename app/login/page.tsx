@@ -47,7 +47,7 @@ export default function LoginPage() {
     const result = await login(email, password)
     
     if (result.success) {
-      router.push('/training')
+      router.push('/')
     } else {
       setError(result.error || t.invalidCredentials)
     }

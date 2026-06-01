@@ -83,6 +83,11 @@ export function Navbar({ sports }: NavbarProps) {
                 {t.navbar.expertPicks}
               </a>
             )}
+            {user && (
+              <a href="/training" className="text-sm font-medium text-muted-foreground hover:text-foreground">
+                {t.navbar.training}
+              </a>
+            )}
           </div>
 
           {/* CTA Buttons + Language Selector */}
@@ -148,6 +153,15 @@ export function Navbar({ sports }: NavbarProps) {
                 className="block rounded-md px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground"
               >
                 {t.navbar.expertPicks}
+              </a>
+            )}
+            {user && (
+              <a
+                href="/training"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block rounded-md px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground"
+              >
+                {t.navbar.training}
               </a>
             )}
 
