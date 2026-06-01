@@ -3,6 +3,7 @@
 import { Button } from '@/components/ui/button'
 import { Sparkles, TrendingUp, Shield } from 'lucide-react'
 import { useLanguage } from '@/lib/language-context'
+import { AdBanner } from '@/components/ad-banner'
 
 export function Hero() {
   const { t } = useLanguage()
@@ -33,6 +34,11 @@ export function Hero() {
             <Button size="lg" variant="outline" className="w-full sm:w-auto" asChild>
               <a href="/how-it-works">{t.hero.learnButton}</a>
             </Button>
+          </div>
+
+          {/* Ad after buttons */}
+          <div className="mt-10 mx-auto max-w-xl">
+            <AdBanner position="inline" />
           </div>
 
           <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-3">
