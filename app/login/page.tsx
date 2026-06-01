@@ -40,8 +40,8 @@ export default function LoginPage() {
   const { language } = useLanguage()
   const t = getLoginTranslation(language)
 
-  // Get redirect URL from query params, default to /training
-  const redirectUrl = searchParams.get('redirect') || '/training'
+  // Get redirect URL from query params, default to landing page
+  const redirectUrl = searchParams.get('redirect') || '/'
 
   // If already logged in, redirect
   useEffect(() => {

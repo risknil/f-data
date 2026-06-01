@@ -20,7 +20,7 @@ export default function TrainingPage() {
 
   useEffect(() => {
     if (!isLoading && !user) {
-      router.push('/login')
+      router.push('/login?redirect=/training')
     }
   }, [user, isLoading, router])
 

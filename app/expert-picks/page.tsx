@@ -1,13 +1,36 @@
-import type { Metadata } from 'next'
+'use client'
+
+import { useEffect } from 'react'
+import { useRouter } from 'next/navigation'
 import { ExpertPicks } from '@/components/expert-picks'
 import { AdBanner } from '@/components/ad-banner'
-
-export const metadata: Metadata = {
-  title: 'Expert Picks — RiskNil',
-  description: 'Get exclusive access to premium expert betting picks. Unlock today\'s top expert pick for just $1.',
-}
+import { useAuth } from '@/lib/auth-context'
 
 export default function ExpertPicksPage() {
+  const { user, isLoading } = useAuth()
+  const router = useRouter()
+
+  useEffect(() => {
+    if (!isLoading && !user) {
+      router.push('/login?redirect=/expert-picks')
+    }
+  }, [user, isLoading, router])
+
+  if (isLoading) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-background">
+        <div className="text-center">
+          <div className="mx-auto mb-4 h-8 w-8 animate-spin rounded-full border-4 border-primary border-t-transparent" />
+          <p className="text-muted-foreground">Loading...</p>
+        </div>
+      </div>
+    )
+  }
+
+  if (!user) {
+    return null
+  }
+
   return (
     <div className="flex min-h-screen flex-col bg-background">
       {/* Top leaderboard ad */}
