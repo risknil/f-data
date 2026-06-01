@@ -18,7 +18,7 @@ export function Navbar({ sports }: NavbarProps) {
   const [mobileSportsOpen, setMobileSportsOpen] = useState(false)
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
   const { t } = useLanguage()
-  const { user } = useAuth()
+  const { user, logout } = useAuth()
 
   function handleMouseEnter() {
     if (closeTimer.current) clearTimeout(closeTimer.current)
@@ -93,12 +93,23 @@ export function Navbar({ sports }: NavbarProps) {
           {/* CTA Buttons + Language Selector */}
           <div className="hidden items-center gap-3 md:flex">
             <LanguageSelector />
-            <Button variant="ghost" size="sm" asChild>
-              <a href="/login">{t.navbar.logIn}</a>
-            </Button>
-            <Button size="sm" asChild>
-              <a href="/signup">{t.navbar.signUp}</a>
-            </Button>
+            {user ? (
+              <>
+                <span className="text-sm text-muted-foreground">{user.email}</span>
+                <Button variant="ghost" size="sm" onClick={logout}>
+                  {t.navbar.logOut || 'Log Out'}
+                </Button>
+              </>
+            ) : (
+              <>
+                <Button variant="ghost" size="sm" asChild>
+                  <a href="/login">{t.navbar.logIn}</a>
+                </Button>
+                <Button size="sm" asChild>
+                  <a href="/signup">{t.navbar.signUp}</a>
+                </Button>
+              </>
+            )}
           </div>
 
           {/* Mobile menu button */}
@@ -169,12 +180,26 @@ export function Navbar({ sports }: NavbarProps) {
               <div className="flex justify-center pb-2">
                 <LanguageSelector />
               </div>
-              <a href="/login" onClick={() => setMobileMenuOpen(false)} className="block w-full rounded-md border border-border px-3 py-2 text-center text-sm font-medium text-foreground hover:bg-secondary">
-                {t.navbar.logIn}
-              </a>
-              <a href="/signup" onClick={() => setMobileMenuOpen(false)} className="block w-full rounded-md bg-primary px-3 py-2 text-center text-sm font-medium text-primary-foreground hover:bg-primary/90">
-                {t.navbar.signUp}
-              </a>
+              {user ? (
+                <>
+                  <div className="px-3 py-2 text-center text-sm text-muted-foreground">{user.email}</div>
+                  <button 
+                    onClick={() => { logout(); setMobileMenuOpen(false) }} 
+                    className="block w-full rounded-md border border-border px-3 py-2 text-center text-sm font-medium text-foreground hover:bg-secondary"
+                  >
+                    {t.navbar.logOut || 'Log Out'}
+                  </button>
+                </>
+              ) : (
+                <>
+                  <a href="/login" onClick={() => setMobileMenuOpen(false)} className="block w-full rounded-md border border-border px-3 py-2 text-center text-sm font-medium text-foreground hover:bg-secondary">
+                    {t.navbar.logIn}
+                  </a>
+                  <a href="/signup" onClick={() => setMobileMenuOpen(false)} className="block w-full rounded-md bg-primary px-3 py-2 text-center text-sm font-medium text-primary-foreground hover:bg-primary/90">
+                    {t.navbar.signUp}
+                  </a>
+                </>
+              )}
             </div>
           </div>
         </div>
