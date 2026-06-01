@@ -1,5 +1,5 @@
 import { Hero } from '@/components/hero'
-import { AdBanner } from '@/components/ad-banner'
+import { AdBanner, DismissibleMobileAd } from '@/components/ad-banner'
 import { SportsBrowseGrid } from '@/components/sports-browse-grid'
 import { getSports } from '@/lib/sheets'
 import { CTASection } from '@/components/cta-section'
@@ -8,14 +8,9 @@ export default async function Home() {
   const sports = await getSports()
   return (
     <div className="flex min-h-screen flex-col bg-background">
-      {/* Top leaderboard ad */}
-      <div className="mx-auto w-full max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
+      {/* Top leaderboard ad - desktop only */}
+      <div className="hidden sm:block mx-auto w-full max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
         <AdBanner position="leaderboard" />
-      </div>
-
-      {/* Mobile ad - additional */}
-      <div className="mx-auto w-full px-4 pt-4 sm:hidden">
-        <AdBanner position="mobile-banner" />
       </div>
 
       {/* Main content with side ads on desktop */}
@@ -28,8 +23,11 @@ export default async function Home() {
         <main className="flex-1 max-w-7xl">
           <Hero />
 
-          {/* Mobile ad - after hero */}
-          <div className="mx-auto w-full px-4 py-4 sm:hidden">
+          {/* Mobile ad - after hero (dismissible) */}
+          <DismissibleMobileAd autoDismissSeconds={6} />
+
+          {/* Mobile ad - after hero (static) */}
+          <div className="mx-auto w-full px-4 py-2 sm:hidden">
             <AdBanner position="mobile-banner" />
           </div>
 
@@ -47,14 +45,13 @@ export default async function Home() {
             <AdBanner position="mobile-banner" />
           </div>
 
-          <div className="mx-auto w-full max-w-7xl px-4 pb-6 sm:px-6 lg:px-8">
+          {/* Desktop inline ad */}
+          <div className="hidden sm:block mx-auto w-full max-w-7xl px-4 pb-6 sm:px-6 lg:px-8">
             <AdBanner position="inline" />
           </div>
 
-          {/* Mobile ad - before CTA */}
-          <div className="mx-auto w-full px-4 pb-4 sm:hidden">
-            <AdBanner position="mobile-banner" />
-          </div>
+          {/* Mobile ad - dismissible before CTA */}
+          <DismissibleMobileAd autoDismissSeconds={8} />
 
           <CTASection />
 
@@ -63,7 +60,8 @@ export default async function Home() {
             <AdBanner position="mobile-banner" />
           </div>
 
-          <div className="mx-auto w-full max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+          {/* Desktop bottom leaderboard */}
+          <div className="hidden sm:block mx-auto w-full max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
             <AdBanner position="leaderboard" />
           </div>
 
