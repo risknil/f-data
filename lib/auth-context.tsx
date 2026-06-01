@@ -45,17 +45,14 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [])
 
   const login = async (email: string, password: string): Promise<{ success: boolean; error?: string }> => {
-    console.log('[v0] Login attempt:', email, 'expected:', ADMIN_CREDENTIALS.email)
     // Check against embedded admin credentials
     if (email === ADMIN_CREDENTIALS.email && password === ADMIN_CREDENTIALS.password) {
       const adminUser: User = { email, isAdmin: true }
       setUser(adminUser)
       localStorage.setItem('risknile-user', JSON.stringify(adminUser))
-      console.log('[v0] Login success!')
       return { success: true }
     }
 
-    console.log('[v0] Login failed - credentials mismatch')
     // For now, reject all other logins (can be extended later with real auth)
     return { success: false, error: 'Invalid email or password' }
   }
