@@ -77,35 +77,6 @@ export default function ExpertPicksPage() {
             </div>
           </section>
 
-          {/* Inline ad */}
-          <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-            <AdBanner position="inline" />
-          </div>
-
-          {/* Testimonial/Trust Section */}
-          <section className="py-16 sm:py-20 bg-primary/5">
-            <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
-              <h2 className="font-heading text-3xl font-bold text-foreground">Trusted by Thousands</h2>
-              <p className="mt-4 text-lg text-muted-foreground">
-                Join thousands of bettors who use RiskNil expert picks to make smarter betting decisions.
-              </p>
-              <div className="mt-8 grid gap-4 sm:grid-cols-3">
-                <div className="rounded-lg bg-card border border-border p-4">
-                  <div className="text-2xl font-bold text-foreground">50,000+</div>
-                  <p className="text-xs text-muted-foreground">Active users</p>
-                </div>
-                <div className="rounded-lg bg-card border border-border p-4">
-                  <div className="text-2xl font-bold text-foreground">1M+</div>
-                  <p className="text-xs text-muted-foreground">Tips delivered</p>
-                </div>
-                <div className="rounded-lg bg-card border border-border p-4">
-                  <div className="text-2xl font-bold text-foreground">4.8/5</div>
-                  <p className="text-xs text-muted-foreground">User rating</p>
-                </div>
-              </div>
-            </div>
-          </section>
-
           {/* Bottom ad */}
           <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
             <AdBanner position="inline" />
