@@ -1,8 +1,7 @@
 'use client'
 
-import { createContext, useContext, useState, useEffect, type ReactNode } from 'react'
+import { createContext, useContext, useState, useEffect, useCallback, type ReactNode } from 'react'
 import { createClient } from '@/lib/supabase/client'
-import type { User as SupabaseUser } from '@supabase/supabase-js'
 
 interface User {
   id: string
@@ -42,10 +41,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null)
   const [profile, setProfile] = useState<Profile | null>(null)
   const [isLoading, setIsLoading] = useState(true)
-  const supabase = createClient()
 
   // Fetch profile for user
-  const fetchProfile = async (userId: string) => {
+  const fetchProfile = useCallback(async (userId: string) => {
+    const supabase = createClient()
     const { data, error } = await supabase
       .from('profiles')
       .select('*')
@@ -55,21 +54,27 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     if (!error && data) {
       setProfile(data)
     }
-  }
+  }, [])
 
   // Load user from Supabase session on mount
   useEffect(() => {
+    const supabase = createClient()
+    
     const initAuth = async () => {
-      const { data: { session } } = await supabase.auth.getSession()
-      
-      if (session?.user) {
-        const supabaseUser = session.user
-        setUser({
-          id: supabaseUser.id,
-          email: supabaseUser.email || '',
-          displayName: supabaseUser.user_metadata?.display_name,
-        })
-        await fetchProfile(supabaseUser.id)
+      try {
+        const { data: { session } } = await supabase.auth.getSession()
+        
+        if (session?.user) {
+          const supabaseUser = session.user
+          setUser({
+            id: supabaseUser.id,
+            email: supabaseUser.email || '',
+            displayName: supabaseUser.user_metadata?.display_name,
+          })
+          await fetchProfile(supabaseUser.id)
+        }
+      } catch (error) {
+        console.error('[v0] Auth init error:', error)
       }
       
       setIsLoading(false)
@@ -97,9 +102,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     return () => {
       subscription.unsubscribe()
     }
-  }, [])
+  }, [fetchProfile])
 
   const login = async (email: string, password: string): Promise<{ success: boolean; error?: string }> => {
+    const supabase = createClient()
     const { data, error } = await supabase.auth.signInWithPassword({
       email,
       password,
@@ -122,6 +128,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }
 
   const signup = async (email: string, password: string, displayName?: string): Promise<{ success: boolean; error?: string; needsConfirmation?: boolean }> => {
+    const supabase = createClient()
     const { data, error } = await supabase.auth.signUp({
       email,
       password,
@@ -155,6 +162,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }
 
   const logout = async () => {
+    const supabase = createClient()
     await supabase.auth.signOut()
     setUser(null)
     setProfile(null)
@@ -165,6 +173,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       return { success: false, error: 'Not authenticated' }
     }
 
+    const supabase = createClient()
     const { error } = await supabase
       .from('profiles')
       .update({ ...data, updated_at: new Date().toISOString() })
