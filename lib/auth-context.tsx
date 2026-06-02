@@ -45,6 +45,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   // Fetch profile for user
   const fetchProfile = useCallback(async (userId: string) => {
     const supabase = createClient()
+    if (!supabase) return
+    
     const { data, error } = await supabase
       .from('profiles')
       .select('*')
@@ -58,10 +60,14 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   // Load user from Supabase session on mount
   useEffect(() => {
-    const supabase = createClient()
-    
     const initAuth = async () => {
       try {
+        const supabase = createClient()
+        if (!supabase) {
+          setIsLoading(false)
+          return
+        }
+        
         const { data: { session } } = await supabase.auth.getSession()
         
         if (session?.user) {
@@ -83,29 +89,43 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     initAuth()
 
     // Listen for auth state changes
-    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
-      if (session?.user) {
-        const supabaseUser = session.user
-        setUser({
-          id: supabaseUser.id,
-          email: supabaseUser.email || '',
-          displayName: supabaseUser.user_metadata?.display_name,
+    let subscription: { unsubscribe: () => void } | null = null
+    
+    try {
+      const client = createClient()
+      if (client) {
+        const { data } = client.auth.onAuthStateChange(async (event, session) => {
+          if (session?.user) {
+            const supabaseUser = session.user
+            setUser({
+              id: supabaseUser.id,
+              email: supabaseUser.email || '',
+              displayName: supabaseUser.user_metadata?.display_name,
+            })
+            await fetchProfile(supabaseUser.id)
+          } else {
+            setUser(null)
+            setProfile(null)
+          }
+          setIsLoading(false)
         })
-        await fetchProfile(supabaseUser.id)
-      } else {
-        setUser(null)
-        setProfile(null)
+        subscription = data.subscription
       }
-      setIsLoading(false)
-    })
+    } catch (error) {
+      console.error('[v0] Auth subscription error:', error)
+    }
 
     return () => {
-      subscription.unsubscribe()
+      subscription?.unsubscribe()
     }
   }, [fetchProfile])
 
   const login = async (email: string, password: string): Promise<{ success: boolean; error?: string }> => {
     const supabase = createClient()
+    if (!supabase) {
+      return { success: false, error: 'Supabase not configured' }
+    }
+    
     const { data, error } = await supabase.auth.signInWithPassword({
       email,
       password,
@@ -129,6 +149,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const signup = async (email: string, password: string, displayName?: string): Promise<{ success: boolean; error?: string; needsConfirmation?: boolean }> => {
     const supabase = createClient()
+    if (!supabase) {
+      return { success: false, error: 'Supabase not configured' }
+    }
+    
     const { data, error } = await supabase.auth.signUp({
       email,
       password,
@@ -163,7 +187,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const logout = async () => {
     const supabase = createClient()
-    await supabase.auth.signOut()
+    if (supabase) {
+      await supabase.auth.signOut()
+    }
     setUser(null)
     setProfile(null)
   }
@@ -174,6 +200,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
 
     const supabase = createClient()
+    if (!supabase) {
+      return { success: false, error: 'Supabase not configured' }
+    }
+    
     const { error } = await supabase
       .from('profiles')
       .update({ ...data, updated_at: new Date().toISOString() })
