@@ -204,8 +204,8 @@ export default function ModulePage() {
             <a href="/training"><ArrowLeft className="h-4 w-4" /> {t.backToTraining}</a>
           </Button>
           <div className="flex items-center gap-4">
-            <span className="text-sm text-muted-foreground hidden sm:block">{user.email}</span>
-            <Button variant="outline" size="sm" onClick={logout} className="gap-2">
+            <span className="text-sm text-muted-foreground hidden sm:block">{user.displayName || user.email}</span>
+            <Button variant="outline" size="sm" onClick={() => logout()} className="gap-2">
               <LogOut className="h-4 w-4" /> <span className="hidden sm:inline">{t.logOut}</span>
             </Button>
           </div>

@@ -95,8 +95,8 @@ export function Navbar({ sports }: NavbarProps) {
             <LanguageSelector />
             {user ? (
               <>
-                <span className="text-sm text-muted-foreground">{user.email}</span>
-                <Button variant="ghost" size="sm" onClick={logout}>
+                <span className="text-sm text-muted-foreground">{user.displayName || user.email}</span>
+                <Button variant="ghost" size="sm" onClick={() => logout()}>
                   {t.navbar.logOut || 'Log Out'}
                 </Button>
               </>
@@ -182,7 +182,7 @@ export function Navbar({ sports }: NavbarProps) {
               </div>
               {user ? (
                 <>
-                  <div className="px-3 py-2 text-center text-sm text-muted-foreground">{user.email}</div>
+                  <div className="px-3 py-2 text-center text-sm text-muted-foreground">{user.displayName || user.email}</div>
                   <button 
                     onClick={() => { logout(); setMobileMenuOpen(false) }} 
                     className="block w-full rounded-md border border-border px-3 py-2 text-center text-sm font-medium text-foreground hover:bg-secondary"

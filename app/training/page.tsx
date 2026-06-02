@@ -61,8 +61,8 @@ export default function TrainingPage() {
             <a href="/"><ArrowLeft className="h-4 w-4" /> Back to RiskNil</a>
           </Button>
           <div className="flex items-center gap-4">
-            <span className="text-sm text-muted-foreground">{user.email}</span>
-            <Button variant="outline" size="sm" onClick={logout} className="gap-2">
+            <span className="text-sm text-muted-foreground">{user.displayName || user.email}</span>
+            <Button variant="outline" size="sm" onClick={() => logout()} className="gap-2">
               <LogOut className="h-4 w-4" /> {t.logOut}
             </Button>
           </div>
