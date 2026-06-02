@@ -2,9 +2,16 @@
 
 import { Button } from '@/components/ui/button'
 import { useLanguage } from '@/lib/language-context'
+import { useAuth } from '@/lib/auth-context'
 
 export function CTASection() {
   const { t } = useLanguage()
+  const { user } = useAuth()
+
+  // Don't show CTA section for logged-in users
+  if (user) {
+    return null
+  }
 
   return (
     <section className="bg-primary/5 py-20 sm:py-28">

@@ -3,10 +3,12 @@
 import { Button } from '@/components/ui/button'
 import { Sparkles, TrendingUp, Shield } from 'lucide-react'
 import { useLanguage } from '@/lib/language-context'
+import { useAuth } from '@/lib/auth-context'
 import { AdBanner } from '@/components/ad-banner'
 
 export function Hero() {
   const { t } = useLanguage()
+  const { user } = useAuth()
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-background via-background to-secondary/20">
@@ -27,14 +29,17 @@ export function Hero() {
             {t.hero.description}
           </p>
 
-          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Button size="lg" className="w-full sm:w-auto" asChild>
-              <a href="/signup">{t.hero.startButton}</a>
-            </Button>
-            <Button size="lg" variant="outline" className="w-full sm:w-auto" asChild>
-              <a href="/how-it-works">{t.hero.learnButton}</a>
-            </Button>
-          </div>
+          {/* Only show signup buttons when NOT logged in */}
+          {!user && (
+            <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+              <Button size="lg" className="w-full sm:w-auto" asChild>
+                <a href="/signup">{t.hero.startButton}</a>
+              </Button>
+              <Button size="lg" variant="outline" className="w-full sm:w-auto" asChild>
+                <a href="/how-it-works">{t.hero.learnButton}</a>
+              </Button>
+            </div>
+          )}
 
           {/* Ad after buttons */}
           <div className="mt-10 mx-auto max-w-xl">
