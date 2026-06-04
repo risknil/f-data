@@ -44,33 +44,32 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   // Fetch profile for user
   const fetchProfile = useCallback(async (userId: string) => {
-    const supabase = createClient()
-    if (!supabase) return
-    
-    const { data, error } = await supabase
-      .from('profiles')
-      .select('*')
-      .eq('id', userId)
-      .single()
-    
-    if (!error && data) {
-      setProfile(data)
+    try {
+      const supabase = createClient()
+      const { data, error } = await supabase
+        .from('profiles')
+        .select('*')
+        .eq('id', userId)
+        .single()
+      
+      if (!error && data) {
+        setProfile(data)
+      }
+    } catch (error) {
+      console.error('[v0] Error fetching profile:', error)
     }
   }, [])
 
   // Load user from Supabase session on mount
   useEffect(() => {
+    let mounted = true
+    
     const initAuth = async () => {
       try {
         const supabase = createClient()
-        if (!supabase) {
-          setIsLoading(false)
-          return
-        }
-        
         const { data: { session } } = await supabase.auth.getSession()
         
-        if (session?.user) {
+        if (mounted && session?.user) {
           const supabaseUser = session.user
           setUser({
             id: supabaseUser.id,
@@ -83,7 +82,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         console.error('[v0] Auth init error:', error)
       }
       
-      setIsLoading(false)
+      if (mounted) {
+        setIsLoading(false)
+      }
     }
 
     initAuth()
@@ -93,102 +94,108 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     
     try {
       const client = createClient()
-      if (client) {
-        const { data } = client.auth.onAuthStateChange(async (event, session) => {
-          if (session?.user) {
-            const supabaseUser = session.user
-            setUser({
-              id: supabaseUser.id,
-              email: supabaseUser.email || '',
-              displayName: supabaseUser.user_metadata?.display_name,
-            })
-            await fetchProfile(supabaseUser.id)
-          } else {
-            setUser(null)
-            setProfile(null)
-          }
-          setIsLoading(false)
-        })
-        subscription = data.subscription
-      }
+      const { data } = client.auth.onAuthStateChange(async (event, session) => {
+        if (!mounted) return
+        
+        if (session?.user) {
+          const supabaseUser = session.user
+          setUser({
+            id: supabaseUser.id,
+            email: supabaseUser.email || '',
+            displayName: supabaseUser.user_metadata?.display_name,
+          })
+          await fetchProfile(supabaseUser.id)
+        } else {
+          setUser(null)
+          setProfile(null)
+        }
+        setIsLoading(false)
+      })
+      subscription = data.subscription
     } catch (error) {
       console.error('[v0] Auth subscription error:', error)
+      if (mounted) {
+        setIsLoading(false)
+      }
     }
 
     return () => {
+      mounted = false
       subscription?.unsubscribe()
     }
   }, [fetchProfile])
 
   const login = async (email: string, password: string): Promise<{ success: boolean; error?: string }> => {
-    const supabase = createClient()
-    if (!supabase) {
-      return { success: false, error: 'Supabase not configured' }
-    }
-    
-    const { data, error } = await supabase.auth.signInWithPassword({
-      email,
-      password,
-    })
-
-    if (error) {
-      return { success: false, error: error.message }
-    }
-
-    if (data.user) {
-      setUser({
-        id: data.user.id,
-        email: data.user.email || '',
-        displayName: data.user.user_metadata?.display_name,
+    try {
+      const supabase = createClient()
+      const { data, error } = await supabase.auth.signInWithPassword({
+        email,
+        password,
       })
-      await fetchProfile(data.user.id)
-    }
 
-    return { success: true }
+      if (error) {
+        return { success: false, error: error.message }
+      }
+
+      if (data.user) {
+        setUser({
+          id: data.user.id,
+          email: data.user.email || '',
+          displayName: data.user.user_metadata?.display_name,
+        })
+        await fetchProfile(data.user.id)
+      }
+
+      return { success: true }
+    } catch (error) {
+      return { success: false, error: 'Authentication service unavailable' }
+    }
   }
 
   const signup = async (email: string, password: string, displayName?: string): Promise<{ success: boolean; error?: string; needsConfirmation?: boolean }> => {
-    const supabase = createClient()
-    if (!supabase) {
-      return { success: false, error: 'Supabase not configured' }
-    }
-    
-    const { data, error } = await supabase.auth.signUp({
-      email,
-      password,
-      options: {
-        emailRedirectTo: process.env.NEXT_PUBLIC_DEV_SUPABASE_REDIRECT_URL ?? `${window.location.origin}/auth/callback`,
-        data: {
-          display_name: displayName || email.split('@')[0],
+    try {
+      const supabase = createClient()
+      const { data, error } = await supabase.auth.signUp({
+        email,
+        password,
+        options: {
+          emailRedirectTo: `${window.location.origin}/auth/callback`,
+          data: {
+            display_name: displayName || email.split('@')[0],
+          },
         },
-      },
-    })
-
-    if (error) {
-      return { success: false, error: error.message }
-    }
-
-    // Check if email confirmation is required
-    if (data.user && !data.session) {
-      return { success: true, needsConfirmation: true }
-    }
-
-    if (data.user && data.session) {
-      setUser({
-        id: data.user.id,
-        email: data.user.email || '',
-        displayName: data.user.user_metadata?.display_name,
       })
-      await fetchProfile(data.user.id)
-    }
 
-    return { success: true }
+      if (error) {
+        return { success: false, error: error.message }
+      }
+
+      // Check if email confirmation is required
+      if (data.user && !data.session) {
+        return { success: true, needsConfirmation: true }
+      }
+
+      if (data.user && data.session) {
+        setUser({
+          id: data.user.id,
+          email: data.user.email || '',
+          displayName: data.user.user_metadata?.display_name,
+        })
+        await fetchProfile(data.user.id)
+      }
+
+      return { success: true }
+    } catch (error) {
+      return { success: false, error: 'Authentication service unavailable' }
+    }
   }
 
   const logout = async () => {
-    const supabase = createClient()
-    if (supabase) {
+    try {
+      const supabase = createClient()
       await supabase.auth.signOut()
+    } catch (error) {
+      console.error('[v0] Logout error:', error)
     }
     setUser(null)
     setProfile(null)
@@ -199,23 +206,23 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       return { success: false, error: 'Not authenticated' }
     }
 
-    const supabase = createClient()
-    if (!supabase) {
-      return { success: false, error: 'Supabase not configured' }
-    }
-    
-    const { error } = await supabase
-      .from('profiles')
-      .update({ ...data, updated_at: new Date().toISOString() })
-      .eq('id', user.id)
+    try {
+      const supabase = createClient()
+      const { error } = await supabase
+        .from('profiles')
+        .update({ ...data, updated_at: new Date().toISOString() })
+        .eq('id', user.id)
 
-    if (error) {
-      return { success: false, error: error.message }
-    }
+      if (error) {
+        return { success: false, error: error.message }
+      }
 
-    // Refresh profile
-    await fetchProfile(user.id)
-    return { success: true }
+      // Refresh profile
+      await fetchProfile(user.id)
+      return { success: true }
+    } catch (error) {
+      return { success: false, error: 'Profile update failed' }
+    }
   }
 
   return (
