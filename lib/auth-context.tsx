@@ -22,7 +22,7 @@ interface AuthContextType {
   profile: Profile | null
   isLoading: boolean
   login: (email: string, password: string) => Promise<{ success: boolean; error?: string }>
-  signup: (email: string, password: string, displayName?: string) => Promise<{ success: boolean; error?: string; needsConfirmation?: boolean }>
+  signup: (email: string, password: string) => Promise<{ success: boolean; error?: string; needsConfirmation?: boolean }>
   logout: () => Promise<void>
   updateProfile: (data: { display_name?: string }) => Promise<{ success: boolean; error?: string }>
 }
@@ -152,7 +152,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   }
 
-  const signup = async (email: string, password: string, displayName?: string): Promise<{ success: boolean; error?: string; needsConfirmation?: boolean }> => {
+  const signup = async (email: string, password: string): Promise<{ success: boolean; error?: string; needsConfirmation?: boolean }> => {
     try {
       const supabase = createClient()
       const { data, error } = await supabase.auth.signUp({
@@ -160,9 +160,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         password,
         options: {
           emailRedirectTo: `${window.location.origin}/auth/callback`,
-          data: {
-            display_name: displayName || email.split('@')[0],
-          },
         },
       })
 

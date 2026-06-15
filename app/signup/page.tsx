@@ -28,7 +28,6 @@ function AppleIcon() {
 }
 
 export default function SignupPage() {
-  const [displayName, setDisplayName] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
@@ -55,7 +54,7 @@ export default function SignupPage() {
       return
     }
 
-    const result = await signup(email, password, displayName)
+    const result = await signup(email, password)
     
     if (result.success) {
       if (result.needsConfirmation) {
@@ -135,18 +134,6 @@ export default function SignupPage() {
                 {error}
               </div>
             )}
-            <div className="space-y-1.5">
-              <Label htmlFor="display-name">Display name</Label>
-              <Input 
-                id="display-name" 
-                type="text" 
-                placeholder="John" 
-                autoComplete="name" 
-                className="py-5"
-                value={displayName}
-                onChange={(e) => setDisplayName(e.target.value)}
-              />
-            </div>
             <div className="space-y-1.5">
               <Label htmlFor="email">Email address</Label>
               <Input 
