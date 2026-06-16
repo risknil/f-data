@@ -76,7 +76,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
             email: supabaseUser.email || '',
             displayName: supabaseUser.user_metadata?.display_name,
           })
-          await fetchProfile(supabaseUser.id)
+          // Fetch profile without blocking the loading state
+          fetchProfile(supabaseUser.id)
         }
       } catch (error) {
         console.error('[v0] Auth init error:', error)
@@ -94,7 +95,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     
     try {
       const client = createClient()
-      const { data } = client.auth.onAuthStateChange(async (event, session) => {
+      // IMPORTANT: Do not `await` other Supabase calls inside this callback —
+      // it holds an internal lock and awaiting a DB query here causes a deadlock.
+      const { data } = client.auth.onAuthStateChange((event, session) => {
         if (!mounted) return
         
         if (session?.user) {
@@ -104,7 +107,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
             email: supabaseUser.email || '',
             displayName: supabaseUser.user_metadata?.display_name,
           })
-          await fetchProfile(supabaseUser.id)
+          // Defer the profile fetch so it runs outside the auth callback lock
+          setTimeout(() => {
+            if (mounted) fetchProfile(supabaseUser.id)
+          }, 0)
         } else {
           setUser(null)
           setProfile(null)
