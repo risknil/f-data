@@ -8,6 +8,10 @@ import { useLanguage } from '@/lib/language-context'
 import { useAuth } from '@/lib/auth-context'
 import Link from 'next/link'
 
+// Paywall toggle: set to `true` to re-enable the lock overlay on each
+// accumulator card. When `false`, all picks are shown unlocked for everyone.
+const PAYWALL_ENABLED = false
+
 interface AccumulatorTip {
   sport: string
   event: string
@@ -113,7 +117,7 @@ export function ExpertPicks() {
               {accumulators.map((accumulator) => (
                 <Card key={accumulator.id} className="relative overflow-hidden border-accent/20">
                   {/* Lock Overlay */}
-                  {!unlockedIds.has(accumulator.id) && (
+                  {PAYWALL_ENABLED && !unlockedIds.has(accumulator.id) && (
                     <div className="absolute inset-0 z-10 flex items-center justify-center bg-background/80 backdrop-blur-sm">
                       <div className="text-center">
                         <Lock className="mx-auto mb-4 h-12 w-12 text-accent" />
