@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
-import { ArrowLeft, ChevronLeft, ChevronRight, Lock, LogOut, BookOpen } from 'lucide-react'
+import { ArrowLeft, ChevronLeft, ChevronRight, Lock, BookOpen } from 'lucide-react'
 import { useAuth } from '@/lib/auth-context'
 import { useLanguage } from '@/lib/language-context'
 import { trainingModules } from '@/lib/training-content'
@@ -13,7 +13,7 @@ import { getTranslatedModule } from '@/lib/translations/index'
 import { AdBanner } from '@/components/ad-banner'
 
 export default function ModulePage() {
-  const { user, isLoading, logout } = useAuth()
+  const { user, isLoading } = useAuth()
   const { language } = useLanguage()
   const router = useRouter()
   const params = useParams()
@@ -203,12 +203,6 @@ export default function ModulePage() {
           <Button variant="ghost" size="sm" asChild className="gap-2 text-muted-foreground">
             <a href="/training"><ArrowLeft className="h-4 w-4" /> {t.backToTraining}</a>
           </Button>
-          <div className="flex items-center gap-4">
-            <span className="text-sm text-muted-foreground hidden sm:block">{user.displayName || user.email}</span>
-            <Button variant="outline" size="sm" onClick={() => logout()} className="gap-2">
-              <LogOut className="h-4 w-4" /> <span className="hidden sm:inline">{t.logOut}</span>
-            </Button>
-          </div>
         </div>
       </div>
 

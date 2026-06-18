@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
-import { ArrowLeft, BookOpen, Lock, LogOut, ChevronRight, GraduationCap } from 'lucide-react'
+import { ArrowLeft, BookOpen, Lock, ChevronRight, GraduationCap } from 'lucide-react'
 import { useAuth } from '@/lib/auth-context'
 import { useLanguage } from '@/lib/language-context'
 import { trainingModules } from '@/lib/training-content'
@@ -13,7 +13,7 @@ import { getTranslatedModule } from '@/lib/translations/index'
 import { AdBanner } from '@/components/ad-banner'
 
 export default function TrainingPage() {
-  const { user, isLoading, logout } = useAuth()
+  const { user, isLoading } = useAuth()
   const { language } = useLanguage()
   const router = useRouter()
   const t = getTrainingTranslation(language)
@@ -60,12 +60,6 @@ export default function TrainingPage() {
           <Button variant="ghost" size="sm" asChild className="gap-2 text-muted-foreground">
             <a href="/"><ArrowLeft className="h-4 w-4" /> Back to RiskNil</a>
           </Button>
-          <div className="flex items-center gap-4">
-            <span className="text-sm text-muted-foreground">{user.displayName || user.email}</span>
-            <Button variant="outline" size="sm" onClick={() => logout()} className="gap-2">
-              <LogOut className="h-4 w-4" /> {t.logOut}
-            </Button>
-          </div>
         </div>
       </div>
 
