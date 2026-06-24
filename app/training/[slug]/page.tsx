@@ -45,6 +45,17 @@ export default function ModulePage() {
     }
   }, [user, isLoading, router])
 
+  // Reset to the first section and scroll to top when the module changes
+  useEffect(() => {
+    setActiveSection(0)
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+  }, [slug])
+
+  // Scroll to top whenever the active section changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+  }, [activeSection])
+
   if (isLoading) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-background">
