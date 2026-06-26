@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { Barlow_Condensed, Inter } from 'next/font/google'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
+import { StickyAdBox } from '@/components/sticky-ad-box'
 import { getSports } from '@/lib/sheets'
 import { LanguageProvider } from '@/lib/language-context'
 import { AuthProvider } from '@/lib/auth-context'
@@ -41,12 +42,13 @@ export default async function RootLayout({
 
   return (
     <html lang="en" className="dark">
-      <body className={`${inter.variable} ${barlowCondensed.variable} font-sans antialiased`}>
+      <body className={`${inter.variable} ${barlowCondensed.variable} font-sans antialiased pb-[15vh] md:pb-[10vh]`}>
         <AuthProvider>
           <LanguageProvider>
             <Navbar sports={sports} />
             {children}
             <Footer sports={sports} />
+            <StickyAdBox />
           </LanguageProvider>
         </AuthProvider>
       </body>
