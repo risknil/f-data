@@ -42,7 +42,7 @@ export default async function RootLayout({
 
   return (
     <html lang="en" className="dark">
-      <body className={`${inter.variable} ${barlowCondensed.variable} font-sans antialiased pb-[15vh] md:pb-[10vh]`}>
+      <body className={`${inter.variable} ${barlowCondensed.variable} font-sans antialiased pb-[51px] md:pb-[91px]`}>
         <AuthProvider>
           <LanguageProvider>
             <Navbar sports={sports} />
