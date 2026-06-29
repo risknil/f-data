@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
@@ -10,6 +10,7 @@ import { useLanguage } from '@/lib/language-context'
 import { trainingModules } from '@/lib/training-content'
 import { getTrainingTranslation } from '@/lib/training-translations'
 import { getTranslatedModule } from '@/lib/translations/index'
+import { getModuleProgress, saveModuleProgress } from '@/lib/training-progress'
 import { AdBanner } from '@/components/ad-banner'
 
 export default function ModulePage() {
@@ -21,6 +22,8 @@ export default function ModulePage() {
   const t = getTrainingTranslation(language)
   
   const [activeSection, setActiveSection] = useState(0)
+  const [progressLoaded, setProgressLoaded] = useState(false)
+  const completedRef = useRef<number[]>([])
 
   const module = trainingModules.find(m => m.slug === slug)
   const currentIndex = trainingModules.findIndex(m => m.slug === slug)
@@ -45,16 +48,49 @@ export default function ModulePage() {
     }
   }, [user, isLoading, router])
 
-  // Reset to the first section and scroll to top when the module changes
+  // When the module changes, scroll to top and load the user's saved progress
+  // so they resume on the section they last viewed.
   useEffect(() => {
+    let cancelled = false
+    setProgressLoaded(false)
     setActiveSection(0)
+    completedRef.current = []
     window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
-  }, [slug])
 
-  // Scroll to top whenever the active section changes
+    if (!user || !module) return
+
+    getModuleProgress(module.slug).then((saved) => {
+      if (cancelled) return
+      if (saved) {
+        completedRef.current = saved.completed_sections
+        const total = module.sections.length
+        const target = Math.min(Math.max(saved.last_section, 0), Math.max(total - 1, 0))
+        setActiveSection(target)
+      }
+      setProgressLoaded(true)
+    })
+
+    return () => { cancelled = true }
+  }, [slug, user, module])
+
+  // Scroll to top on section change and persist progress to Supabase.
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
-  }, [activeSection])
+
+    if (!progressLoaded || !user || !module) return
+
+    if (!completedRef.current.includes(activeSection)) {
+      completedRef.current = [...completedRef.current, activeSection]
+    }
+    const total = displaySections.length
+    const isCompleted = total > 0 && completedRef.current.length >= total
+
+    saveModuleProgress(module.slug, {
+      last_section: activeSection,
+      completed_sections: completedRef.current,
+      is_completed: isCompleted,
+    })
+  }, [activeSection, progressLoaded])
 
   if (isLoading) {
     return (
