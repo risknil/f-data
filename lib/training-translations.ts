@@ -13,6 +13,7 @@ export interface TrainingModuleTranslation {
 export interface TrainingTranslations {
   pageTitle: string
   pageSubtitle: string
+  languageNotice: string
   modulesTitle: string
   backToTraining: string
   returnToModules: string
@@ -25,6 +26,7 @@ export interface TrainingTranslations {
 const enTraining: TrainingTranslations = {
   pageTitle: 'Professional Betting Training',
   pageSubtitle: 'Master the fundamentals of disciplined, value-based betting through our comprehensive training program.',
+  languageNotice: 'The training is currently available in English only. More languages are coming in the future.',
   modulesTitle: 'Training Modules',
   backToTraining: 'Back to Training',
   returnToModules: 'Return to All Modules',
@@ -37,6 +39,7 @@ const enTraining: TrainingTranslations = {
 const huTraining: TrainingTranslations = {
   pageTitle: 'Professzionális Fogadási Képzés',
   pageSubtitle: 'Sajátítsd el a fegyelmezett, értékalapú fogadás alapjait átfogó képzési programunkon keresztül.',
+  languageNotice: 'A képzés jelenleg csak angol nyelven érhető el. A jövőben további nyelvek is elérhetők lesznek.',
   modulesTitle: 'Képzési Modulok',
   backToTraining: 'Vissza a Képzéshez',
   returnToModules: 'Vissza az Összes Modulhoz',
@@ -113,6 +116,7 @@ Egy másik kulcsfontosságú különbség az, ahogyan a profik beszélnek magukh
 const deTraining: TrainingTranslations = {
   pageTitle: 'Professionelles Wett-Training',
   pageSubtitle: 'Meistern Sie die Grundlagen des disziplinierten, wertbasierten Wettens durch unser umfassendes Trainingsprogramm.',
+  languageNotice: 'Das Training ist derzeit nur auf Englisch verfügbar. Weitere Sprachen folgen in Zukunft.',
   modulesTitle: 'Trainingsmodule',
   backToTraining: 'Zurück zum Training',
   returnToModules: 'Zurück zu allen Modulen',
@@ -146,6 +150,7 @@ const deTraining: TrainingTranslations = {
 const esTraining: TrainingTranslations = {
   pageTitle: 'Entrenamiento Profesional de Apuestas',
   pageSubtitle: 'Domina los fundamentos de las apuestas disciplinadas y basadas en valor a través de nuestro programa de entrenamiento integral.',
+  languageNotice: 'La formación está disponible actualmente solo en inglés. Próximamente se añadirán más idiomas.',
   modulesTitle: 'Módulos de Entrenamiento',
   backToTraining: 'Volver al Entrenamiento',
   returnToModules: 'Volver a Todos los Módulos',
@@ -179,6 +184,7 @@ const esTraining: TrainingTranslations = {
 const frTraining: TrainingTranslations = {
   pageTitle: 'Formation Professionnelle aux Paris',
   pageSubtitle: 'Maîtrisez les fondamentaux des paris disciplinés et basés sur la valeur grâce à notre programme de formation complet.',
+  languageNotice: 'La formation est actuellement disponible uniquement en anglais. D\'autres langues seront ajoutées à l\'avenir.',
   modulesTitle: 'Modules de Formation',
   backToTraining: 'Retour à la Formation',
   returnToModules: 'Retour à Tous les Modules',
@@ -212,6 +218,7 @@ const frTraining: TrainingTranslations = {
 const ptTraining: TrainingTranslations = {
   pageTitle: 'Treinamento Profissional de Apostas',
   pageSubtitle: 'Domine os fundamentos das apostas disciplinadas e baseadas em valor através do nosso programa de treinamento abrangente.',
+  languageNotice: 'O treinamento está disponível atualmente apenas em inglês. Mais idiomas serão adicionados no futuro.',
   modulesTitle: 'Módulos de Treinamento',
   backToTraining: 'Voltar ao Treinamento',
   returnToModules: 'Voltar a Todos os Módulos',
@@ -245,6 +252,7 @@ const ptTraining: TrainingTranslations = {
 const itTraining: TrainingTranslations = {
   pageTitle: 'Formazione Professionale sulle Scommesse',
   pageSubtitle: 'Padroneggia i fondamenti delle scommesse disciplinate e basate sul valore attraverso il nostro programma di formazione completo.',
+  languageNotice: 'La formazione è attualmente disponibile solo in inglese. Altre lingue saranno disponibili in futuro.',
   modulesTitle: 'Moduli di Formazione',
   backToTraining: 'Torna alla Formazione',
   returnToModules: 'Torna a Tutti i Moduli',
@@ -278,6 +286,7 @@ const itTraining: TrainingTranslations = {
 const nlTraining: TrainingTranslations = {
   pageTitle: 'Professionele Wedden Training',
   pageSubtitle: 'Beheers de grondbeginselen van gedisciplineerd, op waarde gebaseerd wedden via ons uitgebreide trainingsprogramma.',
+  languageNotice: 'De training is momenteel alleen in het Engels beschikbaar. Meer talen volgen in de toekomst.',
   modulesTitle: 'Trainingsmodules',
   backToTraining: 'Terug naar Training',
   returnToModules: 'Terug naar Alle Modules',
@@ -311,6 +320,7 @@ const nlTraining: TrainingTranslations = {
 const plTraining: TrainingTranslations = {
   pageTitle: 'Profesjonalne Szkolenie Zakładów',
   pageSubtitle: 'Opanuj podstawy zdyscyplinowanych zakładów opartych na wartości dzięki naszemu kompleksowemu programowi szkoleniowemu.',
+  languageNotice: 'Szkolenie jest obecnie dostępne wyłącznie w języku angielskim. W przyszłości pojawią się kolejne języki.',
   modulesTitle: 'Moduły Szkoleniowe',
   backToTraining: 'Powrót do Szkolenia',
   returnToModules: 'Powrót do Wszystkich Modułów',
@@ -344,6 +354,7 @@ const plTraining: TrainingTranslations = {
 const svTraining: TrainingTranslations = {
   pageTitle: 'Professionell Bettingutbildning',
   pageSubtitle: 'Bemästra grunderna i disciplinerad, värdebaserad betting genom vårt omfattande utbildningsprogram.',
+  languageNotice: 'Utbildningen är för närvarande endast tillgänglig på engelska. Fler språk kommer i framtiden.',
   modulesTitle: 'Utbildningsmoduler',
   backToTraining: 'Tillbaka till Utbildning',
   returnToModules: 'Tillbaka till Alla Moduler',
@@ -377,6 +388,7 @@ const svTraining: TrainingTranslations = {
 const roTraining: TrainingTranslations = {
   pageTitle: 'Formare Profesională în Pariuri',
   pageSubtitle: 'Stăpânește fundamentele pariurilor disciplinate, bazate pe valoare, prin programul nostru cuprinzător de formare.',
+  languageNotice: 'Instruirea este disponibilă momentan doar în limba engleză. Mai multe limbi vor fi adăugate în viitor.',
   modulesTitle: 'Module de Formare',
   backToTraining: 'Înapoi la Formare',
   returnToModules: 'Înapoi la Toate Modulele',
@@ -410,6 +422,7 @@ const roTraining: TrainingTranslations = {
 const zhCNTraining: TrainingTranslations = {
   pageTitle: '专业投注培训',
   pageSubtitle: '通过我们全面的培训计划,掌握纪律严明、基于价值的投注基础。',
+  languageNotice: '该培训目前仅提供英文版本。未来将推出更多语言。',
   modulesTitle: '培训模块',
   backToTraining: '返回培训',
   returnToModules: '返回所有模块',
@@ -443,6 +456,7 @@ const zhCNTraining: TrainingTranslations = {
 const jaTraining: TrainingTranslations = {
   pageTitle: 'プロフェッショナルベッティングトレーニング',
   pageSubtitle: '当社の包括的なトレーニングプログラムを通じて、規律あるバリューベースのベッティングの基礎をマスターしてください。',
+  languageNotice: 'このトレーニングは現在英語のみで提供されています。今後、他の言語にも対応する予定です。',
   modulesTitle: 'トレーニングモジュール',
   backToTraining: 'トレーニングに戻る',
   returnToModules: 'すべてのモジュールに戻る',
@@ -476,6 +490,7 @@ const jaTraining: TrainingTranslations = {
 const koTraining: TrainingTranslations = {
   pageTitle: '전문 베팅 교육',
   pageSubtitle: '포괄적인 교육 프로그램을 통해 규율 있고 가치 기반의 베팅 기본을 마스터하세요.',
+  languageNotice: '본 교육은 현재 영어로만 제공됩니다. 향후 더 많은 언어가 추가될 예정입니다.',
   modulesTitle: '교육 모듈',
   backToTraining: '교육으로 돌아가기',
   returnToModules: '모든 모듈로 돌아가기',
@@ -498,7 +513,7 @@ const koTraining: TrainingTranslations = {
     14: { title: '14. 다른 스포츠 및 전문 틈새: 확장을 위한 규율 있는 프레임워크', subtitle: '무모해지지 않고 새로운 스포츠에 프로세스 도입', duration: '10분 읽기' },
     15: { title: '15. 베팅 유형 마스터클래스: 각 시장을 언제 사용하고 언제 피해야 하는지', subtitle: '별도의 전문 기술로서의 전략적 시장 선택', duration: '12분 읽기' },
     16: { title: '16. 개인 베팅 노트북, 결정 로그 및 검토 기록 구축', subtitle: '미래의 자신이 감사할 수 있는 결정 흔적 만들기', duration: '10분 읽기' },
-    17: { title: '17. 성과 검토, 기록 유지 및 결과에서 배우기', subtitle: '내러티브 편향으로부터 보호하는 검토 시스템 구축', duration: '10분 읽기' },
+    17: { title: '17. 성과 검토, 기록 유지 및 결과에서 배우기', subtitle: '���러티브 편향으로부터 보호하는 검토 시스템 구축', duration: '10분 읽기' },
     18: { title: '18. 심리학, 규율, 틸트 컨트롤 및 전문 루틴', subtitle: '감정이 워크플로우를 납치하지 못하도록 관리', duration: '12분 읽기' },
     19: { title: '19. 더 안전한 도박 표준, 규정 준수 인식 및 개인 보호', subtitle: '통제력 유지 및 베팅하지 말아야 할 때 알기', duration: '10분 읽기' },
     20: { title: '20. 실습 연습, 워크시트 및 최종 평가 과제', subtitle: '구조화된 연습으로 읽기를 행동으로 전환', duration: '15분 읽기' }
@@ -509,6 +524,7 @@ const koTraining: TrainingTranslations = {
 const arTraining: TrainingTranslations = {
   pageTitle: 'تدريب الرهان المحترف',
   pageSubtitle: 'أتقن أساسيات الرهان المنضبط والقائم على القيمة من خلال برنامجنا التدريبي الشامل.',
+  languageNotice: 'التدريب متاح حالياً باللغة الإنجليزية فقط. سيتم إضافة المزيد من اللغات في المستقبل.',
   modulesTitle: 'وحدات التدريب',
   backToTraining: 'العودة إلى التدريب',
   returnToModules: 'العودة إلى جميع الوحدات',

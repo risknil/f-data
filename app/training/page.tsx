@@ -108,6 +108,9 @@ export default function TrainingPage() {
             <p className="mt-4 text-lg text-muted-foreground">
               {t.pageSubtitle}
             </p>
+            <p className="mx-auto mt-3 max-w-2xl text-sm text-muted-foreground/80">
+              {t.languageNotice}
+            </p>
             {resumeModule && (
               <Button asChild size="lg" className="mt-6 gap-2">
                 <a href={`/training/${resumeModule.slug}`}>
