@@ -1,6 +1,7 @@
 'use client'
 
 import { useLanguage } from '@/lib/language-context'
+import { getContactTranslation } from '@/lib/contact-translations'
 
 type Sport = {
   name: string
@@ -8,12 +9,14 @@ type Sport = {
 }
 
 export function Footer({ sports = [] }: { sports?: Sport[] }) {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
+  const contactLabel = getContactTranslation(language).linkLabel
 
   const company = [
     { name: t.footer.howItWorks, href: '/how-it-works' },
     { name: t.footer.terms, href: '/terms' },
     { name: t.footer.privacy, href: '/privacy' },
+    { name: contactLabel, href: '/contact' },
   ]
 
   const account = [
@@ -82,6 +85,7 @@ export function Footer({ sports = [] }: { sports?: Sport[] }) {
           <div className="flex gap-6">
             <a href="/privacy" className="text-xs text-muted-foreground hover:text-foreground">{t.footer.privacy}</a>
             <a href="/terms" className="text-xs text-muted-foreground hover:text-foreground">{t.footer.terms}</a>
+            <a href="/contact" className="text-xs text-muted-foreground hover:text-foreground">{contactLabel}</a>
           </div>
         </div>
       </div>
