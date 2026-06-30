@@ -25,14 +25,20 @@ Amendments: The Provider reserves the right to modify, suspend, or supplement th
 Legal Use: The Website must be used only for lawful purposes. Users are prohibited from using the Website to transmit or store material that violates any law, infringes on third-party intellectual property, or violates gambling or foreign exchange regulations in any jurisdiction.
 
 Sanctions: In the event of misuse, the Provider reserves the right to block access, terminate accounts, and initiate legal proceedings at its sole discretion.` },
-    { title: '3. Description of Services', content: 'The Website provides an interactive platform featuring sports information, scores, betting tips, and analytical data. This information is gathered from independent third-party sources and internal efforts. While the Provider strives for accuracy, it does not guarantee the reliability of match results or betting odds. The Provider is not responsible for any use made by the User of the information contained on the Website.' },
-    { title: '4. Payments and Bank Transfers', content: `Payment Methods: The Website accepts payments for premium services via secure online gateways and direct bank transfers.
+    { title: '3. Description of the Website', content: `The Website provides publicly available sports-related content, including information, statistics, scores, betting tips, and analytical insights. This content is compiled from independent third-party sources as well as internal research and analysis.
 
-Bank Transfer Protocol: Users opting for bank transfers must follow the specific instructions provided at the time of checkout. Services will only be activated once the Provider has confirmed receipt of the full cleared funds.
+The Provider makes reasonable efforts to ensure the accuracy and timeliness of the information presented; however, no guarantee is given regarding completeness, accuracy, or reliability of any data, including match results, statistics, or betting-related information.
 
-Accuracy of Information: The User is responsible for ensuring all payment and banking details provided are accurate. The Provider is not responsible for funds lost due to incorrect banking information provided by the User.
+All content is provided for informational purposes only. The Provider accepts no responsibility for any decisions, actions, or losses incurred by Users based on the information published on the Website.` },
+    { title: '4. Donations and Bank Transfers', content: `Voluntary Donations: The Website does not sell any products or services and does not offer premium or paid content. All payments made by Users are voluntary donations intended solely to support the ongoing maintenance and development of the Website.
 
-Finality of Payment: Unless mandated by local consumer law, all payments are non-refundable once the digital service or content has been accessed.` },
+Payment Methods: Donations may be made via secure online payment gateways or by bank transfer, where available.
+
+Bank Transfer Instructions: Where bank transfer is used, Users must follow the payment instructions provided at the time of donation. Donations are only considered received once the full amount has been successfully cleared in the Provider's account.
+
+Accuracy of Information: Users are responsible for ensuring that all payment details, including bank information, are entered correctly. The Provider is not liable for any loss of funds resulting from incorrect or incomplete payment information provided by the User.
+
+Non-Refundable Donations: Donations are generally non-refundable. However, where required by applicable law, statutory refund rights shall remain unaffected.` },
     { title: '5. Proprietary Content (No User-Generated Content)', content: `Exclusive Ownership: All content displayed on the Website is provided exclusively by the Provider or its licensed third-party partners.
 
 No User Submissions: The Website does not allow, host, or display User-Generated Content (UGC), including but not limited to comments, forum posts, or public data uploads.
@@ -205,7 +211,7 @@ Apagamento: O direito de ter os dados excluídos se não forem mais necessários
 Restrição e Objeção: O direito de limitar como os dados são processados ou se opor ao marketing.
 
 Portabilidade: O direito de receber os dados em um formato legível por máquina.` },
-    { title: '14. Uso de Dados e Marketing', content: 'Os dados pessoais são usados para se comunicar com os Usu��rios, processar transferências bancárias/pagamentos, fornecer conteúdo personalizado e manter a segurança. Não vendemos nem negociamos dados pessoais a terceiros para fins de marketing.' },
+    { title: '14. Uso de Dados e Marketing', content: 'Os dados pessoais são usados para se comunicar com os Usu����rios, processar transferências bancárias/pagamentos, fornecer conteúdo personalizado e manter a segurança. Não vendemos nem negociamos dados pessoais a terceiros para fins de marketing.' },
     { title: '15. Divulgação de Dados', content: 'Os dados podem ser divulgados a terceiros apenas para facilitar o processamento de pagamentos (por exemplo, instituições bancárias), no caso de venda do Site, ou para cumprir obrigações legais.' },
     { title: '16. Segurança e Retenção', content: `Medidas de Segurança: Usamos medidas técnicas, incluindo SSL e algoritmos de hash, para proteger os dados.
 
@@ -827,7 +833,7 @@ const jaTerms: TermsContent = {
     { title: '7. アカウントの非アクティブ', content: 'プロバイダーは、180日連続でアクセスされていないユーザーアカウントを終了する権利を留保します。' },
     { title: '8. 知的財産権と著作権', content: '所有権：サイト上のすべてのコンテンツとソフトウェアはプロバイダーの所有物です。ユーザーは、サイトのいかなる部分もコピーまたは複製することを固く禁じられています。' },
     { title: '9. 法的遵守と管轄権', content: '準拠法：この規約は英国の法律に準拠し、解釈されます。すべての当事者は、英国の裁判所の専属管轄権に服します。' },
-    { title: '10. 免責事項と責任制限', content: '保証なし：サイトは「現状のまま」提供されます。\n\nギャンブルサービスではない：サイトは情報ツールです。\n\n損失の制限：プロバイダーは直接的��たは間接的な損失に対して責任を負いません。' },
+    { title: '10. 免責事項と責任制限', content: '保証なし：サイトは「現状のまま」提供されます。\n\nギャンブルサービスではない：サイトは情報ツールです。\n\n損失の制限：プロバイダーは直接的��たは間接的な損失に対��て責任を負いません。' },
     { title: 'プライバシーポリシー', content: '' },
     { title: '11. データ保護とGDPR', content: 'サイトはGDPRに従ってユーザーのプライバシーを保護することを約束します。データ管理者はrisknil.comです。' },
     { title: '12. 個人データの収集', content: '登録：個人データは登録時にのみ収集されます。\n\n同意：サービスを使用することにより、ユーザーはデータの収集に同意します。' },
@@ -875,8 +881,8 @@ const hiTerms: TermsContent = {
   legalNote: 'भाषा संस्करणों के बीच किसी भी विसंगति की स्थिति में, अंग्रेजी संस्करण मान्य होगा।',
   sections: [
     { title: '1. उपयोग की शर्तें', content: 'ये उपयोग की शर्तें ("शर्तें") "प्रदाता" और किसी भी व्यक्ति या संस्था ("उपयोगकर्ता") के बीच एक कानूनी रूप से बाध्यकारी समझौता है जो risknil.com वेबसाइट, इसके मोबाइल एप्लिकेशन, या किसी भी संबंधित सुविधाओं, सामग्री या सेवाओं (सामूहिक रूप से, "साइट") तक पहुंचता है।' },
-    { title: '2. सामान्य प्रावधान और वैश्विक दायरा', content: 'लागूता: ये शर्तें प्रदाता और उपयोगकर्ता के बीच संपूर्ण संबंध को नियंत्रित करती हैं।\n\nसंशोधन: प्रदाता किसी भी समय इन शर्तों को संशोधित करने ���ा अधिकार सुरक्षित रखता है।\n\nवैध उपयोग: साइट का उपयोग केवल वैध उद्देश्यों के लिए किया जाना चाहिए।\n\nप्रतिबंध: दुरुपयोग के मामले में, प्रदाता पहुंच को अवरुद्ध करने और खाते बंद करने का अधिकार रखता है।' },
-    { title: '3. सेवाओं का विवरण', content: 'साइट खेल जानकारी, स्कोर, सट्टेबाजी टिप्स और विश्लेषणात्मक डेटा के साथ एक ��ंटरैक्टिव प्लेटफॉर्म प्रदान करती है। हालांकि प्रदाता सटीकता के लिए प्रयास करता है, मैच परिणामों या ऑड्स की विश्वसनीयता की गारंटी नहीं है।' },
+    { title: '2. सामान्य प्रावधान और वैश्विक दायरा', content: 'लागूता: ये शर्तें प्रदाता और उपयोगकर्ता के बीच संपूर्ण संबंध को नियंत्रित करती हैं।\n\nसंशोधन: प्रदाता किसी भी समय इन शर्तों को संशोधित करने ���ा अधिकार ��ुरक्षित रखता है।\n\nवैध उपयोग: साइट का उपयोग केवल वैध उद्देश्यों के लिए किया जाना चाहिए।\n\nप्रतिबंध: दुरुपयोग के मामले में, प्रदाता पहुंच को अवरुद्ध करने और खाते बंद करने का अधिकार रखता है।' },
+    { title: '3. सेवाओं का विवरण', content: 'साइट खेल जानकारी, स्कोर, सट्टेबाजी टिप्स और विश्लेषणात्मक डेटा के साथ एक ��ंटरै���्टिव प्लेटफॉर्म प्रदान करती है। हालांकि प्रदाता सटीकता के लिए प्रयास करता है, मैच परिणामों या ऑड्स की विश्वसनीयता की गारंटी नहीं है।' },
     { title: '4. भुगतान और बैंक हस्तांतरण', content: 'भुगतान के तरीके: साइट सुरक्षित ऑनलाइन भुगतान गेटवे और सीधे बैंक हस्तांतरण के माध्यम से प्रीमियम सेवाओं के लिए भुगतान स्वीकार करती है।\n\nभुगतान की अंतिमता: जब तक स्थानीय उपभोक्ता कानून द्वारा अन्यथा आवश्यक न हो, सभी भुगतान गैर-वापसी योग्य हैं।' },
     { title: '5. स्वामित्व सामग्री', content: 'विशेष स्वामित्व: सभी सामग्री विशेष रूप से प्रदाता द्वारा प्रदान की जाती है।\n\nकोई उपयोगकर्ता सबमिशन नहीं: साइट उपयोगकर्ता-जनित सामग्री की अनुमति नहीं देती है।' },
     { title: '6. तृतीय-पक्ष लिंक और विज्ञापन', content: 'उपयोगकर्ता स्वीकार करता है कि साइट पर पाई गई तृतीय-पक्ष वेबसाइटों या विज्ञापनों के साथ कोई भी बातचीत पूरी तरह से उनके अपने जोखिम पर है।' },
