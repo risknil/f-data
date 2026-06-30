@@ -78,11 +78,13 @@ export function Navbar({ sports }: NavbarProps) {
             <a href="/how-it-works" className="text-sm font-medium text-muted-foreground hover:text-foreground">
               {t.navbar.howItWorks}
             </a>
+            {/* Expert Picks hidden site-wide (kept for future recovery — re-enable by uncommenting)
             {user && (
               <a href="/expert-picks" className="text-sm font-medium text-muted-foreground hover:text-foreground">
                 {t.navbar.expertPicks}
               </a>
             )}
+            */}
             {user && (
               <a href="/training" className="text-sm font-medium text-muted-foreground hover:text-foreground">
                 {t.navbar.training}
@@ -157,6 +159,7 @@ export function Navbar({ sports }: NavbarProps) {
             >
               {t.navbar.howItWorks}
             </a>
+            {/* Expert Picks hidden site-wide (kept for future recovery — re-enable by uncommenting)
             {user && (
               <a
                 href="/expert-picks"
@@ -166,6 +169,7 @@ export function Navbar({ sports }: NavbarProps) {
                 {t.navbar.expertPicks}
               </a>
             )}
+            */}
             {user && (
               <a
                 href="/training"
