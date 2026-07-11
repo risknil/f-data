@@ -7,6 +7,12 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { ArrowLeft, Loader2, CheckCircle } from 'lucide-react'
 import { useAuth } from '@/lib/auth-context'
+import { useLanguage } from '@/lib/language-context'
+import { useTranslation } from '@/lib/use-translation'
+
+const ACCEPT_PREFIX = 'I have read and accept the'
+const ACCEPT_LINK = 'Terms and Conditions'
+const ACCEPT_ERROR = 'You must accept the Terms and Conditions to continue.'
 
 export default function SignupPage() {
   const [email, setEmail] = useState('')
@@ -14,8 +20,33 @@ export default function SignupPage() {
   const [error, setError] = useState('')
   const [isLoading, setIsLoading] = useState(false)
   const [needsConfirmation, setNeedsConfirmation] = useState(false)
+  const [accepted, setAccepted] = useState(false)
   const { signup, user } = useAuth()
   const router = useRouter()
+
+  const { language } = useLanguage()
+  const { translateText } = useTranslation(language)
+  const [labels, setLabels] = useState({ prefix: ACCEPT_PREFIX, link: ACCEPT_LINK, error: ACCEPT_ERROR })
+
+  useEffect(() => {
+    if (language === 'en') {
+      setLabels({ prefix: ACCEPT_PREFIX, link: ACCEPT_LINK, error: ACCEPT_ERROR })
+      return
+    }
+    let cancelled = false
+    ;(async () => {
+      const [prefix, link, err] = await Promise.all([
+        translateText(ACCEPT_PREFIX),
+        translateText(ACCEPT_LINK),
+        translateText(ACCEPT_ERROR),
+      ])
+      if (!cancelled) setLabels({ prefix, link, error: err })
+    })()
+    return () => {
+      cancelled = true
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [language])
 
   // If already logged in, redirect
   useEffect(() => {
@@ -27,6 +58,12 @@ export default function SignupPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setError('')
+
+    if (!accepted) {
+      setError(labels.error)
+      return
+    }
+
     setIsLoading(true)
 
     if (password.length < 6) {
@@ -134,7 +171,22 @@ export default function SignupPage() {
                 onChange={(e) => setPassword(e.target.value)}
               />
             </div>
-            <Button type="submit" className="w-full py-5 text-sm font-semibold" disabled={isLoading}>
+            <label htmlFor="accept-terms" className="flex cursor-pointer items-start gap-2.5 text-sm text-muted-foreground">
+              <input
+                id="accept-terms"
+                type="checkbox"
+                checked={accepted}
+                onChange={(e) => setAccepted(e.target.checked)}
+                className="mt-0.5 h-4 w-4 shrink-0 rounded border-border accent-primary"
+              />
+              <span>
+                {labels.prefix}{' '}
+                <a href="/terms" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline hover:no-underline">
+                  {labels.link}
+                </a>
+              </span>
+            </label>
+            <Button type="submit" className="w-full py-5 text-sm font-semibold" disabled={isLoading || !accepted}>
               {isLoading ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Creating account...</> : 'Create free account'}
             </Button>
           </form>

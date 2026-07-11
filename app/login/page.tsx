@@ -9,17 +9,46 @@ import { ArrowLeft, Loader2 } from 'lucide-react'
 import { useAuth } from '@/lib/auth-context'
 import { useLanguage } from '@/lib/language-context'
 import { getLoginTranslation } from '@/lib/login-translations'
+import { useTranslation } from '@/lib/use-translation'
+
+const ACCEPT_PREFIX = 'I have read and accept the'
+const ACCEPT_LINK = 'Terms and Conditions'
+const ACCEPT_ERROR = 'You must accept the Terms and Conditions to continue.'
 
 function LoginContent() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const [isLoading, setIsLoading] = useState(false)
+  const [accepted, setAccepted] = useState(false)
   const { login, user } = useAuth()
   const router = useRouter()
   const searchParams = useSearchParams()
   const { language } = useLanguage()
   const t = getLoginTranslation(language)
+
+  const { translateText } = useTranslation(language)
+  const [labels, setLabels] = useState({ prefix: ACCEPT_PREFIX, link: ACCEPT_LINK, error: ACCEPT_ERROR })
+
+  useEffect(() => {
+    if (language === 'en') {
+      setLabels({ prefix: ACCEPT_PREFIX, link: ACCEPT_LINK, error: ACCEPT_ERROR })
+      return
+    }
+    let cancelled = false
+    ;(async () => {
+      const [prefix, link, err] = await Promise.all([
+        translateText(ACCEPT_PREFIX),
+        translateText(ACCEPT_LINK),
+        translateText(ACCEPT_ERROR),
+      ])
+      if (!cancelled) setLabels({ prefix, link, error: err })
+    })()
+    return () => {
+      cancelled = true
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [language])
 
   // Get redirect URL from query params, default to landing page
   const redirectUrl = searchParams.get('redirect') || '/'
