@@ -63,6 +63,12 @@ function LoginContent() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setError('')
+
+    if (!accepted) {
+      setError(labels.error)
+      return
+    }
+
     setIsLoading(true)
 
     const result = await login(email, password)
@@ -130,7 +136,22 @@ function LoginContent() {
                 onChange={(e) => setPassword(e.target.value)}
               />
             </div>
-            <Button type="submit" className="w-full py-5 text-sm font-semibold" disabled={isLoading}>
+            <label htmlFor="accept-terms" className="flex cursor-pointer items-start gap-2.5 text-sm text-muted-foreground">
+              <input
+                id="accept-terms"
+                type="checkbox"
+                checked={accepted}
+                onChange={(e) => setAccepted(e.target.checked)}
+                className="mt-0.5 h-4 w-4 shrink-0 rounded border-border accent-primary"
+              />
+              <span>
+                {labels.prefix}{' '}
+                <a href="/terms" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline hover:no-underline">
+                  {labels.link}
+                </a>
+              </span>
+            </label>
+            <Button type="submit" className="w-full py-5 text-sm font-semibold" disabled={isLoading || !accepted}>
               {isLoading ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> {t.signingIn}</> : t.signIn}
             </Button>
           </form>
