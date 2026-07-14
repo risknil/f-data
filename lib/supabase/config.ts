@@ -8,7 +8,7 @@
 // environment variables kept reverting to credentials from a different/old
 // Supabase project, which caused "Invalid API key" errors. Sourcing the values
 // here guarantees the app always talks to the correct project
-// (tlapsqnakzyvjrhcjwpc).
+// (ikebcwplzsaukiayewtm).
 
-export const SUPABASE_URL = 'https://tlapsqnakzyvjrhcjwpc.supabase.co'
-export const SUPABASE_ANON_KEY = 'sb_publishable_8YZtSh10ED_owv8UHS62CA_lOiGsBjr'
+export const SUPABASE_URL = 'https://ikebcwplzsaukiayewtm.supabase.co'
+export const SUPABASE_ANON_KEY = 'sb_publishable_I5vWhNsH7Nwx4P1vhDCobQ_mcaB0PPd'
